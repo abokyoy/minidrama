@@ -1,0 +1,814 @@
+==================== seg14 ====================
+[REFS] qianjingli / suxiaoman / xiaotang / office_pano
+ce images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+New location, taken from the reference image: the office of 景宸大厦, door on the LEFT of frame, the venetian-blind window and tall wooden cabinets on the RIGHT, the dark wooden desk across the middle of the room. 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, facing the far side. Warm midday light comes through the blinds in long bright bands.
+[Shot 1] Wide: the LEFT door is flung inward so hard that it rebounds off the wall; 钱经理 (S3) strides in without slowing, dark waistcoat, staff badge swinging, and 小唐 (S4) slips in behind him and presses her back to the wall just inside the door, lower-left of frame, face pale and eyes darting.
+[Shot 2] At 00:02.000, medium: 钱经理 (S3) reaches the far side of the desk, plants both feet wide, leans forward on straight arms and slams his open palm flat onto the desktop; the desk lamp jumps and the white enamel mug rocks on the bare desktop.
+[Shot 3] At 00:03.000, close on 钱经理's (S3) flushed face as he announces it in a loud nasal Mandarin, filing each item like a charge sheet: [Chinese] 三楼包厢。贵客丢了一只金耳钉。三万八。
+[Shot 4] At 00:08.600, reverse over the desk onto 苏小满 (S1): she stands perfectly still on the near side of the desk, both hands loose at her sides, chin level, eyes on him. She says nothing and nobody else in the room speaks.
+
+overall_soundscape: The door crashing against the wall, heavy brisk footsteps on the tiled floor, the flat slap of a palm on wood, the blind slats settling, the buzz of the ceiling fluorescent panels, faint traffic through the blinds.
+
+non_diegetic_music: N/A
+
+==================== seg15 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) is leaning on the far side of the desk with one palm flat on it, back to the window; 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, facing him; 小唐 (S4) is against the wall just inside the LEFT door.
+[Shot 1] Medium over the desk: 钱经理 (S3) straightens up slowly, tucks both hands behind his back and tips his head to one side, fixing her with the look of a man who has already decided, and speaks in a flat accusing Mandarin, one phrase at a time: [Chinese] 收台的时候，就你一个人在。
+[Shot 2] At 00:05.600, reverse single on 苏小满 (S1) on the near side of the desk, the blind-light barring the wall behind her; she does not move her feet and does not look away, and answers at once in a low steady Mandarin: [Chinese] 不是我。
+[Shot 3] At 00:07.800, wide two-shot across the desk, both of them motionless at either side of it, the room very still, 小唐 (S4) a small pale shape at the edge of frame with her mouth shut.
+[Shot 4] At 00:09.200, the camera creeps a few centimetres closer on the desk surface between them. Neither of them speaks.
+
+overall_soundscape: A clock ticking on the wall, the low hum of the ceiling lights, one nervous swallow, faint corridor noise beyond the door.
+
+non_diegetic_music: N/A
+
+==================== seg16 ====================
+[REFS] xiaotang / qianjingli / suxiaoman / office_mid
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the far side of the desk facing the door; 苏小满 (S1) on the near side with her back to the door; 小唐 (S4) is still flattened against the wall just inside the LEFT door, lower-left of frame.
+[Shot 1] Medium: 钱经理 (S3) turns his shoulder toward the door and jerks his chin at 小唐 (S4), summoning her forward without a word.
+[Shot 2] At 00:02.000, closer on 小唐 (S4): she peels off the wall, folds her hands together, keeps her eyes on the floor tiles and lets them flick once toward 苏小满 (S1), then away; she speaks in a small thin nervous Mandarin, fast and slightly breathy: [Chinese] 钱经理。中午，我看见她往兜里塞东西。没看清。
+[Shot 3] At 00:08.400, reverse onto 苏小满 (S1) across the desk: her shoulders stay level, only her eyes travel to the girl by the door.
+[Shot 4] At 00:09.400, close on 钱经理 (S3) taking that in, the corner of his mouth pulling up. Nobody else speaks.
+
+overall_soundscape: A thin nervous voice close to the lens, the fluorescent panels buzzing, a chair creaking somewhere behind the door, one dry swallow.
+
+non_diegetic_music: N/A
+
+==================== seg17 ====================
+[REFS] suxiaoman / xiaotang / office_mid / office_back
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 小唐 (S4) has taken one step in from the wall, lower-left of frame; 钱经理 (S3) on the far side of the desk.
+[Shot 1] Medium: 苏小满 (S1) turns her head and shoulders toward the door, fixing 小唐 (S4) with an even, unhurried look, and says it quietly in low steady Mandarin, without raising her voice at all: [Chinese] 小唐。看清楚了，再说。
+[Shot 2] At 00:05.600, close on 小唐 (S4): she shrinks her neck down into her collar, plants one hand on the doorframe behind her, looks anywhere but at the cleaner, and answers in a thin defensive Mandarin: [Chinese] 反正，我看见了。
+[Shot 3] At 00:08.600, wide: the two women at either end of the room's axis with the desk between them, 钱经理 (S3) motionless in the middle background watching them like a spectator, arms folded.
+[Shot 4] At 00:09.600, hold. Nobody moves and nobody speaks.
+
+overall_soundscape: Two quiet voices in a hard-surfaced room, a chair leg scraping, the wall clock ticking, muffled office noise from the corridor.
+
+non_diegetic_music: N/A
+
+==================== seg18 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) is stepping round the end of the desk onto the NEAR side and closing to one pace in front of 苏小满 (S1); 苏小满 (S1) is on the near side of the desk with her back to the door; 小唐 (S4) is by the door at the lower-left.
+[Shot 1] Medium: 钱经理 (S3) walks two paces around the corner of the desk toward her, stops at the distance of an outstretched arm, taps his own hip pocket twice with two fingers and speaks in a hard flat Mandarin, not loud, not shouting: [Chinese] 掏兜。自己掏，还是我喊保安。
+[Shot 2] At 00:07.200, reverse single on 苏小满 (S1): she takes one small half-step back, and her right hand closes slowly over the fabric of her own trouser pocket; she speaks quietly and clearly in low steady Mandarin: [Chinese] 你们不能搜我。
+[Shot 3] At 00:09.400, close on the pocket under her fingers, the fabric pulled slightly taut. She is silent after that.
+
+overall_soundscape: Tense quiet, his knuckles tapping cloth, a shoe shifting on tile, the fluorescent hum, distant corridor chatter.
+
+non_diegetic_music: A low sustained synth note, tight and uneasy.
+
+==================== seg19 ====================
+[REFS] qianjingli / suxiaoman / xiaotang / office_back
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands one pace in front of 苏小满 (S1) on the NEAR side of the desk; she is on the near side of the desk with her hand still closed over her pocket; 小唐 (S4) is by the LEFT door.
+[Shot 1] Close on 钱经理's (S3) face: he lets a slow smile spread, tips his head back a little and says it softly in a light jeering Mandarin, savouring the logic: [Chinese] 那就是心虚。
+[Shot 2] At 00:04.200, wide from behind 苏小满 (S1), camera on the room's axis looking toward the door: the doorway is now filled with people — clerks, a security guard, two women from the front desk — all crowded into the LEFT doorway, none of them stepping in, none of them speaking.
+[Shot 3] At 00:07.400, slow push toward that doorway; a couple of the faces glance at each other and then look away.
+[Shot 4] At 00:09.400, hold on the ring of silent onlookers. 苏小满 (S1) stays silent with her mouth closed.
+
+overall_soundscape: His soft jeering voice, then a swelling of quiet corridor noise as the crowd gathers, shoes shuffling on tile, someone breathing loudly.
+
+non_diegetic_music: N/A
+
+==================== seg20 ====================
+[REFS] suxiaoman / office_close / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, hand on her pocket; 钱经理 (S3) is one pace in front of her on the NEAR side of the desk; the doorway crowd on the LEFT is watching, mouths shut. The desk surface carries nothing yet — it is a bare dark-topped desktop.
+[Shot 1] Medium: she takes her hand out of her pocket and lays a bunch of keys down on the desk with a small hard click, then sets a ballpoint pen beside it, squared to the desk edge.
+[Shot 2] At 00:03.000, extreme close-up on her hand taking out a single folded paper form and laying it flat; the fold opens under her palm.
+[Shot 3] At 00:05.600, a man from the doorway puts his head and shoulder into frame from the LEFT and leans in over the paper; 苏小满 (S1) claps her hand flat over the form and pulls it back into her palm in one quick movement, and the man straightens up again.
+[Shot 4] At 00:08.600, she puts her hand back into her pocket, forearm sunk to the wrist. Nobody speaks in this whole beat.
+
+overall_soundscape: Small metallic clinks of keys on wood, paper unfolding, the room holding its breath, the crowd at the door shifting weight, the wall clock ticking.
+
+non_diegetic_music: A single thin piano note held very quiet.
+
+==================== seg21 ====================
+[REFS] qianjingli / suxiaoman / office_close / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the near side of the desk, her right forearm buried in her trouser pocket; the keys and the ballpoint pen lie on the desk and the folded paper form is closed inside her pocket; 钱经理 (S3) stands one pace in front of her on the NEAR side of the desk.
+[Shot 1] Close on 钱经理 (S3): he looks down at the two objects on the desk, unimpressed, and says one flat syllable in Mandarin, unhurried: [Chinese] 还有。
+[Shot 2] At 00:04.800, medium: 苏小满 (S1) does not argue. She looks at him, then pushes her hand deeper into the pocket.
+[Shot 3] At 00:07.000, extreme close-up inside the pocket: her fingertips travel past fabric lint and stop on something hard, sharp-cornered and cold.
+[Shot 4] At 00:09.000, hold on her fingers closing around it, standing perfectly still. She says nothing and neither does anyone else.
+
+overall_soundscape: One flat word, then a long held breath; cloth rustling against skin; the dull thud of the crowd's collective breath.
+
+non_diegetic_music: N/A
+
+==================== seg22 ====================
+[REFS] suxiaoman / qianjingli / office_close / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk, fingers closed on an object deep in her trouser pocket; the keys and the pen lie on the desk; 钱经理 (S3) stands one pace in front of her on the NEAR side of the desk; the crowd packed into the LEFT doorway.
+[Shot 1] Medium: she draws her hand out slowly and holds the object up at chest height, turned three-quarters to the light.
+[Shot 2] At 00:02.400, extreme close-up: a matte black card between her thumb and forefinger, with a single gilt character heat-stamped into its face, catching one thin bar of light from the blinds.
+[Shot 3] At 00:05.400, wide across the room, held long: nobody moves. 钱经理 (S3) has stopped mid-breath with his mouth slightly open; the crowd in the doorway is frozen; the fluorescent panels whine.
+[Shot 4] At 00:08.000, tight on the round wall clock as its second hand ticks over exactly one second in the still room. Nobody speaks at all in this beat.
+
+overall_soundscape: Absolute room tone, the ceiling lights' high harmonic, the wall clock's single tick, one person at the door swallowing audibly.
+
+non_diegetic_music: N/A
+
+==================== seg23 ====================
+[REFS] qianjingli / suxiaoman / office_close / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) holds the black card up at chest height on the near side of the desk; 钱经理 (S3) stands one pace in front of her on the NEAR side of the desk; the doorway crowd is still frozen on the LEFT.
+[Shot 1] Medium: 钱经理 (S3) puts his hand out flat, palm up, and says one word in a low commanding Mandarin: [Chinese] 拿来。
+[Shot 2] At 00:03.200, close two hands: she lays the card onto his palm without touching his fingers, then pulls her hand back to her side.
+[Shot 3] At 00:05.400, close on his hands as he flips the card over, then over again, angling it toward the window light to read what is on the back.
+[Shot 4] At 00:07.000, extreme close-up on the back of the card and a single line of tiny stamped characters along its lower edge. Neither of them speaks.
+[Shot 5] At 00:08.400, wide: 钱经理 (S3) turns on his heel and walks back round the end of the desk to his place on the FAR side, back to the window, the card held flat in one hand; 苏小满 (S1) stays where she is and watches him go; nobody else speaks.
+
+overall_soundscape: One low command, the faint slither of card on skin, his breathing, the crowd's held breath.
+
+non_diegetic_music: N/A
+
+==================== seg24 ====================
+[REFS] qianjingli / suxiaoman / office_close / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) has just reached his place on the FAR side of the desk, back to the window, holding the black card in both hands and tilting it to the light; 苏小满 (S1) stands on the near side of the desk watching him; the doorway crowd on the LEFT.
+[Shot 1] Extreme close-up on the card's lower edge, then on 钱经理's (S3) eyes as he reads it; his thumb stops mid-stroke.
+[Shot 2] At 00:03.000, close on 钱经理 (S3): he lowers the card, looks past it at nothing, and speaks in a low, slow, doubtful Mandarin, his bullying tone entirely gone: [Chinese] 万山的卡？黑的。我在这楼里，头一回见。
+[Shot 3] At 00:08.400, reverse onto 苏小满 (S1): she stands absolutely still on the near side of the desk, hands at her sides, watching him read, saying nothing.
+[Shot 4] At 00:09.400, hold on her level, unreadable face. Nobody in the room speaks.
+
+overall_soundscape: A low uncertain voice, the card flexing faintly in his fingers, the fluorescent hum, a chair creaking out in the corridor.
+
+non_diegetic_music: A low unsteady string note under the whole beat.
+
+==================== seg25 ====================
+[REFS] qiantai / qianjingli / office_mid / office_back
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk, back to the window, holding the card; 苏小满 (S1) on the near side of the desk with her back to the door; the doorway on the LEFT is packed with onlookers.
+[Shot 1] Medium from behind the crowd toward the room: heads and shoulders lean in through the LEFT doorway, several people actually stepping over the threshold now, all of them craning to see the card in his hand.
+[Shot 2] At 00:03.000, 前台 (S12), a young woman in a fitted navy uniform with a silk neck scarf, comes in around the doorframe on the lower-left of frame, half a step ahead of the others, eyes wide, and asks in a bright flustered young Mandarin: [Chinese] 钱经理，这卡……怎么是黑的？
+[Shot 3] At 00:07.400, close on 钱经理 (S3) ignoring her completely and looking only at the woman across the desk.
+[Shot 4] At 00:09.000, tight on the black card in his fingers, unreadable. 苏小满 (S1) says nothing.
+
+overall_soundscape: A young bright voice cutting in, several people trying to speak at once and stopping, shoes and coat fabric crowding through a doorway.
+
+non_diegetic_music: N/A
+
+==================== seg26 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk with the card in his hand, 苏小满 (S1) on the near side of the desk facing him, the crowd filling the lower-left of frame behind her.
+[Shot 1] Medium: 钱经理 (S3) pins the card between two fingers and raises it to eye level, turning his body so that both the card and the woman are in his line of sight at once.
+[Shot 2] At 00:03.000, closer on 钱经理 (S3) as he speaks in a cold measured Mandarin, looking her up and down as he does, letting the two phrases fall separately: [Chinese] 你一个保洁。兜里揣这个。
+[Shot 3] At 00:07.200, reverse onto 苏小满 (S1) on the near side of the desk with the card held up beyond it; she meets his eyes and says nothing yet.
+[Shot 4] At 00:09.200, hold on the card held up on the FAR side of the desk, catching the blind-light. Nobody else speaks.
+
+overall_soundscape: A cold flat voice, the ceiling lights, the crowd's collective intake of breath, a distant phone ringing down the corridor.
+
+non_diegetic_music: N/A
+
+==================== seg27 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) holds the card up at eye level on the FAR side of the desk, facing her across it; 苏小满 (S1) stands on the near side of the desk with her back to the door; the crowd is packed into the LEFT doorway behind her.
+[Shot 1] Close on 钱经理 (S3) with the card edge cutting across the lower frame; he fires the question in a short sharp Mandarin: [Chinese] 谁给的。
+[Shot 2] At 00:04.600, reverse single on 苏小满 (S1): she does not take her eyes off him and answers in a perfectly level low Mandarin, no defence in it at all: [Chinese] 别人给我的。
+[Shot 3] At 00:07.400, two-shot across the desk with the raised card between them, his arm still up, her hands still at her sides.
+[Shot 4] At 00:09.200, hold on his face, still waiting. Nobody else speaks.
+
+overall_soundscape: Two short voices in a still room, the card flexing, the fluorescent whine, one person at the door shifting their feet.
+
+non_diegetic_music: N/A
+
+==================== seg28 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the near side of the desk with her back to the door, facing 钱经理 (S3), who holds the card up on the FAR side of the desk; the crowd fills the LEFT doorway.
+[Shot 1] Medium: 苏小满 (S1) speaks to him and only him, standing straight and still, no gesture at all beyond a small lift of her chin, in a low even Mandarin, letting each clause finish: [Chinese] 三天前。有个人，找到我住的地方。说他姓陆。
+[Shot 2] At 00:07.600, wide of the room from behind him: he lowers the card slowly to waist height and stares at her.
+[Shot 3] At 00:09.000, the doorway crowd on the LEFT goes quiet — two of them glance sideways at each other — while 苏小满 (S1) keeps her eyes on the manager and lets the sentence sit.
+[Shot 4] At 00:09.800, hold. Nobody else speaks.
+
+overall_soundscape: Her low clear voice in a dead-quiet room, a single cough suppressed at the door, the ceiling lights, the clock.
+
+non_diegetic_music: A quiet suspended string note.
+
+==================== seg29 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, facing 钱经理 (S3), who stands on the FAR side of the desk, back to the window; the crowd still fills the LEFT doorway behind her.
+[Shot 1] Medium: 苏小满 (S1) goes on without pause, still with no gesture beyond one small open palm, speaking in low even Mandarin as if reading out a fact: [Chinese] 他说，请我帮他办件事。办完，给我一笔钱。
+[Shot 2] At 00:07.000, close on 钱经理 (S3) listening with his head tilted, the card held loosely at his side, mouth pursed.
+[Shot 3] At 00:08.800, the doorway crowd on the LEFT; two of them exchange a flat, disbelieving look, and 小唐 (S4) presses her lips together.
+[Shot 4] At 00:09.600, hold on 苏小满's (S1) calm face. Nobody else speaks.
+
+overall_soundscape: Her low steady voice in a very quiet room, one suppressed laugh somewhere in the doorway, the ceiling lights, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg30 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 钱经理 (S3) on the FAR side of the desk holding the card low; the crowd at the LEFT doorway.
+[Shot 1] Medium: 苏小满 (S1) keeps her eyes level with 钱经理 (S3) and finishes the thought in the same flat, unhurried Mandarin, one hand still at her side: [Chinese] 我没答应。他走的时候，把这张卡留下。
+[Shot 2] At 00:06.600, close on 钱经理 (S3); he lets out a short breath through his nose that is not quite a laugh.
+[Shot 3] At 00:08.200, the watching faces in the LEFT doorway: one woman covers her mouth, a man folds his arms and shakes his head slowly.
+[Shot 4] At 00:09.400, wide of the room. She is alone on her side of the desk and does not look at any of them. She says nothing more in this beat.
+
+overall_soundscape: Her even voice, a soft collective snort from the doorway, the room's hard flat acoustics, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg31 ====================
+[REFS] suxiaoman / qianjingli / office_close / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door, facing 钱经理 (S3) on the FAR side of the desk; the keys and the pen still on the desk, the folded paper form closed in her trouser pocket.
+[Shot 1] Close: 苏小满 (S1) speaks quickly but with no hurry in her face, in a low fluent Mandarin that runs the clauses together, her gaze steady on 钱经理 (S3): [Chinese] 本来搁在屋里的。今天出门急，东西一把揣兜里，带出来了。
+[Shot 2] At 00:06.000, insert: the desk surface — the keys and the pen in a row on the bare wood; the black card is still in his hand.
+[Shot 3] At 00:08.600, reverse onto 钱经理 (S3) and the crowd behind him; nobody is convinced, and the room has started to smile.
+[Shot 4] At 00:09.800, hold on her face. Nobody else speaks.
+
+overall_soundscape: One fast low voice in a still room, paper shifting, a soft ripple of sniggering from the doorway.
+
+non_diegetic_music: N/A
+
+==================== seg32 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk with the card in his hand; 苏小满 (S1) on the near side of the desk facing him; the crowd at the LEFT doorway behind her.
+[Shot 1] Medium: 钱经理 (S3) holds the card up between two fingers and turns half away from her, addressing the room, speaking in a light mocking Mandarin: [Chinese] 姓陆的，找保洁办事？
+[Shot 2] At 00:06.000, he brings his arm down hard and slaps the card flat on the desk; closer on his face as he adds, with real contempt in it: [Chinese] 我们这栋楼，就姓陆。
+[Shot 3] At 00:09.000, wide: the card lying flat on the dark desk, the whole room looking at it, 苏小满 (S1) standing over it without moving.
+[Shot 4] At 00:09.600, hold. Nobody else speaks.
+
+overall_soundscape: A mocking voice, the sharp crack of the card on wood, a scatter of laughter at the door, the fluorescent whine.
+
+non_diegetic_music: N/A
+
+==================== seg33 ====================
+[REFS] qianjingli / xiaotang / suxiaoman / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands at the FAR side of the desk where the card lies flat; 苏小满 (S1) on the near side of the desk; 小唐 (S4) by the LEFT door; the crowd packed into the doorway.
+[Shot 1] Medium: 钱经理 (S3) spreads both hands in an exaggerated shrug toward the doorway crowd and delivers the punchline in a broad jeering Mandarin: [Chinese] 你怎么不编，说董事长请你吃饭。
+[Shot 2] At 00:06.200, wide on the doorway: the crowd laughs openly now, shoulders shaking, one man slapping the doorframe.
+[Shot 3] At 00:06.600, closer on 小唐 (S4) at the edge of the group, half-turned away, saying it under her breath in a thin quick Mandarin: [Chinese] 她编的。肯定是编的。
+[Shot 4] At 00:09.400, hold on 苏小满 (S1), still standing exactly as she was, saying nothing, eyes on the manager.
+
+overall_soundscape: A broad jeering voice, real laughter breaking out in the doorway, someone slapping wood, then the noise thinning out again.
+
+non_diegetic_music: N/A
+
+==================== seg34 ====================
+[REFS] qianjingli / suxiaoman / office_close / office_mid
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands at the FAR side of the desk with the card flat on it in front of him; 苏小满 (S1) on the near side of the desk; the crowd at the LEFT doorway.
+[Shot 1] Close: 钱经理 (S3) picks the card up off the desk again and turns its face toward her, speaking in a cold flat Mandarin with no smile left in it: [Chinese] 这东西，不是你的。
+[Shot 2] At 00:04.200, tighter on his face as he adds the next line, quieter and harder: [Chinese] 你从哪偷的。
+[Shot 3] At 00:06.500, reverse onto 苏小满 (S1): the card held up in the foreground of frame, her face behind it, absolutely still, eyes not dropping.
+[Shot 4] At 00:08.800, hold on her. She does not answer yet and nobody else speaks.
+
+overall_soundscape: Two cold short phrases, the card tapping against his fingers, the doorway holding its breath, the ceiling lights.
+
+non_diegetic_music: N/A
+
+==================== seg35 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 钱经理 (S3) on the FAR side of the desk holding the card up; the crowd at the LEFT doorway.
+[Shot 1] Close: 苏小满 (S1) says it without heat, without pleading, in her ordinary low Mandarin: [Chinese] 我没偷。
+[Shot 2] At 00:03.600, close on 钱经理 (S3); he gives a small unimpressed nod and lays the trap out slowly, measured, phrase by phrase: [Chinese] 没偷。那你证明。证明它，是别人给你的。
+[Shot 3] At 00:09.400, wide of the whole room: 钱经理 (S3) lays the card flat down on the desk between the two of them, everyone waiting, the whole room rigid.
+[Shot 4] At 00:09.800, hold on 苏小满's (S1) face. Nobody else speaks.
+
+overall_soundscape: A quiet denial, then a slow measured voice, then a room holding its breath, the wall clock and the lights.
+
+non_diegetic_music: A single low piano note as the burden lands.
+
+==================== seg36 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk, facing 钱经理 (S3) with the card on the desk between them; the crowd at the LEFT doorway.
+[Shot 1] Close: 苏小满 (S1) has to make herself say it; she looks down at the desk for a beat, then up again, and starts low, with a real pause before the words: [Chinese] ……他走的时候，留了话。
+[Shot 2] At 00:05.200, she goes on, level again: [Chinese] 说有事，随时打那个电话。
+[Shot 3] At 00:08.600, close on 钱经理's (S3) face as his eyes actually light up; he straightens and takes half a pace closer, and says it fast and eager in a bright nasal Mandarin: [Chinese] 好啊。
+[Shot 4] At 00:09.400, hold on the two of them across the desk, him suddenly leaning in, her absolutely still.
+
+overall_soundscape: A low hesitant voice, a held beat, then a bright eager exclamation, the crowd stirring at the door.
+
+non_diegetic_music: N/A
+
+==================== seg37 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_close
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands at the FAR side of the desk, leaned half a pace in over it, facing 苏小满 (S1) across it; the card lies on the desk between them; the crowd at the LEFT doorway.
+[Shot 1] Medium: 钱经理 (S3) picks up the card and slaps it back down onto the desk with his fingers spread over it, then slides it an inch toward her.
+[Shot 2] At 00:04.000, closer on his face as he speaks in a brisk, almost cheerful Mandarin, enjoying himself: [Chinese] 那你现在，当着大伙，打。
+[Shot 3] At 00:07.800, reverse onto 苏小满 (S1), the black card small in the foreground of frame, her hands still at her sides.
+[Shot 4] At 00:09.000, slight push in on her. She does not reach for the card yet, and nobody else speaks.
+
+overall_soundscape: The crack of the card on wood, a brisk bullying voice, a murmur of approval from the doorway crowd, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg38 ====================
+[REFS] suxiaoman / qianjingli / office_mid / office_pano
+Entry state, re-anchored to the reference image: the black card lies on the desk between 苏小满 (S1) on the near side and 钱经理 (S3) on the far side; the crowd is packed into the LEFT doorway behind her.
+[Shot 1] Close two-shot over the desk: 苏小满 (S1) answers quietly and immediately in low steady Mandarin: [Chinese] 我为什么要打。
+[Shot 2] At 00:03.200, tighter on 钱经理 (S3) as he fires back, short and hard: [Chinese] 不打，就是你偷的。
+[Shot 3] At 00:06.000, on 苏小满 (S1) again; she does not blink and her voice stays level: [Chinese] 凭什么，不打就是我偷的。
+[Shot 4] At 00:09.600, hold on his face: jaw working, nothing to say, the room noticeably quieter than it was. Nobody else speaks.
+
+overall_soundscape: Three voices trading in a dead-quiet room, the card shifting on the desk, shoes shuffling at the door, one chair creaking.
+
+non_diegetic_music: A tight low string pulse under the exchange.
+
+==================== seg39 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) at the far side of the desk, 苏小满 (S1) at the near side with her back to the door, the card on the desk between them; the crowd at the LEFT doorway.
+[Shot 1] Medium: 钱经理 (S3) gives up on words and slams his palm down on the desk; then, closer, he leans over it toward her and speaks in a hard rising Mandarin, one short phrase at a time: [Chinese] 你打不打。不打，我报警。
+[Shot 2] At 00:06.600, reverse single on 苏小满 (S1): she looks straight back at him and answers in a low flat Mandarin, no challenge in her voice, only fact: [Chinese] 报警就报警。
+[Shot 3] At 00:09.200, wide: the whole room frozen, the doorway crowd's faces suddenly blank.
+[Shot 4] At 00:09.800, hold on her. Nobody else speaks.
+
+overall_soundscape: The slam of a palm on wood, a rising threatening voice, then four quiet words and a total hush.
+
+non_diegetic_music: A single low struck note that rings on after the line.
+
+==================== seg40 ====================
+[REFS] qianjingli / suxiaoman / xiaotang / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the near side of the desk with her back to the door; 钱经理 (S3) on the far side, half-leaning over the desk where he slammed it; 小唐 (S4) and the crowd at the LEFT doorway.
+[Shot 1] Wide, held long: complete stillness. The card on the desk, the two of them facing each other over it, the crowd crammed into the doorway not moving at all.
+[Shot 2] At 00:03.400, close on 钱经理's (S3) face: his mouth opens, closes, opens again; a bead of sweat at his temple; he straightens up off the desk.
+[Shot 3] At 00:06.400, pan across the doorway: 小唐 (S4) with her lips parted, the receptionist's eyes wide, two clerks looking at the floor.
+[Shot 4] At 00:08.600, back to 苏小满 (S1), holding still in the middle of it. Nobody speaks at all in this beat.
+
+overall_soundscape: Dead quiet room, the fluorescent panels, the clock, one person at the door swallowing, a chair leg creaking somewhere.
+
+non_diegetic_music: N/A
+
+==================== seg41 ====================
+[REFS] zhouzongjian / qianjingli / suxiaoman / office_pano
+Entry state, re-anchored to the reference image: the room is still frozen with 苏小满 (S1) on the near side of the desk and 钱经理 (S3) on the far side; the crowd fills the LEFT doorway.
+[Shot 1] Wide: the doorway crowd separates and presses back against the wall to either side, opening a clear path down the LEFT of frame.
+[Shot 2] At 00:02.400, medium: 周总监 (S6), a grey-haired man of about fifty-five in a deep-grey tailored suit with polished black shoes, walks in with an even, unhurried stride and stops two paces inside the door; he looks around the room once.
+[Shot 3] At 00:03.600, closer on 周总监 (S6) as he speaks in a low, slow, completely level Mandarin, letting the pause do the work: [Chinese] 小钱。干什么呢。
+[Shot 4] At 00:06.000, 周总监 (S6) adds the second line with a small tip of his head: [Chinese] 吵得，一层楼都听得见。 Hold on 钱经理 (S3), who has gone stiff. 苏小满 (S1) stays silent with her mouth closed.
+
+overall_soundscape: Soft polished shoes on tile, a ripple of the crowd shuffling apart, then a low level voice in the sudden quiet.
+
+non_diegetic_music: A low horn note entering under his footsteps.
+
+==================== seg42 ====================
+[REFS] qianjingli / zhouzongjian / suxiaoman / office_mid
+Entry state, re-anchored to the reference image: 周总监 (S6) stands two paces inside the LEFT door; 钱经理 (S3) is on the far side of the desk; 苏小满 (S1) on the near side; the crowd is pressed flat against the walls of the doorway.
+[Shot 1] Medium: 钱经理 (S3) comes out from behind the desk, crosses the few steps to 周总监 (S6) along the end of the desk, and stops at his LEFT shoulder, bending his head and shoulders in toward him with an ingratiating smile, both hands coming up.
+[Shot 2] At 00:02.000, close on 钱经理 (S3) as he tells it fast and pleased, in a loud nasal Mandarin: [Chinese] 总监。抓着个内贼。
+[Shot 3] At 00:05.400, 钱经理 (S3) lifts the black card up between them and taps it twice with a finger: [Chinese] 偷东西，偷到万山的卡上了。
+[Shot 4] At 00:09.400, reverse onto 周总监 (S6): he does not take the card, does not smile, and looks past the manager at the woman standing quietly at the desk. Nobody else speaks.
+
+overall_soundscape: Quick shuffling steps, an eager greasy voice close to the lens, the card tapping, a hush from the doorway.
+
+non_diegetic_music: N/A
+
+==================== seg43 ====================
+[REFS] zhouzongjian / suxiaoman / qianjingli / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands at 周总监's (S6) LEFT shoulder holding the card up; 苏小满 (S1) is on the near side of the desk with her back to the door; the crowd is flat against the doorway walls.
+[Shot 1] Medium: 周总监 (S6) walks past the manager without answering him and crosses to the desk, taking the card out of the other man's hand as he goes; 钱经理 (S3) trails a step behind him and stops in his shadow.
+[Shot 2] At 00:02.400, close on 周总监 (S6) at the desk: he turns the card over in his hand, reads the back of it, and both eyebrows lift a fraction; his face gives nothing else away.
+[Shot 3] At 00:05.000, he sets the card back down on the desk and looks up at 苏小满 (S1); he asks in that same low unhurried Mandarin: [Chinese] 你叫苏小满。
+[Shot 4] At 00:07.600, 周总监 (S6), still looking at 苏小满 (S1): [Chinese] 入职多久了。 Hold on 苏小满 (S1), who answers nothing yet. 钱经理 (S3) is left standing behind him, unregarded and silent.
+
+overall_soundscape: Slow deliberate footsteps, card turning in fingers, a low level voice asking, the room holding still, the clock.
+
+non_diegetic_music: A quiet sustained low string note.
+
+==================== seg44 ====================
+[REFS] zhouzongjian / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 周总监 (S6) stands at the desk on the far side; 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, facing him; 钱经理 (S3) is behind and to the director's left, saying nothing; the crowd is flat against the doorway walls.
+[Shot 1] Medium over the desk: 周总监 (S6) rests one hand lightly on the desk edge beside the card and speaks to her in the same low, slow, level Mandarin, as if explaining something simple: [Chinese] 真是别人给你的，你打个电话，就清了。
+[Shot 2] At 00:08.000, reverse single on 苏小满 (S1); she listens without nodding, without softening.
+[Shot 3] At 00:09.000, slight push in past her shoulder on 钱经理 (S3) in the background, who is watching the director's back uneasily.
+[Shot 4] At 00:09.800, hold on her face. She does not answer yet and nobody else speaks.
+
+overall_soundscape: A low unhurried voice, the desk creaking faintly as he leans, the doorway holding its breath, the ceiling lights.
+
+non_diegetic_music: N/A
+
+==================== seg45 ====================
+[REFS] suxiaoman / zhouzongjian / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 周总监 (S6) on the far side with one hand on the desk; the black card between them; the crowd at the LEFT doorway.
+[Shot 1] Close: 苏小满 (S1) looks at the desk, not at the card, and answers in a low flat Mandarin with no self-pity in it at all: [Chinese] 那个人，让我帮他办点事。
+[Shot 2] At 00:05.400, she lifts her eyes to the director and finishes, still quiet, and the room hears the refusal for what it is: [Chinese] 我不想求他。
+[Shot 3] At 00:08.600, reverse onto 周总监 (S6), whose expression does not change; he simply keeps looking at her for a beat longer than expected.
+[Shot 4] At 00:09.600, wide of the still room. Nobody else speaks.
+
+overall_soundscape: Two quiet sentences, a long pause after them, the crowd at the door breathing, the wall clock ticking.
+
+non_diegetic_music: A soft low piano note held under the refusal.
+
+==================== seg46 ====================
+[REFS] qianjingli / suxiaoman / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: 周总监 (S6) at the far side of the desk with his back three-quarters to the door; 苏小满 (S1) on the near side; 钱经理 (S3) standing behind and left of the director.
+[Shot 1] Medium: 钱经理 (S3) leans out around the director's shoulder, folds his arms and speaks in a light jeering nasal Mandarin, enjoying the interruption: [Chinese] 你还挺牛。
+[Shot 2] At 00:04.600, 钱经理 (S3) pushes it further, throwing his chin toward the doorway crowd for the laugh: [Chinese] 人家大户人家求你，你还端上了。
+[Shot 3] At 00:08.600, a couple of people at the door snigger; 周总监 (S6) does not turn around or speak.
+[Shot 4] At 00:09.600, hold on 苏小满 (S1) across the desk, unmoved. She says nothing.
+
+overall_soundscape: A sneering voice cutting into the quiet, a few muffled laughs from the doorway, a coat shifting, the lights.
+
+non_diegetic_music: N/A
+
+==================== seg47 ====================
+[REFS] suxiaoman / zhouzongjian / qianjingli / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk; 周总监 (S6) on the far side; 钱经理 (S3) behind the director's left shoulder with his arms folded; the crowd at the LEFT doorway.
+[Shot 1] Close on 苏小满 (S1): she turns her head just enough to take in the manager, and answers in her low even Mandarin, one clause at a time: [Chinese] 不是他求我。
+[Shot 2] At 00:04.400, she returns her eyes to the director and finishes it plainly, without emphasis: [Chinese] 是我，不想跟这种人有关系。
+[Shot 3] At 00:08.400, wide: the room absorbs it. 钱经理's (S3) smile comes off his face; the doorway crowd has gone very still.
+[Shot 4] At 00:09.600, hold on 周总监 (S6) watching her. Nobody else speaks.
+
+overall_soundscape: Two plain sentences, then a stillness with real weight in it, the ceiling lights, one shoe scraping at the door.
+
+non_diegetic_music: A single sustained low string note.
+
+==================== seg48 ====================
+[REFS] zhouzongjian / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 周总监 (S6) stands on the far side of the desk, 苏小满 (S1) on the near side with her back to the door, the card between them; the crowd at the LEFT doorway.
+[Shot 1] Medium: 周总监 (S6) straightens up off the desk, buttons his jacket with one hand and lays out the terms in that same low level Mandarin, evenly, as a statement of fact rather than a threat: [Chinese] 打完，两清。你走你的路。
+[Shot 2] At 00:06.000, closer on 周总监's (S6) face as he adds the alternative with no change of tone at all: [Chinese] 要不，你承认是你偷的。
+[Shot 3] At 00:09.400, reverse onto 苏小满 (S1), listening, absolutely still, hands at her sides.
+[Shot 4] At 00:09.800, hold on the two of them across the desk. Nobody else speaks.
+
+overall_soundscape: A low measured voice, cloth shifting as he buttons the jacket, the room held still around it, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg49 ====================
+[REFS] zhouzongjian / suxiaoman / office_close / office_pano
+Entry state, re-anchored to the reference image: 周总监 (S6) on the far side of the desk; 苏小满 (S1) on the near side; the card flat on the desk between them; the crowd at the LEFT doorway.
+[Shot 1] Medium: 周总监 (S6) tucks both hands behind his back and speaks without looking away from her, calm and businesslike: [Chinese] 我们也不想麻烦，当做不知道。你自己离职。
+[Shot 2] At 00:07.400, insert on the desk: the black card lying perfectly square on the dark wood, the keys and the pen beside it.
+[Shot 3] At 00:09.000, pan up to 苏小满's (S1) face; she is looking at the card now, not at him.
+[Shot 4] At 00:09.800, hold. She says nothing, and neither does anyone else.
+
+overall_soundscape: A calm even voice, the hush of a room where nobody wants to breathe loudly, the lights, a faint tap of the clock.
+
+non_diegetic_music: N/A
+
+==================== seg50 ====================
+[REFS] suxiaoman / qianjingli / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk looking down at the card; 周总监 (S6) on the far side; 钱经理 (S3) behind him; the crowd at the LEFT doorway.
+[Shot 1] Close on 钱经理's (S3) face: he cannot bear the wait and snaps it out in a short impatient Mandarin: [Chinese] 打不打。
+[Shot 2] At 00:04.200, wide, held: the room absolutely still, the card on the desk, everyone watching the woman standing over it. Three full seconds pass with no movement at all except the second hand on the wall clock.
+[Shot 3] At 00:07.600, close on 苏小满 (S1): she lifts her chin, breathes out once, and says it quietly in a low flat Mandarin, giving nothing away: [Chinese] 行吧。
+[Shot 4] At 00:09.600, hold on her face. Nobody else speaks.
+
+overall_soundscape: An impatient bark, then three seconds of dead room tone with only the clock, then two quiet words.
+
+non_diegetic_music: A low held note that resolves down as she agrees.
+
+==================== seg51 ====================
+[REFS] suxiaoman / office_close / office_mid / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door; the black card lies on the desk in front of her; 周总监 (S6) and 钱经理 (S3) watch from the far side; the crowd at the LEFT doorway.
+[Shot 1] Medium: she reaches down and picks the card up off the desk, turning it over in her fingers.
+[Shot 2] At 00:02.800, extreme close-up on the back of the card: a line of small stamped numerals catching the blind-light.
+[Shot 3] At 00:05.200, close on her face as she reads them; her thumb comes down and rests on the numbers without pressing anything, and stays there.
+[Shot 4] At 00:07.600, she takes an old phone out of her other pocket, thumbs the screen awake and keys the number in one deliberate digit at a time, then presses call. Nobody speaks in this whole beat.
+
+overall_soundscape: Card lifted off wood, her own breathing, the dull plastic clicks of old phone keys, the room held still around her.
+
+non_diegetic_music: A soft low piano figure, sparse and hesitant.
+
+==================== seg52 ====================
+[REFS] suxiaoman / zhouzongjian / qianjingli / office_close
+Entry state, re-anchored to the reference image: 苏小满 (S1) holds her old phone in one hand and the card in the other, on the NEAR side of the desk; 周总监 (S6) and 钱经理 (S3) stand on the far side; the crowd at the LEFT doorway.
+[Shot 1] Close on her thumb tapping the speakerphone icon; the small speaker grille lights up.
+[Shot 2] At 00:02.600, she sets the phone down flat on the desk between herself and 周总监 (S6), screen up, and lets go of it, the black card still held in her other hand.
+[Shot 3] At 00:05.000, extreme close-up on the phone: the screen shows the number dialling, then the call timer ticking up. One ring. A second ring.
+[Shot 4] At 00:07.600, wide across the room: nobody moves. 钱经理 (S3) has stopped smirking; 周总监 (S6) is looking at the phone; the doorway crowd is rigid. Nobody speaks in this beat.
+
+overall_soundscape: The electronic dial tone, two loud rings on a tiny speaker filling the room, the fluorescent hum underneath, one person swallowing.
+
+non_diegetic_music: N/A
+
+==================== seg53 ====================
+[REFS] suxiaoman / zhouzongjian / office_close / office_mid
+Entry state, re-anchored to the reference image: the old phone lies flat on the desk on speaker, screen lit, between 苏小满 (S1) on the near side and 周总监 (S6) on the far side; the crowd at the LEFT doorway.
+[Shot 1] Close on the phone on the desk, then up to 苏小满's (S1) face as she leans slightly over it and speaks in a low, completely flat Mandarin, as if reading a room number out: [Chinese] 喂。我是苏小满。你们留的卡，在我这。
+[Shot 2] At 00:07.000, quick cut to the doorway: every face fixed on the phone on the desk, nobody moving, one man with his mouth open.
+[Shot 3] At 00:08.600, 周总监 (S6) lowers his eyes to the phone and stays very still.
+[Shot 4] At 00:09.600, hold on the lit screen. Nobody else in the room speaks.
+
+overall_soundscape: Her flat quiet voice close to the mic, the phone's slight static, the room holding still enough to hear the ceiling lights.
+
+non_diegetic_music: N/A
+
+==================== seg54 ====================
+[REFS] suxiaoman / office_close / office_mid / office_pano
+Entry state, re-anchored to the reference image: the phone lies on the desk on speaker; 苏小满 (S1) stands over it on the near side; 周总监 (S6) and 钱经理 (S3) on the far side; the crowd at the LEFT doorway.
+[Shot 1] Extreme close-up on the phone speaker grille as a pause stretches on the line — a hiss of open air, no words.
+[Shot 2] At 00:04.000, the unseen man at the other end (S13), who is never seen in this beat and has no face, comes through the tiny speaker in a wary clipped Mandarin, and the whole room hears it: [Chinese] 您说，哪一号。
+[Shot 3] At 00:07.400, cut to 钱经理's (S3) face: a flicker of confusion, his smirk not quite back.
+[Shot 4] At 00:09.000, back to 苏小满 (S1), who just looks down at the card in her hand. Nobody in the room speaks.
+
+overall_soundscape: Phone-line hiss on a small speaker, one clipped male phrase, dead room tone, one person at the door breathing.
+
+non_diegetic_music: N/A
+
+==================== seg55 ====================
+[REFS] suxiaoman / zhouzongjian / office_close / office_mid
+Entry state, re-anchored to the reference image: the phone lies flat on the desk on speaker; 苏小满 (S1) holds the black card on the near side; 周总监 (S6) on the far side; the crowd at the LEFT doorway.
+[Shot 1] Close: 苏小满 (S1) turns her wrist and reads the back of the card aloud in her low flat Mandarin: [Chinese] 第玖号。
+[Shot 2] At 00:03.600, the phone speaker; on the other end there is a full second of nothing at all, then the sound of a chair pushed back hard and fast footsteps on a hard floor.
+[Shot 3] At 00:06.200, the unseen man on the line (S13), still never seen and with no face, comes back — and he is not clipped any more: hurried, careful and suddenly respectful: [Chinese] 苏小姐。您稍等。您别挂。
+[Shot 4] At 00:09.800, cut to 周总监 (S6), who has gone very still, eyes fixed on the phone. Nobody in the room speaks.
+
+overall_soundscape: A flat quiet voice, one second of open line hiss, the thump of a chair and fast footsteps down the phone, a hurried respectful voice.
+
+non_diegetic_music: A low note entering quietly under the footsteps.
+
+==================== seg56 ====================
+[REFS] qianjingli / suxiaoman / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: the phone lies on the desk on speaker; 苏小满 (S1) on the near side holding the card; 钱经理 (S3) and 周总监 (S6) on the far side; the crowd at the LEFT doorway.
+[Shot 1] Medium: 钱经理 (S3) folds his arms, rocks back on his heels and lets out one short contemptuous laugh through his nose, looking around at the doorway crowd for support.
+[Shot 2] At 00:03.400, close on the phone on the desk: on the line, footsteps stop; there is a small rustle of fabric and the receiver changes hands.
+[Shot 3] At 00:05.800, cut to 苏小满 (S1): she does not react to the laugh at all; her eyes stay on the phone.
+[Shot 4] At 00:07.600, wide of the room held still — the manager smirking, the director not smiling at all, the crowd watching a small lit screen on a desk. Nobody speaks in this beat.
+
+overall_soundscape: One nasal snort of a laugh, then on the line the shift of a handset and a different room's ambience: a large quiet space, a soft closing door.
+
+non_diegetic_music: N/A
+
+==================== seg57 ====================
+[REFS] suxiaoman / zhouzongjian / office_close / office_mid
+Entry state, re-anchored to the reference image: the phone lies on the desk on speaker with 苏小满 (S1) standing over it on the near side; 周总监 (S6) on the far side; the crowd at the LEFT doorway.
+[Shot 1] Close on the phone: a second, different voice is on the line now. It is 小罗 (S7) — the same quiet, courteous, completely unhurried man who will walk into this office a few minutes later — and only his voice is heard, never his face: [Chinese] 苏小姐。请问，您在哪。
+[Shot 2] At 00:04.400, 苏小满 (S1) answers without looking up, in her own flat low Mandarin: [Chinese] 景宸大厦。
+[Shot 3] At 00:06.200, 小罗 (S7) on the line again, still unhurried, with a note of instruction in it now: [Chinese] 您先别走。我们马上到。
+[Shot 4] At 00:09.800, cut wide: the doorway crowd staring at the phone on the desk, and 周总监 (S6) quietly watching 苏小满 (S1) instead of the phone. Nobody in the room speaks.
+
+overall_soundscape: A courteous measured voice on a small speaker, her short flat answer, one more instruction, then nothing but room tone.
+
+non_diegetic_music: A low sustained string note under the whole exchange.
+
+==================== seg58 ====================
+[REFS] suxiaoman / qianjingli / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: the phone lies on the desk on speaker; 苏小满 (S1) on the near side; 周总监 (S6) and 钱经理 (S3) on the far side; the crowd at the LEFT doorway.
+[Shot 1] Close on the phone screen: the call timer stops and the screen dims; the line clicks off.
+[Shot 2] At 00:03.000, medium: 苏小满 (S1) picks the phone up, presses it dark and puts it back in her pocket, looking at nobody in particular.
+[Shot 3] At 00:04.000, she lays the black card back down on the desk beside the keys, and says it to the room in a completely ordinary low Mandarin, as if reporting the weather: [Chinese] 他们说，马上到。
+[Shot 4] At 00:08.000, wide, held long: the whole room holding its breath. The crowd in the doorway, the manager, the director — nobody has a reply. Hold on the black card on the desk as the scene settles.
+
+overall_soundscape: The line clicking off, her phone going back into cloth, then a room so quiet the ceiling lights are audible, the clock ticking.
+
+non_diegetic_music: A single low struck note that sustains into the next beat.
+
+==================== seg59 ====================
+[REFS] qianjingli / suxiaoman / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: the black card lies on the desk with 苏小满 (S1) standing on the NEAR side of it; 周总监 (S6) on the far side; 钱经理 (S3) behind him; the crowd at the LEFT doorway.
+[Shot 1] Medium: 钱经理 (S3) pulls the office chair out, drops into it, and tips it back onto two legs with his hands laced behind his head, then speaks in a loud relaxed nasal Mandarin, playing to the doorway: [Chinese] 行。我等。
+[Shot 2] At 00:04.600, closer on 钱经理's (S3) face as he adds the second half with a slow grin, and lets his forefinger start tapping the desktop: [Chinese] 我倒要看看，来的是一尊什么佛。
+[Shot 3] At 00:09.000, cut to 周总监 (S6) standing beside the desk: he watches the manager, unimpressed, and says nothing at all.
+[Shot 4] At 00:09.800, hold on 苏小满 (S1), still standing over the card, silent.
+
+overall_soundscape: A chair dragged over tile, its legs creaking as it tilts back, a finger tapping wood, low murmuring from the doorway crowd.
+
+non_diegetic_music: N/A
+
+==================== seg60 ====================
+[REFS] qiantai / qianjingli / suxiaoman / office_pano
+Entry state, re-anchored to the reference image: 钱经理 (S3) sits tilted back in the chair on the far side of the desk; 苏小满 (S1) stands on the near side; 周总监 (S6) beside the desk; the crowd at the LEFT doorway.
+[Shot 1] Wide: the LEFT doorway crowd splits as 前台 (S12) shoulders through, phone held up in one hand, half running, blazer flying, and 前台 (S12) starts shouting before she is even through the door, in a loud bright panicked Mandarin: [Chinese] 钱经理！客人来电话了！
+[Shot 2] At 00:04.000, medium: she is at the desk now, holding the phone up toward 钱经理 (S3), and 前台 (S12) goes on at a shout in one burst: [Chinese] 耳钉找到了！
+[Shot 3] At 00:05.400, closer on her flushed face as 前台 (S12) finishes it in one rush: [Chinese] 掉在他自己车里，座位缝里！
+[Shot 4] At 00:09.000, wide and held: the chair legs come down with a bang. Every single person in the room has gone still. Nobody says a word to 苏小满 (S1), who stands exactly where she was with no expression change at all.
+
+overall_soundscape: Fast footsteps and a breathless shout, then a chair dropping onto four legs and the room going still.
+
+non_diegetic_music: A single bright harp note that lands on the news and dies.
+
+==================== seg61 ====================
+[REFS] qianjingli / suxiaoman / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: 钱经理 (S3) sits in the chair at the far side of the desk, both feet now flat on the floor; 苏小满 (S1) stands on the near side; 周总监 (S6) beside the desk; the crowd at the LEFT doorway.
+[Shot 1] Medium: 钱经理 (S3) clears his throat into his fist, straightens his waistcoat, and resets his face into a managing expression.
+[Shot 2] At 00:04.400, closer on him as he speaks in a brisk Mandarin, one hand patting the desk twice to give the words weight: [Chinese] 咳。耳钉，是清了。
+[Shot 3] At 00:07.600, he flicks a look at 苏小满 (S1) and adds it flatly: [Chinese] 人，还没来呢。
+[Shot 4] At 00:09.800, cut to 苏小满 (S1) and 周总监 (S6): neither of them answers him; the doorway crowd stays silent and uneasy.
+
+overall_soundscape: A throat cleared, a pointed cough, two flat pats on wood, a long hush in the room, a distant phone ringing down the corridor.
+
+non_diegetic_music: N/A
+
+==================== seg62 ====================
+[REFS] suxiaoman / qianjingli / zhouzongjian / office_close
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door; 钱经理 (S3) sits in the chair on the far side; 周总监 (S6) stands beside the desk; the card lies on the desktop between them.
+[Shot 1] Close on the round wall clock, its second hand stepping around the dial; the office is absolutely quiet.
+[Shot 2] At 00:03.000, medium on 苏小满 (S1): she stands perfectly straight and perfectly still, chin level, hands at her sides, looking at nothing in particular, her breathing slow.
+[Shot 3] At 00:06.000, tight on 钱经理's (S3) hand on the desktop: the tapping forefinger loses its rhythm, speeds up, then stops.
+[Shot 4] At 00:08.400, he glances toward the doorway, then at the door beyond it. Nobody speaks in this beat.
+
+overall_soundscape: The wall clock very loud in the still room, someone shifting weight, a chair creaking, muffled traffic through the blinds.
+
+non_diegetic_music: A thin sustained high string note, held under the whole wait.
+
+==================== seg63 ====================
+[REFS] xiaoluo / qianjingli / suxiaoman / office_pano
+Entry state, re-anchored to the reference image: the doorway crowd is lined up along the LEFT wall; 苏小满 (S1) stands on the near side of the desk; 钱经理 (S3) in the chair; 周总监 (S6) beside the desk.
+[Shot 1] Close on the LEFT doorway: from down the corridor, steady unhurried footsteps on stone, getting closer. Nobody in the doorway moves.
+[Shot 2] At 00:03.200, the door swings all the way open; 小罗 (S7), a composed ordinary-featured man of about thirty-five in a navy wool overcoat over a black turtleneck, walks in; four men in dark tailored suits follow him and fan out into a loose line against the LEFT wall.
+[Shot 3] At 00:06.400, he stops in the middle of the room and looks slowly around it once: the crowd, the manager half-risen from the chair, the director at the desk, and finally, longest, the woman standing at the near side of the desk.
+[Shot 4] At 00:09.400, hold on 苏小满 (S1), who looks straight back at him without a flicker. Nobody speaks in this beat.
+
+overall_soundscape: Steady footsteps approaching on stone, the door swinging on its hinge, several pairs of leather soles on tile, then absolute quiet.
+
+non_diegetic_music: A low warm horn note as the door opens.
+
+==================== seg64 ====================
+[REFS] xiaoluo / suxiaoman / qianjingli / office_mid
+Entry state, re-anchored to the reference image: 小罗 (S7) stands in the middle of the room facing the desk; 苏小满 (S1) stands on the NEAR side of the desk with her back to the door; 钱经理 (S3) is half out of the chair behind the desk; 周总监 (S6) is at the desk; the crowd is flat along the LEFT wall.
+[Shot 1] Medium: 小罗 (S7) turns to face 苏小满 (S1) squarely, bends his head in a small courteous bow and speaks in a quiet, courteous, completely unhurried Mandarin that leaves no room for argument: [Chinese] 苏小姐。车已备好，陆总在等您。
+[Shot 2] At 00:09.000, reverse onto the rest of the room: 钱经理 (S3) stopped halfway out of his chair, mouth open; the crowd along the wall not breathing.
+[Shot 3] At 00:09.800, hold on 苏小满 (S1), who does not move and does not answer yet. Nobody else speaks.
+
+overall_soundscape: One quiet courteous voice in a dead-still room, a chair halting mid-scrape, several men standing very still.
+
+non_diegetic_music: N/A
+
+==================== seg65 ====================
+[REFS] suxiaoman / xiaoluo / qianjingli / office_mid
+Entry state, re-anchored to the reference image: 小罗 (S7) stands in the middle of the room facing 苏小满 (S1), who is at the NEAR side of the desk facing him; the black card lies on the desk; 钱经理 (S3) is half out of his chair.
+[Shot 1] Medium: 苏小满 (S1) does not take a step toward the door; she looks at 小罗 (S7) and says it in her flat low Mandarin, as a correction, not a complaint: [Chinese] 不是，他们说我偷卡。
+[Shot 2] At 00:06.200, wide: 钱经理 (S3) gets the rest of the way out of the chair so fast that its metal legs shriek across the tile; he takes one step toward 小罗 (S7) with both hands coming up and his mouth already open.
+[Shot 3] At 00:07.400, close on 钱经理 (S3), who manages only a strangled half-word in a high nasal Mandarin, his face slick and pale: [Chinese] 您……
+[Shot 4] At 00:09.600, hold on 小罗 (S7), who has not even looked at him. Nobody else speaks.
+
+overall_soundscape: A flat quiet correction, the chair shrieking on tile, a strangled half-word, the room holding its breath.
+
+non_diegetic_music: N/A
+
+==================== seg66 ====================
+[REFS] xiaoluo / qianjingli / office_close / office_mid
+Entry state, re-anchored to the reference image: 小罗 (S7) stands in the middle of the room; the black card lies on the desk; 苏小满 (S1) on the near side of the desk; 钱经理 (S3) has stopped beside the chair; the crowd along the LEFT wall.
+[Shot 1] Medium: 小罗 (S7) crosses the room unhurriedly and stops at the desk between 苏小满 (S1) and 钱经理 (S3).
+[Shot 2] At 00:03.200, close on his hand as he picks the black card up off the desk and turns it over once, reading the back.
+[Shot 3] At 00:06.400, tight on his face: no surprise at all, only a small confirming nod, as if he had expected to find it exactly here.
+[Shot 4] At 00:08.400, he looks up at 苏小满 (S1) with something close to apology in his face. Nobody speaks in this beat.
+
+overall_soundscape: Unhurried footsteps, the soft tick of the card being lifted off wood, the crowd's held breath, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg67 ====================
+[REFS] xiaoluo / suxiaoman / qianjingli / office_pano
+Entry state, re-anchored to the reference image: 小罗 (S7) stands at the desk holding the card between 苏小满 (S1) on the near side and 钱经理 (S3) on the far side; 周总监 (S6) is at the desk edge; the crowd is along the LEFT wall.
+[Shot 1] Medium: 小罗 (S7) holds the card up at chest height, addressing nobody in particular, in the same quiet courteous Mandarin, evenly, one whole sentence in one breath: [Chinese] 这张卡，三天前，是我们留给苏小姐的。
+[Shot 2] At 00:06.000, closer on 小罗 (S7) as he goes on, still perfectly level: [Chinese] 让各位，误会了。
+[Shot 3] At 00:08.400, 小罗 (S7) turns a quarter step and runs his eyes slowly around the room — the manager, the doorway crowd, the director — without saying anything more.
+[Shot 4] At 00:09.400, wide and held: absolute stillness. 钱经理 (S3) has gone grey, 小唐 (S4) at the door is white as paper, and nobody in the doorway makes a sound; 苏小满 (S1) is the only person in the room who has not changed at all.
+
+overall_soundscape: One quiet voice, then a stillness with weight in it; the ceiling lights; someone at the door audibly swallowing; the clock.
+
+non_diegetic_music: N/A
+
+==================== seg68 ====================
+[REFS] qianjingli / xiaoluo / suxiaoman / office_mid
+Entry state, re-anchored to the reference image: 小罗 (S7) stands at the desk with the card in his hand; 钱经理 (S3) stands beside the chair on the far side of the desk; 苏小满 (S1) on the near side; the crowd along the LEFT wall.
+[Shot 1] Medium: 钱经理 (S3) stays on the far side of the desk and bends in toward 小罗 (S7) across it, hands rubbing together.
+[Shot 2] At 00:03.000, close on 钱经理 (S3) as he speaks in a high, fast, ingratiating Mandarin, nodding with every phrase, sweat shining on his forehead: [Chinese] 误会。全是误会。
+[Shot 3] At 00:06.000, he gets out the rest, gesturing toward the door as if already ushering: [Chinese] 罗先生，我这就……
+[Shot 4] At 00:08.800, reverse onto 小罗 (S7), who has already stopped looking at him and is looking at 苏小满 (S1) instead. 钱经理 (S3) is left standing with his sentence unfinished and nobody listening.
+
+overall_soundscape: Fast ingratiating speech and hands rubbing, a half-finished sentence trailing off, the room held still.
+
+non_diegetic_music: N/A
+
+==================== seg69 ====================
+[REFS] xiaoluo / suxiaoman / qianjingli / office_mid
+Entry state, re-anchored to the reference image: 小罗 (S7) is at the desk holding the card; 钱经理 (S3) stands bent toward him on the far side; 苏小满 (S1) stands on the NEAR side of the desk with her back to the door; the crowd along the LEFT wall.
+[Shot 1] Medium: 小罗 (S7) puts the card down on the desk and simply walks around the corner of it, leaving 钱经理 (S3) standing bent over behind him.
+[Shot 2] At 00:03.400, he stops one step in front of 苏小满 (S1) and stands there, hands loose at his sides, waiting.
+[Shot 3] At 00:06.200, pan across the room: every face in the doorway turned toward the two of them; 钱经理 (S3) still bent, his mouth open; 周总监 (S6) watching from the desk edge.
+[Shot 4] At 00:08.600, hold on the two of them facing each other, the whole room held still. Nobody speaks in this beat.
+
+overall_soundscape: Slow unhurried footsteps, then nothing but the ceiling lights and the clock, one person at the door exhaling shakily.
+
+non_diegetic_music: A soft low piano figure, almost tender.
+
+==================== seg70 ====================
+[REFS] xiaoluo / suxiaoman / office_mid / office_pano
+Entry state, re-anchored to the reference image: 小罗 (S7) stands one step in front of 苏小满 (S1), who has her back to the LEFT door of the office; the crowd is along the wall behind her; 钱经理 (S3) and 周总监 (S6) are in the background at the desk.
+[Shot 1] Medium: 小罗 (S7) speaks to her alone, quietly, in the same courteous Mandarin, with the slight bow of a man making a formal request: [Chinese] 那苏小姐，您看可以启程了吗。
+[Shot 2] At 00:09.000, wide from behind her: four men in dark suits standing in a line along the LEFT wall, the whole office motionless behind them.
+[Shot 3] At 00:09.800, close on 苏小满 (S1), who does not move. Nobody else speaks.
+
+overall_soundscape: One quiet courteous question in a room with no other sound in it but the air conditioning and the clock.
+
+non_diegetic_music: N/A
+
+==================== seg71 ====================
+[REFS] suxiaoman / xiaoluo / qianjingli / office_mid
+Entry state, re-anchored to the reference image: 小罗 (S7) stands one step in front of 苏小满 (S1) near the desk; the crowd along the LEFT wall; 钱经理 (S3) and 周总监 (S6) at the desk behind.
+[Shot 1] Close on 苏小满 (S1): she looks straight at him and answers in her low flat Mandarin, correcting him rather than refusing him: [Chinese] 我不是同意和你们合作的意思。
+[Shot 2] At 00:05.900, closer on 小罗 (S7): he pauses a beat, and then, entirely without annoyance, gives a small nod and answers in one calm syllable: [Chinese] 好。
+[Shot 3] At 00:06.600, he adds the last part, quietly, almost to himself, with the beginning of a smile that is not unkind: [Chinese] 陆总说，您会再打的。
+[Shot 4] At 00:09.800, hold on 苏小满 (S1)'s face as that lands, and on the silent office behind her. Nobody else speaks.
+
+overall_soundscape: Her flat refusal, a short pause, one calm syllable, then a quiet final sentence and the room's stillness.
+
+non_diegetic_music: A low sustained string note under the last line.
+
+==================== seg72 ====================
+[REFS] xiaoluo / suxiaoman / qianjingli / office_pano
+Entry state, re-anchored to the reference image: 小罗 (S7) stands in front of 苏小满 (S1) in the middle of the office; four suited men along the LEFT wall behind him; 钱经理 (S3) and 周总监 (S6) at the desk; 苏小满's (S1) back is to the LEFT door.
+[Shot 1] Medium: 小罗 (S7) bends his head to her in a small bow, turns and walks out through the LEFT door without a word; the four suited men fall in behind him.
+[Shot 2] At 00:04.000, wide: the door swings shut on its own weight, and for a beat the room is just a room again.
+[Shot 3] At 00:06.400, slow pan across the room: every single person is looking at 苏小满 (S1) — the crowd in the doorway, the receptionist, 小唐 (S4) with her head down, 钱经理 (S3) with his mouth open, 周总监 (S6) at the desk — as if at somebody they have never met before.
+[Shot 4] At 00:09.200, hold on 苏小满 (S1) in the middle of all those eyes. Nobody speaks in this beat.
+
+overall_soundscape: Several pairs of shoes leaving, the door closing with a soft heavy click, then a room where nobody is talking at all.
+
+non_diegetic_music: N/A
+
+==================== seg73 ====================
+[REFS] suxiaoman / qianjingli / office_close / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door; the black card lies on the dark desktop and the keys and the pen lie beside it; 钱经理 (S3) and 周总监 (S6) watch from the far side.
+[Shot 1] Close on the desk: her hand comes into frame and picks the black card up, and it goes into her trouser pocket.
+[Shot 2] At 00:02.800, then the bunch of keys, gathered in one sweep of the palm, and the ballpoint pen laid carefully across them; both go into the other pocket.
+[Shot 3] At 00:05.600, she takes the folded paper form out of the trouser pocket where it has been since she snatched it back, and holds it flat in her palm for a beat without unfolding it.
+[Shot 4] At 00:07.800, she folds it once more with careful fingers and puts it away again, deeper this time, then stands. Nobody speaks in this whole beat, and nobody in the room moves.
+
+overall_soundscape: Small metallic clinks, card on cloth, paper folded crisply twice, the ceiling lights, twenty people not making any sound.
+
+non_diegetic_music: A soft low piano phrase, patient and private.
+
+==================== seg74 ====================
+[REFS] qianjingli / suxiaoman / zhouzongjian / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) has turned and is walking toward the LEFT door of the office; 钱经理 (S3) is still on the far side of the desk, half turned to follow her with his eyes; 周总监 (S6) stands at the desk; the crowd has pulled back to the walls of the doorway.
+[Shot 1] Medium: 钱经理 (S3) leans out over the far side of the desk after her, shoulders rounded and both hands up, talking fast and soft in an oily nasal Mandarin: [Chinese] 苏小姐。今天这是……大水冲了龙王庙。
+[Shot 2] At 00:08.400, close on the back of 苏小满's (S1) head and shoulders: she keeps walking and does not turn her head a single degree.
+[Shot 3] At 00:09.200, cut to the crowd at the LEFT doorway: every one of them leans and steps out of her way, clearing a path and looking anywhere but at her.
+[Shot 4] At 00:09.800, hold on 钱经理 (S3) left leaning over the desk with his hands still up and his sentence already useless. Nobody else speaks.
+
+overall_soundscape: A fast oily voice fading behind her, her own unhurried footsteps, the crowd shuffling apart, a cough somewhere.
+
+non_diegetic_music: N/A
+
+==================== seg75 ====================
+[REFS] xiaotang / zhouzongjian / office_back / office_mid
+Entry state, re-anchored to the reference image: 苏小满 (S1) is passing through the LEFT doorway; 小唐 (S4) is standing at the edge of the doorframe; 周总监 (S6) is still in the middle of the room, turning toward the window on the RIGHT.
+[Shot 1] Close: 小唐 (S4) presses herself flat into the doorframe and drops her head as low as it will go, chin on her chest, hands folded in front of her apron, not looking up.
+[Shot 2] At 00:03.600, 苏小满 (S1) walks past her without stopping and without looking at her.
+[Shot 3] At 00:05.800, the camera follows 周总监 (S6) to the window on the RIGHT of frame; he lifts one slat of the venetian blind with two fingers and looks down into the street.
+[Shot 4] At 00:08.200, his point of view down through the blinds: on the forecourt below, four men in dark suits fold into black cars, doors thud shut, and the cars pull away one after another. Nobody speaks in this beat.
+
+overall_soundscape: Quiet footsteps receding down the corridor, the blind slats ticking against glass, then from the street below the soft thud of car doors and engines.
+
+non_diegetic_music: A low sustained string note under the street view.
+
+==================== seg76 ====================
+[REFS] zhouzongjian / qianjingli / office_right / office_mid
+Entry state, re-anchored to the reference image: 周总监 (S6) stands at the window on the RIGHT of frame with two fingers under the blind; 钱经理 (S3) is left standing in the middle-left of the room where 苏小满 (S1) walked past him, a few steps away from the desk; the room is emptying, the crowd gone from the doorway.
+[Shot 1] Medium from behind: 周总监 (S6) lets the blind fall back into place and speaks to the window without turning, in the same low level Mandarin: [Chinese] 小钱。这人，什么来头。
+[Shot 2] At 00:05.200, reverse onto 钱经理 (S3): he wipes his forehead with the flat of his hand, swallows, and manages it in a small unsteady nasal Mandarin: [Chinese] 不、不知道。
+[Shot 3] At 00:07.200, 周总监 (S6) turns from the window and looks at him for a long moment before answering, in that unhurried level voice: [Chinese] 不知道，才吓人。
+[Shot 4] At 00:09.800, hold on 钱经理's (S3) face, sweat at his hairline, with nothing at all to say.
+
+overall_soundscape: Blind slats settling, a dry swallow, a low level voice in an emptying office, a computer fan somewhere, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg77 ====================
+[REFS] zhouzongjian / qianjingli / office_right / office_mid
+Entry state, re-anchored to the reference image: 周总监 (S6) has turned away from the window on the RIGHT and stands facing the room; 钱经理 (S3) is in front of him, lower-left of frame; the office is nearly empty.
+[Shot 1] Medium: 周总监 (S6) walks back to the desk and stands behind it, one hand flat on the dark wood, speaking in a slow level Mandarin, laying the facts out like a summary: [Chinese] 这楼姓陆。咱们公司，是趴在这楼里吃饭的。
+[Shot 2] At 00:08.000, closer on his face: no anger in it, only a tired professional assessment.
+[Shot 3] At 00:09.200, cut to 钱经理 (S3) standing in the middle of the room, hands clasped in front of him, nodding a little too fast.
+[Shot 4] At 00:09.800, hold. Nobody else speaks.
+
+overall_soundscape: A slow level voice, the office now quiet enough for the ceiling lights and the clock, distant traffic through the glass.
+
+non_diegetic_music: A low horn note under the whole line.
+
+==================== seg78 ====================
+[REFS] zhouzongjian / qianjingli / office_mid / office_right
+Entry state, re-anchored to the reference image: 周总监 (S6) stands behind the desk with one hand on it; 钱经理 (S3) in front of him, lower-left; the office empty; the LEFT door standing open.
+[Shot 1] Medium: 周总监 (S6) takes his hand off the desk, walks a slow half-circle behind it and speaks in the same level unhurried Mandarin, with a note of real fatigue under it: [Chinese] 这种人来一趟，咱们就得跟着担一回惊。
+[Shot 2] At 00:08.000, reverse onto 钱经理 (S3): he is nodding before the sentence is even finished.
+[Shot 3] At 00:09.200, wide of the emptied office, the two men and the open door, the marble of the corridor bright beyond it.
+[Shot 4] At 00:09.800, hold. Nobody else speaks.
+
+overall_soundscape: A tired level voice, slow footsteps, the ceiling lights, the corridor outside carrying a faint lift bell and footsteps.
+
+non_diegetic_music: N/A
+
+==================== seg79 ====================
+[REFS] qianjingli / zhouzongjian / office_mid / office_close
+Entry state, re-anchored to the reference image: 周总监 (S6) has walked back and stands behind the desk on the far side; 钱经理 (S3) stands in front of the desk on the lower-left of frame facing him; the black card is gone from the desktop, leaving the empty dark wood.
+[Shot 1] Medium: 钱经理 (S3) leans in over the desk and asks it low and hopefully in a small nasal Mandarin, looking for a way out: [Chinese] 那……那位苏小满？
+[Shot 2] At 00:06.000, closer on 周总监 (S6); he does not need to think about it; he answers in a level, decided Mandarin, almost gently: [Chinese] 她在一天，就是个雷。
+[Shot 3] At 00:09.200, insert on the empty desk surface: the marks in the dust where the keys, the pen and the card had been.
+[Shot 4] At 00:09.800, hold on 钱经理 (S3) taking that in.
+
+overall_soundscape: A low hopeful question, a flat decided answer, the office lights, the clock, a chair creaking.
+
+non_diegetic_music: A single low struck piano note under the decision.
+
+==================== seg80 ====================
+[REFS] zhouzongjian / qianjingli / office_mid / office_back
+Entry state, re-anchored to the reference image: 周总监 (S6) stands behind the desk on the far side; 钱经理 (S3) leans in toward him from the lower-left of frame in front of the desk; the office empty, the LEFT door still open to the corridor.
+[Shot 1] Medium: 周总监 (S6) buttons his jacket, straightens his cuffs and gives the instruction in the same low level Mandarin, with no emphasis at all, which makes it worse: [Chinese] 找个由头，让她走。别声张。
+[Shot 2] At 00:06.400, close on 钱经理 (S3): relief and fear at the same time; he straightens up fast and answers twice over in a quick nasal Mandarin: [Chinese] 明白，明白。
+[Shot 3] At 00:08.800, 周总监 (S6) walks toward the LEFT door, passes the manager without another word and goes out into the corridor.
+[Shot 4] At 00:09.800, hold on 钱经理 (S3) alone in the office, looking at the empty desk.
+
+overall_soundscape: A quiet instruction, two quick acknowledgements, unhurried footsteps leaving, then the empty office tone and the clock.
+
+non_diegetic_music: A low uneasy string note fading out.
+
+==================== seg81 ====================
+[REFS] qianjingli / office_right / office_close / office_mid
+Entry state, re-anchored to the reference image: 钱经理 (S3) is alone in the middle of the empty office; the LEFT door is open; the window with its venetian blinds is on the RIGHT of frame; the desk is clear.
+[Shot 1] Medium: he crosses to the window on the RIGHT of frame and looks out through a gap in the blinds.
+[Shot 2] At 00:03.200, close on his profile: his throat works as he swallows, once, hard.
+[Shot 3] At 00:05.800, insert on the desk: the scuff marks in the dust, the pen tray, the empty space where the black card lay.
+[Shot 4] At 00:08.000, the camera drifts slowly back through the open LEFT door into the bright corridor, leaving him standing at the glass. Nobody speaks in this beat and every mouth stays shut.
+
+overall_soundscape: Almost nothing: the ceiling lights, the clock, one hard swallow, a car passing in the street below, then the corridor's open quiet.
+
+non_diegetic_music: The main theme returns quietly on low strings and holds through the cut.

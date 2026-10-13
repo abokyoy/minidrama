@@ -1,0 +1,14 @@
+{
+ "workflow": "E:\\ComfyUI\\ComfyUI_new\\user\\default\\workflows\\04_ref2v_seg2_chain.json",
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg02_prompt.txt",
+ "out_prefix": "ep01_t02",
+ "ref_dir": "E:\\LLM\\try\\minidrama\\保洁\\assets",
+ "refs": [
+  "char_suxiaoman.png",
+  "char_nvguibin.png",
+  "char_qianjingli.png",
+  "sc_corridor_pano.png"
+ ],
+ "prev_video": "D:/output/new\\ep01_t01_00001-audio.mp4",
+ "prev_skip": 221
+}

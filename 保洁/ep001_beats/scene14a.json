@@ -1,0 +1,266 @@
+[
+ {
+  "id": "ep01_t91",
+  "scene": "1-4",
+  "title": "清空的柜子",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_close",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_close": "fully_preserved",
+   "office_mid": "partially_preserved",
+   "office_pano": "partially_preserved"
+  },
+  "summary": "New day, same office: her locker stands open and empty, and a cardboard box of her things sits on the desk with two worn books and a battered notebook on top.",
+  "shots": "Entry state, new day, same office, taken from the reference images: 苏小满 (S1) stands on the NEAR side of the desk with her back to the LEFT door and her cardboard box on the desk beside her; the office is spotless and empty of anybody else at the top of the beat; door on the LEFT of frame, the venetian-blind window and tall wooden cabinets on the RIGHT; bright early-afternoon light through the blinds.\n[Shot 1] Wide: on the back wall an open metal locker stands empty, its door swung back; on the desk on the near side of it sits a brown cardboard box, half filled.\n[Shot 2] At 00:03.000, close on the box: on top of the pile lie two worn paperback books with cracked spines and curled corners.\n[Shot 3] At 00:05.400, tight on the top book: its cover shows an accounting primer for small businesses, thumbed almost to pieces, page edges grey with handling.\n[Shot 4] At 00:07.400, extreme close-up on a thin notebook lying beside it, its pages crammed edge to edge with small neat handwritten numbers, the outer corners rubbed down to soft fur.\n[Shot 5] At 00:09.200, rack focus off the box onto the open LEFT door: 钱经理 (S3) now stands in the doorway with his arms crossed, a shoulder against the doorframe, watching her. Nobody speaks in this whole beat.",
+  "soundscape": "The office in the afternoon: the ceiling lights, the wall clock, distant corridor footsteps, a computer fan, the papery click of a book being set down.",
+  "music": "A quiet low piano figure, neutral and patient."
+ },
+ {
+  "id": "ep01_t92",
+  "scene": "1-4",
+  "title": "工资结到昨天",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "The manager gives her notice from the doorway in three short sentences and she answers him with the contract.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk beside the cardboard box with her back to the LEFT door; 钱经理 (S3) is leaning against the doorframe on the LEFT, arms crossed, half in and half out of the corridor.\n[Shot 1] Medium: 钱经理 (S3) pushes off the doorframe and speaks without coming in, in a light offhand nasal Mandarin, as if reading out a bus timetable: [Chinese] 工资结到昨天。东西拿上，走人。\n[Shot 2] At 00:04.000, closer on 苏小满 (S1): she does not touch the box; she looks up at him and answers in her low even Mandarin, one quiet fact: [Chinese] 合同，没到期。\n[Shot 3] At 00:06.400, 钱经理 (S3) actually laughs, once, and answers in a flat dismissive Mandarin: [Chinese] 外包的，讲什么合同。\n[Shot 4] At 00:09.600, hold on her face; she says nothing more in this beat and neither does he.",
+  "soundscape": "An offhand voice from a doorway, the box shifting as she sets a hand on it, a short dry laugh, the office lights.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t93",
+  "scene": "1-4",
+  "title": "拦在门口",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_close",
+   "office_pano"
+  ],
+  "retention": {
+   "office_close": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "She picks the box up and heads for the door; he blocks it with his body and holds out a resignation form with the whole month's pay attached to it.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the near side of the desk with the cardboard box; 钱经理 (S3) is standing in the middle of the LEFT doorway, blocking it; the office behind them is empty.\n[Shot 1] Medium: 苏小满 (S1) lifts the box to her chest and turns toward the LEFT door; 钱经理 (S3) blocks it, holds out a printed form in one hand and taps it twice with the other, speaking in a brisk transactional Mandarin: [Chinese] 辞工单还没签。\n[Shot 2] At 00:03.600, 钱经理 (S3) goes on without a pause, tapping the form again: [Chinese] 签了，这个月工资给你。\n[Shot 3] At 00:07.600, closer on 钱经理's (S3) face as he delivers the last part flatly: [Chinese] 不签，一分没有。\n[Shot 4] At 00:09.400, reverse onto 苏小满 (S1): the box still in her arms, the form held out in front of her face; she stops moving altogether and says nothing.",
+  "soundscape": "Cardboard shifting against her apron, a form crackling as it is held out, two flat taps on paper, the corridor's air conditioning behind him.",
+  "music": "A low uneasy string note under the offer."
+ },
+ {
+  "id": "ep01_t94",
+  "scene": "1-4",
+  "title": "差一点",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_close",
+   "office_mid"
+  ],
+  "retention": {
+   "office_close": "partially_preserved",
+   "office_mid": "partially_preserved"
+  },
+  "summary": "Wordless beat: she turns to look at the form, her fingers tighten on the box, and she reaches for the pen — until running footsteps arrive outside.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the LEFT door, the cardboard box in her arms; 钱经理 (S3) stands in the doorway in front of her, holding the printed resignation form out toward her; the corridor is visible beyond the door.\n[Shot 1] Close on her fingers gripping the edge of the cardboard box until the cardboard crimps under her nails.\n[Shot 2] At 00:02.800, medium: she turns her head and looks back over her shoulder at the form in his hand, then at the pen lying on the desk behind her.\n[Shot 3] At 00:05.600, she shifts the box to one hip, freeing her right hand, and reaches back across the desk toward the pen; her fingertips get to within a centimetre of it.\n[Shot 4] At 00:08.200, from outside the door, fast urgent footsteps and a man's raised voice approaching; she freezes with her hand still open above the pen. Nobody speaks in this beat.",
+  "soundscape": "Cardboard crimping, a shoe pivoting on tile, then rapid footsteps and an urgent male voice rising in the corridor outside the door.",
+  "music": "A rising low pulse that cuts off on the footsteps."
+ },
+ {
+  "id": "ep01_t95",
+  "scene": "1-4",
+  "title": "谁是苏小满",
+  "refs": [
+   "zhangzong",
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "office_pano": "fully_preserved"
+  },
+  "summary": "The office door is shoved open and a flushed man in a suit bursts in demanding her by name.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with the cardboard box on one hip and her right hand still back over the desk; 钱经理 (S3) is in front of her holding the form; the corridor is bright beyond the door.\n[Shot 1] Wide: the LEFT door is shoved hard inward; 张总 (S10), a flushed sweating man of about forty-five in a charcoal suit with a blue tie, comes in fast, chest heaving, and stops two paces inside the room.\n[Shot 2] At 00:02.400, closer on 张总 (S10) as he sweeps the room once with his eyes and barks the question in a loud hurried Mandarin: [Chinese] 谁是苏小满？\n[Shot 3] At 00:05.400, reverse onto 苏小满 (S1): she is standing half a metre from him with the box in her arms, and she does not answer or move.\n[Shot 4] At 00:07.000, cut to 钱经理 (S3), whose back straightens so fast he nearly drops the form. Nobody else speaks.",
+  "soundscape": "A door banged inward, fast heavy footsteps, loud panting, a shouted question cutting through the quiet office.",
+  "music": "A sharp low brass stab on the door."
+ },
+ {
+  "id": "ep01_t96",
+  "scene": "1-4",
+  "title": "您怎么来了",
+  "refs": [
+   "qianjingli",
+   "zhangzong",
+   "suxiaoman",
+   "office_mid"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved"
+  },
+  "summary": "The manager recognises his boss instantly and starts to fold up in front of him.",
+  "shots": "Entry state, re-anchored to the reference image: 张总 (S10) stands two paces inside the LEFT door; 钱经理 (S3) is on the near side of the desk, just in from the doorway, with the resignation form still in his hand; 苏小满 (S1) is at the doorway with the box.\n[Shot 1] Medium: 钱经理 (S3) creases into a smile as if a switch had been thrown, drops the form onto the desk and comes forward with both hands out.\n[Shot 2] At 00:02.400, closer on 钱经理 (S3): he pitches it high and nervous in a nasal Mandarin, half greeting and half apology: [Chinese] 张、张总？您怎么来了……\n[Shot 3] At 00:06.400, 张总 (S10) does not answer, does not take his hand, and looks straight past him at the woman with the box.\n[Shot 4] At 00:08.800, hold on 钱经理 (S3) with his hand still out and nowhere to put it. Nobody else speaks.",
+  "soundscape": "Paper flapping onto a desk, quick shuffling steps, a high nervous voice, then only heavy breathing.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t97",
+  "scene": "1-4",
+  "title": "你干的好事",
+  "refs": [
+   "zhangzong",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "The boss turns on the manager, jabbing a finger at his desk, and names the people who called him.",
+  "shots": "Entry state, re-anchored to the reference image: 张总 (S10) stands two paces inside the LEFT door of the office; 钱经理 (S3) is a step in front of him on the door side with one hand still outstretched; 苏小满 (S1) is at the doorway behind with the box.\n[Shot 1] Medium: 张总 (S10) goes around him, crosses to the desk and jabs one finger down at the desktop three times, hard, speaking in a loud angry Mandarin, the words coming out fast and ragged: [Chinese] 老钱！你干的好事！\n[Shot 2] At 00:03.400, closer on 张总 (S10), his face wet with sweat, as he delivers the rest in the same loud rapid Mandarin, all in one breath: [Chinese] 万山陆家的大老板，电话打到我脸上了！\n[Shot 3] At 00:09.400, reverse onto 钱经理 (S3), who has gone a dirty white and taken half a step backwards.\n[Shot 4] At 00:09.800, hold on his face. Nobody else speaks.",
+  "soundscape": "A finger striking a wooden desktop three times, loud ragged shouting in a small room, a chair knocked askew, the corridor outside dropping to a murmur.",
+  "music": "A hard low percussion hit under each jab."
+ },
+ {
+  "id": "ep01_t98",
+  "scene": "1-4",
+  "title": "欺负人家一个小保洁",
+  "refs": [
+   "zhangzong",
+   "qianjingli",
+   "suxiaoman",
+   "office_mid"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved"
+  },
+  "summary": "He says out loud what the phone call was actually about, in front of the woman it happened to.",
+  "shots": "Entry state, re-anchored to the reference image: 张总 (S10) stands at the desk with one hand flat on it, having just crossed to it; 钱经理 (S3) is still on the door side of the desk, half a step in front of where 张总 (S10) left him, one hand up; 苏小满 (S1) is still in the LEFT doorway with the cardboard box in her arms.\n[Shot 1] Medium: 张总 (S10) turns from the desk toward the manager, throws an arm out, and shouts the charge in a loud indignant Mandarin, hitting every phrase: [Chinese] 说咱们公司，欺负人家一个小保洁！\n[Shot 2] At 00:07.000, wide of the room: 钱经理 (S3) backs away round the end of the desk to the FAR side and stands there with his head down, 张总 (S10) red in the face, and 苏小满 (S1) standing in the doorway watching it happen with no expression at all.\n[Shot 3] At 00:09.400, slight push toward the doorway onto her face.\n[Shot 4] At 00:09.800, hold. Nobody else speaks.",
+  "soundscape": "Loud indignant shouting, a hand slapping the desk, then the room left holding its breath under the ceiling lights.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t99",
+  "scene": "1-4",
+  "title": "正常流程",
+  "refs": [
+   "qianjingli",
+   "zhangzong",
+   "office_mid",
+   "office_close"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_close": "partially_preserved"
+  },
+  "summary": "The manager tries to talk his way out with paperwork, stammering.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk, back to the window; 张总 (S10) faces him across it; the blank resignation sheet 钱经理 (S3) dropped on the desktop earlier is lying face up on it.\n[Shot 1] Medium: 钱经理 (S3) spreads both hands, palms out, at chest height and wills a reasonable expression onto his face, but his voice will not hold steady in the nasal Mandarin: [Chinese] 我、我没有……那是、是正常流程……\n[Shot 2] At 00:07.000, insert on the desk: the blank resignation sheet, face up, its blank signature line empty.\n[Shot 3] At 00:08.800, close on 张总's (S10) face as he listens to that; his jaw sets.\n[Shot 4] At 00:09.800, hold. Nobody else speaks.",
+  "soundscape": "A stammering voice, hands sliding against each other, paper on wood, the ceiling lights, a clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t100",
+  "scene": "1-4",
+  "title": "从这楼里滚出去",
+  "refs": [
+   "suxiaoman",
+   "zhangzong",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "partially_preserved"
+  },
+  "summary": "The boss slams the desk and spells out exactly what one phone call from those people would cost the company.",
+  "shots": "Entry state, re-anchored to the reference image: 张总 (S10) stands on the near side of the desk, 钱经理 (S3) on the far side facing him; 苏小满 (S1) watches from the LEFT doorway with the box in her arms.\n[Shot 1] Medium: 张总 (S10) brings his flat palm down on the desk so hard that the pen tray jumps, then leans over it toward 钱经理 (S3) and spits it out at a shout in loud Mandarin: [Chinese] 正常流程？\n[Shot 2] At 00:02.400, 张总 (S10) jabs the air with one finger, hammering each phrase: [Chinese] 人家一句话，明年，\n[Shot 3] At 00:04.200, closer on 张总's (S10) flushed sweating face as he finishes it, still shouting: [Chinese] 咱们公司就得从这楼里滚出去！\n[Shot 4] At 00:09.400, wide and held: 钱经理 (S3) has both hands up in front of his chest as if warding off a blow, the resignation form has slid across the desktop, and 苏小满 (S1) watches all of it from the LEFT doorway without a flicker. Nobody else speaks.",
+  "soundscape": "A heavy palm slam on wood, loud fast shouting filling a small hard-walled room, then the echo dying away.",
+  "music": "A low percussive hit on the slam, then a held chord."
+ },
+ {
+  "id": "ep01_t101",
+  "scene": "1-4",
+  "title": "您就是苏小满",
+  "refs": [
+   "zhangzong",
+   "suxiaoman",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "partially_preserved"
+  },
+  "summary": "He turns round, recognises the woman standing in the doorway with her cardboard box, and changes entirely.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands in the LEFT doorway of the office holding the cardboard box; 张总 (S10) is at the desk in the middle of the room; 钱经理 (S3) is behind the desk.\n[Shot 1] Medium: 张总 (S10) turns from the manager and only now really looks at the doorway; his shoulders drop; the shouting goes out of him all at once.\n[Shot 2] At 00:03.000, closer on 张总 (S10) as he steps toward her and asks it carefully, in a completely changed soft Mandarin, half a question and half a greeting: [Chinese] 您，就是苏小满？\n[Shot 3] At 00:05.600, reverse onto 苏小满 (S1): she looks at him for a beat and does not answer, the box still against her hip.\n[Shot 4] At 00:08.000, hold on the two of them in the doorway with 钱经理 (S3) small in the background. Nobody else speaks.",
+  "soundscape": "The shouting stopping mid-breath, slow careful footsteps across tile, one soft careful voice coming through the room.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t102",
+  "scene": "1-4",
+  "title": "对不住，对不住",
+  "refs": [
+   "zhangzong",
+   "suxiaoman",
+   "qianjingli",
+   "office_mid"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved"
+  },
+  "summary": "The boss starts apologising and offering to put everything right, hands rubbing, smiling at a woman half his status.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands just inside the LEFT door of the office with the cardboard box; 张总 (S10) stands in front of her in the middle of the room; 钱经理 (S3) is behind the desk, silent.\n[Shot 1] Medium: 张总 (S10) rubs his hands together, ducks his head and gives her a smile that is all anxiety, speaking in a fast soft Mandarin, bowing slightly with each phrase: [Chinese] 苏小姐。对不住，对不住。\n[Shot 2] At 00:05.000, he goes on without pausing for her to answer, gesturing at the office around them as if presenting a repaired room: [Chinese] 这事，我给您做主。您接着上班。\n[Shot 3] At 00:09.400, reverse onto 苏小满 (S1): no change of expression at all, the box still in her arms.\n[Shot 4] At 00:09.800, hold on her. She says nothing yet.",
+  "soundscape": "Hands rubbing together, a fast placating voice, a shuffling half bow, then only the clock and the lights.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t103",
+  "scene": "1-4",
+  "title": "工钱翻倍",
+  "refs": [
+   "zhangzong",
+   "suxiaoman",
+   "qianjingli",
+   "office_mid"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved"
+  },
+  "summary": "He adds money to the offer, still smiling, and the manager in the background cannot lift his head.",
+  "shots": "Entry state, re-anchored to the reference image: 张总 (S10) stands in the middle of the room facing 苏小满 (S1), who is at the LEFT door with the cardboard box; 钱经理 (S3) is behind the desk with his head down.\n[Shot 1] Medium: 张总 (S10) holds up one finger to mark the point, leaning in confidentially, and speaks in a bright eager Mandarin as if announcing a bonus: [Chinese] 工钱，从这个月，翻倍。\n[Shot 2] At 00:06.400, pan round behind him to 钱经理 (S3), whose chin is now down against his own chest, hands clasped in front of him.\n[Shot 3] At 00:08.600, back onto 苏小满 (S1), who has heard it and still gives him nothing.\n[Shot 4] At 00:09.600, hold. Nobody else speaks.",
+  "soundscape": "A bright eager voice, a shirt collar creaking as the manager lowers his head, the ceiling lights, the clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t104",
+  "scene": "1-4",
+  "title": "这工，我不干了",
+  "refs": [
+   "suxiaoman",
+   "zhangzong",
+   "qianjingli",
+   "office_mid"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved"
+  },
+  "summary": "She turns the whole offer down in eleven characters, and the room goes still.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands just inside the LEFT door with the cardboard box against her hip; 张总 (S10) faces her, leaning slightly in, one finger still raised; 钱经理 (S3) stands behind the desk.\n[Shot 1] Close on 苏小满 (S1): she looks past the raised finger into the other man's face and says it quietly in her low even Mandarin, without any heat at all: [Chinese] 不用了。\n[Shot 2] At 00:04.400, she shifts the box slightly higher on her hip and finishes it flatly: [Chinese] 这工，我不干了。\n[Shot 3] At 00:07.400, wide: nobody moves. 张总's (S10) finger is still up; 钱经理 (S3) has lifted his head in disbelief; behind them the office is absolutely still and sunny.\n[Shot 4] At 00:09.800, hold on 苏小满 (S1), waiting calmly for an answer. Nobody else speaks.",
+  "soundscape": "One quiet refusal, the cardboard box shifting, then a stillness with real weight in it, the clock and the lights.",
+  "music": "A single low piano note that lands after the words and holds."
+ }
+]

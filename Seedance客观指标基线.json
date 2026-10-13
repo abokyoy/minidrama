@@ -1,0 +1,62 @@
+[
+ {
+  "lap": null,
+  "bright": null,
+  "range": null,
+  "res": "720x1280",
+  "sr": "44100",
+  "kbps": 1874,
+  "dur": 10.1,
+  "name": "Seedance (1).mp4"
+ },
+ {
+  "lap": null,
+  "bright": null,
+  "range": null,
+  "res": "720x1280",
+  "sr": "44100",
+  "kbps": 1812,
+  "dur": 10.1,
+  "name": "Seedance (2).mp4"
+ },
+ {
+  "lap": null,
+  "bright": null,
+  "range": null,
+  "res": "720x1280",
+  "sr": "44100",
+  "kbps": 2179,
+  "dur": 10.1,
+  "name": "Seedance (3).mp4"
+ },
+ {
+  "lap": null,
+  "bright": null,
+  "range": null,
+  "res": "720x1280",
+  "sr": "44100",
+  "kbps": 1924,
+  "dur": 10.1,
+  "name": "Seedance.mp4"
+ },
+ {
+  "lap": null,
+  "bright": null,
+  "range": null,
+  "res": "672x1184",
+  "sr": "48000",
+  "kbps": 3869,
+  "dur": 10.2,
+  "name": "本地 ep01_t62_00001-aud"
+ },
+ {
+  "lap": null,
+  "bright": null,
+  "range": null,
+  "res": "672x1184",
+  "sr": "48000",
+  "kbps": 4967,
+  "dur": 10.2,
+  "name": "本地 ep01_t63_00001-aud"
+ }
+]

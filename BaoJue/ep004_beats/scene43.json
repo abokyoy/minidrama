@@ -1,0 +1,477 @@
+[
+ {
+  "id": "ep04_t57",
+  "scene": "4-3",
+  "title": "两排铁货架",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "Opening wide from the doorway of the old mansion's rear storage room: two rows of iron shelving reach the ceiling either side of one deep centre aisle, a fluorescent tube on the ceiling is on and lights the shelves and the concrete floor, and the open doorway shows the lit courtyard outside; nobody in frame.",
+  "shots": "Entry state, re-anchored to the reference images: the storage room in the rear courtyard of the 陆 family old house, at night; the ceiling fluorescent tube is switched on and lights the two rows of iron shelving and the bare concrete floor clearly; the open doorway at the near end shows the lit courtyard; the room is empty of people.\n[Shot 1] Wide from the doorway looking in: two rows of rusted iron shelving reach up to the ceiling on either side of one deep centre aisle, loaded with old trunks, rolled carpets, dusty porcelain and old tools; a single fluorescent tube on the ceiling is switched on and lights the shelves and the bare concrete floor evenly; through the open doorway at the near end the courtyard lamps are on too, so the whole room reads as a lit night and every shelf, the floor and the walls are fully readable.\n[Shot 2] At 00:06.000, The same room held a moment longer down the centre aisle: the tube light lies even along the shelf boards, the concrete floor is swept clean with dust only in the far corners, and the doorway's spill of courtyard light stays gentle in the near third.",
+  "soundscape": "The steady hum of the fluorescent tube, the night air coming in through the open doorway, a bicycle chain faintly outside in the courtyard.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t58",
+  "scene": "4-3",
+  "title": "手电扫过货架",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "A torch beam sweeps the upper shelving: brass padlocks on the old trunks and a layer of dust on the rolled carpets come up clear in the light; the ceiling tube keeps the rest of the room readable behind them.",
+  "shots": "Entry state, re-anchored to the reference images: the storage room with the ceiling tube on; a hand-held torch beam is now sweeping the upper shelving from the near end of the aisle; nobody's face is in frame.\n[Shot 1] Medium up the aisle as a hand-held torch beam sweeps the upper shelving: brass padlocks on the old trunks and a thick layer of dust on the rolled carpets come up clear and bright in the moving light; the ceiling tube keeps the whole room readable behind the beam, so the image stays open and clear rather than one small lamp with everything else falling away around it.\n[Shot 2] At 00:05.000, The beam continues along the shelf: dust lifts a little in the light and settles, the trunks' surfaces are evenly lit from two directions at once, and the aisle floor below stays plainly visible.",
+  "soundscape": "The fluorescent tube humming, the soft scrape of a torch beam crossing metal shelving, night air through the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t59",
+  "scene": "4-3",
+  "title": "光斑停在瓷碗上",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "The torch beam stops on a dusty porcelain bowl: a fine crack runs along its rim and thin dust has settled inside it, all of it clearly legible under the ceiling tube.",
+  "shots": "Entry state, re-anchored to the reference images: the torch beam resting on the middle shelf of the storage room, the ceiling tube on.\n[Shot 1] Close on a dusty porcelain bowl on the shelf as the torch beam comes to rest on it: a fine crack runs along the rim and a thin layer of dust has settled inside; the tube light behind it gives a clean second source so the bowl's whole shape, the crack and the dust are all clearly readable, with the shelf and the aisle behind softly open.\n[Shot 2] At 00:05.400, The same close held: the beam steadies on the bowl, the dust inside it undisturbed, and the surrounding shelf stays evenly lit by the ceiling tube from above.",
+  "soundscape": "The tube's hum, the torch beam's faint hiss, dust settling on the shelf.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t60",
+  "scene": "4-3",
+  "title": "她照着他打哈欠",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) stands in front of the shelving with the torch in her hand, and behind her nearer the door 小罗 (S7) is caught in a yawn, one hand over his mouth and his keys hanging from the other.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) in front of the shelving in the middle-ground, a little left of centre, facing the shelves and turned three-quarter away from the lens, the torch in her hand; 小罗 (S7) behind her nearer the doorway, in a dark navy overcoat over a black turtleneck.\n[Shot 1] Medium in the aisle: 苏小满 (S1) stands in front of the shelving in the middle-ground a little left of centre, facing the shelves and turned three-quarter away from the lens, her torch in her right hand throwing its beam up onto the shelves; behind her and nearer the doorway 小罗 (S7), in a dark navy overcoat, is caught in a yawn with one hand over his mouth and his car keys hanging from the other hand.\n[Shot 2] At 00:05.400, The camera holds both of them in depth: she keeps her beam on the shelves and does not turn round, he finishes the yawn and lowers his hand, and the ceiling tube keeps the whole aisle and both of them evenly and generously lit.",
+  "soundscape": "小罗 (S7)'s yawn and the jingle of his keys, her coat hem shifting, the fluorescent tube, night air at the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t61",
+  "scene": "4-3",
+  "title": "挨着找找",
+  "refs": [
+   "xiaoluo",
+   "suxiaoman",
+   "lu_storage"
+  ],
+  "retention": {
+   "xiaoluo": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "小罗 (S7) pulls the yawn back, says it in the tone of an ordinary instruction — the boss said to look through the old things from that year under the bridge for anything that matches — and puts his hand back in his coat pocket.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) in front of the shelving with the torch in her hand, facing the shelves; 小罗 (S7) behind her nearer the doorway, his yawn finished, his hand going back into his coat pocket.\n[Shot 1] Medium on 小罗 (S7) with 苏小满 (S1) in the near foreground and her back to the lens: he pulls the yawn back and says it in the tone of an ordinary instruction, [Chinese] 陆总说了。桥下那年的旧东西，你挨着找找，看有没有能对上的。\n[Shot 2] At 00:05.800, Closer on him as he finishes: his hand goes back into his overcoat pocket, his eyes stay on her back, and the ceiling tube and the courtyard light through the doorway keep his face open and readable with soft shadow under the cheekbones.",
+  "soundscape": "His low conversational voice in the aisle, his keys jingling once, the tube humming, her torch beam moving on the shelves.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t62",
+  "scene": "4-3",
+  "title": "这间是杂物间",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "Reverse on 苏小满 (S1)'s profile: she answers offhand without taking her eyes off the shelves, the torch still lighting them.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) in front of the shelving with the torch in her hand, her profile to the lens, facing the shelves; 小罗 (S7) behind her.\n[Shot 1] Reverse medium on 苏小满 (S1)'s profile with the torch beam on the shelves beside her: she answers offhand without taking her eyes off the shelves, [Chinese] 这间是杂物间。\n[Shot 2] At 00:03.400, Closer on her profile: the torch beam washes the shelf edge just in front of her and throws a soft edge of light along her cheek, while the ceiling tube keeps the whole side of her face evenly open.",
+  "soundscape": "Her low steady voice, the torch beam hissing softly, the tube's hum, the aisle's night air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t63",
+  "scene": "4-3",
+  "title": "老爷子生前的怪毛病",
+  "refs": [
+   "xiaoluo",
+   "suxiaoman",
+   "lu_storage"
+  ],
+  "retention": {
+   "xiaoluo": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "小罗 (S7) shrugs, takes a hand out of his pocket and puts it straight back, saying that the old man had a strange habit and never kept good things indoors but pushed them all into the storage room.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) in front of the shelving with the torch; 小罗 (S7) behind her and nearer the doorway.\n[Shot 1] Medium on 小罗 (S7): he shrugs, takes one hand out of his pocket and puts it straight back, saying, [Chinese] 老爷子生前的怪毛病。好东西不往屋里放，净往杂物间塞。\n[Shot 2] At 00:06.600, Closer on him as the line finishes: his shrug settles, he leans his shoulder in towards the shelving beside him, and the tube light overhead keeps every plane of his face readable.",
+  "soundscape": "His voice in the aisle, his shoulder against the metal shelving, the fluorescent hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t64",
+  "scene": "4-3",
+  "title": "光一层层往下移",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "The torch beam travels down the shelving shelf by shelf, and 苏小满 (S1) runs her other palm along the shelf partition, her fingertip drawing a clean line through the dust.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) in front of the shelving moving the torch beam down the shelves, her other hand on the shelf partition; 小罗 (S7) behind her, watching.\n[Shot 1] Medium in the aisle: the torch beam travels down the shelving shelf by shelf while 苏小满 (S1) runs her other palm along the shelf partition; her fingertip draws a clean line through the dust and the beam lights each shelf board as it reaches it; behind her 小罗 (S7) leans on the shelving and watches.\n[Shot 2] At 00:05.600, Closer on her hand and the shelf: the clean track in the dust runs down the partition and the beam pools on the board below it, while the ceiling tube keeps the whole aisle open and readable behind her arm.",
+  "soundscape": "Her palm dragging softly through dust, the torch beam on metal, the tube humming, night air at the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t65",
+  "scene": "4-3",
+  "title": "蹲下去照最底层",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) goes right down into a squat with her knees almost on the concrete and sweeps the torch across the bottom shelf; her low ponytail falls forward over her shoulder.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting in front of the bottom shelf with the torch in her hand, her low ponytail fallen forward; 小罗 (S7) behind her and nearer the doorway.\n[Shot 1] Medium low in the aisle: 苏小满 (S1) goes right down into a squat with her knees almost on the concrete and sweeps the torch across the bottom shelf; her low ponytail falls forward over her shoulder and the beam runs along the lowest boards; the ceiling tube keeps the whole aisle, the shelves and the concrete floor clearly readable.\n[Shot 2] At 00:05.400, Closer from behind her shoulder: she leans in towards the bottom shelf with the beam leading, and behind her 小罗 (S7) shifts his weight to see past her into the corner of the shelf.",
+  "soundscape": "Her knees and shoes on the concrete, the beam skimming the bottom shelf, the tube's hum, the doorway's courtyard air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t66",
+  "scene": "4-3",
+  "title": "铁皮盒子",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "The torch beam comes to rest on the bottom shelf: a tin box sits under a thick layer of dust, jammed into the corner among old nails and an old coil of rope.",
+  "shots": "Entry state, re-anchored to the reference images: the torch beam resting on the bottom shelf of the storage room, the tin box in the corner among old nails and a coil of old rope.\n[Shot 1] Close on the bottom shelf as the torch beam comes to rest: a dented tin box sits under a thick layer of dust, jammed into the corner of the shelf among a scatter of old nails and a coil of old rope; the ceiling tube behind gives a second clean source so the dust, the box's edges and the metal of the nails are all clearly legible, and the concrete floor along the bottom third stays plainly visible.\n[Shot 2] At 00:05.600, Closer still on the tin box: the dust on its lid is unbroken, the box's seams and its dented corners are readable in the beam, and nothing else on the shelf has been disturbed.",
+  "soundscape": "The torch beam steadying on metal, dust settling, the tube humming, the aisle's night air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t67",
+  "scene": "4-3",
+  "title": "一圈焊死的焊点",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "The camera tracks round the tin box: a ring of weld spots has been run all the way round the lid, uneven in size and crooked, sealing the lid onto the body for good.",
+  "shots": "Entry state, re-anchored to the reference images: the torch beam on the tin box on the bottom shelf, the camera moving round its lid.\n[Shot 1] Close tracking round the tin box's lid: a ring of weld spots runs all the way round where the lid meets the body, uneven in size and crooked, and it has sealed the lid onto the box for good; the torch beam and the ceiling tube light the weld beads from two directions so every one of them is clearly readable.\n[Shot 2] At 00:05.000, The track continues and comes to rest on the far side of the ring: the weld beads catch the light one after another, the dust on the lid is undisturbed, and the shelf and floor around stay open and evenly lit.",
+  "soundscape": "The torch beam creeping along the weld line, the tube's hum, a night bird outside the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t68",
+  "scene": "4-3",
+  "title": "两个歪扭的钢印字",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "The camera moves to the centre of the lid: two hand-stamped steel characters are pressed crooked into the metal there, the last stroke of the first one barely cut through.",
+  "shots": "Entry state, re-anchored to the reference images: the torch beam on the centre of the tin box's lid, the two hand-stamped steel characters pressed into the metal.\n[Shot 1] Close on the centre of the tin box's lid: two hand-stamped steel characters are pressed crookedly into the metal there, the last stroke of the first one barely cut through; the torch beam falls straight across them from above and the ceiling tube fills the strokes so they stay legible as stamped depressions in the metal, with the dust around them undisturbed.\n[Shot 2] At 00:05.200, Closer still, the beam shifting a little so the two stamped characters catch the light along their edges: the impressions are shallow and uneven, the metal around them still furred with dust, and the shelf stays evenly lit behind.",
+  "soundscape": "The torch beam steady on the lid, the tube's hum, dust settling on metal.",
+  "music": "A single low string note, held."
+ },
+ {
+  "id": "ep04_t69",
+  "scene": "4-3",
+  "title": "勿动",
+  "refs": [
+   "suxiaoman",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) leans in with the torch pointed straight at the two stamped characters and reads them out quietly to herself.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting in front of the bottom shelf with the torch in her hand, the beam on the tin box's lid.\n[Shot 1] Medium close on 苏小满 (S1) squatting: she leans in with the torch pointed straight at the two stamped characters and reads them out quietly, [Chinese] 勿动。\n[Shot 2] At 00:03.000, Closer on her face above the beam: her eyes stay on the box, her lips just finishing the two syllables, and the ceiling tube keeps her whole face open and soft above the torch pool.",
+  "soundscape": "Her low voice barely above the tube's hum, the torch beam steady, the aisle's night air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t70",
+  "scene": "4-3",
+  "title": "焊完就再没打开过",
+  "refs": [
+   "xiaoluo",
+   "suxiaoman",
+   "lu_storage"
+  ],
+  "retention": {
+   "xiaoluo": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "小罗 (S7) leans in past her to look at the box, points his chin at it and says offhand that the old man welded it himself, that he went berserk if anyone touched it, and that it was never opened after that.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting in front of the bottom shelf with the torch; 小罗 (S7) leaning in past her from behind, his chin pointing at the tin box.\n[Shot 1] Medium with 苏小满 (S1) squatting in the near foreground and 小罗 (S7) leaning in past her from behind: he takes a look at the box, points his chin at it and says offhand, [Chinese] 那个啊。老爷子亲手焊的。谁碰跟谁急。焊完就再没打开过。\n[Shot 2] At 00:07.000, Closer on him as he finishes: he stays leaned in, one hand on the shelf edge above her, and the tube light plus the torch pool light both their faces from two directions so nothing is left in shadow between them.",
+  "soundscape": "His casual voice in the aisle, his hand on the shelf edge, the tube humming, her breathing.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t71",
+  "scene": "4-3",
+  "title": "里面是什么",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) does not turn round; the torch stays on the box as she asks what is inside it.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting in front of the bottom shelf with the torch on the tin box; 小罗 (S7) behind her.\n[Shot 1] Medium close on 苏小满 (S1) still squatting with her back three-quarter to the lens: she does not turn round, the torch stays on the box, and she asks, [Chinese] 里面是什么？\n[Shot 2] At 00:03.200, Tighter on her from behind and above: the torch pool stays centred on the welded lid, her shoulders do not turn, and the ceiling tube keeps her shoulders and the shelf around her evenly lit.",
+  "soundscape": "Her low steady voice, the torch beam steady on the lid, the tube's hum, night air at the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t72",
+  "scene": "4-3",
+  "title": "撬都撬不开",
+  "refs": [
+   "xiaoluo",
+   "suxiaoman",
+   "lu_storage"
+  ],
+  "retention": {
+   "xiaoluo": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "小罗 (S7) spreads one hand and shakes his head, saying nobody knows and that it cannot be prised open.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting in front of the bottom shelf with the torch; 小罗 (S7) behind her, spreading a hand.\n[Shot 1] Medium on 小罗 (S7) behind her: he spreads one hand and shakes his head, saying, [Chinese] 鬼知道。撬都撬不开。\n[Shot 2] At 00:04.000, Closer on him as he drops the hand: the shrug settles into his shoulders, he leans back off the shelf a little, and the ceiling tube and the doorway's courtyard light keep his face fully readable.",
+  "soundscape": "His voice in the aisle, his hand dropping, the tube's hum, a night bird outside.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t73",
+  "scene": "4-3",
+  "title": "轻轻抱起来",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) slides both hands under the tin box and lifts it carefully off the bottom shelf, holding it the way you would hold something breakable.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting with both hands under the tin box, lifting it clear of the bottom shelf; 小罗 (S7) behind her watching.\n[Shot 1] Medium low in the aisle: 苏小满 (S1) slides both hands under the tin box and lifts it carefully clear of the bottom shelf, holding it the way you would hold something breakable; behind her 小罗 (S7) watches; the torch lies on the shelf where her hand left it, still throwing its beam across the corner and the scattered nails.\n[Shot 2] At 00:05.600, Closer on the box in her hands: the dust on the lid is broken by her grip and a clean hand print shows on the metal, while the ceiling tube keeps the box, her forearms and the whole aisle evenly and openly lit.",
+  "soundscape": "The box lifting off metal, dust falling, her coat and apron shifting, the tube's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t74",
+  "scene": "4-3",
+  "title": "摇了摇",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "She gives the tin box one small shake, just enough to move whatever is inside it.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting and holding the tin box with both hands; 小罗 (S7) behind her.\n[Shot 1] Medium close on 苏小满 (S1) squatting: she gives the tin box one small, controlled shake, just enough to move whatever is inside it, then stops; her elbows stay close to her body and the torch lies on the shelf behind, its beam still crossing the corner.\n[Shot 2] At 00:04.600, Closer on the box in her hands as the movement ends: her hands hold it still again, a faint trace of dust sifts down past them, and the ceiling tube keeps the whole shot open and evenly lit.",
+  "soundscape": "The soft rattle of something loose inside the tin, dust sifting, the tube humming, her breathing.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t75",
+  "scene": "4-3",
+  "title": "盒子里轻轻响了一声",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "Very close on the box: something inside shifts and rolls once with a small light sound, then stops.",
+  "shots": "Entry state, re-anchored to the reference images: the tin box held in 苏小满 (S1)'s hands in the aisle, the torch on the shelf behind.\n[Shot 1] Close on the tin box in her hands: something inside shifts and rolls once with a small light sound and then stops dead; the top two thirds are her hands and the box, the bottom third the concrete floor; the ceiling tube and the torch behind keep every plane of the metal and her fingers evenly lit.\n[Shot 2] At 00:05.000, The same close held after the movement has stopped: the box is perfectly still in her grip, her fingers have not tightened, and the dusty aisle behind stays open and readable.",
+  "soundscape": "One small rolling rattle from inside the tin, then quiet, her held breath, the tube's hum.",
+  "music": "A single low string note, held and unresolved."
+ },
+ {
+  "id": "ep04_t76",
+  "scene": "4-3",
+  "title": "她停住了",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) stops moving; something shifts in her eyes, and her hands do not tighten — she only steadies the box more securely.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting and holding the tin box still; 小罗 (S7) behind her.\n[Shot 1] Close on 苏小满 (S1): she stops moving altogether, something shifts in her eyes, and her hands do not tighten on the box — she only steadies it more securely, elbows in, chin slightly down; the ceiling tube keeps the whole front of her face open with soft shadow at the jaw.\n[Shot 2] At 00:05.200, The same close held: her eyes stay on the box, her grip stays gentle and deliberate, and the aisle and the torch-lit corner behind her remain evenly readable.",
+  "soundscape": "Her steadying breath, the tube's hum, a night bird outside the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t77",
+  "scene": "4-3",
+  "title": "放回去",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) sets the tin box back where it was, between the old nails and the coil of rope, and repeats the two stamped words very quietly, her head down.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) squatting and lowering the tin box back onto the bottom shelf; 小罗 (S7) behind her.\n[Shot 1] Medium low in the aisle: 苏小满 (S1) sets the tin box back into its place on the bottom shelf between the old nails and the coil of old rope, and repeats the two stamped words very quietly with her head down, [Chinese] 勿动。\n[Shot 2] At 00:05.200, Closer on her hands letting go: her fingers come off the metal one at a time and the box sits flush on the board, the torch and the ceiling tube keeping the shelf, her hands and her face evenly and softly lit.",
+  "soundscape": "The box meeting the shelf board, her barely audible voice, the tube's hum, night air at the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t78",
+  "scene": "4-3",
+  "title": "灰上的手印",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "Close on the box where it sits back: the thick dust around it is broken by the hand-print of its lift, a clean patch one size lighter than the rest.",
+  "shots": "Entry state, re-anchored to the reference images: the tin box back in its corner on the bottom shelf, a clean hand-print break in the dust around it.\n[Shot 1] Close on the tin box back in its corner on the bottom shelf: the thick dust around it is broken by the hand-print of its lift, a clean patch one size lighter than the surrounding grey, the shape of a hand and the shape of the box both readable in it; the ceiling tube and the torch light the shelf evenly and the concrete floor stays in the bottom third.\n[Shot 2] At 00:05.400, The same close held: the clean patch does not fill in, the dust around it stays thick and grey, and the whole corner of the shelf remains open and readable in two directions.",
+  "soundscape": "Dust settling, the tube's hum, a faint night breeze at the doorway.",
+  "music": "A single low string note, held."
+ },
+ {
+  "id": "ep04_t79",
+  "scene": "4-3",
+  "title": "起身拍灰",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) stands up, beats the dust off the front of her work clothes and steps back half a pace from the shelf.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) standing up in front of the bottom shelf after having put the box back; 小罗 (S7) behind her.\n[Shot 1] Medium in the aisle: 苏小满 (S1) stands up from her squat, beats the dust off the front of her work shirt and apron with both palms and steps back half a pace from the shelf; behind her 小罗 (S7) has shifted his weight off the shelving; the ceiling tube keeps the whole aisle and both of them evenly lit.\n[Shot 2] At 00:05.000, Closer on her as she finishes brushing off: dust drifts down through the torch beam and her hands come to rest at her sides, her face open and fully readable under the tube.",
+  "soundscape": "Her palms beating on the cloth, dust falling through the beam, the tube humming, the doorway's air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t80",
+  "scene": "4-3",
+  "title": "又看了那盒子一眼",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "苏小满 (S1) looks back at the tin box once — just once, less than two seconds — and then goes on.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) standing half a pace back from the bottom shelf, looking back at the tin box; 小罗 (S7) behind her nearer the doorway.\n[Shot 1] Medium close on 苏小满 (S1) as she looks back at the tin box on the bottom shelf: just once, less than two seconds, her head turned over her shoulder and her eyes on it; behind her 小罗 (S7) is already turning away towards the doorway; the tube light and the torch keep the box and her face both plainly visible.\n[Shot 2] At 00:04.600, Closer on her eyes as she turns away from the look: her gaze comes off the box and back ahead, her jaw stays set, and the aisle around her stays open and evenly lit.",
+  "soundscape": "Her coat shifting as she turns, the tube's hum, his footsteps starting towards the door.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t81",
+  "scene": "4-3",
+  "title": "小罗伸了个懒腰",
+  "refs": [
+   "xiaoluo",
+   "suxiaoman",
+   "lu_storage"
+  ],
+  "retention": {
+   "xiaoluo": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "小罗 (S7) has already turned for the door and stretches as he goes, and 苏小满 (S1) turns to follow with the torch still in her hand, its beam sliding along the concrete floor.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) standing half a pace back from the bottom shelf with the torch in her hand; 小罗 (S7) heading for the doorway at the near end of the aisle, stretching as he goes.\n[Shot 1] Medium down the aisle: 小罗 (S7) has already turned for the door and stretches as he walks, arms going up and back; 苏小满 (S1) turns to follow him, the torch still in her hand, its beam sliding along the concrete floor ahead of her; the ceiling tube keeps the whole aisle and both of them generously lit.\n[Shot 2] At 00:05.200, The camera follows them towards the doorway: his stretch comes down, her beam pools on the floor and swings up as she walks, and the courtyard light through the open door widens in front of them.",
+  "soundscape": "His stretch and heavier footsteps, her flat shoes, the torch beam crossing the floor, the tube humming.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t82",
+  "scene": "4-3",
+  "title": "走向亮着的夜",
+  "refs": [
+   "suxiaoman",
+   "xiaoluo",
+   "lu_storage"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaoluo": "fully_preserved",
+   "lu_storage": "weak_reference"
+  },
+  "summary": "The two of them walk one after the other out through the doorway into the lit courtyard night; the tube light above stays on and the whole storage room stays clearly readable behind them.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) and 小罗 (S7) walking one after the other towards the open doorway of the storage room, the torch in her hand; the courtyard lamps outside are on.\n[Shot 1] Wide from inside the room: 苏小满 (S1) and 小罗 (S7) walk one after the other towards the open doorway, her torch beam bouncing along the concrete, the courtyard lamps outside throwing a warm light in over the threshold; the ceiling tube stays on above them and the whole room — the shelves, the floor, the bottom shelf with the tin box — remains clearly readable behind.\n[Shot 2] At 00:05.600, The camera holds inside the room as they pass out through the door into the lit night: she sets the torch down on the bottom shelf beside the tin box as she passes it, its beam staying thrown across the corner, then the doorway's warm light widens across the concrete, and the storage room itself stays open and evenly lit, every shelf still visible.",
+  "soundscape": "Their footsteps crossing the threshold, the night air coming in, the tube humming behind them, a bicycle chain outside.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t83",
+  "scene": "4-3",
+  "title": "盒留原处",
+  "refs": [
+   "lu_storage"
+  ],
+  "retention": {
+   "lu_storage": "weak_reference"
+  },
+  "summary": "Close on the bottom shelf: the tin box sits quietly between the old nails and the coil of rope, and the clean hand-print in the dust around it begins to settle back over.",
+  "shots": "Entry state, re-anchored to the reference images: the tin box on the bottom shelf of the storage room after the two of them have gone out; the torch lies on the shelf where she set it down on her way past, its beam still thrown across the corner.\n[Shot 1] Close on the bottom shelf of the storage room: the tin box sits quietly between the scatter of old nails and the coil of old rope, and the clean hand-print in the dust around it has begun to settle back over; the torch lies on the shelf where she set it down on her way past, still throwing its beam across the corner, and the ceiling tube keeps every shelf, the floor and the box evenly and clearly lit.\n[Shot 2] At 00:06.000, The same close held as the scene settles: the dust slowly closing over the hand-print, the box unmoving, and the whole aisle behind it open, bright and readable to the doorway.",
+  "soundscape": "The fluorescent tube's steady hum, dust settling, night air moving through the open doorway.",
+  "music": "A low string entry with one heavy accent, then held low."
+ }
+]

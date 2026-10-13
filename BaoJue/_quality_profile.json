@@ -1,0 +1,18 @@
+{
+ "name": "hd_turbo8",
+ "p": {
+  "steps": 8,
+  "sch": "simple",
+  "smp": "res_multistep",
+  "ref": "match",
+  "mp": 0.75,
+  "dlast": 0,
+  "refprot": "Off",
+  "tail": false,
+  "stabilize": false,
+  "unet": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+  "vae": "minimax_h3_video_vae_int8_convrot.safetensors",
+  "lora": "minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+  "lora_s": 1.0
+ }
+}

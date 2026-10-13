@@ -1,0 +1,299 @@
+[
+ {
+  "id": "ep05_t101",
+  "scene": "5-3b",
+  "title": "跑下台阶站住",
+  "refs": [
+   "zhongshu",
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Wide at the street doorway: the old block's doorway, the half-open metal gate with the stairwell light coming through the gap, the old street lamp overhead throwing a warm yellow pool on the doorstep, the bicycle and the old flyers on the wall; 忠叔 (S18) stands under the lamp above the steps and 苏小满 (S1) comes down the stairwell and stops at the foot of the steps; the night is lit.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) standing under the lamp on the steps; 苏小满 (S1) arriving at the foot of the steps\n[Shot 1] Wide at the street doorway of the old low-rise block: the doorway opening, the half-open metal gate with the stairwell light glowing through the gap, the old street lamp directly overhead throwing a warm yellow pool over the doorstep, a bicycle leaning against the wall beside the gate and a few old flyers pasted on the plastered wall; up on the steps under the lamp stands 忠叔 (S18) in a dark grey front-buttoned jacket with a ring of old brass keys at his waist, stooped; 苏小满 (S1) comes down the stairwell and stops at the foot of the steps; the bottom third is the concrete steps and the worn bare ground, and the night is lit rather than dark.\n[Shot 2] At 00:06.000, 苏小满 (S1)'s feet stop on the ground below the steps; 忠叔 (S18) does not move.",
+  "soundscape": "A street lamp's electrical hum, a key ring moving once at his waist, the stairwell light through the gate gap.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t102",
+  "scene": "5-3b",
+  "title": "忠叔开口",
+  "refs": [
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close under the lamp: 忠叔 (S18) stands in the warm yellow light coming down from above, his back stooped and his head habitually pushed forward; he looks at her for a long time before he gets the two words out — not loud, the tail a little dry; the ring of old brass keys at his waist gives back a glint of light.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) under the lamp on the steps, head pushed forward\n[Shot 1] Close under the old street lamp: 忠叔 (S18) stands in the warm yellow light coming down from above, which lights his face and shoulders clearly, his back stooped and his head pushed forward out of habit; he looks at her for a long time before he gets the two words out; the ring of old brass keys at his waist gives back a small glint in the lamplight; the street lamp, the stairwell light and the street lamps are all on and his whole figure reads clearly.\n[Shot 2] At 00:05.000, 忠叔 (S18) speaks, [Chinese] 姑娘。\n[Shot 3] At 00:07.500, He keeps his head pushed forward and his eyes on her.",
+  "soundscape": "A street lamp's hum, his dry two words, keys shifting at his waist.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t103",
+  "scene": "5-3b",
+  "title": "她停住脚步",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Reverse close on 苏小满 (S1): she has just come down the steps and stands at their foot, a depth step nearer the camera than 忠叔 (S18) is and a little left of centre, breathing slightly; she recognises the face and her feet slow to a stop; the bottom third is the concrete steps and the worn ground.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 苏小满 (S1) at the foot of the steps, breathing slightly, coming to a stop\n[Shot 1] Reverse close on 苏小满 (S1): she has just come down the steps and stands at their foot, a depth step nearer the camera than 忠叔 (S18) is and a little left of centre, breathing slightly; she recognises the face and her feet slow down and stop; the warm lamp light falls on her from above and behind and the stairwell light from the gate gap fills the near side of her face; the bottom third is the concrete steps and the worn bare ground.\n[Shot 2] At 00:05.000, Her breathing slows; her feet stop moving on the ground.",
+  "soundscape": "Her breath slowing, the street lamp's hum, a distant door.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t104",
+  "scene": "5-3b",
+  "title": "您是忠叔",
+  "refs": [
+   "suxiaoman",
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the foot of the steps: 苏小满 (S1) says it steadily, though she herself pauses half a beat on the words about the doorman; she looks up at the old man under the lamp with both hands still held above her knees from the run; 忠叔 (S18) is in the foreground under the lamp and she is a step nearer the camera, the two of them overlapping in depth.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) in the foreground under the lamp; 苏小满 (S1) at the foot of the steps, nearer the camera\n[Shot 1] Over-the-shoulder at the foot of the steps: 苏小满 (S1) says it steadily, though on the words about the doorman she herself pauses half a beat first; she looks up at the old man under the lamp with both hands still held above her knees from the run; 忠叔 (S18) stands in the foreground under the lamp and she is a step nearer the camera, so the two of them overlap in depth up the steps and are never side by side; the lamp and the stairwell light are both on and both faces are readable.\n[Shot 2] At 00:05.000, 苏小满 (S1) speaks, [Chinese] 您是，老爷子家看门的忠叔。\n[Shot 3] At 00:08.500, She keeps her hands above her knees and looks up at him.",
+  "soundscape": "Her steady question, the street lamp's hum, keys at his waist.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t105",
+  "scene": "5-3b",
+  "title": "他抬眼看她",
+  "refs": [
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Reverse close on 忠叔 (S18): he does not answer at once, his clouded old eyes lift to look at her once and his Adam's apple moves; the warm lamp light brings out the lines on his face very clearly.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) under the lamp on the steps, eyes lifting\n[Shot 1] Reverse close on 忠叔 (S18): he does not answer at once, his clouded old eyes lift to look at her once and his Adam's apple moves; the warm yellow light of the old street lamp brings out the lines on his face very clearly and the stairwell light fills the near side; the whole figure is evenly lit and readable, the night around him being lit rather than dark.\n[Shot 2] At 00:05.000, He holds her gaze for a beat and does not speak.",
+  "soundscape": "A swallow in his throat, the street lamp's hum, the stairwell light's buzz.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t106",
+  "scene": "5-3b",
+  "title": "也开车的",
+  "refs": [
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close under the lamp: 忠叔 (S18) slowly shakes his head, and as he says it his gaze leaves her face and goes to the far end of the street; the four words about driving come out very lightly, as if fished out of something long gone; he coughs once and draws his gaze back.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) under the lamp, head shaking, gaze moving to the far street\n[Shot 1] Close under the old street lamp: 忠叔 (S18) slowly shakes his head, and as he says it his gaze leaves her face and goes to the far end of the street; the four words about driving come out very lightly, as if fished out of something long gone that nobody has mentioned; the warm lamp light holds the lines on his face; the lamps along the street are on all the way into the distance.\n[Shot 2] At 00:05.000, 忠叔 (S18) speaks, [Chinese] 看门的。也开车的。\n[Shot 3] At 00:08.500, He coughs once and draws his gaze back to her.",
+  "soundscape": "A slow cough, his dry voice, the street lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t107",
+  "scene": "5-3b",
+  "title": "目光下移",
+  "refs": [
+   "zhongshu",
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close along 忠叔 (S18)'s gaze: his eyes move down from 苏小满 (S1)'s face — past her jaw, past her neck; the depth of the shot has his old eyes in front at one side and her collar behind, and one downward line of sight pins the two together.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18)'s old eyes in the foreground, 苏小满 (S1)'s collar behind him in depth\n[Shot 1] Close along the line of 忠叔 (S18)'s gaze: his eyes move down from the face of 苏小满 (S1) — past her jaw, past her neck; the depth of the shot has his old eyes in front at one side of frame and her collar behind, and one downward line of sight pins the two of them together; the warm lamp light falls on both and the street lamp, the stairwell light and the street lamps are all on.\n[Shot 2] At 00:05.000, The downward look stops at her collar and stays there.",
+  "soundscape": "The street lamp's hum, his breath, a distant door.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t108",
+  "scene": "5-3b",
+  "title": "领口那截旧红绳",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close landing on the collar: the collar of her plain light jacket is open a little and between the stand collars of her work clothes a short length of old red cord shows, its knot rubbed furry; the warm lamp light lands on that short length of cord and shows that old colour very clearly.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 苏小满 (S1)'s collar with the old red cord showing at her chest\n[Shot 1] Close landing on her collar: the collar of 苏小满 (S1)'s plain light jacket is open a little and between the stand collars of her work clothes a short length of old red cord shows, its knot rubbed furry from wear; the warm yellow light of the street lamp lands on that short length of cord and shows that old colour very clearly; the street lamp, the stairwell light and the street lamps are all on and the whole frame is warm and clearly readable.\n[Shot 2] At 00:05.000, The cord stays where it is; the lamplight holds on it.",
+  "soundscape": "The street lamp's hum, a faint fabric shift, a very long held quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t109",
+  "scene": "5-3b",
+  "title": "这条绳我见过",
+  "refs": [
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close under the lamp: 忠叔 (S18)'s voice goes hoarse and he starts himself with the line — as if it had been held in too long and he was not ready for it even as it left him; the hand on his arm, its back covered with old age spots, lifts to point vaguely and then drops again.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) under the lamp, one hand lifting and dropping\n[Shot 1] Close under the old street lamp: the voice of 忠叔 (S18) goes hoarse and he gives a small start on the line — as if it had been held in too long and he was not ready for it even as it left him; the hand on his arm, its back covered with old age spots, lifts to point vaguely at her and then drops back to his side; the warm lamp light is even on his face and the keys at his waist hang still.\n[Shot 2] At 00:05.000, 忠叔 (S18) speaks, [Chinese] 这条绳，我见过。\n[Shot 3] At 00:08.500, His hand has dropped; he stays under the lamp and looks at her.",
+  "soundscape": "His hoarse voice, the street lamp's hum, a key shifting once.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t110",
+  "scene": "5-3b",
+  "title": "她眼睛抬起来",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Reverse close on 苏小满 (S1): her eyes lift at once and fix straight on 忠叔 (S18) — she has understood the weight of the sentence; the lamp light lights her face very clearly, her lips do not move and her eyes change first.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 苏小满 (S1) at the foot of the steps, eyes lifting onto 忠叔 (S18)\n[Shot 1] Reverse close on 苏小满 (S1): her eyes lift at once and fix straight on 忠叔 (S18) standing above her on the steps — she has understood the weight of the sentence; the warm street lamp light falls on her face and lights it very clearly, her lips do not move and her eyes change before anything else does; the stairwell light from the gate gap fills the near side of her face and the whole figure reads clearly.\n[Shot 2] At 00:05.000, Her eyes stay fixed on him and her lips stay closed.",
+  "soundscape": "Her steady breath, the street lamp's hum, the stairwell light's buzz.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t111",
+  "scene": "5-3b",
+  "title": "整个人僵住",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close on 苏小满 (S1)'s face: she is frozen where she stands — her lashes stop and do not blink, her throat gathers in once and her shoulders forget to move; the warm lamplight falls on half her face and the street lamp sits as a small shape in her pupils.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 苏小满 (S1) at the foot of the steps, frozen in place\n[Shot 1] Close on the face of 苏小满 (S1): she is frozen where she stands — her lashes stop and do not blink, her throat gathers in once and her shoulders forget to move; the warm yellow lamplight falls on half her face and the old street lamp sits as a small bright shape in her pupils; the night around her is lit by the lamp, the stairwell light and the street lamps, and her face is clearly readable.\n[Shot 2] At 00:05.000, She does not move; the lamplight holds on her.",
+  "soundscape": "A very long held quiet, her breath stopping, the street lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t112",
+  "scene": "5-3b",
+  "title": "明晚九点修车铺",
+  "refs": [
+   "zhongshu",
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close under the lamp: 忠叔 (S18) says it word by word as if afraid she will not remember; he leans his body forward a little and the ring of old brass keys at his waist moves with him; his eyes do not go to her cord again, they go straight into her eyes.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) under the lamp leaning forward; 苏小满 (S1) at the foot of the steps\n[Shot 1] Close under the old street lamp: 忠叔 (S18) says it word by word as if afraid she will not remember it; he leans his body forward a little and the ring of old brass keys at his waist moves with him; his eyes do not drop to her cord again, they go straight into her eyes; the place he names is only mentioned in the line and nothing of it appears in the frame, the shot staying on him under the lamp with the lit street behind.\n[Shot 2] At 00:03.800, 忠叔 (S18) speaks, [Chinese] 明晚九点，城东快活巷口。我侄子开的修车铺。\n[Shot 3] At 00:09.000, He holds his eyes in hers and stays leaning forward.",
+  "soundscape": "His careful voice, keys moving at his waist, the street lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t113",
+  "scene": "5-3b",
+  "title": "很轻地点头",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Reverse close on 苏小满 (S1): she listens and nods once — very slightly, almost not there; she is still standing at the foot of the steps and has not moved forward; the bottom third is the concrete steps and her shoe tips.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 苏小满 (S1) at the foot of the steps, nodding very slightly\n[Shot 1] Reverse close on 苏小满 (S1): she listens and nods once — very slightly, almost not there; she is still standing at the foot of the steps and has not moved forward a step; the warm lamp light falls on her from above and the stairwell light fills the near side of her face; the bottom third is the concrete steps and her shoe tips and the whole figure is clearly readable.\n[Shot 2] At 00:05.000, The nod finishes and she stays exactly where she is.",
+  "soundscape": "A long held quiet, her breath, the street lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t114",
+  "scene": "5-3b",
+  "title": "憋了十五年",
+  "refs": [
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Close under the lamp: 忠叔 (S18) says the last line very low with the three words about fifteen years bitten down hardest; when it is done he takes his gaze off her face and looks towards the doorway as if he were already moving away; the warm lamplight lays his shadow on the steps.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) under the lamp, gaze moving off her towards the doorway\n[Shot 1] Close under the old street lamp: 忠叔 (S18) says the last line very low with the three words about fifteen years bitten down hardest; when it is done he takes his gaze off her face and looks towards the street doorway as if he were already moving away; the warm yellow lamplight lays his shadow back along the concrete steps and the whole figure stays clearly readable.\n[Shot 2] At 00:05.000, 忠叔 (S18) speaks, [Chinese] 有些话，我憋了十五年了。\n[Shot 3] At 00:08.500, His gaze stays off her and towards the doorway; his body starts to turn.",
+  "soundscape": "His lowest line, the street lamp's hum, keys at his waist.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t115",
+  "scene": "5-3b",
+  "title": "转身往街口走",
+  "refs": [
+   "zhongshu",
+   "rental_gate"
+  ],
+  "retention": {
+   "zhongshu": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Medium: 忠叔 (S18) turns round with his back to 苏小满 (S1) and walks towards the far end of the street — his back is stooped but his steps are quick; the lamplight lights his back first and then pushes him further away down the frame; the bottom third is the worn ground.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) turning away and walking towards the far end of the street\n[Shot 1] Medium: 忠叔 (S18) turns round with his back to 苏小满 (S1) and walks towards the far end of the street — his back is stooped but his steps are quick; the lamplight lights his back first and then pushes him further away into the depth of frame; the lamps along the street are on all the way so his receding figure stays readable; the bottom third is the worn bare ground.\n[Shot 2] At 00:05.500, He walks further down the street and gets smaller; the keys at his waist move with each step.",
+  "soundscape": "Quick flat steps on worn ground, keys jingling, the street lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t116",
+  "scene": "5-3b",
+  "title": "手虚碰领口那根绳",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Medium at the foot of the steps: 苏小满 (S1) is still standing where she was, her gaze following 忠叔 (S18)'s back; one of her hands has risen to her collar and her fingertips touch the outside of that cord lightly — she does not dare touch it properly; the wind lifts the hem of her jacket.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 苏小满 (S1) at the foot of the steps, watching him go, fingertips at her collar\n[Shot 1] Medium at the foot of the steps: 苏小满 (S1) is still standing where she was and her gaze follows the back of 忠叔 (S18); one of her hands has risen to her collar and her fingertips touch the outside of that old cord lightly — she does not dare touch it properly; the wind lifts the hem of her jacket; the warm lamp light is on her from above and the stairwell light from behind, and the steps and the ground hold the bottom third.\n[Shot 2] At 00:05.500, Her fingertips stay on the outside of the cord without pressing; her feet do not move.",
+  "soundscape": "Wind in her jacket, his keys jingling away, the street lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t117",
+  "scene": "5-3b",
+  "title": "本集收尾",
+  "refs": [
+   "suxiaoman",
+   "rental_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "rental_gate": "weak_reference"
+  },
+  "summary": "Wide closing on the street doorway: the old block's doorway — the concrete steps, the half-open metal gate, the bicycle leaning beside it and the old flyers on the wall all lit in the warm yellow of the old street lamp; the stairwell light is on too; 忠叔 (S18)'s back has gone far off and 苏小满 (S1) stands alone at the foot of the steps; the bottom third is the concrete steps and the ground.",
+  "shots": "Entry state, re-anchored to the reference images: the old residential block's street doorway at the FAR end of the depth axis and a little left of centre, two or three worn concrete steps up to a half-open metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched on and throwing a warm yellow pool over the doorstep; the concrete steps and the ground along the bottom third; 忠叔 (S18) up on those steps under the lamp, above and beyond 苏小满 (S1), in the middle-ground right of centre; 苏小满 (S1) at the foot of the steps in the near half a little left of centre, one depth step nearer the camera; a bicycle leaning against the wall beside the gate and a few old flyers on the wall; it is night and the street lamp, the stairwell light and the lamps along the street are all on; 忠叔 (S18) gone far off; 苏小满 (S1) alone at the foot of the steps\n[Shot 1] Wide closing on the street doorway of the old low-rise block: the concrete steps, the half-open metal gate, the bicycle leaning against the wall beside it and the old flyers pasted there are all lit in the warm yellow of the old street lamp, and the stairwell light is on as well; 忠叔 (S18)'s back has gone far off down the street and 苏小满 (S1) stands alone at the foot of the steps in the near half; the bottom third is the concrete steps and the worn ground, and the night is lit rather than dark.\n[Shot 2] At 00:07.000, She stands still at the foot of the steps and the doorway holds its light.",
+  "soundscape": "The street lamp's hum, the stairwell light's buzz, his keys jingling far off, then the open night taking over.",
+  "music": "A low string rises and lifts once, then holds suspended."
+ }
+]

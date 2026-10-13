@@ -1,0 +1,300 @@
+==================== seg105 ====================
+[REFS] zhangzong / suxiaoman / qianjingli / office_close
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands just inside the LEFT door of the office with the cardboard box on her hip; 张总 (S10) is in front of her mid-room; 钱经理 (S3) stands behind the desk where the printed resignation form lies face up; the office is bright and quiet.
+[Shot 1] Medium: 张总 (S10) steps a half pace closer, drops his voice into something coaxing and unreasonable, and speaks in a soft hurried Mandarin, both hands up as if soothing a child: [Chinese] 苏小姐，您别赌气……
+[Shot 2] At 00:05.400, close on 苏小满 (S1): she is not listening to the coaxing at all. She looks past him at the form on the desk and says it in her ordinary low Mandarin, as a request: [Chinese] 辞工单，给我。
+[Shot 3] At 00:08.400, wide: 张总 (S10) stops mid-gesture; behind him 钱经理 (S3) flinches, and 张总 (S10) turns his head and glares at him.
+[Shot 4] At 00:09.800, hold on the form on the desk. Nobody else speaks.
+
+overall_soundscape: A soft coaxing voice, the cardboard box shifting, one flat request, then a chair scraping as the manager moves.
+
+non_diegetic_music: N/A
+
+==================== seg106 ====================
+[REFS] suxiaoman / qianjingli / zhangzong / office_close
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands just inside the LEFT door with the box; 钱经理 (S3) is behind the desk with the printed resignation form in front of him; 张总 (S10) stands mid-room watching them both.
+[Shot 1] Medium: 钱经理 (S3) stays on the far side behind the desk; he picks the form up and holds it out flat in both hands, level as a tray, across the desk toward her, and 苏小满 (S1) walks the two steps in from the doorway to the desk edge to take it.
+[Shot 2] At 00:04.000, close two hands: 苏小满 (S1) takes the form, sets the cardboard box on the desk edge, and takes a ballpoint pen off the desktop.
+[Shot 3] At 00:06.400, extreme close-up on the bottom of the form: her hand writing her own name in the final box in small, upright, very even characters.
+[Shot 4] At 00:07.200, 苏小满 (S1) straightens, hands the form back to 钱经理 (S3) with both hands, and says it in her flat low Mandarin: [Chinese] 字，我自己写的。 Hold on the signed line as the beat ends.
+
+overall_soundscape: A form changing hands, a box set on a desk, a ballpoint scrawling on paper, then one flat sentence in a still room.
+
+non_diegetic_music: A quiet low piano figure.
+
+==================== seg107 ====================
+[REFS] suxiaoman / zhangzong / qianjingli / office_pano
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands beside the desk with the signed form just handed back and her cardboard box on the desk edge; 钱经理 (S3) is behind the desk; 张总 (S10) is mid-room; the LEFT door stands open to the bright corridor.
+[Shot 1] Close: 苏小满 (S1) turns back and looks at the cardboard box for a beat before she speaks, her hand resting on its open flap.
+[Shot 2] At 00:03.000, she lifts the box to her chest, squares her shoulders and says it in her low even Mandarin, without bitterness or appeal: [Chinese] 工钱，该多少，是多少。多一分，我不要。
+[Shot 3] At 00:08.600, she turns and walks out through the LEFT door into the corridor; 张总 (S10) opens his mouth to say something and does not manage it.
+[Shot 4] At 00:09.600, hold on the open doorway behind her, the two men left standing in the office. Nobody else speaks.
+
+overall_soundscape: One calm statement, her unhurried footsteps leaving over tile, the box brushing the doorframe, then the office behind her going quiet.
+
+non_diegetic_music: A warm low string line following her out of the room.
+
+==================== seg108 ====================
+[REFS] suxiaoman / xiaoluo / lobby_1f / building_exterior
+Entry state, new location, taken from the reference images: 苏小满 (S1) is inside the lift coming down with her cardboard box; 小罗 (S7) and a file of eight suited men are already crossing the ground-floor lobby from the glass doors on the LEFT of frame toward the lift bank; the reception counter is on the RIGHT; outside, the bright paved forecourt in front of 景宸大厦 with its row of black sedans along the kerb.
+[Shot 1] Exterior wide: several cars pull up to the kerb in a line, one after another; brake lights bloom; the last one has barely stopped.
+[Shot 2] At 00:03.400, all the doors open almost at the same instant; men in dark suits step out and close them in unison, then walk in a body toward the frosted-glass entrance doors.
+[Shot 3] At 00:05.800, interior: they cross the lobby in step; 前台 (S12) behind the reception counter rises half out of her chair and stops talking mid-sentence; two people waiting by the lifts step back against the wall to clear the way.
+[Shot 4] At 00:08.400, 苏小满 (S1) comes out of the lift into the lobby carrying her cardboard box, and the file of men is already coming straight at her along the lobby. Nobody speaks in this beat.
+
+overall_soundscape: Brake squeal and tyres on paving, multiple car doors opening and thudding shut, synchronized footsteps crossing a hard lobby floor, the lobby's background hush.
+
+non_diegetic_music: A low driving percussion figure, urgent and expensive.
+
+==================== seg109 ====================
+[REFS] suxiaoman / xiaoluo / lobby_1f / building_exterior
+Entry state, re-anchored to the reference images: 苏小满 (S1) has just come out of the lift on the far side of the bright lobby carrying her cardboard box; 小罗 (S7) and the suited men are walking toward her along the lobby, the reception counter is on the RIGHT of frame, the glass wall on the LEFT.
+[Shot 1] Medium: 小罗 (S7) stops dead one step in front of her; the men behind him stop in the same instant and close up one behind another in file at his back, stacked in depth.
+[Shot 2] At 00:01.600, closer on 小罗 (S7) as he bends his head to her in a small courteous bow and speaks in his quiet unhurried Mandarin: [Chinese] 苏小姐。又见面了。
+[Shot 3] At 00:05.600, he adds the second half, evenly, watching her face: [Chinese] 今天的事，陆总都知道。
+[Shot 4] At 00:09.200, wide of the lobby: everyone in it has stopped and turned to look — the receptionist behind the counter, passers-by, the security guard by the lifts. 苏小满 (S1) says nothing yet.
+
+overall_soundscape: Many leather soles stopping at once, a quiet courteous voice in a big stone lobby, then the whole lobby going still around them.
+
+non_diegetic_music: A low horn note under the bow.
+
+==================== seg110 ====================
+[REFS] suxiaoman / xiaoluo / lobby_1f
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands in the middle of the bright lobby with the cardboard box against her chest; 小罗 (S7) faces her one step away with the line of suited men behind him; the crowd around the lobby has stopped to watch.
+[Shot 1] Medium: 苏小满 (S1) looks 小罗 (S7) over once, from his collar to his shoes, with no surprise at all, and says it in her low flat Mandarin, half sigh and half statement: [Chinese] ……又是你们。
+[Shot 2] At 00:04.600, tight on 小罗 (S7): he does not react to the tone at all; his face stays exactly as courteous as before.
+[Shot 3] At 00:06.400, wide: every single head in the lobby is up. Someone at the lift bank whispers to someone else and is hushed.
+[Shot 4] At 00:09.000, hold on her. Nobody else speaks.
+
+overall_soundscape: One flat quiet line in a lobby that has gone completely quiet, a whisper travelling and dying, footsteps halted mid-step.
+
+non_diegetic_music: N/A
+
+==================== seg111 ====================
+[REFS] xiaoluo / suxiaoman / lobby_1f / building_exterior
+Entry state, re-anchored to the reference image: 小罗 (S7) stands one step in front of 苏小满 (S1) in the middle of the bright lobby; she holds the cardboard box; the suited men are in a line behind him; the lobby crowd is watching.
+[Shot 1] Medium: 小罗 (S7) turns slightly so that he is speaking partly to the room, and delivers the invitation in the same quiet courteous Mandarin, gesturing once toward the glass doors and the street beyond:
+[Shot 2] At 00:02.800, closer on his face: [Chinese] 陆家的车，在楼下。我们陆总，请您走一趟。
+[Shot 3] At 00:09.200, cut wide to the lobby: nobody moves. Beyond the glass wall on the LEFT of frame the black sedans are standing at the kerb, visible from inside.
+[Shot 4] At 00:09.800, hold on 苏小满 (S1). Nobody else speaks.
+
+overall_soundscape: One quiet courteous invitation, then a lobby in which nothing at all is making a sound except the air handling.
+
+non_diegetic_music: A low sustained string note.
+
+==================== seg112 ====================
+[REFS] suxiaoman / xiaoluo / lobby_1f / building_exterior
+Entry state, re-anchored to the reference image: 苏小满 (S1) faces 小罗 (S7) in the middle of the bright lobby, the cardboard box in her arms; the line of suited men behind him; the watching crowd around the edges of frame.
+[Shot 1] Close: 苏小满 (S1) looks straight at 小罗 (S7) and says the first one in her low flat Mandarin, stating it rather than accusing: [Chinese] 昨天，他们要搜我的兜。
+[Shot 2] At 00:05.000, 苏小满 (S1) goes on without pausing, still perfectly level: [Chinese] 今天，他们要我签单走人。
+[Shot 3] At 00:09.000, tight on 小罗 (S7) listening to it without interrupting, without excusing it and without defending anyone.
+[Shot 4] At 00:09.800, hold. Nobody else speaks.
+
+overall_soundscape: Two flat quiet statements in a still stone lobby, the air handling, one person in the crowd shifting their feet.
+
+non_diegetic_music: N/A
+
+==================== seg113 ====================
+[REFS] suxiaoman / xiaoluo / lobby_1f / building_exterior
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands facing 小罗 (S7) in the middle of the bright lobby with the box against her chest; the glass entrance wall is on the LEFT of frame with the black cars beyond it.
+[Shot 1] Close: 苏小满 (S1) finishes it in her low flat Mandarin, with one small nod as if confirming a fact to herself as much as to 小罗 (S7): [Chinese] 单子，我自己写的。
+[Shot 2] At 00:05.000, she walks straight past him — he steps aside for her without being asked — and heads for the glass doors on the LEFT.
+[Shot 3] At 00:07.200, out through the doors: the camera holds inside the lobby as she crosses the glass, and behind her the whole lobby is watching her go.
+[Shot 4] At 00:09.000, pan along the interior windows and the corridor beyond: at every doorway and behind every strip of glass, faces are turned toward her. Nobody speaks in this beat.
+
+overall_soundscape: One flat sentence, her unhurried footsteps crossing a big stone floor and then polished paving outside, plus the hush of a lobby full of people saying nothing.
+
+non_diegetic_music: A warm low string line rising as she walks out.
+
+==================== seg114 ====================
+[REFS] xiaotang / suxiaoman / building_exterior / lobby_1f
+Entry state, taken from the reference images: outside, the bright paved forecourt with the row of black sedans along the kerb and the tower's entrance behind, 苏小满 (S1) already out on the paving a few paces clear of the doors with her cardboard box; the beat opens on one short cutaway back inside, then stays outside.
+[Shot 1] Close, cutting back upstairs to the third floor: 小唐 (S4) is pressed into the office doorframe in the corridor, head buried, shoulders hunched, peering out past the jamb after her.
+[Shot 2] At 00:02.800, outside on the forecourt: 苏小满 (S1) walks the last few paces further out into the open middle of the paving with the cardboard box in her arms, and stops.
+[Shot 3] At 00:05.400, a uniformed driver steps forward, opens the rear door of the nearest black sedan and stands holding it open, head bowed.
+[Shot 4] At 00:07.600, close on her feet on the bright paving, not moving yet, the open car door reflected in the polished black flank of the car. Nobody speaks in this beat.
+
+overall_soundscape: A glass door sliding, a car door opening with a soft expensive clunk, the wind across an open forecourt, distant street traffic.
+
+non_diegetic_music: A quiet low piano figure, undecided.
+
+==================== seg115 ====================
+[REFS] suxiaoman / xiaoluo / building_exterior / lobby_1f
+Entry state, re-anchored to the reference image: outside on the bright forecourt, 苏小满 (S1) stands in front of the open rear door of a black sedan with the cardboard box in her arms; the driver holds the door; 小罗 (S7) has followed her out and stands half a step behind her LEFT shoulder; the row of black cars stretches along the kerb.
+[Shot 1] Medium: 苏小满 (S1) does not get in. She turns her head toward 小罗 (S7) and asks it in her low even Mandarin, the first time she has asked them anything directly: [Chinese] 你们，到底想干什么。
+[Shot 2] At 00:07.200, closer on 小罗 (S7), who has been waiting for exactly this question.
+[Shot 3] At 00:09.000, hold on the two of them beside the open car door, the bright forecourt around them.
+[Shot 4] At 00:09.800, hold on her face. She is silent, waiting for the answer.
+
+overall_soundscape: An open forecourt with light wind, the tick of a cooling engine, one quiet direct question, the driver's shoes on paving.
+
+non_diegetic_music: N/A
+
+==================== seg116 ====================
+[REFS] xiaoluo / suxiaoman / building_exterior
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the open rear door of the black sedan on the late-afternoon forecourt with the box in her arms; 小罗 (S7) is half a step behind her LEFT shoulder; the driver holds the door.
+[Shot 1] Close on 小罗 (S7): he takes half a step closer and drops his voice so that only she can hear, speaking low and quickly in his courteous even Mandarin: [Chinese] 上车说。
+[Shot 2] At 00:04.000, 小罗 (S7) goes on, still pitched only for her: [Chinese] 您外婆在市一院，八楼。
+[Shot 3] At 00:08.600, tight on 苏小满's (S1) eyes as the ward floor lands.
+[Shot 4] At 00:09.600, hold on her face. She does not answer.
+
+overall_soundscape: A low voice pitched only for her, the forecourt ambience around them, the quiet interior of the car breathing its air conditioning out of the open door.
+
+non_diegetic_music: A low tense string note under the last clause.
+
+==================== seg117 ====================
+[REFS] suxiaoman / xiaoluo / car_interior / building_exterior
+Entry state, re-anchored to the reference images: 苏小满 (S1) stands at the open rear door of the black sedan on the forecourt; 小罗 (S7) is half a step behind her LEFT shoulder; the car interior is visible through the open door — pale-grey leather bench, amber roof lights.
+[Shot 1] Extreme close-up on her eyes: something changes behind them — the same shut, deciding look she had in the office — and it takes less than a second.
+[Shot 2] At 00:02.000, close on 小罗 (S7) as he finishes what he started, still quietly and only for her, in exactly the same voice and at the same pace as the line before: [Chinese] 陆总要谈的事，还是三天前那件。
+[Shot 3] At 00:08.000, medium: she lifts the cardboard box and sets it in on the seat first, then ducks her head and gets in after it.
+[Shot 4] At 00:09.400, the driver closes the rear door behind her with one soft push; 陆蔓 (S8), a composed woman of fifty in a deep-green jacquard silk qipao, is already seated on the LEFT rear seat with one empty place between them and looks out of the far window without turning her head; the car pulls away from the kerb into the late-afternoon light with its tail lights coming on; the next black car in the line moves up to take its place. Nobody else speaks in this beat.
+
+overall_soundscape: A light step onto the door sill, a soft expensive door closing, an engine starting and tyres rolling on paving, a control click somewhere inside the cabin.
+
+non_diegetic_music: The theme returns, low and driving, over the pull-away.
+
+==================== seg118 ====================
+[REFS] suxiaoman / luman / car_interior
+Entry state, new location, much later that night, taken from the reference image: the rear cabin of the moving black sedan seen from the front seats looking back — a wide pale-grey leather rear bench with a central armrest, warm amber courtesy lights along the roof lining, tinted windows with bright city bokeh sliding past outside. 苏小满 (S1) sits in the RIGHT rear seat with the cardboard box upright on her knees; 陆蔓 (S8) sits in the LEFT rear seat, one empty place between them, and has been in the car since it left the tower. 陆蔓 (S8) is a composed woman of fifty in a deep-green jacquard silk qipao.
+[Shot 1] Wide from the front: the car running through the city at night in warm amber light, the city sliding past the tinted glass, her cardboard box standing on her knees, her hands flat on top of it, the seat beside her occupied by a still, composed woman who has not looked at her once.
+[Shot 2] At 00:03.400, 陆蔓 (S8) shifts slightly on the LEFT rear seat and settles back against the leather, one empty place between them; 苏小满 (S1) turns her head just enough to look at her without turning her shoulders.
+[Shot 3] At 00:06.000, closer on 陆蔓 (S8): she does not look back; she keeps her eyes on the window for a moment longer, entirely at ease, one hand resting on the armrest.
+[Shot 4] At 00:08.400, the driver's eyes flick up in the rear-view mirror and away. Nobody speaks in this beat and the engine is the only sound.
+
+overall_soundscape: Quiet expensive cabin: tyre roar on asphalt, a faint air-conditioning draft, the indicator ticking once, distant city outside the glass.
+
+non_diegetic_music: A low warm string bed, unhurried.
+
+==================== seg119 ====================
+[REFS] luman / suxiaoman / car_interior
+Entry state, re-anchored to the reference image: 苏小满 (S1) sits in the RIGHT rear seat with the cardboard box on her knees; 陆蔓 (S8) sits in the LEFT rear seat, one empty place between them; the car is moving, city lights sliding across the tinted glass.
+[Shot 1] Medium two-shot across the empty middle seat: 陆蔓 (S8) turns her head at last and looks at her properly, from the hair down to the box on her knees, and speaks in a low amused unhurried Mandarin, as if thinking out loud: [Chinese] 像。也不像。
+[Shot 2] At 00:04.000, close on 苏小满 (S1): she does not ask what that means; she asks the direct question instead, in her low flat Mandarin: [Chinese] 您是谁。
+[Shot 3] At 00:06.400, closer on 陆蔓 (S8), who does not answer it; the corner of her mouth moves, which is not quite a smile.
+[Shot 4] At 00:09.200, hold on the two of them facing each other across the empty seat. Nobody else speaks.
+
+overall_soundscape: The cabin's quiet, a low female voice, her own flat question, city traffic muted through the glass, the indicator ticking off.
+
+non_diegetic_music: A low piano note under the exchange.
+
+==================== seg120 ====================
+[REFS] luman / suxiaoman / car_interior
+Entry state, re-anchored to the reference image: 陆蔓 (S8) sits in the LEFT rear seat of the moving car facing 苏小满 (S1), who is in the RIGHT rear seat with the box on her knees; warm amber cabin light; city sliding past outside.
+[Shot 1] Medium: 陆蔓 (S8) settles back against the pale leather as she speaks, watching her the whole time, in the same low amused Mandarin, letting the facts do the work: [Chinese] 小罗说，你昨天打了个电话。人到了，你不见。
+[Shot 2] At 00:08.200, close on 苏小满 (S1): she keeps her eyes forward and does not help her.
+[Shot 3] At 00:09.200, tight on 陆蔓's (S8) face, waiting.
+[Shot 4] At 00:09.800, hold. She does not speak again in this beat and neither does 苏小满 (S1).
+
+overall_soundscape: One low amused voice over tyre noise, the box creaking faintly against her knees, the cabin's air conditioning, a horn far away.
+
+non_diegetic_music: N/A
+
+==================== seg121 ====================
+[REFS] luman / suxiaoman / car_interior
+Entry state, re-anchored to the reference image: 陆蔓 (S8) sits in the LEFT rear seat of the moving car, 苏小满 (S1) in the RIGHT rear seat with the cardboard box on her knees, one empty place between them.
+[Shot 1] Medium: 陆蔓 (S8) turns slightly in her seat so that she is squarely facing her, and asks it in the same low unhurried Mandarin: [Chinese] 今天，怎么肯来了。
+[Shot 2] At 00:04.000, close on 苏小满 (S1): she does not dress it up; she answers in her flat low Mandarin with three syllables: [Chinese] 工作没了。
+[Shot 3] At 00:06.600, closer on 陆蔓 (S8): a real, brief, approving smile crosses her face and she says it in a lighter, warmer Mandarin: [Chinese] 实在。
+[Shot 4] At 00:09.000, wide two-shot across the empty seat, both of them looking forward now as the car runs through the city lights. Nobody else speaks.
+
+overall_soundscape: A low question, three flat syllables, a short warm laugh underneath the approval, tyre noise and muted street traffic.
+
+non_diegetic_music: A light low piano phrase under the approval.
+
+==================== seg122 ====================
+[REFS] luman / suxiaoman / car_interior
+Entry state, re-anchored to the reference image: 苏小满 (S1) sits in the RIGHT rear seat of the moving car with the cardboard box on her knees, the thin red cord at her collar; 陆蔓 (S8) sits in the LEFT rear seat, one empty place between them.
+[Shot 1] Medium: 陆蔓 (S8) lifts her chin toward the other woman's throat and asks it in the same low unhurried Mandarin, with the polite form of a request rather than an order: [Chinese] 脖子上那根绳，摘下来，我看看。
+[Shot 2] At 00:06.600, close on 苏小满 (S1): she does not even think about it; she lifts her free hand and presses it flat over the collar of her shirt, covering the cord, and answers in her low flat Mandarin: [Chinese] 我妈给的。不摘。
+[Shot 3] At 00:09.200, closer on 陆蔓 (S8): two fingers of amusement, no offence taken at all.
+[Shot 4] At 00:09.800, hold on the two of them across the empty seat. Nobody else speaks.
+
+overall_soundscape: One low courteous request, cloth rustling as a hand covers a collar, one flat refusal, city traffic through tinted glass.
+
+non_diegetic_music: A single low sustained note under the refusal.
+
+==================== seg123 ====================
+[REFS] luman / suxiaoman / car_interior
+Entry state, re-anchored to the reference image: 苏小满 (S1) sits in the RIGHT rear seat of the moving car with her hand still flat over her collar covering the red cord; 陆蔓 (S8) is in the LEFT rear seat, one empty place between them.
+[Shot 1] Medium: 陆蔓 (S8) looks at the hand over the collar for a beat before she answers, in a low smiling Mandarin, warm on the surface: [Chinese] 不摘好。它有用。
+[Shot 2] At 00:05.400, close on 苏小满 (S1): her eyes come up and settle on the other woman's face; she has heard the second half of that sentence for what it is.
+[Shot 3] At 00:07.400, tighter on 陆蔓 (S8), smiling, entirely comfortable, one finger tapping once on the armrest.
+[Shot 4] At 00:09.400, hold on 苏小满's (S1) face. She says nothing in this beat and neither does anyone else.
+
+overall_soundscape: A low warm voice with something cold in it, one finger tapping leather, tyre noise, a distant siren dying away outside.
+
+non_diegetic_music: A single uneasy high note appearing over the low bed.
+
+==================== seg124 ====================
+[REFS] suxiaoman / luman / car_interior
+Entry state, re-anchored to the reference image: 陆蔓 (S8) sits in the LEFT rear seat of the moving car, 苏小满 (S1) in the RIGHT rear seat with the cardboard box on her knees and the red cord at her collar; one empty place between them.
+[Shot 1] Medium: 苏小满 (S1) turns her head to face her squarely for the first time and asks it in her low even Mandarin, holding the other woman's eyes: [Chinese] 你们找我，到底要干什么。
+[Shot 2] At 00:06.600, closer on 陆蔓 (S8): she answers it without hesitating and without answering it, in the same low amused Mandarin: [Chinese] 到了，你就知道。
+[Shot 3] At 00:09.000, wide two-shot: the car turns and the city lights sweep across both their faces at once.
+[Shot 4] At 00:09.800, hold on 苏小满 (S1). Nobody else speaks.
+
+overall_soundscape: One quiet direct question, one smooth non-answer, tyres on a turn, the indicator ticking, distant city.
+
+non_diegetic_music: N/A
+
+==================== seg125 ====================
+[REFS] luman / suxiaoman / car_interior
+Entry state, re-anchored to the reference image: 苏小满 (S1) sits in the RIGHT rear seat of the moving car; 陆蔓 (S8) in the LEFT rear seat, one empty place between them; the cabin in warm amber light.
+[Shot 1] Close on the armrest between them: 陆蔓's (S8) phone lights up and buzzes twice against the leather.
+[Shot 2] At 00:02.000, 陆蔓 (S8) picks it up, turns her shoulder slightly away and answers it with her voice pitched down, in a low quiet Mandarin — the change of register is the point: [Chinese] 嗯。到了。……底细都翻过了。干净。
+[Shot 3] At 00:08.600, insert: 苏小满's (S1) ear, the only part of her that moves; her head stays perfectly forward and her face gives nothing.
+[Shot 4] At 00:09.600, hold on 陆蔓 (S8) putting the phone back down on the armrest, screen dark. Nobody else speaks.
+
+overall_soundscape: A phone buzzing on leather, a low pitched-down voice close to a microphone, the cabin's air conditioning, city traffic far outside.
+
+non_diegetic_music: A low uneasy string note under the word clean.
+
+==================== seg126 ====================
+[REFS] suxiaoman / luman / alley_gate / car_interior
+Entry state, taken from the reference images: the moving car interior with 苏小满 (S1) in the RIGHT rear seat and 陆蔓 (S8) in the LEFT rear seat; outside, the night alley with the vermilion lacquered double gate at its far end.
+[Shot 1] From outside, wide: the black sedan turns off a lit main road into a narrow old brick alley; the bright city noise drops away to nothing on the cut.
+[Shot 2] At 00:03.200, tracking with the car down the alley: mossy brick walls on both sides, a warm paper lantern glowing at the far end above the tall vermilion gate, the gate itself with its brass studs and stone drums.
+[Shot 3] At 00:06.400, through the rear windscreen, close on 苏小满's (S1) face as she sees it, her cardboard box still upright on her knees.
+[Shot 4] At 00:07.600, from outside: the car stops at the foot of the gate; 小罗 (S7) and two of the suited men are already standing in the alley ahead of it, waiting; a driver's door opens and footsteps come round the back.
+[Shot 5] At 00:09.000, the rear door is opened for her; 苏小满 (S1) ducks her head and steps out onto the stone paving with the cardboard box in her arms, while 陆蔓 (S8) stays exactly where she is on the LEFT rear seat and does not get out. Nobody speaks in this beat.
+
+overall_soundscape: Tyres on cobbles, the engine note dropping to idle, the main road noise cut off behind them, an engine ticking as it stops, one car door opening.
+
+non_diegetic_music: A low horn note under the turn, the theme underneath it.
+
+==================== seg127 ====================
+[REFS] suxiaoman / xiaoluo / alley_gate
+Entry state, re-anchored to the reference image: outside at night, 苏小满 (S1) has just got out of the car and stands on the stone paving in front of the tall vermilion lacquered double gate at the end of the alley, the cardboard box in her arms, one step OUTSIDE the stone threshold; 小罗 (S7) stands half a step behind her LEFT shoulder; the black sedan stands behind them in the alley with 陆蔓 (S8) still inside it; the gate is shut except for a narrow gap of warm light.
+[Shot 1] Medium: she lifts her head and looks up at the gate; a warm shaft of light lies along the gap between the two doors.
+[Shot 2] At 00:02.400, close on the gap in the doorway: inside the compound, a young man's voice (S14) comes through the crack, casual and impatient, entirely unaware he can be heard: [Chinese] 姐，人到了没？……管他真的假的。能签字，就行。 陆航 (S14) stays completely off screen and is never seen in this beat.
+[Shot 3] At 00:08.800, tight on 苏小满's (S1) face as she takes that in; her expression barely moves.
+[Shot 4] At 00:09.800, hold on the warm light in the crack of the gate. 小罗 (S7) says nothing.
+
+overall_soundscape: An old alley at night: damp stone, a paper lantern creaking, and through the crack in the gate a young impatient male voice and a television somewhere deeper inside the house.
+
+non_diegetic_music: A low suspenseful string note under the voice from inside.
+
+==================== seg128 ====================
+[REFS] suxiaoman / xiaoluo / alley_gate
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands one step OUTSIDE the stone threshold of the tall vermilion gate at the end of the night alley, the cardboard box in her arms; 小罗 (S7) stands half a step behind her LEFT shoulder; the gate is shut except for a narrow gap of warm light.
+[Shot 1] Close on her feet on the paving: one shoe comes forward and stops with the toe exactly on the stone threshold, not past it.
+[Shot 2] At 00:02.800, close on her left hand: it leaves the box, comes up to her collar and closes around the thin red cord, holding it tight.
+[Shot 3] At 00:05.400, wide and held: the three seconds. The alley is completely still; the paper lantern glows; the girder of light in the doorway narrows as the wind moves the gate a centimetre.
+[Shot 4] At 00:08.400, tight on her profile: her jaw sets, and she lets go of the cord. Nobody speaks in this beat.
+
+overall_soundscape: Almost nothing but damp night air, the lantern's paper creaking, a distant car, one long breath close to the mic.
+
+non_diegetic_music: A single sustained low string note that holds all three seconds.
+
+==================== seg129 ====================
+[REFS] suxiaoman / xiaoluo / alley_gate
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the stone threshold of the vermilion gate with the cardboard box in her arms, 小罗 (S7) half a step behind her LEFT shoulder, the gate shut except for a shaft of warm light.
+[Shot 1] Medium: 小罗 (S7) steps around to the side of her and holds one hand out toward the opening, bending his head slightly, and says it in his quiet courteous Mandarin: [Chinese] 苏小姐，请。
+[Shot 2] At 00:04.000, close on 苏小满's (S1) face: she does not look at him. She says it very quietly, almost under her breath, repeating what she heard through the gap, and it is the last line of the episode: [Chinese] ……能签字，就行。
+[Shot 3] At 00:06.600, low angle on her feet: she lifts the box, grips it hard with both hands until the cardboard dimples, and steps up over the stone threshold and through into the compound.
+[Shot 4] At 00:08.400, from outside, held: the two vermilion leaves of the gate swing slowly shut on their own weight and close with a soft heavy thud, taking the warm light with them; the empty alley, the lantern, and then nothing. Music out.
+
+overall_soundscape: One quiet courteous word, her own near-whisper, cardboard gripped hard, then the heavy soft thud of a lacquered gate closing and a long evening quiet after it.
+
+non_diegetic_music: A single struck gong, its tail ringing on into the dark. Episode end.

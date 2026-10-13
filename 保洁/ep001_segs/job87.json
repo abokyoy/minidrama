@@ -1,0 +1,12 @@
+{
+ "workflow": null,
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg87_prompt.txt",
+ "out_prefix": "ep01_t87",
+ "ref_dir": "E:\\LLM\\try\\minidrama\\保洁\\assets_soft",
+ "refs": [
+  "char_waipo.png",
+  "char_suxiaoman.png",
+  "sc_hospital_ward.png"
+ ],
+ "prev_video": null
+}

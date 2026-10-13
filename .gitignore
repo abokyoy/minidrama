@@ -1,0 +1,94 @@
+﻿# 本机控制台噪声
+__pycache__/
+*.pyc
+cmi_out.log
+cmi_err.log
+comfy_console.log
+comfy_console.err
+*.tmp
+
+# 参考图生图的原始输出（体积大、可重生成；成品已按逻辑名复制到 assets/ 根目录）
+保洁/assets/_gen/
+
+# ---- 保洁/ 内分析临时产物（可重生成，不入库；且多为大文件）----
+保洁/_abtmp/
+保洁/_ab_ascii/
+保洁/_b2/
+保洁/_cmp/
+保洁/_cmp_tmp2/
+保洁/_frames_ascii/
+保洁/_grade_tmp/
+保洁/_refit_new/
+保洁/_contact_*.jpg
+保洁/_grade_*.jpg
+保洁/hist.json
+保洁/q.json
+保洁/_ep_run.log
+保洁/*.log
+
+# 视频成片（几十GB，入库会把仓库撑爆）
+保洁/_gradetest/
+保洁/out/
+*.mp4
+*.webm
+保洁/logs/
+保洁/*/logs/
+
+# ---- 顶层媒体/分析临时产物（体积大、可重生成，不入库）----
+_ab_ascii/
+_abc_frames/
+_b2/
+_cmp/
+_cmp_tmp2/
+_f303/
+_f316/
+_framecheck/
+_frames_ascii/
+_grade_tmp/
+_tmp_refs/
+_contact_*.jpg
+_grade_*.jpg
+*.log
+
+# ---- 剧本/角色设定等纯内容（非制作过程，不入库）----
+终版剧本/
+第一百三十八个名字_角色设定/
+仙侠剧本/
+大纲.md
+
+# 具体剧集的故事文本（文字剧本/连续脚本/分镜脚本）
+# —— 属「剧本内容」，与 终版剧本/ 同类，不入库；
+#    制作方法论见 skill short-drama-creation 与 docs/业务规则/，已入库
+文字剧本.md
+连续脚本*.md
+分镜脚本.md
+
+# ---- 所有图片/视频等大体积媒体（生成产物、可重生成，一律不入库）----
+# 覆盖散落在 保洁/、BaoJue/ 根目录及子目录中的图片/视频，避免被误提交
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.mp4
+*.webm
+*.mov
+*.avi
+
+# ---- 第三方可执行程序（下载即得，体积大，不入库）----
+# cloudflared 等隧道程序每个 52MB，两份就是 105MB，占仓库 82%
+*.exe
+*.dll
+*.so
+*.dylib
+
+# ---- SQLite 运行时数据（含 -wal / -shm 伴生文件）----
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# ---- 通用工程忽略（面向后续 Electron/SQLite 工程）----

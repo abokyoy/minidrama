@@ -1,0 +1,114 @@
+[
+  {
+    "id": "xs01_t01",
+    "scene": "1-1",
+    "title": "撞门拍桌",
+    "refs": [
+      "qianjingli",
+      "suxiaoman",
+      "xiaotang",
+      "office_pano"
+    ],
+    "retention": {
+      "office_pano": "fully_preserved"
+    },
+    "summary": "Interior of a bright modern property office at midday. EXACTLY THREE PEOPLE are present throughout and the number never changes: a young female cleaner in a navy housekeeping uniform standing still on the near side of a dark wooden desk, a middle-aged male property manager in a white shirt and charcoal waistcoat who strides two paces and slams his palm on the desk, and a young female colleague in a light-grey cleaning uniform standing motionless against the far LEFT corner wall. The left-hand door stays closed and the doorway stays empty — no one enters, no one leaves, no one is duplicated. Venetian-blind light bands fall across the room.",
+    "shots": "Entry state, re-anchored to the reference image: the bright property office of 万山大厦 — the door on the LEFT of frame is a bare closed doorframe with nothing in it, the venetian-blind window and the tall wooden cabinets are on the RIGHT, the chestnut-wooden desk stands across the middle of the room. EXACTLY THREE PEOPLE are present, the same three in every single frame: 苏小满 (S1) in navy housekeeping uniform stands still on the NEAR side of the desk on the RIGHT half of frame with her back to the door; 钱经理 (S3) in a white shirt and charcoal waistcoat stands at the FAR side of the desk with his back to the window; 小唐 (S4) in a light-grey cleaning uniform stands still in the far LEFT corner of frame, flat against the wall, well inside the room and clear of the doorframe. The doorway, the corridor beyond it and the whole right-hand background stay empty of any further person for the entire take. Warm midday light comes through the blinds in long bright bands.\n[Shot 1] Wide, one continuous camera move, no cut: all three people are ALREADY in the room at the very first frame and all three are visible at once — there is NO entrance, nobody walks in, the door stays shut. 钱经理 (S3) strides the two paces from the far side of the door to the far side of the desk, his charcoal waistcoat swinging and nothing pinned to his chest, and comes to a stop. 苏小满 (S1) does not move at all. 小唐 (S4) does not move at all, she stays against the LEFT corner wall with only her eyes moving. The three of them are the only people in frame.\n[Shot 2] At 00:03.000, medium over the desk: 钱经理 (S3) at the far side plants both feet wide, leans forward on straight arms and slams his open palm flat onto the desktop; the palm lands flat against the bare desk. 苏小满 (S1) holds her ground on the near side, still unmoved. 小唐 (S4) is still in the LEFT corner, unmoved. Three people, no more.\n[Shot 3] At 00:04.200, closer on 钱经理's (S3) flushed face as he announces it in a loud nasal Mandarin, filing each item like a charge sheet: [Chinese] 三楼包厢。贵客丢了一只金耳钉。三万八。\n[Shot 4] At 00:08.400, reverse over the desk onto 苏小满 (S1) on the near side, the blind-light barring the wall behind her: she stands perfectly still, both hands loose at her sides, chin level, eyes on him. Her mouth stays closed and she says nothing. 小唐 (S4) is still a small figure in the LEFT corner. The room is empty apart from these three.",
+    "soundscape": "Hard brisk footsteps on the tiled floor, the flat slap of a palm on wood, a chair creaking, the blind slats settling, the buzz of the ceiling fluorescent panels, a wall clock ticking, faint muffled traffic through the blinds.",
+    "music": "N/A",
+    "anchor": "Fixed spatial set-up for this whole take, never change it and never re-arrange: the door is on the LEFT of frame and it STAYS CLOSED AND EMPTY for the entire take — the doorway is a bare doorframe with nothing standing in it and nobody passing through it. There are EXACTLY THREE PEOPLE in this shot, always the same three, never a fourth: 钱经理 (S3), 苏小满 (S1) and 小唐 (S4). Nobody else is in the room, nobody is in the corridor, no bystanders, no onlookers, no staff. 苏小满 (S1) stands on the NEAR side of the desk on the RIGHT half of frame, back to the door, facing the far side, and she NEVER moves from that spot for the entire take. 钱经理 (S3) enters through the LEFT door ONCE in the first two seconds, then STANDS STILL at the far side of the desk for the rest of the take, and he never walks in again. 小唐 (S4) is ALREADY STANDING STILL in the far LEFT corner of frame when the take begins — she never walks in, she never passes through the door, she just stays pressed against that corner wall, in the LEFT third of frame and clearly separate from the doorframe. No person is duplicated, cloned, split into two, or fades in and out. The number of people never increases and never decreases. Never mirror or swap any of this.",
+    "crowd": false,
+    "ref_notes": {
+      "office_pano": "the property office of 万山大厦 seen empty, used for LAYOUT, FURNITURE and DAYLIGHT reference ONLY. Do NOT copy any person, figure, silhouette or body part that happens to be visible in this picture — the people in this shot come only from <Subject 1>, <Subject 2> and <Subject 3>. The room contains no other human being."
+    },
+    "style_pack": "lean",
+    "_lean_shots": "[Shot 1] Wide, one continuous camera move, no cut: all three people are ALREADY in the room at the very first frame and all three are visible at once — there is NO entrance, nobody walks in, the door stays shut. 钱经理 (S3) strides the two paces from the far side of the door to the far side of the desk, his charcoal waistcoat swinging and nothing pinned to his chest, and comes to a stop. 苏小满 (S1) does not move at all. 小唐 (S4) does not move at all, she stays against the LEFT corner wall with only her eyes moving. The three of them are the only people in frame.\n[Shot 2] At 00:03.000, medium over the desk: 钱经理 (S3) at the far side plants both feet wide, leans forward on straight arms and slams his open palm flat onto the desktop; the palm lands flat against the bare desk. 苏小满 (S1) holds her ground on the near side, still unmoved. 小唐 (S4) is still in the LEFT corner, unmoved. Three people, no more.\n[Shot 3] At 00:04.200, closer on 钱经理's (S3) flushed face as he announces it in a loud nasal Mandarin, filing each item like a charge sheet: [Chinese] 三楼包厢。贵客丢了一只金耳钉。三万八。\n[Shot 4] At 00:08.400, reverse over the desk onto 苏小满 (S1) on the near side, the blind-light barring the wall behind her: she stands perfectly still, both hands loose at her sides, chin level, eyes on him. Her mouth stays closed and she says nothing. 小唐 (S4) is still a small figure in the LEFT corner. The room is empty apart from these three."
+  },
+  {
+    "id": "xs01_t02",
+    "scene": "1-1",
+    "title": "点名",
+    "refs": [
+      "qianjingli",
+      "suxiaoman",
+      "office_mid",
+      "office_pano"
+    ],
+    "retention": {
+      "office_mid": "partially_preserved",
+      "office_pano": "fully_preserved"
+    },
+    "summary": "The manager narrows it down to one person, staring across the desk; she denies it flatly and without heat.",
+    "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) is leaning on the far side of the desk with one palm flat on it, back to the window; 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, facing him.\n[Shot 1] Medium over the desk: 钱经理 (S3) straightens up slowly, tucks both hands behind his back and tips his head to one side, fixing her with the look of a man who has already decided, and speaks in a flat accusing Mandarin, one phrase at a time: [Chinese] 收台的时候，就你一个人在。\n[Shot 2] At 00:05.600, reverse single on 苏小满 (S1) on the near side of the desk, the blind-light barring the wall behind her; she does not move her feet and does not look away, and answers at once in a low steady Mandarin: [Chinese] 不是我。\n[Shot 3] At 00:07.800, wide two-shot across the desk, both of them motionless at either side of it, the room very still, the two of them alone in the frame with clear empty space behind each of them.\n[Shot 4] At 00:09.200, the camera creeps a few centimetres closer on the desk surface between them. Neither of them speaks.",
+    "soundscape": "A clock ticking on the wall, the low hum of the ceiling lights, one nervous swallow, faint corridor noise beyond the door.",
+    "music": "N/A",
+    "crowd": false,
+    "style_pack": "lean",
+    "_lean_shots": "[Shot 1] Medium over the desk: 钱经理 (S3) straightens up slowly, tucks both hands behind his back and tips his head to one side, fixing her with the look of a man who has already decided, and speaks in a flat accusing Mandarin, one phrase at a time: [Chinese] 收台的时候，就你一个人在。\n[Shot 2] At 00:05.600, reverse single on 苏小满 (S1) on the near side of the desk, the blind-light barring the wall behind her; she does not move her feet and does not look away, and answers at once in a low steady Mandarin: [Chinese] 不是我。\n[Shot 3] At 00:07.800, wide two-shot across the desk, both of them motionless at either side of it, the room very still, the two of them alone in the frame with clear empty space behind each of them.\n[Shot 4] At 00:09.200, the camera creeps a few centimetres closer on the desk surface between them. Neither of them speaks."
+  },
+  {
+    "id": "xs01_t03",
+    "scene": "1-1",
+    "title": "小唐作证",
+    "refs": [
+      "xiaotang",
+      "qianjingli",
+      "suxiaoman",
+      "office_mid"
+    ],
+    "retention": {
+      "office_mid": "partially_preserved"
+    },
+    "summary": "Pressed from the wall, the young colleague gives a deliberately vague testimony, and the manager takes it as proof.",
+    "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the far side of the desk facing the door; 苏小满 (S1) on the near side with her back to the door; 小唐 (S4) is still flattened against the wall just inside the LEFT door, lower-left of frame.\n[Shot 1] Medium: 钱经理 (S3) turns his shoulder toward the door and jerks his chin at 小唐 (S4), summoning her forward without a word.\n[Shot 2] At 00:02.000, closer on 小唐 (S4): she peels off the wall, folds her hands together, keeps her eyes on the floor tiles and lets them flick once toward 苏小满 (S1), then away; she speaks in a small thin nervous Mandarin, fast and slightly breathy: [Chinese] 钱经理。中午，我看见她往兜里塞东西。没看清。\n[Shot 3] At 00:08.400, reverse onto 苏小满 (S1) across the desk: her shoulders stay level, only her eyes travel to the girl by the door.\n[Shot 4] At 00:09.400, close on 钱经理 (S3) taking that in, the corner of his mouth pulling up. Nobody else speaks.",
+    "soundscape": "A thin nervous voice close to the lens, the fluorescent panels buzzing, a chair creaking somewhere behind the door, one dry swallow.",
+    "music": "N/A",
+    "crowd": false,
+    "style_pack": "lean",
+    "_lean_shots": "[Shot 1] Medium: 钱经理 (S3) turns his shoulder toward the door and jerks his chin at 小唐 (S4), summoning her forward without a word.\n[Shot 2] At 00:02.000, closer on 小唐 (S4): she peels off the wall, folds her hands together, keeps her eyes on the floor tiles and lets them flick once toward 苏小满 (S1), then away; she speaks in a small thin nervous Mandarin, fast and slightly breathy: [Chinese] 钱经理。中午，我看见她往兜里塞东西。没看清。\n[Shot 3] At 00:08.400, reverse onto 苏小满 (S1) across the desk: her shoulders stay level, only her eyes travel to the girl by the door.\n[Shot 4] At 00:09.400, close on 钱经理 (S3) taking that in, the corner of his mouth pulling up. Nobody else speaks."
+  },
+  {
+    "id": "xs01_t04",
+    "scene": "1-1",
+    "title": "看清楚了再说",
+    "refs": [
+      "suxiaoman",
+      "xiaotang",
+      "office_mid",
+      "office_back"
+    ],
+    "retention": {
+      "office_mid": "partially_preserved",
+      "office_back": "weak_reference"
+    },
+    "summary": "The cleaner turns the accusation back on the witness; the girl retreats into her own certainty.",
+    "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 小唐 (S4) has taken one step in from the wall, lower-left of frame; 钱经理 (S3) on the far side of the desk.\n[Shot 1] Medium: 苏小满 (S1) turns her head and shoulders toward the door, fixing 小唐 (S4) with an even, unhurried look, and says it quietly in low steady Mandarin, without raising her voice at all: [Chinese] 小唐。看清楚了，再说。\n[Shot 2] At 00:05.600, close on 小唐 (S4): she shrinks her neck down into her collar, plants one hand on the doorframe behind her, looks anywhere but at the cleaner, and answers in a thin defensive Mandarin: [Chinese] 反正，我看见了。\n[Shot 3] At 00:08.600, wide: the two women staged one behind the other along the room's depth axis — 小唐 (S4) nearer the door, 苏小满 (S1) nearer the desk — with 钱经理 (S3) motionless behind the desk, back to the window, watching them like a spectator, arms folded.\n[Shot 4] At 00:09.600, hold. Nobody moves and nobody speaks.",
+    "soundscape": "Two quiet voices in a hard-surfaced room, a chair leg scraping, the wall clock ticking, muffled office noise from the corridor.",
+    "music": "N/A",
+    "crowd": false,
+    "style_pack": "lean",
+    "_lean_shots": "[Shot 1] Medium: 苏小满 (S1) turns her head and shoulders toward the door, fixing 小唐 (S4) with an even, unhurried look, and says it quietly in low steady Mandarin, without raising her voice at all: [Chinese] 小唐。看清楚了，再说。\n[Shot 2] At 00:05.600, close on 小唐 (S4): she shrinks her neck down into her collar, plants one hand on the doorframe behind her, looks anywhere but at the cleaner, and answers in a thin defensive Mandarin: [Chinese] 反正，我看见了。\n[Shot 3] At 00:08.600, wide: the two women staged one behind the other along the room's depth axis — 小唐 (S4) nearer the door, 苏小满 (S1) nearer the desk — with 钱经理 (S3) motionless behind the desk, back to the window, watching them like a spectator, arms folded.\n[Shot 4] At 00:09.600, hold. Nobody moves and nobody speaks."
+  },
+  {
+    "id": "xs01_t05",
+    "scene": "1-1",
+    "title": "掏兜",
+    "refs": [
+      "qianjingli",
+      "suxiaoman",
+      "office_mid",
+      "office_pano"
+    ],
+    "retention": {
+      "office_mid": "partially_preserved",
+      "office_pano": "fully_preserved"
+    },
+    "summary": "He orders her to empty her pockets, offering the alternative of security; she holds her ground and refuses to be searched.",
+    "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) is stepping round the end of the desk onto the NEAR side and closing to one pace in front of 苏小满 (S1); 苏小满 (S1) is on the near side of the desk with her back to the door; 小唐 (S4) is by the door at the lower-left.\n[Shot 1] Medium: 钱经理 (S3) walks two paces around the corner of the desk toward her, stops at the distance of an outstretched arm, taps his own hip pocket twice with two fingers and speaks in a hard flat Mandarin, not loud, not shouting: [Chinese] 掏兜。自己掏，还是我喊保安。\n[Shot 2] At 00:07.200, reverse single on 苏小满 (S1), framed on her alone, one person in this shot, nobody behind her and nobody at the door: she takes one small half-step back, and her right hand closes slowly over the fabric of her own trouser pocket; she speaks quietly and clearly in low steady Mandarin: [Chinese] 你们不能搜我。\n[Shot 3] At 00:09.400, close on the pocket under her fingers, the fabric pulled slightly taut, framed on her alone, no one else enters this frame. She is silent after that.",
+    "soundscape": "Tense quiet, his knuckles tapping cloth, a shoe shifting on tile, the fluorescent hum, distant corridor chatter.",
+    "music": "A low sustained synth note, tight and uneasy.",
+    "crowd": false,
+    "style_pack": "lean",
+    "_lean_shots": "[Shot 1] Medium: 钱经理 (S3) walks two paces around the corner of the desk toward her, stops at the distance of an outstretched arm, taps his own hip pocket twice with two fingers and speaks in a hard flat Mandarin, not loud, not shouting: [Chinese] 掏兜。自己掏，还是我喊保安。\n[Shot 2] At 00:07.200, reverse single on 苏小满 (S1), framed on her alone, one person in this shot, nobody behind her and nobody at the door: she takes one small half-step back, and her right hand closes slowly over the fabric of her own trouser pocket; she speaks quietly and clearly in low steady Mandarin: [Chinese] 你们不能搜我。\n[Shot 3] At 00:09.400, close on the pocket under her fingers, the fabric pulled slightly taut, framed on her alone, no one else enters this frame. She is silent after that."
+  }
+]

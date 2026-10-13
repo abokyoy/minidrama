@@ -1,0 +1,475 @@
+[
+ {
+  "id": "ep05_t56",
+  "scene": "5-2",
+  "title": "车刚发动",
+  "refs": [
+   "lu_gate"
+  ],
+  "retention": {
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Wide from the mouth of the lane looking at the gate: the 陆 family old mansion's gate tower and stone steps close the depth axis, a long saloon is parked below the steps with its window side to the camera, and a thin line of exhaust just leaves the tail pipe.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the car just started, its body settling slightly on its springs\n[Shot 1] Wide from the mouth of the lane towards the gate: the depth axis ends at the 陆 family old mansion's gate tower and its stone steps, and a long saloon is parked below the steps with its flank to the camera and its window side facing the camera, a thin line of exhaust just leaving the tail pipe; the bottom third is the flagstone ground; the morning is clear and bright and the whole front of the mansion reads evenly lit.\n[Shot 2] At 00:05.000, The exhaust thins out; the car does not move yet.",
+  "soundscape": "An engine idling, exhaust, a bird in the locust tree, a distant gate.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t57",
+  "scene": "5-2",
+  "title": "快步赶到车窗边",
+  "refs": [
+   "suxiaoman",
+   "lu_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Medium tracking: 苏小满 (S1) comes down the steps quickly, three-quarter to the camera, and reaches the car window in a few strides; the saloon has just started and the body sinks slightly; the hem of her plain jacket lifts a little with the steps.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 苏小满 (S1) coming down the steps towards the car window\n[Shot 1] Medium: 苏小满 (S1) comes down the stone steps quickly, three-quarter to the camera, and reaches the car window in a few strides; the long saloon has just started and its body sinks slightly on its springs; the hem of her plain light jacket lifts a little with the movement; she comes down the steps into the near half of frame, a little left of centre, and stops level with the closed window.\n[Shot 2] At 00:04.500, She arrives at the window and turns to face the glass.",
+  "soundscape": "Fast cloth shoes on stone, the engine idling, her breathing coming up.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t58",
+  "scene": "5-2",
+  "title": "车窗还升着",
+  "refs": [
+   "suxiaoman",
+   "luman",
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "luman": "fully_preserved",
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Medium at the car window: 苏小满 (S1) stands outside the window in the near half a little left of centre, facing the glass with her body slightly turned; the window is still up and the morning light lies on the glass, so 陆蔓 (S8) inside is only a soft shape.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the window still up; 苏小满 (S1) standing outside it; 陆蔓 (S8) a soft shape behind the glass\n[Shot 1] Medium at the car window: 苏小满 (S1) stands outside the window in the near half of frame, a little left of centre, facing the glass with her body slightly turned; the window is still up and the morning light lies flat on the glass, and 陆蔓 (S8) inside is only a soft shape behind it; the car door's lower edge, the wheel and 苏小满 (S1)'s shoe tips fill the bottom third.\n[Shot 2] At 00:05.000, 苏小满 (S1) waits; the shape behind the glass does not move.",
+  "soundscape": "The engine idling, light traffic somewhere off the lane, a bird.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t59",
+  "scene": "5-2",
+  "title": "陆女士",
+  "refs": [
+   "suxiaoman",
+   "lu_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close at the car window: 苏小满 (S1) calls once towards the glass, not loud and flat in tone; one hand rests lightly on the lower edge of the window frame without knocking; the bottom third is the car's lower door edge, the wheel and her shoe tips.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 苏小满 (S1) at the window, one hand resting on the frame's lower edge\n[Shot 1] Close at the car window: 苏小满 (S1) calls once towards the glass, not loud and flat in tone; one hand rests lightly on the lower edge of the window frame and does not knock; the bottom third is the car's lower door edge, the wheel and her shoe tips; the morning light is even on her face and the glass beside her is clearly readable.\n[Shot 2] At 00:04.000, 苏小满 (S1) speaks, [Chinese] 陆女士。\n[Shot 3] At 00:06.500, Her hand stays on the frame and she waits for the glass to move.",
+  "soundscape": "The engine idling, her one flat word, a bird in the locust tree.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t60",
+  "scene": "5-2",
+  "title": "玻璃后面的人",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Medium from inside the car looking out through the glass: 陆蔓 (S8) sits in the rear seat, face turned to the window side, and lifts her lids to look once at the glass — she has heard, she simply does not move yet.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) in the rear seat with her face to the window side\n[Shot 1] Medium from behind the window glass looking out: 陆蔓 (S8) sits in the rear seat in a deep-green qipao with a dark-red shawl and a pair of jade drops at her ears, her face turned to the window side, and she lifts her lids to look once at the glass in front of her — she has heard, she simply does not move yet; the car interior is lit by the morning coming through the glass and her face reads clearly.\n[Shot 2] At 00:05.000, She holds the look for a beat and then lets her lids drop back half a fraction.",
+  "soundscape": "The engine idling through the bodywork, a faint road sound, the door trim.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t61",
+  "scene": "5-2",
+  "title": "第一个动作点：车窗降下",
+  "refs": [
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Close on the car window: the glass comes down slowly — its top edge retreats inch by inch and the morning light cuts in through the widening gap, lighting the inside of the window frame.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the window glass in the act of coming down\n[Shot 1] Close on the car window: the glass comes down slowly, its top edge retreating inch by inch, and the morning light cuts in through the widening gap and lights up the inside of the window frame; the frame and the moving glass fill the middle of the shot with the morning brightness on the glass edge; the bottom third is the car's lower door edge.\n[Shot 2] At 00:05.000, The glass keeps coming down until the gap is wide enough for a voice to come out of.",
+  "soundscape": "The window motor's soft hum, the engine idling, the morning air moving past the frame.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t62",
+  "scene": "5-2",
+  "title": "似笑非笑",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8)'s face appears behind the lowered window — a smile that is not a smile, chin up, her gaze not squarely on 苏小满 (S1) but looking across from under half-lowered lids; she sits very steady with one hand on her knee.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the window now down, 陆蔓 (S8) revealed behind it\n[Shot 1] Close inside the car: the face of 陆蔓 (S8) appears behind the lowered window — a smile that is not a smile, her chin up, her gaze not squarely on 苏小满 (S1) but sliding across from under half-lowered lids; she sits very steady in the rear seat with one hand on her knee; the morning light coming through the open window falls on her and the shot carries the window frame along its lower edge.\n[Shot 2] At 00:04.000, 陆蔓 (S8) speaks, [Chinese] 我劝你别喊了。\n[Shot 3] At 00:07.000, The half-smile stays; she does not look squarely at 苏小满 (S1).",
+  "soundscape": "The engine idling, her light tone, traffic somewhere off the lane.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t63",
+  "scene": "5-2",
+  "title": "打上记号的人",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8) unfolds the point layer by layer in a courteous tone that sounds like she is doing 苏小满 (S1) a favour; her finger taps once on her knee on the words about the mark; the smile stays but stops before it reaches her eyes.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) in the rear seat, one hand on her knee\n[Shot 1] Close inside the car: 陆蔓 (S8) unfolds the point layer by layer in a courteous tone that sounds like she is doing 苏小满 (S1) a favour; on the words about being marked her finger taps once on her knee; the half-smile stays on her face the whole time and stops before it reaches her eyes; the light through the open window is even on her.\n[Shot 2] At 00:02.863, 陆蔓 (S8) speaks, [Chinese] 你现在是陆崇打上记号的人。我跟你走太近，不好看。\n[Shot 3] At 00:09.000, Her finger settles back on her knee; the smile holds.",
+  "soundscape": "The engine idling, a light tap on fabric, her even tone.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t64",
+  "scene": "5-2",
+  "title": "过肩：苏小满听着",
+  "refs": [
+   "suxiaoman",
+   "luman",
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "luman": "fully_preserved",
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the window: the shot looks past the window frame at her — 陆蔓 (S8) in the foreground inside the car, 苏小满 (S1) outside and a step nearer the camera; she listens without cutting in, both hands at her sides, and the wind moves her ponytail once.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) inside the car in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half, the nearer of the two\n[Shot 1] Over-the-shoulder at the car window: the shot looks past the window frame at 苏小满 (S1) — 陆蔓 (S8) is inside the car in the middle-ground right of centre and 苏小满 (S1) is outside the window in the near half a little left of centre, so 苏小满 (S1) is the nearer of the two and 陆蔓 (S8) the further, staggered along the car's depth and never side by side; she listens without cutting in, both hands at her sides, and the wind moves her low ponytail once; the morning light is even on her face through the open window's gap.\n[Shot 2] At 00:05.000, She keeps her hands down and does not interrupt.",
+  "soundscape": "Wind in her hair, the engine idling, 陆蔓 (S8)'s voice from inside the car.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t65",
+  "scene": "5-2",
+  "title": "铁盒的事",
+  "refs": [
+   "suxiaoman",
+   "luman",
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "luman": "fully_preserved",
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the window: 苏小满 (S1) says it very lightly, as if only to be said into the car; she leans half a fraction forward and her gaze goes over the window's lower edge into the car; the window frame crosses the lower edge of her face.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 苏小满 (S1) outside the window, leaning half a fraction forward\n[Shot 1] Over-the-shoulder at the car window: 苏小满 (S1) says it very lightly, as if only to be said into the car; she leans half a fraction forward and her gaze goes over the window's lower edge into the cabin; the window frame crosses the lower edge of her face; 陆蔓 (S8) stays inside the car in the middle-ground right of centre, further from the camera than 苏小满 (S1), and the two of them remain staggered along the depth axis.\n[Shot 2] At 00:04.000, 苏小满 (S1) speaks, [Chinese] 铁盒的事，你是知道的。\n[Shot 3] At 00:07.000, She stays leaning that half fraction and keeps her eyes inside the car.",
+  "soundscape": "Wind, the engine idling, her low voice close to the glass.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t66",
+  "scene": "5-2",
+  "title": "笑松了一瞬",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8)'s lids lift half an inch, the habitual smile loosens for an instant and is put back at once; she does not answer straight away and moves her hand from her knee up to the window edge.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) in the rear seat, hand moving from her knee to the window edge\n[Shot 1] Close inside the car: the lids of 陆蔓 (S8) lift half an inch, the habitual smile loosens for an instant and is put straight back; she does not answer at once, and her hand comes off her knee and up to the window's edge where it rests; the morning light through the open window is even on her face and the change is readable in it.\n[Shot 2] At 00:05.000, Her hand settles on the window edge; the smile is back where it was.",
+  "soundscape": "The engine idling, fingertips on the window frame, a light road sound.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t67",
+  "scene": "5-2",
+  "title": "谁碰谁倒霉",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8) laughs out of her nose and leans half a fraction towards the window; on the words about whoever touches it she sounds lighter still, as if telling a stale story that has nothing to do with her; the morning light falls across half her face.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) in the rear seat leaning half a fraction towards the open window\n[Shot 1] Close inside the car: 陆蔓 (S8) laughs out of her nose and leans half a fraction towards the open window; on the words about whoever touches it she sounds lighter still, as if telling a stale story that has nothing to do with her; the morning light falls across half her face and the rest of her is filled by the light coming through the glass; she stays behind the window frame.\n[Shot 2] At 00:03.175, 陆蔓 (S8) speaks, [Chinese] 铁盒？那玩意儿在杂物间躺了二十年。谁碰谁倒霉。\n[Shot 3] At 00:09.000, She holds the lean and the lightness; her eyes do not go to the window.",
+  "soundscape": "A short laugh, the engine idling, her light tone.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t68",
+  "scene": "5-2",
+  "title": "敲车窗沿的手",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close on 陆蔓 (S8)'s hand on the window edge: a few fingers tap lightly on the window's lower frame, the nails bright in the morning light; the two light taps carry the same rhythm as the line about keeping away.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8)'s hand resting on the window's lower frame\n[Shot 1] Close on the hand of 陆蔓 (S8) where it rests on the car's window edge: a few fingers tap lightly on the window's lower frame, the nails bright in the morning light, and the two light taps carry exactly the same rhythm as the line about keeping away; the window frame and the open gap are right there in the shot and the light is even and clear.\n[Shot 2] At 00:04.500, The fingers keep the light tapping for a moment, then settle.",
+  "soundscape": "Fingertips on painted metal, the engine idling, a light road sound.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t69",
+  "scene": "5-2",
+  "title": "你要碰你自己碰",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8) takes her eyes off 苏小满 (S1) and looks ahead towards the front of the car — the line is a hand-off; the smile is still at the corner of her mouth and her eyes have already stopped seeing her.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) in the rear seat turning her eyes away towards the front of the car\n[Shot 1] Close inside the car: 陆蔓 (S8) takes her eyes off 苏小满 (S1) and looks ahead towards the front of the car — the line is a hand-off of the whole matter; the smile is still at the corner of her mouth and her eyes have already stopped seeing her; the light through the open window is even on her and the window frame runs across the lower part of the shot.\n[Shot 2] At 00:04.000, 陆蔓 (S8) speaks, [Chinese] 你要碰，你自己碰。\n[Shot 3] At 00:07.000, She keeps looking ahead; the smile stays; her eyes do not come back.",
+  "soundscape": "The engine idling, her tone with nothing behind it, a bird in the locust tree.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t70",
+  "scene": "5-2",
+  "title": "你不帮我了",
+  "refs": [
+   "suxiaoman",
+   "luman",
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "luman": "fully_preserved",
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the window: 苏小满 (S1) lowers her voice a little and asks straight; she has not moved and is still standing outside the car, her gaze fixed on the face inside that has turned away.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 苏小满 (S1) outside the window, watching 陆蔓 (S8)'s turned face inside\n[Shot 1] Over-the-shoulder at the car window: 苏小满 (S1) lowers her voice a little and asks the question straight; she has not moved and is still standing outside the car, her body slightly turned and her gaze fixed on the turned-away face inside; 陆蔓 (S8) remains inside the car in the middle-ground right of centre, further from the camera than 苏小满 (S1) in the near half, and the window frame runs between them.\n[Shot 2] At 00:04.000, 苏小满 (S1) speaks, [Chinese] 你不帮我了？\n[Shot 3] At 00:06.500, She holds her ground outside the window and waits.",
+  "soundscape": "Wind past the door, the engine idling, her low question.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t71",
+  "scene": "5-2",
+  "title": "沉默一拍就是回答",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8) does not turn round, only the corner of her eye moves; the jade drop at her ear swings very slightly with the car; she keeps the pause for one beat — that beat is the answer.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) in the rear seat, not turning towards the window\n[Shot 1] Close inside the car: 陆蔓 (S8) does not turn round, only the corner of her eye moves; the jade drop at her ear swings very slightly with the car; she keeps the pause for one beat — that beat is the answer; the morning light stays even across her and the window frame runs across the lower part of the shot.\n[Shot 2] At 00:05.000, The pause stretches and she still does not turn.",
+  "soundscape": "The engine idling, the bodywork ticking, one full beat of the room outside.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t72",
+  "scene": "5-2",
+  "title": "看在你有用",
+  "refs": [
+   "luman",
+   "car_interior",
+   "lu_gate"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "car_interior": "weak_reference",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close inside the car: 陆蔓 (S8) finally turns her face back half an inch and lets the line drop; on the two words about being useful her tone is the flattest of the whole conversation, as if grading the quality of goods; then her hand lifts to press the window control on the door.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 陆蔓 (S8) turning half an inch back, hand lifting to the window control\n[Shot 1] Close inside the car: 陆蔓 (S8) finally turns her face back half an inch and lets the line drop; on the two words about being useful her tone is the flattest of the whole conversation, as if grading the quality of goods; then her hand lifts off the window edge and presses the window control on the door; the light through the open window is even on her face and the frame is still down.\n[Shot 2] At 00:05.000, 陆蔓 (S8) speaks, [Chinese] 二十万，是看在你有用。\n[Shot 3] At 00:09.000, Her fingers close on the window control.",
+  "soundscape": "The engine idling, a finger pressing the control, her flat tone.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t73",
+  "scene": "5-2",
+  "title": "第二个动作点：车窗升起",
+  "refs": [
+   "luman",
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Close on the car window: the glass starts to go up — its lower edge rises from the inside of the window frame, first cutting off the lower half of 陆蔓 (S8)'s face and then taking the whole face away; the morning light is cut into stripes by the rising glass.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the window glass in the act of going up, 陆蔓 (S8) behind it\n[Shot 1] Close on the car window: the glass starts to go up — its lower edge rises from the inside of the window frame, first cutting off the lower half of 陆蔓 (S8)'s face and then taking the whole face away; the morning light is cut into stripes by the rising glass; the car's lower door edge and the wheel sit along the bottom third and the whole front of the car reads clearly in the bright morning.\n[Shot 2] At 00:05.000, The glass keeps rising; her face goes from half to nothing behind it.",
+  "soundscape": "The window motor's soft hum rising, the engine idling, the stripes of light moving across the paint.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t74",
+  "scene": "5-2",
+  "title": "从车窗缝里丢出来",
+  "refs": [
+   "luman",
+   "lu_gate",
+   "car_interior"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_gate": "weak_reference",
+   "car_interior": "weak_reference"
+  },
+  "summary": "Close on the window gap: the line is thrown out of a gap that has not finished closing — the camera sits on that narrowing slot of glass, and inside it only 陆蔓 (S8)'s mouth and half an eye are left; when the line ends that half eye moves away as well.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the window nearly shut, only a narrow gap left with 陆蔓 (S8)'s mouth and half an eye in it\n[Shot 1] Close on the window gap: the line is thrown out of a gap that has not finished closing — the camera sits on that narrowing slot of glass, and inside it only the mouth of 陆蔓 (S8) and half an eye are left; the morning light runs along the top edge of the rising glass; when the line ends that half eye moves away as well and the gap holds only her mouth.\n[Shot 2] At 00:04.000, 陆蔓 (S8) speaks, [Chinese] 现在，你是个麻烦。\n[Shot 3] At 00:07.000, The half eye goes; the gap narrows further and the mouth leaves the light.",
+  "soundscape": "The window motor's hum, her voice coming through a narrowing gap, the engine idling.",
+  "music": "N/A",
+  "ref_notes": {
+   "car_interior": "the same rear cabin of a black executive saloon, seen from the front seats looking back — the wide pale-grey leather rear bench, the central armrest, chrome door handles and the tinted window on the far side. USE IT AS THE EXACT POSITION AND PROP REFERENCE ONLY: it is bright late-morning daylight outside this car and the whole cabin is filled with that daylight coming through the glass; the amber night lighting visible in the image must NOT be reproduced and the cabin must not be made darker than the bright street outside it."
+  }
+ },
+ {
+  "id": "ep05_t75",
+  "scene": "5-2",
+  "title": "嗒地一声升到顶",
+  "refs": [
+   "lu_gate"
+  ],
+  "retention": {
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close on the window at the top: the glass arrives at the top with a click — inside and out are cut apart for good; the glass carries the half reflection of 苏小满 (S1) and 陆蔓 (S8) inside is now only a deep-green shape.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the window up and closed, the car still parked below the steps\n[Shot 1] Close on the car window at the top: the glass arrives at the top with a click — inside and out are cut apart for good; the glass carries the half reflection of 苏小满 (S1) standing outside, and inside, 陆蔓 (S8) is now only a deep-green shape with no features left in it; the flagstone ground and the car's wheel hold the bottom third and the morning light is even across the whole car side.\n[Shot 2] At 00:05.000, The reflection of 苏小满 (S1) holds on the glass and does not move.",
+  "soundscape": "The click dying away, the engine idling, a bird in the locust tree.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t76",
+  "scene": "5-2",
+  "title": "车身启动驶离",
+  "refs": [
+   "suxiaoman",
+   "lu_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Medium on the car: the long saloon starts and drives away into the depth of the lane, its tyres running over the flagstone and its body passing close by 苏小满 (S1) — she stands still and only turns her face to watch the window go; the bottom third is the wheel and the ground.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the car starting and driving away down the depth axis; 苏小满 (S1) standing and watching\n[Shot 1] Medium on the car: the long saloon starts and drives away into the depth of the lane, its tyres running over the flagstone and its body passing close beside 苏小满 (S1) — she stands still and only turns her face to watch the window go; the bottom third is the wheel and the ground; the gate tower stays at the far end of the depth axis and the morning stays bright across the open forecourt.\n[Shot 2] At 00:05.000, 苏小满 (S1) turns her head and watches the car recede; her feet do not move.",
+  "soundscape": "Tyres on flagstone, the engine pulling away, a long held quiet behind it.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t77",
+  "scene": "5-2",
+  "title": "特写：她的脸",
+  "refs": [
+   "suxiaoman",
+   "lu_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Close on 苏小满 (S1)'s face: the morning light falls across it from the front and the wind lifts the loose hair at her forehead and temples; she does not frown and her eyes do not redden, she only looks the way the car went with a very still gaze; her jawline is set and her lips do not move.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; 苏小满 (S1) in the near half a little left of centre, watching the car go\n[Shot 1] Close on the face of 苏小满 (S1): the morning light falls across it from the front and the wind lifts the loose hair at her forehead and her temples; she does not frown and her eyes do not redden, she only looks the way the car went with a very still gaze; her jawline is set and her lips do not move; the light on her skin is soft and even and the wind in her hair is the only thing in the frame that moves.\n[Shot 2] At 00:05.000, Her eyes stay on the empty lane and her jaw stays set.",
+  "soundscape": "Wind in her hair, the car far down the lane and fading, a bird in the locust tree.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t78",
+  "scene": "5-2",
+  "title": "台阶下只剩她一个人",
+  "refs": [
+   "suxiaoman",
+   "lu_gate"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_gate": "weak_reference"
+  },
+  "summary": "Medium: 苏小满 (S1) stands alone at the foot of the steps in the near half a little left of centre, the long saloon gone far down the lane with only its tail left; behind her are the gate tower and the stone steps, and the bottom third is the flagstone ground and her shoe tips; the whole lane has only her on it.",
+  "shots": "Entry state, re-anchored to the reference images: the 陆 family gate tower with grey brick and grey tiled eaves at the FAR end of the depth axis facing the camera; three worn stone steps at the near end; a long saloon car parked below the steps with its flank to the camera and its window side facing the camera; 陆蔓 (S8) inside the car behind that window in the middle-ground right of centre; 苏小满 (S1) outside the window in the near half a little left of centre; the flagstone ground and the car's wheel along the bottom third; clear bright morning light, faces front-lit, shadows open and low; the car far down the lane, 苏小满 (S1) alone at the foot of the steps\n[Shot 1] Medium: 苏小满 (S1) stands alone at the foot of the steps in the near half of frame, a little left of centre, and the long saloon has gone far down the lane with only its tail left; behind her are the gate tower and the stone steps; the bottom third is the flagstone ground and her shoe tips; the whole lane has only her on it and the morning stays clear and bright across the open forecourt.\n[Shot 2] At 00:05.000, She does not follow the car and does not turn back towards the door.",
+  "soundscape": "Wind on the lane, a bird, a very long held quiet, the gate tower's stones warming.",
+  "music": "N/A"
+ }
+]

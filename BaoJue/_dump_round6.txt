@@ -1,0 +1,321 @@
+==================== seg82 ====================
+[REFS] yisheng / suxiaoman / hospital_ward / hospital_corridor
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+New location, taken from the reference images: the cardiac ward of 市一院 at dusk — pale green walls, a long corridor with the ward door on the RIGHT of frame, a bench against the LEFT wall, generous ceiling fluorescents switched on, blue evening light from the tall window at the far end of the corridor, and warm tungsten spill from the ward doorway. 苏小满 (S1) stands in the corridor just clear of the ward door on the RIGHT, facing it, and 医生 (S11) is already stepping out through it toward her with a printed form in his hand.
+[Shot 1] Medium: 医生 (S11), a tired man of about forty in a white coat with a stethoscope round his neck, comes out through the ward door on the RIGHT and holds a printed form out toward 苏小满 (S1), who is standing in the corridor facing him; she takes it with both hands.
+[Shot 2] At 00:01.600, close on 医生 (S11) as he gives her the facts in a flat clinical Mandarin, with no cushioning in it at all: [Chinese] 老太太的心衰，拖不过这个冬天。手术，先交二十万。
+[Shot 3] At 00:08.600, extreme close-up on the form in her hands: the printed characters for the diagnosis, and the figure for the deposit.
+[Shot 4] At 00:09.400, hold on 苏小满's (S1) face as she reads it, absolutely still. Neither of them speaks again in this beat.
+
+overall_soundscape: Corridor acoustics with a distant trolley and monitor beeps, the rustle of a printed form, a door on a spring hinge, low indistinct voices from the ward.
+
+non_diegetic_music: A single low piano note under the figure.
+
+==================== seg83 ====================
+[REFS] suxiaoman / yisheng / hospital_corridor / hospital_ward
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference images: 苏小满 (S1) stands in the corridor facing the ward door on the RIGHT, the printed form in her hands; 医生 (S11) stands in front of her with his hands in his coat pockets.
+[Shot 1] Close: 苏小满 (S1) folds the form once, looks up and speaks in a low even Mandarin, entirely without pleading, as if discussing a work schedule: [Chinese] 医生，排期先排上。钱，我想办法。
+[Shot 2] At 00:05.800, closer on 医生 (S11): he looks at her for a beat before answering, and there is no cruelty in it, only exhaustion, when he says it flatly in Mandarin: [Chinese] 这句话，你说了三个月了。
+[Shot 3] At 00:09.400, wide down the corridor: the two of them standing under the fluorescent tubes, the bench empty on the LEFT wall, a nurse passing far away at the far end.
+[Shot 4] At 00:09.800, hold on 苏小满 (S1) with the folded form in her fist. She says nothing.
+
+overall_soundscape: Two low voices under fluorescent tubes, a trolley wheel squeaking in the distance, a monitor beeping behind the ward door, a lift chime far off.
+
+non_diegetic_music: N/A
+
+==================== seg84 ====================
+[REFS] suxiaoman / hospital_corridor / hospital_bench / hospital_ward
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference images: 苏小满 (S1) is alone in the corridor; the ward door is on the RIGHT of frame, the bench and the wall on the LEFT; the folded form is in her trouser pocket.
+[Shot 1] Medium: 苏小满 (S1) crosses to the LEFT wall, lets her back settle against it just beside the bench, takes out her phone and dials with her thumb, holding the screen up close.
+[Shot 2] At 00:02.000, closer on her face in profile: she drops her chin and pitches her voice down so it will not carry through the ward door, speaking in a low rapid Mandarin with the phone pressed tight to her ear: [Chinese] 表舅，是我，小满。外婆要手术，能不能先借我两万……
+[Shot 3] At 00:08.800, her face changes very slightly — she starts to answer something, and stops, because the other end is still talking.
+[Shot 4] At 00:09.600, hold on her, still leaning on the wall, listening to something she already knew. Nobody else speaks.
+
+overall_soundscape: A low shielded phone voice, the corridor's fluorescent hum, a distant monitor, the tiny tinny sound of the other party's voice leaking from the earpiece.
+
+non_diegetic_music: N/A
+
+==================== seg85 ====================
+[REFS] suxiaoman / hospital_bench / hospital_corridor
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference images: 苏小满 (S1) leans against the LEFT wall of the corridor beside the bench, phone to her ear; the ward door is on the RIGHT of frame.
+[Shot 1] Extreme close-up on the phone screen: call ended, the timer frozen. She lowers it.
+[Shot 2] At 00:02.600, she dials again with her thumb and holds the phone up; two rings sound, then the screen flips to call rejected. She lowers the phone and looks at it for a moment.
+[Shot 3] At 00:05.600, extreme close-up: the banking page on the screen, and the balance showing four digits.
+[Shot 4] At 00:07.400, close on her hand as it goes into her trouser pocket and her fingertips find the black card; they rest on its face for a beat, and then she pushes it back down and takes her hand out empty. She looks up at the ceiling. Nobody speaks in this whole beat.
+
+overall_soundscape: Phone key blips, two rings cut off short, the corridor's fluorescent hum, a wheelchair squeaking past somewhere far away, her own slow exhale.
+
+non_diegetic_music: A sparse low piano figure, repeated.
+
+==================== seg86 ====================
+[REFS] suxiaoman / hospital_bench / hospital_corridor / hospital_ward
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference images: 苏小满 (S1) stands against the LEFT wall of the corridor beside the bench; the ward door is on the RIGHT of frame.
+[Shot 1] Medium: she slides down the wall and sits on the end of the bench, elbows on her knees.
+[Shot 2] At 00:02.600, close on her: she puts her face down into her folded arms and stays like that, breathing, the back of her neck exposed and her shoulders very still.
+[Shot 3] At 00:06.400, she lifts her head, blinks twice, pushes her hair back behind her ear with both hands and looks straight ahead down the corridor.
+[Shot 4] At 00:08.400, she stands up, straightens her navy trousers and her apron, squares her shoulders and walks toward the ward door on the RIGHT. Nobody speaks in this beat.
+
+overall_soundscape: Fabric on a bench, her own breathing close to the mic, the corridor's fluorescent hum, a monitor beeping behind the ward door.
+
+non_diegetic_music: A low warm string swell that rises and stops as she stands.
+
+==================== seg87 ====================
+[REFS] waipo / suxiaoman / hospital_ward / hospital_corridor
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: the ward of 市一院; 外婆 (S9) lies in the bed by the tall window, her head toward the door on the RIGHT; 苏小满 (S1) is in the ward doorway and steps in to the foot of the bed.
+[Shot 1] Medium: 外婆 (S9), small and waxy under the oxygen mask, lifts one thin hand a few centimetres off the quilt and waves it weakly at 苏小满 (S1), telling her to stop.
+[Shot 2] At 00:02.000, closer on the old woman: she speaks between shallow breaths, in a faint airy Mandarin, the mask misting with each phrase: [Chinese] 小满。别为难自己。外婆这把老骨头，不值二十万。
+[Shot 3] At 00:08.400, reverse onto 苏小满 (S1) standing at the foot of the bed; she does not answer yet; her hands are still around the folded form in her pocket.
+[Shot 4] At 00:09.600, hold on the two of them: the bright window behind the bed, the mask misting in the light. Nobody else speaks.
+
+overall_soundscape: Oxygen hissing through the mask, a faint breathy voice, a monitor beeping slowly, the corridor sounds far away behind the door.
+
+non_diegetic_music: A soft solo piano phrase, warm and very sad.
+
+==================== seg88 ====================
+[REFS] suxiaoman / waipo / hospital_ward
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the foot of the bed in the ward; 外婆 (S9) lies with her head toward the door, an oxygen mask on her face; the window behind the bed is bright with dusk.
+[Shot 1] Medium: 苏小满 (S1) comes round to the side of the bed, and a small real smile appears as she answers in a light, warm Mandarin: [Chinese] 值不值，我说了算。
+[Shot 2] At 00:04.600, she bends and tucks the corner of the quilt in under the old woman's shoulder with both hands, careful and practised.
+[Shot 3] At 00:06.800, as she bends, a thin red cord slips out from the collar of her housekeeping shirt and hangs there, with a small dark knot at the end of it.
+[Shot 4] At 00:08.400, extreme close-up on 外婆's (S9) eyes: they had been half closed, and now they open properly and fix on the cord, and her pupils stop moving entirely. Nobody speaks again in this beat.
+
+overall_soundscape: A light warm voice, the quilt rustling, the oxygen mask hissing, the monitor beeping, and then the room seems to go quieter.
+
+non_diegetic_music: A single high held note, uneasy, under the close-up.
+
+==================== seg89 ====================
+[REFS] waipo / suxiaoman / hospital_ward
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) is bent over the side of the bed; 外婆 (S9) lies propped on the pillow with the oxygen mask on and the red cord still hanging from 苏小满's (S1) collar between them.
+[Shot 1] Close on 外婆 (S9): she speaks slowly, looking at the cord rather than at her granddaughter, and then cuts herself off, in a faint airy Mandarin: [Chinese] 你妈当年……唉。不说了。
+[Shot 2] At 00:05.600, she closes her eyes and turns her head a fraction away on the pillow.
+[Shot 3] At 00:06.600, reverse onto 苏小满 (S1): she straightens up at once, the quilt still in one hand, and asks it low and fast, the first time all evening her voice has any edge in it: [Chinese] 我妈当年，怎么了？
+[Shot 4] At 00:09.400, tight two-shot with the oxygen mask misting between them. The old woman does not open her eyes.
+
+overall_soundscape: A faint slow voice, a pause with nothing in it, then a low urgent question, the oxygen hissing, the monitor beeping steadily.
+
+non_diegetic_music: A low suspenseful string note entering under the question.
+
+==================== seg90 ====================
+[REFS] waipo / suxiaoman / hospital_ward / hospital_corridor
+Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, open shadows, luminous skin, the ceiling fluorescents clearly on. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the side of the bed in the ward; 外婆 (S9) lies with her eyes closed and her head turned a little away; the window behind the bed is the brightest thing in the room.
+[Shot 1] Close on 外婆 (S9) with her eyes still shut: she speaks slowly in the same faint airy Mandarin, the mask fogging with every word: [Chinese] 回去。上班，别迟到。
+[Shot 2] At 00:04.600, 苏小满 (S1) waits one beat longer than she should, looking for more; nothing comes.
+[Shot 3] At 00:06.400, she lets go of the quilt, tucks the red cord back inside her collar with two fingers, and walks to the door.
+[Shot 4] At 00:09.000, the camera holds on the ward doorway and then drifts back into the bright corridor as she comes out; the door swings gently behind her, and this scene and this episode's hospital act end here. Nobody speaks in this beat.
+
+overall_soundscape: A faint slow voice, the oxygen mask hissing, a door on a spring hinge, then the corridor's fluorescent hum swallowing everything.
+
+non_diegetic_music: The main theme returns on low strings and holds over the corridor.
+
+==================== seg91 ====================
+[REFS] suxiaoman / office_close / office_mid / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, new day, same office, taken from the reference images: 苏小满 (S1) stands on the NEAR side of the desk with her back to the LEFT door and her cardboard box on the desk beside her; the office is spotless and empty of anybody else; door on the LEFT of frame, the venetian-blind window and tall wooden cabinets on the RIGHT; bright early-afternoon light through the blinds.
+[Shot 1] Wide: on the back wall an open metal locker stands empty, its door swung back; on the desk on the near side of it sits a brown cardboard box, half filled.
+[Shot 2] At 00:03.000, close on the box: on top of the pile lie two worn paperback books with cracked spines and curled corners.
+[Shot 3] At 00:05.400, tight on the top book: its cover shows an accounting primer for small businesses, thumbed almost to pieces, page edges grey with handling.
+[Shot 4] At 00:07.400, extreme close-up on a thin notebook lying beside it, its pages crammed edge to edge with small neat handwritten numbers, the outer corners rubbed down to soft fur. Nobody speaks in this whole beat.
+
+overall_soundscape: A quiet office in the afternoon: the ceiling lights, the wall clock, distant corridor footsteps, a computer fan, the papery click of a book being set down.
+
+non_diegetic_music: A quiet low piano figure, neutral and patient.
+
+==================== seg92 ====================
+[REFS] qianjingli / suxiaoman / office_mid / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk beside the cardboard box with her back to the LEFT door; 钱经理 (S3) is leaning against the doorframe on the LEFT, arms crossed, half in and half out of the corridor.
+[Shot 1] Medium: 钱经理 (S3) pushes off the doorframe and speaks without coming in, in a light offhand nasal Mandarin, as if reading out a bus timetable: [Chinese] 工资结到昨天。东西拿上，走人。
+[Shot 2] At 00:04.000, closer on 苏小满 (S1): she does not touch the box; she looks up at him and answers in her low even Mandarin, one quiet fact: [Chinese] 合同，没到期。
+[Shot 3] At 00:06.400, 钱经理 (S3) actually laughs, once, and answers in a flat dismissive Mandarin: [Chinese] 外包的，讲什么合同。
+[Shot 4] At 00:09.600, hold on her face; she says nothing more in this beat and neither does he.
+
+overall_soundscape: An offhand voice from a doorway, the box shifting as she sets a hand on it, a short dry laugh, the office lights.
+
+non_diegetic_music: N/A
+
+==================== seg93 ====================
+[REFS] qianjingli / suxiaoman / office_close / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the near side of the desk with the cardboard box; 钱经理 (S3) is standing in the middle of the LEFT doorway, blocking it; the office behind them is empty.
+[Shot 1] Medium: 苏小满 (S1) lifts the box to her chest and turns toward the LEFT door; 钱经理 (S3) blocks it, holds out a printed form in one hand and taps it twice with the other, speaking in a brisk transactional Mandarin: [Chinese] 辞工单还没签。
+[Shot 2] At 00:03.600, 钱经理 (S3) goes on without a pause, tapping the form again: [Chinese] 签了，这个月工资给你。
+[Shot 3] At 00:07.000, closer on 钱经理's (S3) face as he delivers the last part flatly: [Chinese] 不签，一分没有。
+[Shot 4] At 00:09.400, reverse onto 苏小满 (S1): the box still in her arms, the form held out in front of her face; she stops moving altogether and says nothing.
+
+overall_soundscape: Cardboard shifting against her apron, a form crackling as it is held out, two flat taps on paper, the corridor's air conditioning behind him.
+
+non_diegetic_music: A low uneasy string note under the offer.
+
+==================== seg94 ====================
+[REFS] suxiaoman / qianjingli / office_close / office_mid
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands one step inside the LEFT doorway of the office with the cardboard box in her arms; 钱经理 (S3) stands in front of her, holding the printed resignation form out toward her; the corridor is visible beyond the door.
+[Shot 1] Close on her fingers gripping the edge of the cardboard box until the cardboard crimps under her nails.
+[Shot 2] At 00:02.800, medium: she turns her head and looks back over her shoulder at the form in his hand, then at the pen lying on the desk behind her.
+[Shot 3] At 00:05.600, she shifts the box to one hip, freeing her right hand, and reaches back across the desk toward the pen; her fingertips get to within a centimetre of it.
+[Shot 4] At 00:08.200, from outside the door, fast urgent footsteps and a man's raised voice approaching; she freezes with her hand still open above the pen. Nobody speaks in this beat.
+
+overall_soundscape: Cardboard crimping, a shoe pivoting on tile, then rapid footsteps and an urgent male voice rising in the corridor outside the door.
+
+non_diegetic_music: A rising low pulse that cuts off on the footsteps.
+
+==================== seg95 ====================
+[REFS] zhangzong / qianjingli / suxiaoman / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands in the LEFT doorway of the office with the cardboard box on one hip and her right hand still back over the desk; 钱经理 (S3) is in front of her holding the form; the corridor is bright beyond the door.
+[Shot 1] Wide: the LEFT door is shoved hard inward; 张总 (S10), a flushed sweating man of about forty-five in a charcoal suit with a blue tie, comes in fast, chest heaving, and stops two paces inside the room.
+[Shot 2] At 00:02.400, closer on 张总 (S10) as he sweeps the room once with his eyes and barks the question in a loud hurried Mandarin: [Chinese] 谁是苏小满？
+[Shot 3] At 00:05.400, reverse onto 苏小满 (S1): she is standing half a metre from him with the box in her arms, and she does not answer or move.
+[Shot 4] At 00:07.000, cut to 钱经理 (S3), whose back straightens so fast he nearly drops the form. Nobody else speaks.
+
+overall_soundscape: A door banged inward, fast heavy footsteps, loud panting, a shouted question cutting through the quiet office.
+
+non_diegetic_music: A sharp low brass stab on the door.
+
+==================== seg96 ====================
+[REFS] qianjingli / zhangzong / suxiaoman / office_mid
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 张总 (S10) stands two paces inside the LEFT door; 钱经理 (S3) is on the near side of the desk, just in from the doorway, with the resignation form still in his hand; 苏小满 (S1) is at the doorway with the box.
+[Shot 1] Medium: 钱经理 (S3) creases into a smile as if a switch had been thrown, drops the form onto the desk and comes forward with both hands out.
+[Shot 2] At 00:02.400, closer on 钱经理 (S3): he pitches it high and nervous in a nasal Mandarin, half greeting and half apology: [Chinese] 张、张总？您怎么来了……
+[Shot 3] At 00:06.400, 张总 (S10) does not answer, does not take his hand, and looks straight past him at the woman with the box.
+[Shot 4] At 00:08.800, hold on 钱经理 (S3) with his hand still out and nowhere to put it. Nobody else speaks.
+
+overall_soundscape: Paper flapping onto a desk, quick shuffling steps, a high nervous voice, then only heavy breathing.
+
+non_diegetic_music: N/A
+
+==================== seg97 ====================
+[REFS] zhangzong / qianjingli / office_mid / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 张总 (S10) stands two paces inside the LEFT door of the office; 钱经理 (S3) is a step in front of him on the door side with one hand still outstretched; 苏小满 (S1) is at the doorway behind with the box.
+[Shot 1] Medium: 张总 (S10) goes around him, crosses to the desk and jabs one finger down at the desktop three times, hard, speaking in a loud angry Mandarin, the words coming out fast and ragged: [Chinese] 老钱！你干的好事！
+[Shot 2] At 00:03.400, closer on 张总 (S10), his face wet with sweat, as he delivers the rest in the same loud rapid Mandarin, all in one breath: [Chinese] 万山陆家的大老板，电话打到我脸上了！
+[Shot 3] At 00:09.400, reverse onto 钱经理 (S3), who has gone a dirty white and taken half a step backwards.
+[Shot 4] At 00:09.800, hold on his face. Nobody else speaks.
+
+overall_soundscape: A finger striking a wooden desktop three times, loud ragged shouting in a small room, a chair knocked askew, the corridor outside dropping to a murmur.
+
+non_diegetic_music: A hard low percussion hit under each jab.
+
+==================== seg98 ====================
+[REFS] zhangzong / qianjingli / suxiaoman / office_mid
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 张总 (S10) stands at the desk with one hand flat on it, having just crossed to it; 钱经理 (S3) is still on the door side of the desk, half a step in front of where 张总 (S10) left him, one hand up; 苏小满 (S1) is still in the LEFT doorway with the cardboard box in her arms.
+[Shot 1] Medium: 张总 (S10) turns from the desk toward the manager, throws an arm out, and shouts the charge in a loud indignant Mandarin, hitting every phrase: [Chinese] 说咱们公司，欺负人家一个小保洁！
+[Shot 2] At 00:07.000, wide of the room: 钱经理 (S3) backs away round the end of the desk to the FAR side and stands there with his head down, 张总 (S10) red in the face, and 苏小满 (S1) standing in the doorway watching it happen with no expression at all.
+[Shot 3] At 00:09.400, slight push toward the doorway onto her face.
+[Shot 4] At 00:09.800, hold. Nobody else speaks.
+
+overall_soundscape: Loud indignant shouting, a hand slapping the desk, then a very quiet room with only breathing in it.
+
+non_diegetic_music: N/A
+
+==================== seg99 ====================
+[REFS] qianjingli / zhangzong / office_mid / office_close
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk, back to the window; 张总 (S10) faces him across it; the blank resignation sheet 张总 (S10) threw down is lying face up on the desktop.
+[Shot 1] Medium: 钱经理 (S3) spreads both hands, palms out, at chest height and wills a reasonable expression onto his face, but his voice will not hold steady in the nasal Mandarin: [Chinese] 我、我没有……那是、是正常流程……
+[Shot 2] At 00:07.000, insert on the desk: the blank resignation sheet, face up, its blank signature line empty.
+[Shot 3] At 00:08.800, close on 张总's (S10) face as he listens to that; his jaw sets.
+[Shot 4] At 00:09.800, hold. Nobody else speaks.
+
+overall_soundscape: A stammering voice, hands sliding against each other, paper on wood, the ceiling lights, a clock.
+
+non_diegetic_music: N/A
+
+==================== seg100 ====================
+[REFS] zhangzong / qianjingli / office_mid / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 张总 (S10) stands on the near side of the desk, 钱经理 (S3) on the far side facing him; 苏小满 (S1) watches from the LEFT doorway with the box in her arms.
+[Shot 1] Medium: 张总 (S10) brings his flat palm down on the desk so hard that the pen tray jumps, then leans over it toward 钱经理 (S3) and spits it out at a shout in loud Mandarin: [Chinese] 正常流程？
+[Shot 2] At 00:02.400, 张总 (S10) jabs the air with one finger, hammering each phrase: [Chinese] 人家一句话，明年，
+[Shot 3] At 00:04.200, closer on 张总's (S10) flushed sweating face as he finishes it, still shouting: [Chinese] 咱们公司就得从这楼里滚出去！
+[Shot 4] At 00:09.400, wide and held: 钱经理 (S3) has both hands up in front of his chest as if warding off a blow, the resignation form has slid across the desktop, and 苏小满 (S1) watches all of it from the LEFT doorway without a flicker. Nobody else speaks.
+
+overall_soundscape: A heavy palm slam on wood, loud fast shouting filling a small hard-walled room, then the echo dying away.
+
+non_diegetic_music: A low percussive hit on the slam, then a held chord.
+
+==================== seg101 ====================
+[REFS] zhangzong / suxiaoman / office_mid / office_pano
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands in the LEFT doorway of the office holding the cardboard box, half turned to leave; 张总 (S10) is at the desk in the middle of the room; 钱经理 (S3) is behind the desk.
+[Shot 1] Medium: 张总 (S10) turns from the manager and only now really looks at the doorway; his shoulders drop; the shouting goes out of him all at once.
+[Shot 2] At 00:03.000, closer on 张总 (S10) as he steps toward her and asks it carefully, in a completely changed soft Mandarin, half a question and half a greeting: [Chinese] 您，就是苏小满？
+[Shot 3] At 00:05.600, reverse onto 苏小满 (S1): she looks at him for a beat and does not answer, the box still against her hip.
+[Shot 4] At 00:08.000, hold on the two of them in the doorway with 钱经理 (S3) small in the background. Nobody else speaks.
+
+overall_soundscape: The shouting stopping mid-breath, slow careful footsteps across tile, one soft careful voice in the sudden quiet.
+
+non_diegetic_music: N/A
+
+==================== seg102 ====================
+[REFS] zhangzong / suxiaoman / qianjingli / office_mid
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands just inside the LEFT door of the office with the cardboard box; 张总 (S10) stands in front of her in the middle of the room; 钱经理 (S3) is behind the desk, silent.
+[Shot 1] Medium: 张总 (S10) rubs his hands together, ducks his head and gives her a smile that is all anxiety, speaking in a fast soft Mandarin, bowing slightly with each phrase: [Chinese] 苏小姐。对不住，对不住。
+[Shot 2] At 00:05.000, he goes on without pausing for her to answer, gesturing at the office around them as if presenting a repaired room: [Chinese] 这事，我给您做主。您接着上班。
+[Shot 3] At 00:09.400, reverse onto 苏小满 (S1): no change of expression at all, the box still in her arms.
+[Shot 4] At 00:09.800, hold on her. She says nothing yet.
+
+overall_soundscape: Hands rubbing together, a fast placating voice, a shuffling half bow, the office very quiet around it.
+
+non_diegetic_music: N/A
+
+==================== seg103 ====================
+[REFS] zhangzong / suxiaoman / qianjingli / office_mid
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 张总 (S10) stands in the middle of the room facing 苏小满 (S1), who is at the LEFT door with the cardboard box; 钱经理 (S3) is behind the desk with his head down.
+[Shot 1] Medium: 张总 (S10) holds up one finger to mark the point, leaning in confidentially, and speaks in a bright eager Mandarin as if announcing a bonus: [Chinese] 工钱，从这个月，翻倍。
+[Shot 2] At 00:06.400, pan round behind him to 钱经理 (S3), whose chin is now down against his own chest, hands clasped in front of him.
+[Shot 3] At 00:08.600, back onto 苏小满 (S1), who has heard it and still gives him nothing.
+[Shot 4] At 00:09.600, hold. Nobody else speaks.
+
+overall_soundscape: A bright eager voice, a shirt collar creaking as the manager lowers his head, the ceiling lights, the clock.
+
+non_diegetic_music: N/A
+
+==================== seg104 ====================
+[REFS] suxiaoman / zhangzong / qianjingli / office_mid
+Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she takes the box and walks out through the LEFT door into the third-floor corridor, takes the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open for her. Never mirror or re-arrange this.
+Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting.
+Entry state, re-anchored to the reference image: 苏小满 (S1) stands just inside the LEFT door with the cardboard box against her hip; 张总 (S10) faces her, leaning slightly in, one finger still raised; 钱经理 (S3) stands behind the desk.
+[Shot 1] Close on 苏小满 (S1): she looks past the raised finger into the other man's face and says it quietly in her low even Mandarin, without any heat at all: [Chinese] 不用了。
+[Shot 2] At 00:04.400, she shifts the box slightly higher on her hip and finishes it flatly: [Chinese] 这工，我不干了。
+[Shot 3] At 00:07.400, wide: nobody moves. 张总's (S10) finger is still up; 钱经理 (S3) has lifted his head in disbelief; behind them the office is absolutely still and sunny.
+[Shot 4] At 00:09.800, hold on 苏小满 (S1), waiting calmly for an answer. Nobody else speaks.
+
+overall_soundscape: One quiet refusal, the cardboard box shifting, then a stillness with real weight in it, the clock and the lights.
+
+non_diegetic_music: A single low piano note that lands after the words and holds.

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>短剧调度看板 · X003 保洁</title>
+<style>
+:root{
+  --bg:#111315; --panel:#191c1f; --panel2:#1f2327; --line:#2b3035;
+  --tx:#e8e6e3; --tx2:#a8a29a; --tx3:#6f6a63;
+  --run:#378ADD; --done:#1D9E75; --pend:#888780; --rej:#E24B4A; --hold:#EF9F27;
+  --ok:#1D9E75;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font:14px/1.6 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;padding:20px 24px 60px}
+a{color:var(--run);text-decoration:none}
+h1{font-size:16px;font-weight:500;letter-spacing:.5px}
+h2{font-size:13px;font-weight:500;color:var(--tx2);margin:0 0 10px}
+
+header{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sub{color:var(--tx3);font-size:12px}
+.live{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:12px;color:var(--tx2)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--pend)}
+.dot.on{background:var(--run);animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin-bottom:20px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat .k{font-size:11px;color:var(--tx3);margin-bottom:4px}
+.stat .v{font-size:20px;font-weight:500;font-variant-numeric:tabular-nums}
+.stat .v small{font-size:12px;color:var(--tx3);font-weight:400}
+.stat.warn .v{color:var(--hold)}
+.stat.bad .v{color:var(--rej)}
+.bar{height:4px;background:#000;border-radius:2px;overflow:hidden;margin-top:8px}
+.bar>i{display:block;height:100%;background:var(--run);transition:width .6s}
+
+.chains{display:flex;flex-direction:column;gap:14px;margin-bottom:24px}
+.chain{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.chain-h{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.chain-h .n{font-size:13px;font-weight:500}
+.tag{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);color:var(--tx2);border:1px solid var(--line)}
+.tag.cur{background:rgba(55,138,221,.16);color:#7fb4f0;border-color:rgba(55,138,221,.4)}
+.segs{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.seg{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:10px 12px;position:relative;transition:border-color .2s}
+.seg.done{border-left:3px solid var(--done)}
+.seg.running{border-left:3px solid var(--run);background:#1b2028}
+.seg.pending{border-left:3px solid var(--pend)}
+.seg.rejected{border-left:3px solid var(--rej)}
+.seg.hold{border-left:3px solid var(--hold)}
+.seg-h{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.seg-h .no{font-size:15px;font-weight:500;font-variant-numeric:tabular-nums}
+.seg-h .st{margin-left:auto;font-size:11px;color:var(--tx2)}
+.seg .meta{font-size:11px;color:var(--tx3);display:flex;gap:8px;flex-wrap:wrap}
+.seg .flags{display:flex;gap:5px;margin-top:6px;flex-wrap:wrap}
+.flag{font-size:10px;padding:1px 6px;border-radius:4px;background:#000;color:var(--tx2)}
+.flag.ok{color:#4fc39a}
+.flag.warn{color:#e0a34a}
+.spin{width:9px;height:9px;border:2px solid rgba(255,255,255,.2);border-top-color:var(--run);border-radius:50%;display:inline-block;animation:sp .8s linear infinite;vertical-align:-1px}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+.cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px}
+@media(max-width:1000px){.cols{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+video{width:100%;background:#000;border-radius:8px;display:block;aspect-ratio:4/3}
+.empty{aspect-ratio:4/3;border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--tx3);font-size:13px;text-align:center;padding:16px}
+.vh{display:flex;align-items:baseline;gap:8px;margin:12px 0 4px}
+.vh .fn{font-size:12px;color:var(--tx2);word-break:break-all}
+.vh .sz{margin-left:auto;font-size:11px;color:var(--tx3);white-space:nowrap}
+.vwarn{background:rgba(239,159,39,.13);border:1px solid rgba(239,159,39,.4);color:#e8b464;
+  font-size:12px;padding:7px 11px;border-radius:8px;margin-bottom:9px}
+.picker{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.pk{font-size:12px;padding:5px 11px;border-radius:7px;background:var(--panel2);border:1px solid var(--line);color:var(--tx2);cursor:pointer}
+.pk:hover{border-color:#3a4148;color:var(--tx)}
+.pk.on{background:#1b2836;border-color:var(--run);color:#7fb4f0}
+.pk:disabled{opacity:.32;cursor:default}
+
+.acts{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+button{font:inherit;font-size:13px;padding:8px 15px;border-radius:8px;border:1px solid var(--line);background:var(--panel2);color:var(--tx);cursor:pointer;transition:.15s}
+button:hover:not(:disabled){border-color:#4a5158}
+button:disabled{opacity:.35;cursor:default}
+button.danger{color:#f0938f;border-color:rgba(226,75,74,.45)}
+button.danger:hover:not(:disabled){background:rgba(226,75,74,.14)}
+button.ok{color:#4fc39a;border-color:rgba(29,158,117,.45)}
+button.go{color:#7fb4f0;border-color:rgba(55,138,221,.5)}
+textarea{width:100%;min-height:56px;background:#0d0f11;border:1px solid var(--line);border-radius:8px;color:var(--tx);padding:9px 11px;font:13px/1.5 inherit;resize:vertical}
+textarea:focus{outline:none;border-color:var(--run)}
+label.f{display:block;font-size:12px;color:var(--tx2);margin:14px 0 6px}
+#log{font:12px/1.6 ui-monospace,Consolas,monospace;color:var(--tx2);background:#0d0f11;border:1px solid var(--line);border-radius:8px;padding:10px 12px;max-height:190px;overflow:auto;white-space:pre-wrap}
+.hint{font-size:12px;color:var(--tx3);margin-top:10px;line-height:1.7}
+.hint b{color:var(--tx2);font-weight:500}
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="title">短剧调度看板 · X003 保洁</h1>
+  <span class="sub" id="hdSub">每 3 片一条链 · 共 8 片 · GPU 100%</span>
+  <span class="live"><i class="dot on" id="dot"></i><span id="liveTx">实时 · 21:05:24</span></span>
+</header>
+
+<div class="stats" id="stats"><div class="stat "><div class="k">已完成</div><div class="v">2 / 8</div></div><div class="stat "><div class="k">正在生成</div><div class="v">片 3</div></div><div class="stat "><div class="k">下一片</div><div class="v">片 4</div></div><div class="stat "><div class="k">显卡</div><div class="v">100%</div></div><div class="stat "><div class="k">显存</div><div class="v">15.3 GB</div></div><div class="stat" style="grid-column:span 2"><div class="k">总进度</div>
+     <div class="v">25%</div>
+     <div class="bar"><i style="width:25%"></i></div></div></div>
+<div class="chains" id="chains"><div class="chain">
+      <div class="chain-h">
+        <span class="n">链 1</span>
+        <span class="tag cur">正在生成</span>
+        <span class="tag">2/3 完成</span>
+      </div>
+      <div class="segs"><div class="seg done" data-s="1" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 1</span>
+      <span class="st" style="color:#1D9E75">已完成</span></div>
+    <div class="meta"><span>链1·第1片</span><span>1095词</span></div>
+    <div class="flags"><span class="flag">重新起画面</span><span class="flag">2.3MB</span><span class="flag warn">重排3次</span></div>
+  </div><div class="seg done" data-s="2" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 2</span>
+      <span class="st" style="color:#1D9E75">已完成</span></div>
+    <div class="meta"><span>链1·第2片</span><span>1256词</span></div>
+    <div class="flags"><span class="flag">续接上一段</span><span class="flag">3.33MB</span><span class="flag warn">重排2次</span></div>
+  </div><div class="seg running" data-s="3" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 3</span>
+      <span class="st" style="color:#378ADD"><i class="spin"></i> 生成中</span></div>
+    <div class="meta"><span>链1·第3片</span><span>1347词</span></div>
+    <div class="flags"><span class="flag">续接上一段</span><span class="flag warn">重排1次</span></div>
+  </div></div>
+    </div><div class="chain">
+      <div class="chain-h">
+        <span class="n">链 2</span>
+        <span class="tag">未开始</span>
+        <span class="tag">0/3 完成</span>
+      </div>
+      <div class="segs"><div class="seg pending" data-s="4" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 4</span>
+      <span class="st" style="color:#888780">排队中</span></div>
+    <div class="meta"><span>链2·第1片</span><span>1206词</span></div>
+    <div class="flags"><span class="flag">重新起画面</span><span class="flag warn">旧片 10-09 15:59</span><span class="flag warn">重排1次</span></div>
+  </div><div class="seg pending" data-s="5" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 5</span>
+      <span class="st" style="color:#888780">排队中</span></div>
+    <div class="meta"><span>链2·第2片</span><span>1245词</span></div>
+    <div class="flags"><span class="flag">续接上一段</span><span class="flag warn">旧片 10-07 11:34</span></div>
+  </div><div class="seg pending" data-s="6" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 6</span>
+      <span class="st" style="color:#888780">排队中</span></div>
+    <div class="meta"><span>链2·第3片</span><span>1194词</span></div>
+    <div class="flags"><span class="flag">续接上一段</span><span class="flag warn">旧片 10-08 14:54</span></div>
+  </div></div>
+    </div><div class="chain">
+      <div class="chain-h">
+        <span class="n">链 3</span>
+        <span class="tag">未开始</span>
+        <span class="tag">0/2 完成</span>
+      </div>
+      <div class="segs"><div class="seg pending" data-s="7" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 7</span>
+      <span class="st" style="color:#888780">排队中</span></div>
+    <div class="meta"><span>链3·第1片</span><span>1187词</span></div>
+    <div class="flags"><span class="flag">重新起画面</span></div>
+  </div><div class="seg pending" data-s="8" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 8</span>
+      <span class="st" style="color:#888780">排队中</span></div>
+    <div class="meta"><span>链3·第2片</span><span>1163词</span></div>
+    <div class="flags"><span class="flag">续接上一段</span></div>
+  </div></div>
+    </div></div>
+
+<div class="cols">
+  <div class="card">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+      <h2 style="margin:0">成片预览</h2>
+      <button id="bPause" style="margin-left:auto;font-size:12px;padding:4px 11px">暂停刷新</button>
+    </div>
+    <div class="picker" id="picker"><button class="pk" data-s="1">片1</button><button class="pk" data-s="2">片2</button><button class="pk on" data-s="3">片3 <b style="color:#378ADD">●</b></button><button class="pk" data-s="4">片4</button><button class="pk" data-s="5">片5</button><button class="pk" data-s="6">片6</button><button class="pk" data-s="7">片7</button><button class="pk" data-s="8">片8</button></div>
+    <div id="stage"><div class="empty" style="padding:38px 20px">
+   <div style="font-size:30px;margin-bottom:14px">🎬</div>
+   <div style="font-size:19px;color:#378ADD;font-weight:600;margin-bottom:10px">
+     片3 正在生成中
+   </div>
+   <div style="font-size:13px;line-height:1.9;color:#8a9aa8">
+     链1 · 第3片 · 接上一段尾帧 ·
+     提示词 1347 词<br>
+     一片约需 13–15 分钟，出片后这一页会自动出现播放条
+     <br>开跑时间 21:00:56
+   </div>
+   <div style="margin-top:16px;font-size:12px;color:#5a6a78">
+     GPU 正在满载计算
+     ｜ComfyUI 运行中 1 个 / 排队 0 个
+   </div>
+ </div></div>
+    <div class="vh"><span class="fn" id="vname">—</span><span class="sz" id="vsz"></span></div>
+    <label class="f">这片的问题（写给调度器，会整条链重排）</label>
+    <textarea id="why" placeholder="例：说话的人错了 / 两个人小唐 / 隔着百叶窗 / 位置关系不对"></textarea>
+    <div class="acts">
+      <button class="danger" id="bRej">否定片3 · 整条链1重排</button>
+      <button class="ok" id="bOk">这片我认可</button>
+      <button class="go" id="bResume">插队重跑 链1（片1-3）</button>
+    </div>
+    <p class="hint">
+      <b>否定</b>：如果你说的这片<b>正在生成</b>，调度器会立刻放弃它、跳到下一条链的第一片，
+      然后回来改提示词，改完点<b>插队重跑</b>。如果你说的是<b>另一条链</b>，它<b>不打断</b>当前片，
+      等这条跑完自然重排 —— 显卡一秒不停。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>调度日志</h2>
+    <div id="log">等待指令…</div>
+    <label class="f">点任一节点 → 选中该片（左边可看片、否定、认可）</label>
+    <div id="promptBox"></div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let S = null, sel = null, timer = null, paused = false;
+let lastVsrc = null, lastSel = null;   // ⛔ 记住视频 src，没变就绝不碰 <video>
+
+const ST = {
+  done:     {t:'已完成', c:'#1D9E75'},
+  running:  {t:'生成中', c:'#378ADD'},
+  pending:  {t:'排队中', c:'#888780'},
+  rejected: {t:'已否定', c:'#E24B4A'},
+  hold:     {t:'待重排', c:'#EF9F27'}
+};
+
+function fmtBytes(n){
+  if(!n && n!==0) return '—';
+  return n>=1024 ? (n/1024).toFixed(1)+' GB' : n+' MB';
+}
+
+async function load(){
+  try{
+    const r = await fetch('/api/state',{cache:'no-store'});
+    S = await r.json();
+    render();
+    $('#dot').className = 'dot on';
+    $('#liveTx').textContent = paused ? '已暂停刷新' : ('实时 · ' + S.updated);
+    // ⛔⛔⛔ 用户正在看视频 → 立刻停止一切自动刷新。
+    //   之前每 3 秒重载一次，<video> 被重建，播放器永远从头开始，一秒都看不了。
+    if(paused){ clearInterval(timer); timer = null; }
+  }catch(e){
+    $('#dot').className = 'dot';
+    $('#liveTx').textContent = '服务断了';
+  }
+}
+
+function render(){
+  if(!S) return;
+  $('#title').textContent = '短剧调度看板 · ' + (S.title||'');
+  const s = S.summary, g = S.gpu, q = S.queue;
+  $('#hdSub').textContent = `每 ${S.chain_size} 片一条链 · 共 ${s.total} 片 · GPU ${q.alive?(g.util!=null?g.util+'%':'?'):'未启动'}`;
+
+  $('#stats').innerHTML = [
+    ['已完成', s.done + ' / ' + s.total, ''],
+    ['正在生成', s.running!=null ? '片 '+s.running : '空闲',
+      s.running==null && s.total>s.done ? 'warn' : ''],
+    ['下一片', s.next!=null ? '片 '+s.next : '—', ''],
+    ['显卡', g.util!=null ? g.util+'%' : '—', s.gpu_busy?'':'warn'],
+    ['显存', g.mem_used!=null ? fmtBytes(g.mem_used) : '—', ''],
+  ].map(([k,v,c])=>`<div class="stat ${c}"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('')
+  + `<div class="stat" style="grid-column:span 2"><div class="k">总进度</div>
+     <div class="v">${Math.round(s.done/s.total*100)}%</div>
+     <div class="bar"><i style="width:${s.done/s.total*100}%"></i></div></div>`;
+
+  // 链与片
+  const byChain = {};
+  S.segments.forEach(x => (byChain[x.chain] = byChain[x.chain]||[]).push(x));
+  $('#chains').innerHTML = Object.keys(byChain).sort().map(c=>{
+    const arr = byChain[c], cur = arr.find(x=>x.status==='running');
+    return `<div class="chain">
+      <div class="chain-h">
+        <span class="n">链 ${c}</span>
+        <span class="tag${cur?' cur':''}">${cur?'正在生成':'未开始'}</span>
+        <span class="tag">${arr.filter(x=>x.status==='done').length}/${arr.length} 完成</span>
+      </div>
+      <div class="segs">${arr.map(node).join('')}</div>
+    </div>`;
+  }).join('');
+
+  // 预览选择条
+  // ⛔⛔⛔ 2026-10-09 20:35 用户在网页上看到「没有正在生成的」，
+  //   但 GPU 明明 100% 在跑 —— 因为**默认只选中「已有成片」的片**。
+  //正在生成的那片还没落盘 → 选不中它 → 页面上一片生成中的都没有。
+  //   → ① 有片正在生成时，默认选中它；② 没有成片也允许点开（看生成中状态）。
+  const withV = S.segments.filter(x=>x.video);
+  const runSeg = S.segments.find(x=>x.status==='running');
+  if(!sel || !S.segments.some(x=>x.seg===sel)){
+    sel = runSeg ? runSeg.seg : (withV.length?withV[withV.length-1].seg:null);
+  }
+  $('#picker').innerHTML = S.segments.map(x=>{
+    const live = x.status==='running';
+    const dot = live ? ' <b style="color:#378ADD">●</b>' : '';
+    return `<button class="pk${x.seg===sel?' on':''}" data-s="${x.seg}">片${x.seg}${dot}</button>`;
+  }).join('');
+  [...document.querySelectorAll('.pk')].forEach(b=>b.onclick=()=>{sel=+b.dataset.s;render();});
+
+  // ⛔⛔⛔ 播放器：**同一支片就绝对不碰 <video> 元素**。
+  //   碰了它 = 进度归零、声音断、正在播的帧被抽走 —— 用户根本没法定住看片。
+  //   只有「换了片」或「这支片出了新成片」才重建。
+  const cur = S.segments.find(x=>x.seg===sel);
+  const vsrc = (cur && cur.video) ? '/video/' + cur.video.name + '?v=' + cur.video.ts : null;
+  // ⛔⛔⛔ 2026-10-09 20:37 修正一个反向 bug：
+  //   「生成中」时 vsrc 一直是 null → 不进 if → 面板永远停在第一次的文字，
+  //   用户看不到时间在走，以为卡住了。
+  //   → 分两种刷新：视频区**src 相同就绝不碰**（保住播放进度）；
+  //     生成中面板是纯文字，**每次都更新**（不碰 video，无副作用）。
+  const runPanel = cur && !vsrc && cur.status==='running';
+  if(runPanel){
+    $('#stage').innerHTML = runPanelHTML(cur);
+    lastVsrc = null;
+}else if(vsrc !== lastVsrc){
+    if(vsrc){
+      const warn = cur.video.stale
+        ? `<div class="vwarn">⚠ 这是上一轮跑剩的旧片（${cur.video.mtime}），本片尚未重跑</div>` : '';
+      $('#stage').innerHTML = warn +
+        `<video id="vd" src="${vsrc}#t=0.1" controls preload="auto" playsinline></video>`;
+    }else{
+      $('#stage').innerHTML = `<div class="empty">${cur?('片'+cur.seg+' 还没有成片<br><span style="font-size:12px">'+ST[cur.status].t+'</span>'):'没有可预览的成片'}</div>`;
+    }
+    lastVsrc = vsrc;
+  }
+  if(cur && cur.video){
+    $('#vname').textContent = cur.video.name;
+    $('#vsz').textContent = `${cur.video.size_mb}MB · ${cur.video.mtime}${cur.video.has_audio?' · 含配音':' · 无配音'}`;
+  }else{ $('#vname').textContent='—'; $('#vsz').textContent=''; }
+
+  // 按钮可用性
+  $('#bRej').disabled = !cur;
+  $('#bOk').disabled = !cur || cur.status==='done' && cur.approved;
+  $('#bResume').disabled = !cur;
+  $('#bRej').textContent = cur ? `否定片${cur.seg} · 整条链${cur.chain}重排` : '否定这片';
+  $('#bResume').textContent = cur ? `插队重跑 链${cur.chain}（片${cur.chain*3-2}-${cur.chain*3}）` : '插队重跑';
+}
+
+function runPanelHTML(cur){
+  const busy = S.queue && S.queue.gpu_busy;
+  const q = S.queue || {};
+  return `<div class="empty" style="padding:38px 20px">
+   <div style="font-size:30px;margin-bottom:14px">🎬</div>
+   <div style="font-size:19px;color:#378ADD;font-weight:600;margin-bottom:10px">
+     片${cur.seg} 正在生成中
+   </div>
+   <div style="font-size:13px;line-height:1.9;color:#8a9aa8">
+     链${cur.chain} · 第${cur.pos}片 · ${cur.kind==='chain'?'接上一段尾帧':'从参考图起'} ·
+     提示词 ${cur.words} 词<br>
+     一片约需 13–15 分钟，出片后这一页会自动出现播放条
+     ${cur.started_at?'<br>开跑时间 '+cur.started_at:''}
+   </div>
+   <div style="margin-top:16px;font-size:12px;color:#5a6a78">
+     ${busy?'GPU 正在满载计算':'⚠ GPU 当前空闲，请检查调度器'}
+     ${q.alive?('｜ComfyUI 运行中 '+q.running+' 个 / 排队 '+q.pending+' 个'):''}
+   </div>
+ </div>`;
+}
+
+function node(x){
+  const st = ST[x.status]||{t:x.status,c:'#888'};
+  const f = [];
+  f.push(`<span class="flag">${x.kind==='fixed'?'重新起画面':'续接上一段'}</span>`);
+  if(x.approved) f.push(`<span class="flag ok">你已认可</span>`);
+  if(x.video && x.video.stale) f.push(`<span class="flag warn">旧片 ${x.video.mtime}</span>`);
+  else if(x.video) f.push(`<span class="flag">${x.video.size_mb}MB</span>`);
+  if(x.status==='done' && !x.video) f.push(`<span class="flag warn">成片丢失</span>`);
+  if(x.history && x.history.length) f.push(`<span class="flag warn">重排${x.history.length}次</span>`);
+  return `<div class="seg ${x.status}" data-s="${x.seg}" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 ${x.seg}</span>
+      <span class="st" style="color:${st.c}">${x.status==='running'?'<i class="spin"></i> ':''}${st.t}</span></div>
+    <div class="meta"><span>链${x.chain}·第${x.pos}片</span><span>${x.words||'?'}词</span></div>
+    <div class="flags">${f.join('')}</div>
+  </div>`;
+}
+
+function log(s){
+  const el = $('#log');
+  el.textContent = s + '\n' + el.textContent.split('\n').slice(0,40).join('\n');
+}
+
+async function post(p, body){
+  const r = await fetch(p,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  return r.json();
+}
+
+$('#bPause').onclick = ()=>{
+  paused = !paused;
+  $('#bPause').textContent = paused ? '继续刷新' : '暂停刷新';
+  $('#bPause').className = paused ? 'go' : '';
+  if(paused){
+    if(timer){ clearInterval(timer); timer = null; }
+    $('#liveTx').textContent = '已暂停刷新';
+    log('刷新已暂停 —— 可以安心看片。点「继续刷新」恢复。');
+  }else{
+    load();
+    timer = setInterval(load, 3000);
+    log('刷新已恢复（每 3 秒）。');
+  }
+};
+
+$('#bRej').onclick = async ()=>{
+  if(!sel) return;
+  const why = $('#why').value.trim() || '网页否定';
+  const d = await post('/api/reject',{seg:sel, why});
+  log(`[否定片${sel}] ${d.out||''}`);
+  $('#why').value='';
+  // ⛔ 指令后**立刻**拉一次状态，不用干等下一个 3 秒 tick。
+  //   但**不动播放器** —— render() 里 src 没变就不碰 <video>。
+  load();
+};
+$('#bResume').onclick = async ()=>{
+  if(!sel) return;
+  const c = S.segments.find(x=>x.seg===sel).chain;
+  const d = await post('/api/resume',{chain:c, why:'网页插队重排'});
+  log(`[插队链${c}] ${d.out||''}`);
+  load();
+};
+$('#bOk').onclick = async ()=>{
+  if(!sel) return;
+  const d = await post('/api/approve',{seg:sel});
+  log(`[认可片${sel}] ${d.out||''}`);
+  load();
+};
+
+document.addEventListener('click', e=>{
+  const n = e.target.closest('.seg');
+  if(n){ sel = +n.dataset.s; render(); }
+});
+
+// ⛔⛔⛔ 只要用户碰了播放器（播放/拖进度条/全屏），自动暂停刷新。
+//   否则 3 秒一次的重载会把他正在看的那一帧抽走 —— 根本没法看片。
+//   这条比「暂停按钮」重要：人一定会先点播放，不会先找按钮。
+document.addEventListener('play',  e=>{ if(e.target.id==='vd') autoPause(); }, true);
+document.addEventListener('seeking', e=>{ if(e.target.id==='vd') autoPause(); }, true);
+document.addEventListener('pointerdown', e=>{
+  const v = e.target.closest && e.target.closest('video');
+  if(v && v.id==='vd') autoPause();
+}, true);
+
+function autoPause(){
+  if(paused) return;
+  paused = true;
+  if(timer){ clearInterval(timer); timer = null; }
+  const b = $('#bPause');
+  if(b){ b.textContent='继续刷新'; b.className='go'; }
+  $('#liveTx').textContent = '看片中 · 刷新已停';
+  log('检测到你在看片 → 刷新已自动暂停，不会再打断你。');
+}
+
+load();
+timer = setInterval(load, 3000);
+</script>
+
+
+</body></html>

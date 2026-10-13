@@ -1,0 +1,4 @@
+minidrama_comfyui | Disabled
+minidrama_fixaudio | Ready
+minidrama_gen001 | Ready
+minidrama_genwatch | Ready

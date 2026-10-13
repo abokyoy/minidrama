@@ -1,0 +1,269 @@
+{
+ "133": {
+  "class_type": "PrimitiveFloat",
+  "inputs": {
+   "value": 10
+  }
+ },
+ "127": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "119": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+  }
+ },
+ "128": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+   "type": "minimax",
+   "device": "default"
+  }
+ },
+ "132": {
+  "class_type": "ComfyMathExpression",
+  "inputs": {
+   "expression": "max(5, round(a * 24)) + (5 - (max(5, round(a * 24)) % 17)) % 17",
+   "values.a": [
+    "133",
+    0
+   ]
+  }
+ },
+ "900": {
+  "class_type": "H3SLAAttention",
+  "inputs": {
+   "sparsity_ratio": 0.9,
+   "block_size": "64",
+   "min_seq_len": 8192,
+   "dense_last_steps": 0,
+   "protect_audio": true,
+   "enabled": true,
+   "dense_steps": "0",
+   "dense_backend": "comfy_kitchen",
+   "disable_fp16_accum": true,
+   "stabilize_motion": false,
+   "reference_protection": "Off",
+   "tail_correction": false,
+   "use_int8_qk": true,
+   "engine": "triton",
+   "model": [
+    "990",
+    0
+   ]
+  }
+ },
+ "142": {
+  "class_type": "MiniMaxH3SigmaShift",
+  "inputs": {
+   "shift_video": 12,
+   "shift_audio": 3,
+   "model": [
+    "900",
+    0
+   ]
+  }
+ },
+ "126": {
+  "class_type": "BasicGuider",
+  "inputs": {
+   "model": [
+    "142",
+    0
+   ],
+   "conditioning": [
+    "903",
+    0
+   ]
+  }
+ },
+ "124": {
+  "class_type": "BasicScheduler",
+  "inputs": {
+   "scheduler": "simple",
+   "steps": 8,
+   "denoise": 1,
+   "model": [
+    "142",
+    0
+   ]
+  }
+ },
+ "129": {
+  "class_type": "RandomNoise",
+  "inputs": {
+   "noise_seed": 42
+  }
+ },
+ "125": {
+  "class_type": "SamplerCustomAdvanced",
+  "inputs": {
+   "noise": [
+    "129",
+    0
+   ],
+   "guider": [
+    "126",
+    0
+   ],
+   "sampler": [
+    "135",
+    0
+   ],
+   "sigmas": [
+    "124",
+    0
+   ],
+   "latent_image": [
+    "903",
+    1
+   ]
+  }
+ },
+ "135": {
+  "class_type": "KSamplerSelect",
+  "inputs": {
+   "sampler_name": "res_multistep"
+  }
+ },
+ "902": {
+  "class_type": "VHS_VideoCombine",
+  "inputs": {
+   "frame_rate": 24,
+   "loop_count": 0,
+   "filename_prefix": "off_xs90_t01",
+   "format": "video/h264-mp4",
+   "pix_fmt": "yuv420p",
+   "crf": 19,
+   "save_metadata": true,
+   "trim_to_audio": false,
+   "pingpong": false,
+   "save_output": true,
+   "images": [
+    "122",
+    0
+   ],
+   "audio": [
+    "121",
+    0
+   ]
+  }
+ },
+ "121": {
+  "class_type": "VAEDecodeAudio",
+  "inputs": {
+   "samples": [
+    "125",
+    0
+   ],
+   "vae": [
+    "120",
+    0
+   ]
+  }
+ },
+ "122": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "125",
+    0
+   ],
+   "vae": [
+    "119",
+    0
+   ]
+  }
+ },
+ "120": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+  }
+ },
+ "1": {
+  "class_type": "PrimitiveStringMultiline",
+  "inputs": {
+   "value": "subject_definitions:\n<Subject 1> is the woman in <Picture 1>, a 25-year-old sword immortal. She has the same almond eyes, straight nose, small mouth and faint mole on her left cheek, with centre-parted black hair worn waist-length and loose. She wears a flowing white silk hanfu with pale-cyan inner lining and wide streaming sleeves, a jade crown, a silver sword-belt and cloth boots.\n<Subject 2> is the man in <Picture 2>, a 50-year-old demon lord. He has the same broad round face, heavy-lidded narrow eyes, thick slicked-back hair, broad nose and heavy jaw. He wears layered black and dark-crimson armour with broad shoulder plates and a dark iron crown.\n<Picture 1> supplies only <Subject 1>'s face. <Picture 2> supplies only <Subject 2>'s face.\n\nsummary:\n[reference generation] A sword immortal and a demon lord fight a duel high above a sea of clouds at dusk. <Subject 1> attacks from a levitating jade-green sword; <Subject 2> attacks from a floating slab of black rock. Each picture supplies one face only.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 4], [Shot 5], [Shot 6], [Shot 7]): fully_preserved - her almond eyes, straight nose, small mouth, faint mole on her left cheek and centre-parted black hair are retained in every shot.\n<Subject 2> (appears in [Shot 1], [Shot 3], [Shot 7]): fully_preserved - his broad round face, heavy-lidded narrow eyes, thick slicked-back hair, broad nose and heavy jaw are retained in every shot.\n\ndetailed_description:\nLive-action cinematic Chinese fantasy duel, vertical 9:16 portrait framing, large-format cinema camera with anamorphic-flavoured depth, film grain, rich filmic colour with deep clean shadows and luminous highlights, high-contrast teal-and-orange dusk light — keep the film texture, natural lighting, both faces, both costumes and the realistic motion consistent throughout.\n\nSetting for every shot: high open sky above a wide sea of clouds at dusk, layered cloud banks drifting far below, distant ridges on the horizon, the sky grading from deep teal at the top to hot orange where a low sun sits, god-rays cutting through the clouds.\n\n[Shot 1] A wide establishing two-shot shows <Subject 1> standing upright on the flat top of a jade-green sword that hovers horizontally on the right of frame, and <Subject 2> standing feet-planted on a floating slab of black rock on the left of frame, thirty metres apart, facing each other across open sky. Camera: Static Shot, holding the stillness before either of them moves.\n\n[Shot 2] At 00:01.250, <Subject 1> snaps her right arm back across her body and opens her palm; a ball of luminous cyan sword-qi gathers above her fingers and throws hard blue light up onto her face and her white sleeve. Camera: Push In with small amplitude at fast speed, tightening onto her hand and the gathering light.\n\n[Shot 3] At 00:02.500, <Subject 2> throws his right arm up and a door-sized slab of black rock tears loose beside him, hanging spinning in the air with bright orange sparks and grey ash flying off its edge. Camera: Arc Shot with medium amplitude at fast speed, circling him while the slab spins.\n\n[Shot 4] At 00:03.750, a low side angle on <Subject 1>'s feet as she pushes off the jade sword; her cloth boots lift clear, her long hair and both wide sleeves stream straight up, and the sword tilts nose-up and climbs after her. Camera: Tilt Up with medium amplitude at fast speed, following her rise against the orange sun, a bright rim light along her shoulder.\n\n[Shot 5] At 00:05.000, <Subject 2> swings his arm forward and the spinning slab of black rock sweeps low across the frame, trailing grey ash and orange sparks. Camera: Truck Right with medium amplitude at fast speed, sliding sideways as the slab passes in front of him.\n\n[Shot 6] At 00:06.250, a tight close-up on <Subject 1>'s face, her eyes narrowed and her jaw set, cyan light from above raking across her cheekbones and the loose hair across her face. Camera: Push In with small amplitude at fast speed, closing in on her eyes.\n\n[Shot 7] At 00:07.500, a wide aerial two-shot: <Subject 1> is high on the right of frame and drives both arms down in one thrust; two hundred glowing cyan flying swords appear above her in a wide arc, each trailing a thin luminous line, and they drop past her toward <Subject 2> in a dense diagonal curtain, striking the drifting black vapour in front of him and bursting into showers of blue-white sparks, several reaching the rock beside him and each impact throwing a white flash that lights his armour from below. Camera: Pull Out with large amplitude at fast speed, revealing the whole cloud sea and the two of them small inside it.\n\nNo slow-motion, wire rigs, floating weapons held in the hand, extra fighters, duplicated swords, duplicated people, distorted limbs, extra arms, floating debris, excessive camera shake, soft dissolves, fades, or unnecessary transitions; use hard cuts only and no on-screen text, letters, logos, subtitles, or watermarks.\n\noverall_soundscape: Deep rising wind across open sky throughout; the long metallic ring of drawn swords; a hard whip-crack as each blade cuts the air; a dense hissing of cyan blades like rain on hot metal; sharp bright impacts like struck glass from 7.5s; low rock grinding; the heavy ring of struck armour at 8.5s.\n\nnon_diegetic_music: A low sustained drone begins at 0s, a fast taiko roll enters at 1.25s as the light gathers, the percussion doubles at 3.75s when she rises, and the whole track cuts sharply at 7.5s on the sword rain and returns as one single low pulse that fades out by the end.\n"
+  }
+ },
+ "115": {
+  "class_type": "ResolutionSelector",
+  "inputs": {
+   "aspect_ratio": "9:16 (Portrait Widescreen)",
+   "megapixels": 0.75,
+   "multiple": 32
+  }
+ },
+ "903": {
+  "class_type": "MiniMaxH3ReferenceToVideo",
+  "inputs": {
+   "ref_image_size": "match",
+   "clip": [
+    "128",
+    0
+   ],
+   "vae": [
+    "119",
+    0
+   ],
+   "audio_vae": [
+    "120",
+    0
+   ],
+   "ref_images.ref_image_0": [
+    "901",
+    0
+   ],
+   "ref_images.ref_image_1": [
+    "904",
+    0
+   ],
+   "prompt": [
+    "1",
+    0
+   ],
+   "width": [
+    "115",
+    0
+   ],
+   "height": [
+    "115",
+    1
+   ],
+   "length": [
+    "132",
+    1
+   ]
+  }
+ },
+ "901": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "r01_ref1__554c2cf2.png"
+  }
+ },
+ "904": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "r02_ref2__7d054efb.png"
+  }
+ },
+ "990": {
+  "class_type": "LoraLoaderModelOnly",
+  "inputs": {
+   "model": [
+    "127",
+    0
+   ],
+   "lora_name": "minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+   "strength_model": 1.0
+  }
+ }
+}

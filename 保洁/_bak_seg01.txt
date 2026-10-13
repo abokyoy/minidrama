@@ -1,0 +1,40 @@
+subject_definitions:
+<Subject 1> — 钱经理: a 45-year-old male property manager. Slightly overweight, slicked-back oily hair, round face, an ingratiating smile that flips into a scowl, white shirt buttoned up to the closed collar under a dark grey buttoned waistcoat, dark grey trousers and black leather shoes. His voice is loud, nasal and bullying, standard Mandarin. It is the person shown in <Picture 1>.
+<Subject 2> — 苏小满: a 25-year-old female cleaner. Preserve her exact face, small lean build, centre-parted black hair in a low practical ponytail, plain dark-navy button-up work shirt buttoned up to the closed collar with its own small plain buttons down the front, a worn grey apron over dark navy trousers, black cloth shoes. Her voice is low, steady and slightly hoarse, standard Mandarin. It is the person shown in <Picture 2>.
+<Subject 3> — 小唐: a 22-year-old female cleaning-team colleague. Thin, pale, narrow shoulders, shifty sidelong eyes, hair tied back in a low ponytail, light-grey button-up work shirt with a pointed collar and matching light-grey trousers, a light-grey apron tied round her waist, black cloth shoes. Her voice is small, thin and nervous. It is the person shown in <Picture 3>.
+<Picture 4>: the property office of 万山大厦 seen empty, used for LAYOUT, FURNITURE and DAYLIGHT reference ONLY. Do NOT copy any person, figure, silhouette or body part that happens to be visible in this picture — the people in this shot come only from <Subject 1>, <Subject 2> and <Subject 3>. The room contains no other human being.
+
+summary:
+[reference generation] Interior of a bright modern property office at midday. EXACTLY THREE PEOPLE are present throughout and the number never changes: a young female cleaner in a navy housekeeping uniform standing still on the near side of a dark wooden desk, a middle-aged male property manager in a white shirt and charcoal waistcoat who strides two paces and slams his palm on the desk, and a young female colleague in a light-grey cleaning uniform standing motionless against the far LEFT corner wall. The left-hand door stays closed and the doorway stays empty — no one enters, no one leaves, no one is duplicated. Venetian-blind light bands fall across the room.
+
+retention_analysis:
+<Subject 1> — 钱经理: fully_preserved
+<Subject 2> — 苏小满: fully_preserved
+<Subject 3> — 小唐: fully_preserved
+<Picture 4>: fully_preserved
+
+detailed_description:
+VERTICAL 9:16 portrait framing, high-key commercial cinematography on a large-format camera, soft broad daylight, luminous pale walls, light reflective floor, every surface clearly readable, airy and open, gentle soft shadows that stay light and keep their detail, clean luminous image, shallow depth of field, refined natural faces, elegant wardrobe, subtle film grain. Keep the film texture, natural lighting, every face, every costume and the realistic motion consistent throughout. People stay standing, framed from the knees up.
+Exposure: the window is a large bright key light and the whole room is filled with soft bounced daylight. Skin tones are bright and even. Shadow areas sit in the light mid-tones and keep visible texture and colour. The darkest corners of the frame still read as pale grey with detail, the whites stay white, and the picture carries an even, transparent, high-key brightness from edge to edge.
+Every shirt and waistcoat is buttoned right up to the closed collar, so each chest shows one continuous unbroken run of plain fabric with its own small plain buttons down the front. Apron bibs are plain unmarked fabric.
+Speaker labels for this shot only: (S1) 苏小满, (S3) 钱经理, (S4) 小唐. Anyone not named here stays completely silent with a closed mouth.
+The whole clip takes place in one small private office and the camera never leaves it. The room has four plain white walls, a grey metal filing cabinet along the far wall, a long wooden desk standing across the middle of the floor, venetian blinds on the right-hand wall laying bright bands across the desk top, and a closed wooden door set flat into the back wall. The walls behind the people are smooth painted plaster of one single light colour, unbroken from the skirting board up to the ceiling. All cardboard boxes and folders are plain brown corrugated cardboard. The people named in this beat are the only people in it: the manager stays behind the desk on the far side, the cleaner stays at the near end of it with her back to the camera, and the colleague stands where this beat places her. The count does not change.
+[Shot 1] Static Shot, medium two-shot: 钱经理 (S3) strides two paces in from the near end of the room, 小唐 (S4) one pace behind him, and he slams his palm flat on the long wooden desk; the grey metal filing cabinets fill the wall behind him, and the desk edge jumps under his hand.
+
+[Shot 2] At 00:01.250, Camera: Push In with small amplitude at fast speed, pushing in on the flat of his palm where it lands on the varnished wood, the desk grain and his knuckle ring coming into focus; his mouth opens and he speaks in a loud bullying nasal Mandarin: [Chinese] 三楼包厢。贵客丢了一只金耳钉。三万八。
+
+[Shot 3] At 00:02.500, Camera: Truck Right with medium amplitude at fast speed, sliding sideways across the desk to a reverse single on 苏小满 (S1); her back is to the camera and a band of blind-light bars the wall behind her, and she does not move her feet.
+
+[Shot 4] At 00:03.750, Camera: Truck Right with medium amplitude at fast speed, sliding sideways along the near edge of the desk as 苏小满 (S1) sets both hands flat on the wood and slides the folder she was carrying onto it; the folder's corner stops short of 钱经理 (S3)'s palm.
+
+[Shot 5] At 00:05.000, Camera: Static Shot, holding on 钱经理 (S3) at the far end of the desk as he draws his hand back off the wood and his shoulders square up; the blind-light band lies across his chest. The camera is locked off.
+
+[Shot 6] At 00:06.500, Camera: Pull Out with large amplitude at slow speed, pulling out to reveal the whole office: the folder lying flat at the middle of the desk, 钱经理 (S3) bearing down across from 苏小满 (S1), 小唐 (S4) standing clear of the desk end in the bright doorway light from the blinds, everyone holding their positions.
+
+From [Shot 3] through [Shot 6] the only mouth movement in frame is the one line 钱经理 (S3) has already delivered in [Shot 2]; the office falls into room tone.
+
+No slow-motion, no soft dissolves, no fades, no unnecessary transitions; use hard cuts only and no on-screen text, letters, logos, subtitles, or watermarks.
+
+overall_soundscape: A clock ticking on the wall and the low hum of the ceiling lights throughout; one sharp heel strike at 0.3s as 钱经理 strides in; a flat palm slap on the desk top at 1.3s; the scrape of a folder sliding across wood at 4.0s; room tone returns at 7.0s.
+
+non_diegetic_music: A low sustained string drone enters at 0s, a single wood-block knock lands with the palm slap at 1.3s, and the track thins to one held note from 5.0s onward.

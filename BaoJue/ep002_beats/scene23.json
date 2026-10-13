@@ -1,0 +1,172 @@
+[
+ {
+  "id": "ep02_t80",
+  "scene": "2-3",
+  "title": "缴费单递进窗口",
+  "refs": [
+   "suxiaoman",
+   "shoufeiyuan",
+   "hospital_pay",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_pay": "fully_preserved",
+   "hospital_corridor": "fully_preserved"
+  },
+  "summary": "In the hospital corridor, 苏小满 pushes the folded payment slip through the round opening of the cashier window, a hand inside takes it, stamps it, and slides it back out.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands outside the RIGHT-hand cashier window in the hospital corridor, facing the window, the folded payment slip pinched between her right thumb and forefinger; the window glass with its round opening sits in the right half of frame and the corridor runs away behind her.\n[Shot 1] Close-up at the round opening: her hand lifts the folded slip, creased at the corners, and pushes it through the small circular slot; on the far side of the glass a second hand closes over it.\n[Shot 2] At 00:03.400, medium shot through the glass: 收费员 (S17), a woman in a pale-blue uniform with a staff badge on her chest, takes the slip and presses a stamp down on it, and a red mark lands on the paper.\n[Shot 3] At 00:06.600, the camera tilts with the slip as it is pushed back out of the round opening and settles on the ledge with the red stamp facing up; 苏小满's (S1) fingers hover above it. Nobody speaks.",
+  "soundscape": "The corridor's fluorescent hum, the soft slide of paper through the round opening, a dull stamp thump against the glass, a trolley wheeling far down the hall, footsteps passing behind her.",
+  "music": "N/A",
+  "ref_notes": {
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on."
+  }
+ },
+ {
+  "id": "ep02_t81",
+  "scene": "2-3",
+  "title": "二十万到账，手术周五",
+  "refs": [
+   "suxiaoman",
+   "shoufeiyuan",
+   "hospital_pay"
+  ],
+  "retention": {
+   "hospital_pay": "fully_preserved"
+  },
+  "summary": "The cashier pushes the stamped slip out and reports flatly that the money has landed and the operation is set for Friday.",
+  "shots": "Entry state, re-anchored to the reference images: the stamped slip lies on the ledge outside the window and 苏小满 (S1) stands at the glass in the right half of frame, with 收费员 (S17) behind the glass inside.\n[Shot 1] Medium through the glass: 收费员 (S17) pushes the slip fully out, tips her glasses up with one finger and reports without looking up, in flat businesslike Mandarin: [Chinese] 二十万，到账了。手术，排周五。\n[Shot 2] At 00:06.000, close on 收费员's (S17) face behind the glass as she finishes, then turns her eyes to the queue past 苏小满's (S1) shoulder.\n[Shot 3] At 00:08.400, reverse: 苏小满 (S1) picks the stamped slip up off the ledge with both hands and holds it against her chest, eyes lowered onto it. She says nothing.",
+  "soundscape": "The cashier's level voice through the glass slot, the fluorescent hum overhead, the queue shuffling behind, a chair wheel squeaking on the corridor floor.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep02_t82",
+  "scene": "2-3",
+  "title": "贴着右墙站一会儿",
+  "refs": [
+   "suxiaoman",
+   "hospital_corridor",
+   "hospital_pay"
+  ],
+  "retention": {
+   "hospital_corridor": "fully_preserved",
+   "hospital_pay": "fully_preserved"
+  },
+  "summary": "She backs two paces off the window and stands with her shoulder against the right-hand wall, the stamped slip lowered to her side, not leaving yet.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) has just taken the stamped slip off the ledge and holds it against her chest; the cashier window and its glass are on her RIGHT and she faces the window.\n[Shot 1] Medium shot on the corridor axis: 苏小满 (S1) steps back two paces from the window and sets her shoulder against the right-hand wall; the window glass stays at the right edge of frame and the corridor stretches away to the far end.\n[Shot 2] At 00:04.000, closer: her right hand lowers the stamped slip to her side and her other hand hangs loose; the ceiling light falls straight down on her and her shadow pools on the polished floor under her feet.\n[Shot 3] At 00:07.200, slow push-in on her face as she breathes out slowly, eyes fixed somewhere down the corridor, mouth closed. She stays against the wall and says nothing.",
+  "soundscape": "The corridor's steady electric hum, the slip edge crinkling against her fingers, a gurney rolling far away, the window glass ticking behind her.",
+  "music": "N/A",
+  "ref_notes": {
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on."
+  }
+ },
+ {
+  "id": "ep02_t83",
+  "scene": "2-3",
+  "title": "手机上的到账",
+  "refs": [
+   "suxiaoman",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_corridor": "fully_preserved"
+  },
+  "summary": "She lights her phone and reads a banking notice showing the money has arrived; her thumb stops on the screen.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) still stands against the right-hand wall of the corridor with the stamped slip down at her side and the cashier window behind her in the right of frame.\n[Shot 1] Close on the phone screen in her hand as she wakes it: a banking app page showing a freshly credited amount, its cold light rising onto her chin and throat.\n[Shot 2] At 00:04.600, tight on her face above the screen: her eyes hold on the screen, her lips press together, one slow blink.\n[Shot 3] At 00:07.400, her thumb rests on the glass and stays there; she does not swipe it away. The corridor hum carries on around her and she says nothing.",
+  "soundscape": "A soft screen tap, the corridor's electric hum, the slip crinkling at her side, a distant lift chime, footsteps echoing on the tiles.",
+  "music": "A single warm piano note, held long.",
+  "ref_notes": {
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on."
+  }
+ },
+ {
+  "id": "ep02_t84",
+  "scene": "2-3",
+  "title": "走到病房门口",
+  "refs": [
+   "suxiaoman",
+   "hospital_corridor",
+   "hospital_ward"
+  ],
+  "retention": {
+   "hospital_corridor": "fully_preserved",
+   "hospital_ward": "fully_preserved"
+  },
+  "summary": "She walks along the corridor to the left-hand cardiac ward door and stops square in front of it, looking through the glass observation pane.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands against the right-hand wall with the phone in one hand and the stamped slip in the other, the cashier window behind her on the RIGHT.\n[Shot 1] Wide down the corridor's depth: 苏小满 (S1) pushes off the right-hand wall and walks toward the lens and past it, the cashier window falling away behind her on the right, the ward door coming up ahead on the left-hand wall.\n[Shot 2] At 00:04.200, medium: she stops square in front of the left-hand cardiac ward door, the glass observation pane level with her eyes and the bright corridor stretching back behind her.\n[Shot 3] At 00:07.200, over her shoulder through the glass pane: a bed stands by the ward window and she lowers the phone to her side and looks in. She says nothing.",
+  "soundscape": "Her even footsteps on the tiles, the corridor's electric hum, a monitor beeping softly inside the ward, a muffled page announcement far off.",
+  "music": "N/A",
+  "ref_notes": {
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on.",
+   "hospital_ward": "the 市一院 cardiac ward room and the bed pushed against the tall window. Use it as the LOCATION, furniture and bed-position reference ONLY — do NOT copy its late-afternoon light level; this beat is a bright clean morning with the ceiling lights on."
+  }
+ },
+ {
+  "id": "ep02_t85",
+  "scene": "2-3",
+  "title": "玻璃后的外婆",
+  "refs": [
+   "suxiaoman",
+   "waipo",
+   "hospital_ward",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved",
+   "hospital_corridor": "fully_preserved"
+  },
+  "summary": "Through the glass she watches her sleeping grandmother, breathing evenly on the bed by the window with a thin oxygen tube under her nose.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands square in front of the left-hand ward door, looking through the glass observation pane, her phone down in one hand and the stamped slip in the other.\n[Shot 1] Through the glass pane into the ward: 外婆 (S9) lies on the bed by the window with her eyes closed, her chest rising and falling evenly, a thin oxygen tube under her nose; morning light from the ward window lies across the blanket.\n[Shot 2] At 00:04.000, closer through the glass: the grandmother's face and the slow rise of her breathing, the ward's soft daylight on the pillow.\n[Shot 3] At 00:07.200, pull back to the corridor side: the glass pane holds both faces, 苏小满's (S1) reflection laid over the sleeping one. She keeps her hands still and says nothing.",
+  "soundscape": "The soft hiss of oxygen through the tube, a monitor beeping steadily, the corridor hum behind her, a wheeled trolley passing in the distance.",
+  "music": "N/A",
+  "ref_notes": {
+   "hospital_ward": "the 市一院 cardiac ward room and the bed pushed against the tall window. Use it as the LOCATION, furniture and bed-position reference ONLY — do NOT copy its late-afternoon light level; this beat is a bright clean morning with the ceiling lights on.",
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on."
+  }
+ },
+ {
+  "id": "ep02_t86",
+  "scene": "2-3",
+  "title": "外婆，周五",
+  "refs": [
+   "suxiaoman",
+   "waipo",
+   "hospital_ward",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved",
+   "hospital_corridor": "fully_preserved"
+  },
+  "summary": "She leans her face close to the glass and breathes two words to her sleeping grandmother: Friday.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands outside the left-hand ward door with her face near the glass pane; inside, 外婆 (S9) sleeps on the bed by the window, and the phone and stamped slip hang in her hands at her sides.\n[Shot 1] Close from the corridor side: 苏小满 (S1) leans in until her forehead almost touches the cold glass and her lips part; in a barely breathed Mandarin, close to the pane, she says: [Chinese] 外婆，周五。\n[Shot 2] At 00:05.200, hold on the glass: her breath fogs a small circle on the pane and fades, while beyond it the grandmother's eyes stay closed and her chest keeps rising.\n[Shot 3] At 00:07.600, her hands stay down at her sides and she does not reach for the door; she holds her cheek near the glass and watches. She says nothing more.",
+  "soundscape": "One low whispered phrase near the glass, the soft hiss of oxygen, the monitor's steady beep, the corridor's electric hum behind her.",
+  "music": "A single low cello note under the two words.",
+  "ref_notes": {
+   "hospital_ward": "the 市一院 cardiac ward room and the bed pushed against the tall window. Use it as the LOCATION, furniture and bed-position reference ONLY — do NOT copy its late-afternoon light level; this beat is a bright clean morning with the ceiling lights on.",
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on."
+  }
+ },
+ {
+  "id": "ep02_t87",
+  "scene": "2-3",
+  "title": "把手机按在胸口",
+  "refs": [
+   "suxiaoman",
+   "waipo",
+   "hospital_ward",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved",
+   "hospital_corridor": "fully_preserved"
+  },
+  "summary": "She presses the phone to her chest like something warm, closes her eyes once, takes one more look through the glass, and turns to walk back.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands close to the ward-door glass with her cheek near the pane and the phone and stamped slip down at her sides, while inside 外婆 (S9) sleeps on.\n[Shot 1] Close on 苏小满 (S1) as she brings the phone up and presses it flat against her overalls over her heart, palm over the screen, and holds it there.\n[Shot 2] At 00:03.600, tight on her face: her eyes close for a moment and open again, and she lifts her chin for one last look through the glass.\n[Shot 3] At 00:06.600, medium: she turns from the ward door and walks away from the lens back down the corridor, the glass and the sleeping figure slipping out of frame behind her. She says nothing.",
+  "soundscape": "The fabric of her overalls rustling under her palm, the monitor beep, the oxygen hiss, her footsteps starting up on the tiles, the corridor hum around her.",
+  "music": "The episode's quiet main theme returns on low strings.",
+  "ref_notes": {
+   "hospital_ward": "the 市一院 cardiac ward room and the bed pushed against the tall window. Use it as the LOCATION, furniture and bed-position reference ONLY — do NOT copy its late-afternoon light level; this beat is a bright clean morning with the ceiling lights on.",
+   "hospital_corridor": "the 市一院 corridor of this building, seen in late afternoon light. Use it as the LOCATION and layout reference ONLY — this beat is set on a BRIGHT MORNING, so do NOT copy its dusk colour or its light level; light the scene as clean bright morning daylight with the ceiling fluorescents generously on."
+  }
+ }
+]

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D 赛车游戏</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #ui {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #fff;
+            font-size: 16px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            z-index: 10;
+        }
+        #controls {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            background: rgba(0,0,0,0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+            z-index: 10;
+        }
+        #startScreen {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.85);
+            color: #fff;
+            padding: 40px 60px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 24px;
+            z-index: 20;
+        }
+        #startScreen button {
+            margin-top: 20px;
+            padding: 15px 40px;
+            font-size: 20px;
+            background: #ff4757;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        #startScreen button:hover {
+            background: #ff6b81;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui">
+        <div>速度: <span id="speed">0</span> km/h</div>
+        <div>里程: <span id="distance">0</span> km</div>
+    </div>
+
+    <div id="startScreen">
+        <h1>3D 赛车游戏</h1>
+        <p>体验速度与激情的快感</p>
+        <p style="font-size: 16px; margin: 20px 0;">
+            使用 WASD 或方向键控制<br>
+            A/← 左转 · D/→ 右转 · W/↑ 加速 · S/↓ 刹车/倒车<br>
+            SPACE 手刹漂移
+        </p>
+        <button id="startBtn">开始游戏</button>
+    </div>
+
+    <div id="controls">
+        WASD / 方向键控制 | SPACE 手刹漂移
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        // 游戏状态
+        let gameStarted = false;
+        
+        // 玩家车辆状态
+        const player = {
+            x: 0,
+            y: 0,
+            angle: 0,
+            speed: 0,
+            maxSpeed: 25,
+            acceleration: 0.4,
+            deceleration: 0.15,
+            brakeDeceleration: 0.4,
+            rotationSpeed: 0.04,
+            distance: 0
+        };
+        
+        const keys = {};
+        
+        // 赛道定义
+        const track = {
+            segments: [],
+            totalLength: 0
+        };
+        
+        // 初始化赛道 - 生成一条有弯道和直道的赛道
+        function initTrack() {
+            track.segments = [];
+            let cx = 0;
+            let cy = 0;
+            let angle = 0;
+            
+            // 生成赛道点（带弯道）
+            for (let i = 0; i < 2000; i++) {
+                // 弯道变化（正弦函数模拟真实赛道）
+                const curve = Math.sin(i * 0.01) * 0.1 + Math.sin(i * 0.005) * 0.05;
+                angle += curve;
+                cx += Math.sin(angle) * 3;
+                cy += Math.cos(angle) * 3;
+                
+                track.segments.push({
+                    x: cx,
+                    y: cy,
+                    curve: curve
+                });
+            }
+            
+            track.totalLength = track.segments.length;
+        }
+        
+        // 绘制天空效果
+        function drawSky() {
+            const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
+            gradient.addColorStop(0, '#000033');
+            gradient.addColorStop(0.5, '#1a1a2e');
+            gradient.addColorStop(1, '#2d3430');
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // 绘制星空
+            drawStars();
+        }
+        
+        // 绘制星空
+        function drawStars() {
+            const seed = 42; // 固定种子，确保星空不闪烁
+            const rng = (seed) => {
+                let s = seed;
+                return () => {
+                    s = (s * 9301 + 4929) % 233280;
+                    return s / 233280;
+                };
+            };
+            
+            const random = rng(seed);
+            for (let i = 0; i < 100; i++) {
+                const x = random() * canvas.width;
+                const y = random() * canvas.height * 0.6;
+                const size = random() * 2;
+                const alpha = random() * 0.5 + 0.5;
+                
+                ctx.fillStyle = `rgba(255, 255, 255, ${alpha})`;
+                ctx.fillRect(x, y, size, size);
+            }
+        }
+        
+        // 绘制赛道
+        function drawTrack() {
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            
+            // 计算当前赛道偏移量
+            const startSegment = Math.floor((player.distance % track.totalLength) / 3);
+            const segmentsToDraw = 150; // 渲染150个赛道段
+            
+            for (let i = 0; i < segmentsToDraw; i++) {
+                const idx = (startSegment + i) % track.totalLength;
+                const idxNext = (startSegment + i + 1) % track.totalLength;
+                
+                const seg1 = track.segments[idx];
+                const seg2 = track.segments[idxNext];
+                
+                if (!seg1 || !seg2) continue;
+                
+                // 计算摄像机空间中的位置
+                const relX1 = (seg1.x - player.x) * Math.cos(-player.angle) - (seg1.y - player.y) * Math.sin(-player.angle);
+                const relY1 = (seg1.x - player.x) * Math.sin(-player.angle) + (seg1.y - player.y) * Math.cos(-player.angle);
+                const relX2 = (seg2.x - player.x) * Math.cos(-player.angle) - (seg2.y - player.y) * Math.sin(-player.angle);
+                const relY2 = (seg2.x - player.x) * Math.sin(-player.angle) + (seg2.y - player.y) * Math.cos(-player.angle);
+                
+                // 透视效果 - 近大远小
+                const scale = Math.max(0.1, 1 - i * 0.005);
+                const screenX1 = centerX + relX1 * scale * 10;
+                const screenY1 = centerY + relY1 * scale * 10;
+                const screenX2 = centerX + relX2 * scale * 10;
+                const screenY2 = centerY + relY2 * scale * 10;
+                
+                // 只绘制可见的赛道段
+                if (screenY1 > -50 && screenY1 < canvas.height && screenY2 > -50 && screenY2 < canvas.height) {
+                    // 绘制赛道主体
+                    ctx.fillStyle = '#333';
+                    ctx.fillRect(Math.min(screenX1, screenX2), screenY1, Math.abs(screenX2 - screenX1) + 100 * scale, 2);
+                    
+                    // 绘制赛道边缘线
+                    ctx.strokeStyle = '#fff';
+                    ctx.lineWidth = Math.max(0.5, 2 - i * 0.02);
+                    ctx.beginPath();
+                    ctx.moveTo(screenX1 - 50 * scale, screenY1);
+                    ctx.lineTo(screenX2 - 50 * scale, screenY2);
+                    ctx.stroke();
+                    ctx.beginPath();
+                    ctx.moveTo(screenX1 + 50 * scale, screenY1);
+                    ctx.lineTo(screenX2 + 50 * scale, screenY2);
+                    ctx.stroke();
+                    
+                    // 弯道提示线
+                    if (Math.abs(seg1.curve) > 0.05) {
+                        ctx.strokeStyle = `rgba(255, 255, 0, ${Math.min(0.5, Math.abs(seg1.curve) * 2)})`;
+                        ctx.lineWidth = Math.max(0.5, 3 - i * 0.03);
+                        ctx.beginPath();
+                        ctx.moveTo(screenX1 - 50 * scale, screenY1);
+                        ctx.lineTo(screenX2 - 50 * scale, screenY2);
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+        
+        // 绘制 3D 车辆
+        function drawCar3D() {
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height - 100;
+            const size = 50;
+            
+            // 车体阴影
+            ctx.fillStyle = 'rgba(0,0,0,0.3)';
+            ctx.beginPath();
+            ctx.ellipse(centerX, centerY + size/2 + 10, size, size/4, 0, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // 车体主体（正面视角）
+            const carGrad = ctx.createLinearGradient(centerX - size, centerY - size, centerX + size, centerY + size);
+            carGrad.addColorStop(0, '#ff4757');
+            carGrad.addColorStop(0.5, '#ff6b81');
+            carGrad.addColorStop(1, '#ff4757');
+            
+            // 车身主体
+            ctx.fillStyle = carGrad;
+            ctx.beginPath();
+            ctx.moveTo(centerX - size/2, centerY - size/2);
+            ctx.lineTo(centerX + size/2, centerY - size/2);
+            ctx.lineTo(centerX + size/2, centerY + size/2);
+            ctx.lineTo(centerX - size/2, centerY + size/2);
+            ctx.closePath();
+            ctx.fill();
+            
+            // 车顶
+            const roofGrad = ctx.createLinearGradient(centerX, centerY - size*1.5, centerX, centerY - size/2);
+            roofGrad.addColorStop(0, '#ff4757');
+            roofGrad.addColorStop(1, '#e84135');
+            ctx.fillStyle = roofGrad;
+            ctx.beginPath();
+            ctx.moveTo(centerX - size/3, centerY - size/2);
+            ctx.lineTo(centerX + size/3, centerY - size/2);
+            ctx.lineTo(centerX + size/2, centerY - size*1.5);
+            ctx.lineTo(centerX - size/2, centerY - size*1.5);
+            ctx.closePath();
+            ctx.fill();
+            
+            // 车轮
+            const wheelSize = 10;
+            ctx.fillStyle = '#2d3430';
+            ctx.fillRect(centerX - size/2 - wheelSize, centerY + size/4, wheelSize, wheelSize);
+            ctx.fillRect(centerX + size/2, centerY + size/4, wheelSize, wheelSize);
+            
+            // 车灯
+            ctx.fillStyle = '#ffff00';
+            ctx.beginPath();
+            ctx.arc(centerX - size/3, centerY - size/3, 4, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(centerX + size/3, centerY - size/3, 4, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // 车灯光效
+            ctx.fillStyle = 'rgba(255, 255, 0, 0.3)';
+            ctx.beginPath();
+            ctx.arc(centerX - size/3, centerY - size/3, 8, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.beginPath();
+            ctx.arc(centerX + size/3, centerY - size/3, 8, 0, Math.PI * 2);
+            ctx.fill();
+        }
+        
+        // 更新游戏逻辑
+        function update() {
+            if (!gameStarted) return;
+            
+            // 转向控制
+            if (keys['a'] || keys['arrowleft']) {
+                player.angle -= player.rotationSpeed;
+            }
+            if (keys['d'] || keys['arrowright']) {
+                player.angle += player.rotationSpeed;
+            }
+            
+            // 油门控制
+            if (keys['w'] || keys['arrowup']) {
+                if (player.speed < player.maxSpeed) {
+                    player.speed += player.acceleration;
+                }
+            }
+            
+            // 刹车控制
+            if (keys['s'] || keys['arrowdown']) {
+                player.speed -= player.brakeDeceleration;
+            }
+            
+            // 手刹
+            if (keys[' ']) {
+                player.speed *= 0.95;
+            }
+            
+            // 自然减速
+            if (!keys['w'] && !keys['arrowup']) {
+                player.speed *= (1 - player.deceleration);
+            }
+            
+            // 限制速度范围
+            player.speed = Math.max(-5, Math.min(player.speed, player.maxSpeed));
+            
+            // 计算移动方向
+            const moveAngle = player.angle;
+            const dx = Math.sin(moveAngle) * player.speed;
+            const dy = Math.cos(moveAngle) * player.speed;
+            
+            // 更新玩家位置
+            player.x += dx;
+            player.y += dy;
+            player.distance += Math.abs(player.speed);
+        }
+        
+        // 游戏主循环
+        function gameLoop() {
+            update();
+            
+            if (gameStarted) {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                drawSky();
+                drawTrack();
+                drawCar3D();
+                updateUI();
+            }
+            
+            requestAnimationFrame(gameLoop);
+        }
+        
+        // 更新UI显示
+        function updateUI() {
+            document.getElementById('speed').textContent = Math.abs(Math.round(player.speed * 20));
+            document.getElementById('distance').textContent = (player.distance / 1000).toFixed(2);
+        }
+        
+        // 键盘事件
+        document.addEventListener('keydown', (e) => {
+            keys[e.key.toLowerCase()] = true;
+        });
+        
+        document.addEventListener('keyup', (e) => {
+            keys[e.key.toLowerCase()] = false;
+        });
+        
+        // 按钮事件监听
+        const startBtn = document.getElementById('startBtn');
+        const startScreen = document.getElementById('startScreen');
+        
+        startBtn.addEventListener('click', () => {
+            gameStarted = true;
+            startScreen.style.display = 'none';
+            initTrack();
+        });
+        
+        // 窗口大小调整
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+        
+        // 启动游戏循环
+        gameLoop();
+    </script>
+</body>
+</html>

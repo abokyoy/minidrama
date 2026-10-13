@@ -1,0 +1,1128 @@
+# -*- coding: utf-8 -*-
+"""
+分镜渲染器：把「每段精简节拍」渲染成 MiniMax H3 ref2v 六段式提示词 + job.json
+用法： python storyboard_render.py ep001
+输入： 保洁/<ep>_beats/*.json  （按文件名排序合并）
+输出： 保洁/<ep>_segs/segNN_prompt.txt 与 jobNN.json
+"""
+import os, sys, json, glob
+
+BASE = os.path.dirname(os.path.abspath(__file__))
+
+# ══════════════════════════════════════════════════════════════════════
+# X003 终版剧本（E:\\LLM\\try\\minidrama\\终版剧本\\X003_终版.md）专用覆盖层
+# ──────────────────────────────────────────────────────────────────────
+# 为什么要覆盖而不是直接改 SCENES / ANCHORS / SPEAKERS_EP：
+#   下面这三张表会被拼进**每一段**提示词，改一个字节 → 该集所有段的 sha 变化
+#   → 生成器把已跑完的段全部重跑（几十小时）。ep001–ep005 是旧剧本，历史已生成。
+#   所以 X003 的差异（楼名改名「景宸」→「万山」、场次号重排）一律走**按集覆盖**，
+#   老集的渲染结果一个字节都不受影响。
+#
+# 覆盖内容（X003 与旧稿的实测差异，见 _diff_x003.py）：
+#   ① 楼名：景宸大厦 → 万山大厦
+#   ② 场次号：X003 场次 1-1 = 旧稿场次 1-2（都是「物业办公室 搜卡」这场戏），
+#      所以 X003 的 "1-1" 要映射到旧的 ANCHOR_12（办公室锚点），不是走廊锚点。
+X003_RENAME = [("景宸", "万山"), ("Jingchen", "Wanshan"), ("jingchen", "wanshan")]
+# X003 的场次号 → 旧稿锚点/光照的映射（X003 场次 1-1 = 旧 1-2 办公室）
+X003_SCENE_ALIAS = {"1-1": "1-2", "1-2": "1-3", "1-3": "1-2b", "1-4": "1-4b", "1-5": "1-5b"}
+
+
+def _x003(text):
+    for a, b in X003_RENAME:
+        text = text.replace(a, b)
+    return text
+
+
+# 用户 2026-10-03 明确：本剧是**竖屏短剧**，9:16。竖屏左右窄、上下长，
+# 所以构图必须走纵深，不能像横屏那样把人一字排开。每条 STYLE 都前置这段。
+VERTICAL = (
+    "VERTICAL 9:16 PORTRAIT FRAME — the picture is much taller than it is wide, composed for a phone screen: "
+    "stage the action in DEPTH, front-to-back, and never spread people out left-to-right; keep faces and bodies in "
+    "the upper two thirds of the frame, and let one strong foreground element run along the bottom edge (desk corner, "
+    "tiled floor, doorframe, car seat) to give depth. Two people talk in an over-the-shoulder or one-behind-the-other "
+    "arrangement, never side by side. "
+)
+
+# 用户 2026-10-03：**不要烧字幕**，字幕后期统一加。
+# H3 会把「被引号包住的台词」当成要烧进画面的字幕文本，所以这里既要正面禁掉一切烧字，
+# 也要依赖 beats 侧"台词一律不写引号"的写法（check_beats.py 有闸）。
+NO_TEXT = (
+    "ABSOLUTELY NO SUBTITLES, NO CAPTIONS, NO LOWER-THIRDS, NO TITLE CARDS, NO WATERMARKS AND NO BURNED-IN TEXT of "
+    "any kind anywhere in the frame — the delivered clip must be clean picture with no typography over it, so that "
+    "subtitles can be added later in post. Any spoken line is AUDIO ONLY and must never appear written on screen. The "
+    "only text that may exist is lettering physically printed on a real object inside the scene (for example the gilt "
+    "character stamped into the face of the black card, or signage already present in the location). "
+)
+
+# 用户 2026-10-04 实看反馈：「人物重复，就是好几个人都是一张脸，前一秒是一个人，
+# 后一秒钟又是另一个人」。
+# 根因有两层：
+#   ① 提示词侧：像 "the onlookers crowd the doorway" 这种**无差别人群描述**，
+#      模型只能自己编脸 → 必然出现多人共用一张脸。必须明确禁止"复制主角脸"。
+#   ② 参数侧：SLA 的 reference_protection=Off 让参考图信息被稀疏采样丢掉
+#      （见 _matrix2_test.py 的说明）。这一层靠参数修，不靠提示词。
+# 这段是提示词侧的对策，要求：
+#   · 群演必须**互不相同**（不同脸型/发型/衣着/年龄）
+#   · 群演**不得**长成主角的脸
+#   · 背景人脸**虚化/背对/低头**，不给清晰正脸 → 从源头减少"两张一样的脸"
+#   · 人数**写死上限**，别让模型自己加
+CROWD_RULES = (
+    "BACKGROUND PEOPLE: every background person must be a DISTINCT individual — a different face shape, different "
+    "hair, different clothing colour, different height and age from every other person in frame. NEVER let a "
+    "background person share, copy, echo or approximate the face of a named subject: if 苏小满 (S1) is in shot, no "
+    "other woman in the frame may have her face. Keep background faces turned away, in profile, lowered, or softly "
+    "out of focus so no second face reads as clearly as the subject's; at most two background faces may be "
+    "recognisable at once, and never two identical-looking ones. Do not add people beyond the ones this beat names, "
+    "and never duplicate a person to fill the frame. "
+)
+
+# ⭐ 2026-10-04 新增：给**人少**的室内戏用（段里写 "crowd": False 时拼这条，不拼 CROWD_RULES）。
+# CROWD_RULES 是写给「满屋围观群众」的场景的，里面「最多两张可辨识背景脸」这句话
+# 在只有 2–3 人的办公室里等于**明确许可 H3 再加背景脸**。
+# 实际事故：xs01_t01（办公室 3 人戏）成片人数 2→3→4→5，背景凭空长人、门框反复闪人。
+# 所以人少的戏必须换成这条「人数写死」版 —— 正反两面都写，因为 H3 对否定句不可靠。
+NO_CROWD = (
+    "CAST LOCK — the people named in this beat are the only people who exist in it, and the count is FIXED: "
+    "every one of them is present from the first frame to the last, and nobody else is anywhere in the room, "
+    "in the doorway, in the corridor, behind the furniture or at the edge of frame. "
+    "There is no crowd, no onlookers, no bystanders, no staff, no background passer-by, no silhouette in a "
+    "doorway, no extra face in the far background. The number of people NEVER increases and never decreases, "
+    "and nobody is ever cloned, duplicated, split in two, or faded in and out. "
+    "If a composition would need more people than this beat names, the frame stays EMPTY instead. "
+)
+
+# 用户 2026-10-03 实看反馈：「视频有点偏黑，人物阴影过重，没有柔和的感觉」。
+# 根因在提示词：旧 STYLE 里写了 "teal-and-amber film grade" + "shallow depth of field"，
+# H3 会照字面做成高对比、浓阴影的"电影感"画面。修法不是调后期，而是把「大柔光源 +
+# 低阴影密度 + 前侧补光 + 提升黑位」写死进每一条 STYLE 和曝光锚点。
+# 这段放在 VERTICAL 之后、风格之前，是**优先级最高的灯光指令**。
+
+# 用户 2026-10-04 目视对比发现（4 组同提示词抽帧横排，结论很明确）：
+# 四组**全都**出现同一个问题——主体本该「站在桌前收拾东西」，却被生成成
+# **低头大幅俯身**，且**镜头比预期推得更近**（t=2 时刻直接拍成手部特写，人物出画）。
+# 采样参数改不动它（4步 / 6步 / 末步全注意力 / 参考保护 四组全一样），
+# 根因是提示词只约束了「怎么构图」，**没约束「动作幅度」和「机位距离」**。
+# 注意：不能用否定句写（`check_beats` 是子串匹配，否定句照样命中禁用词），
+# 所以整条都用正向表述。
+POSE_LIMITS = (
+    "STAGE DIRECTION — THIS IS A NARRATIVE SCENE, NOT A CLOSE-UP: the subject is a whole adult figure standing "
+    "at working height, framed from at least the knees up, and the camera holds that same framing for the entire "
+    "take. A standing person stays STANDING — the torso is upright, leaning forward at most about fifteen degrees, "
+    "while the hands do the work at waist or chest level. The head stays level and the face turns toward the task "
+    "or toward the other person, eyes open and readable. One clear action per beat, held steady: the framing stays "
+    "the same width throughout, and the camera neither pushes in nor tilts down onto her hands, and the shot never "
+    "tightens to a detail view of an object while someone is speaking. "
+)
+SOFT_LIGHT = (
+    "LIGHTING IS SOFT, BRIGHT AND FLATTERING — this instruction overrides any instinct to light the scene moodily. "
+    "Use one very large wrapping soft source (a big diffused window or a 4x4 softbox) placed close to the subject, "
+    "with soft fill coming in from the front, so every face is evenly lit, fully open and easy to read. "
+    "Keep SHADOW DENSITY LOW: shadows stay pale, open, gentle and full of detail — never black, never deep, never "
+    "heavy, never hard-edged. There is no hard shadow on any face: no dark band under the eyes, no black shadow "
+    "under the nose or the chin, no harsh nose or jaw shadow, no strong contrast across the cheek. "
+    "Hair and dark clothing must still show visible texture and sheen instead of crushing to a black mass. "
+    "Expose one stop brighter than a natural reading, with lifted blacks and open milky midtones, like a bright "
+    "soft-lit beauty commercial. The result must feel tender, airy and luminous — soft light everywhere, no gloom, "
+    "no muddy darker corners. "
+)
+
+STYLE = (
+    VERTICAL + POSE_LIMITS + SOFT_LIGHT +
+    "Premium modern urban short drama, shot on a large-format cinema "
+    "camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm "
+    "low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. The image must read "
+    "BRIGHT, luminous, soft, clean "
+    "and expensive — glowing diffused window light wrapped in soft front fill, spotless surfaces, elegant production "
+    "design. Absolutely "
+    "NOT dark, not contrasty, not murky, not moody. Beautiful photogenic cast with refined features and flawless "
+    "skin, "
+    "elegant wardrobe and hair. Camera work stays high-end cinematic: slow controlled dolly moves, gentle "
+    "handheld, precise rack focus, natural 24fps motion blur."
+)
+
+# 医院场次是傍晚，光源是窗外天光 + 走廊日光灯，不能按正午日光写
+STYLE_DUSK = (
+    VERTICAL + POSE_LIMITS + SOFT_LIGHT +
+    "Premium modern urban short drama, shot on a large-format cinema "
+    "camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm "
+    "low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. Late-afternoon dusk, but "
+    "photographed bright: the light comes from the tall "
+    "window at the end of the corridor wrapped in soft fill, and from the ceiling fluorescent panels, which are "
+    "switched on and generous, and the two together leave no dark side on any face. "
+    "The image must still read BRIGHT, luminous, soft and expensive — lifted open shadows, clean pale-green walls, "
+    "no murky corners, no heavy shadow. Absolutely NOT dark, not gloomy, not oppressive, not contrasty. Beautiful "
+    "photogenic cast with refined "
+    "features and flawless skin. Camera work stays high-end cinematic: slow controlled dolly moves, gentle "
+    "handheld, precise rack focus, natural 24fps motion blur."
+)
+
+# 1-5 是夜戏：唯一的灯是车内暖色氛围灯、门楣纸灯笼、门缝里漏出的暖光
+STYLE_NIGHT = (
+    VERTICAL + POSE_LIMITS + SOFT_LIGHT +
+    "Premium modern urban short drama, shot on a large-format cinema "
+    "camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm "
+    "low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. It is night, but lit like "
+    "a bright soft-spoken commercial: every frame is lit by real practical sources that are clearly visible and "
+    "generous — the warm amber courtesy lights along the car roof lining, the glowing paper lantern above the gate, "
+    "and the warm shaft of light coming through the gap in the door — and every one of them is a big soft source, "
+    "wrapped in fill, so there is no dark side on any face and no black shadow anywhere. "
+    "Skin stays luminous and fully lit, blacks stay open, lifted and detailed. Absolutely NOT underexposed, not dark, "
+    "not murky, not crushed, not contrasty. "
+    "Beautiful photogenic cast with refined features and flawless skin, elegant wardrobe. Camera work stays high-end "
+    "cinematic: slow controlled dolly moves, gentle handheld, precise rack focus, natural 24fps motion blur."
+)
+
+# ---- 人物（每种类型各自从 1 开始编号：<Subject i> 为人物，<Picture j> 为参考图）----
+CHARS = {
+ "suxiaoman": ("苏小满 (S1)", "a 25-year-old female cleaner. Preserve her exact face, small lean build, "
+   "centre-parted black hair in a low practical ponytail, plain dark-navy housekeeping shirt with rolled "
+   "sleeves, a worn grey-blue apron over navy trousers, black cloth shoes and a small keyring at her waist. "
+   "Her voice is low, steady and slightly hoarse, standard Mandarin."),
+ "nvguibin": ("女贵宾 (S2)", "a 35-year-old elegant, arrogant wealthy female guest. Beautiful, sharp red lips, "
+   "neat dark updo, pearl drop earrings, cream silk dress, pale high heels. Her voice is high, sharp and "
+   "ringing, standard Mandarin."),
+ "qianjingli": ("钱经理 (S3)", "a 45-year-old male property manager. Slightly overweight, slicked-back oily "
+   "hair, round face, an ingratiating smile that flips into a scowl, white shirt with a dark grey waistcoat, "
+   "dark trousers and a plain buttoned waistcoat with nothing pinned or clipped to his chest. His voice is loud, nasal and bullying, standard Mandarin."),
+ "xiaotang": ("小唐 (S4)", "a 22-year-old female cleaning-team colleague. Thin, pale, narrow shoulders, "
+   "shifty sidelong eyes, light-grey work uniform, hair tied back. Her voice is small, thin and nervous."),
+ "afang": ("阿芳 (S5)", "a 45-year-old female cleaning-team colleague. Round face, short dark hair, plain and "
+   "kind, deep-blue work uniform. Her voice is warm, hushed and conspiratorial."),
+ "zhouzongjian": ("周总监 (S6)", "a 55-year-old male property director. Half-white short hair, deep-grey "
+   "tailored suit, polished black shoes, calm and quietly authoritative. His voice is low, slow and level."),
+ "xiaoluo": ("小罗 (S7)", "a 35-year-old male house assistant. An ordinary, unremarkable face, composed and "
+   "still, cropped hair, navy wool overcoat over a black turtleneck. His voice is quiet, courteous and "
+   "leaves no room for argument."),
+ "luman": ("陆蔓 (S8)", "a 50-something elegant wealthy lady. Immaculate dark updo, a deep-green jacquard "
+   "qipao, jade earrings, expensive but restrained. Her voice is low, amused and unhurried."),
+ "waipo": ("外婆 (S9)", "a 70-something frail elderly grandmother in a hospital bed. Wispy white hair, "
+   "sunken cheeks, an oxygen mask, a thin quilted jacket. Her voice is breathy, weak and loving."),
+ "zhangzong": ("张总 (S10)", "a 40-something male boss of the property company. Smart suit and tie, flushed "
+   "face, hurried and sweating. His voice is loud, panicky and over-eager."),
+ "yisheng": ("医生 (S11)", "a 40-something male cardiologist in a white coat with a stethoscope. Tired, "
+   "professional, matter-of-fact. His voice is flat and clinical."),
+ "qiantai": ("前台 (S12)", "a 22-year-old female receptionist, slim, neat shoulder-length dark hair pinned back, in "
+   "a fitted navy hotel-style uniform jacket with a pale blue silk neck scarf and a plain closed collar, low heels. "
+   "Her voice is young, bright and flustered, standard Mandarin."),
+ "yisheng": ("医生 (S11)", "a 42-year-old male cardiologist. Tired professional face, short black hair, faint "
+   "stubble, an open white medical coat over a light blue shirt and dark trousers, a stethoscope round his neck, "
+   "all coat pockets flat and empty, black leather shoes. His voice is flat and clinical, standard Mandarin."),
+ "zhangzong": ("张总 (S10)", "a 45-year-old male company boss. Well fed, flushed oily face, short black hair combed "
+   "back, a charcoal suit with a blue tie and a white shirt, polished black shoes, a gold watch on his wrist. His "
+   "voice is loud, panicky and over-eager, standard Mandarin."),
+ "luman": ("陆蔓 (S8)", "a 50-year-old elegant, wealthy lady. Immaculate dark hair in a low sleek updo, delicate jade "
+   "drop earrings, a deep-green jacquard silk qipao with a high collar and short sleeves, low black heels and "
+   "restrained expensive jewellery. Her voice is low, amused and unhurried, standard Mandarin."),
+ "waipo": ("外婆 (S9)", "a frail 78-year-old grandmother. Small and thin, wispy white hair pulled back, sunken "
+   "cheeks, deep wrinkles, kind tired eyes, a thin quilted navy cotton jacket over a grey shirt. In the ward she "
+   "lies in bed wearing an oxygen mask. Her voice is breathy, weak and loving, standard Mandarin."),
+
+ # ---- 第 2 集起登场的新角色（2026-10-03 新增，参考图已按上面同一批提亮）----
+ "luhang": ("陆航 (S14)", "a 26-year-old young Chinese man, 陆蔓's younger brother. Tall and lean, short black hair "
+   "swept back with a slight fashionable wave, handsome sharp features, eyebrows cocked, a permanent mocking half-"
+   "smile. He wears a fitted deep-burgundy velvet blazer over a black silk shirt, black trousers, polished black "
+   "shoes and a heavy gold watch on his right wrist. Spoilt, idle, arrogant. His voice is lazy, drawling and "
+   "teasing, standard Mandarin."),
+ "luchong": ("陆崇 (S15)", "a 60-year-old Chinese man, the head of the 陆 family. Silver-black short hair combed "
+   "straight back, high brow bone, deep-set eyes that are extremely still and give nothing away, heavy nasolabial "
+   "folds, a square jaw, well-kept but visibly aged skin. Lean and upright, he wears a dark navy Chinese mandarin-"
+   "collar front-buttoned jacket over a white mandarin-collar shirt, dark trousers and black cloth shoes, with a "
+   "plain gold band on his left ring finger. He is quiet, unhurried and quietly commanding. His voice is very low, "
+   "very slow and perfectly level, standard Mandarin."),
+ "xinfu": ("心腹 (S16)", "a 42-year-old Chinese man, 陆崇's personal aide. Ordinary, capable face, close-cropped "
+   "black hair, clean-shaven, calm expressionless eyes. Lean and wiry, in a dark-grey tailored suit, white shirt, "
+   "dark-grey tie and black leather shoes, standing straight with his hands at his sides and no other accessory. "
+   "Trained, economical, reports only facts. His voice is flat, clipped and neutral, standard Mandarin."),
+ "shoufeiyuan": ("收费员 (S17)", "a 40-year-old Chinese woman working the payment window at 市一院. A round face, "
+   "hair pinned into a plain bun at the back of her head, faintly tired, and a matter-of-fact, neither-warm-nor-cold "
+   "expression. Medium build, slightly full, in the hospital's pale-blue short-sleeved work shirt under a short "
+   "white carer's jacket, dark trousers and white flat work shoes, with a plain closed collar and an ordinary "
+   "watch on her wrist. Her voice is level, practised and official, standard Mandarin."),
+
+ # ---- 第 3 集起登场的新角色 ----
+ "zhongshu": ("忠叔 (S18)", "a 70-year-old Chinese man, the old doorman of the 陆 family mansion. Slightly stooped, "
+   "small and thin, a gaunt high-cheekboned face with age spots and deep wrinkles on the skin and the backs of his "
+   "hands, thin grey hair combed back, eyes that look filmed-over but still hold a sliver of sharpness. He wears a "
+   "dark navy Chinese front-buttoned mandarin-collar jacket, loose black trousers and black cloth shoes. Quiet, "
+   "old-fashioned, gentle and closed-in; his voice is dry, small and hesitant, standard Mandarin."),
+ "qinlvshi": ("秦律师 (S19)", "a 45-year-old Chinese man, the lawyer instructed by the 陆 family. Neatly parted hair, a "
+   "regular, well-groomed face behind thin black-framed spectacles, a professional half-smile held under tight "
+   "control. Medium build, in an immaculate dark ink-blue suit, white shirt, dark-blue tie and black lace-up shoes, "
+   "carrying a dark-brown leather document folder in his left hand. Steady, exact, works through items in order. His "
+   "voice is even, measured and procedural, standard Mandarin."),
+
+ # ---- 第 4 集起登场的新角色 ----
+ "hushizhang": ("护士长 (S20)", "a Chinese woman in her early fifties, the head nurse of the inpatient department at "
+   "the city No.1 hospital. Medium build with slightly rounded shoulders and a faint forward stoop. A squarish-round "
+   "face, pale complexion, shallow crow's-feet at the eye corners, and thin half-rimmed spectacles sitting midway "
+   "down the bridge of her nose. She wears a pale apricot-grey nurses' uniform with a ballpoint pen clipped in the "
+   "chest pocket and a corner of a sticky note showing, soft white nursing shoes, and a plain elastic band on one "
+   "wrist. By-the-book but soft-hearted and afraid of trouble: she checks her book before she speaks and glances "
+   "sideways when anything sensitive comes up. Her voice is a careful, low, slightly apologetic standard Mandarin."),
+}
+
+# ---- 场景参考图 ----
+SCENES = {
+ "corridor_pano": ("the 3rd-floor ballroom corridor of 景宸大厦 — beige mirror-polished marble, floor-to-ceiling "
+   "windows along the left, deep-red double doors with gold ornament and a lit chandelier beyond, a gold "
+   "cleaning cart by the right wall. Use as the exact location and lighting reference; the people in it are "
+   "not copied."),
+ "corridor_left": ("the same 3rd-floor corridor seen from the left, with the bright window wall filling frame "
+   "left. Location and light reference only."),
+ "corridor_right": ("the same corridor seen from the right, the marble wall and wall sconces in view. "
+   "Location and light reference only."),
+ "corridor_back": ("the same corridor seen looking back down its length. Location reference only."),
+ "corridor_mid": ("the same corridor in medium shot, red doors and marble floor centred. Location reference only."),
+ "corridor_close": ("the same corridor in a close framing on the polished floor and its reflections. Use for "
+   "floor texture and light direction only."),
+ "office_pano": ("the property office of 景宸大厦 — suspended ceiling with fluorescent panels, tall wooden "
+   "cabinets, a dark wooden desk with a computer, a black leather sofa and coffee table, a large window with "
+   "venetian blinds on the right, potted plants and a round wall clock. Use as the exact location reference; "
+   "the room in it is empty and its contents are not copied."),
+ "office_left": ("the same property office seen from the left. Location reference only."),
+ "office_right": ("the same property office seen from the right, the blind-covered window behind. Location "
+   "reference only."),
+ "office_back": ("the same property office seen from the reverse angle toward the door. Location reference only."),
+ "office_mid": ("the same property office in medium shot, the desk and cabinets centred. Location reference only."),
+ "office_close": ("a close framing of the office desktop — keys, a folded form, a black mobile phone and a "
+   "white enamel mug on dark wood. Use for the desk surface and prop reference only."),
+ "hospital_ward": ("an empty cardiac ward room at 市一院 — pale mint-green walls, white hospital beds with chrome "
+   "rails, one bed pushed against a tall window with sheer curtains, an IV stand, an oxygen outlet panel, a bedside "
+   "cabinet, polished light-grey lino floor, warm late-afternoon sun banding across the floor. Use as the exact "
+   "location and lighting reference; the room in it is empty and its contents are not copied."),
+ "hospital_corridor": ("an empty hospital corridor at dusk — pale mint-green walls with a wooden handrail on the "
+   "LEFT wall, a long dark-blue upholstered bench against the LEFT wall, a row of ward doors on the RIGHT, ceiling "
+   "fluorescent panels lit, blue evening light at the far end, speckled terrazzo floor. Use as the exact location "
+   "and lighting reference."),
+ "hospital_bench": ("a close framing of the corridor wall and the end of the waiting bench at 市一院 — the mint-green "
+   "wall, the polished wooden handrail and the dark-blue upholstered bench end. Use for wall, bench and floor "
+   "texture and light direction only."),
+ "lobby_1f": ("the bright ground-floor lobby of 景宸大厦 — warm beige polished stone floor, a long pale stone "
+   "reception counter on the RIGHT with a backlit sign above it, four brushed-steel lift doors on the far wall, "
+   "floor-to-ceiling glass on the LEFT with bright daylight, potted palms. Use as the exact location reference; the "
+   "lobby in it is empty and its contents are not copied."),
+ "building_exterior": ("the bright paved forecourt in front of 景宸大厦 — frosted-glass entrance doors behind, a "
+   "kerb, and a row of black executive sedans parked nose to tail along it, street trees and a security barrier. Use "
+   "as the exact location reference."),
+ "car_interior": ("the rear cabin of a black executive sedan at night, seen from the front seats looking back — a "
+   "wide pale-grey leather rear bench, a central armrest, chrome door handles, warm amber courtesy lights along the "
+   "roof lining, tinted windows with city bokeh sliding past. Use as the exact location and lighting reference; the "
+   "car in it is empty."),
+ "alley_gate": ("the end of a narrow old brick alley at night — a tall vermilion-red lacquered double gate with "
+   "brass studs, stone drums on either side, a warm paper lantern above the lintel and a shaft of warm light through "
+   "the half-open gap, moss between the paving stones. Use as the exact location and lighting reference."),
+
+ # ---- 第 2 集起的新场景（2026-10-03 新增，全部已提亮到「明确偏亮」）----
+ "lu_hall": ("the great reception hall of an old-money Chinese family mansion at night — a long dark rosewood table "
+   "running through the middle of the tall room, rows of dark-redwood armchairs standing along both side walls, dark "
+   "wood panelling, a framed ink landscape painting on the wall, tall windows with heavy deep-red velvet curtains on "
+   "the far wall, a large crystal chandelier overhead and a pair of heavy double doors at the far end. Every table "
+   "lamp and wall sconce is switched on and generous, the polished wood reflects them cleanly, and the whole room "
+   "reads bright, warm and even, with open shadows and no dark corners. Use as the exact location and lighting "
+   "reference; the room in it is empty and its contents are not copied."),
+ "lu_hall_desk": ("a close framing of the polished dark rosewood table top in that same reception hall, seen from "
+   "above — a blue-and-white lidded porcelain tea cup, a dark brown leather folder lying open with a sheaf of white "
+   "paper showing, a fountain pen and a small ink-paste dish, the lacquer reflecting the chandelier. Use for the "
+   "table surface, prop and light-direction reference only."),
+ "lu_study": ("the private study of the head of an old-money Chinese family at night — floor-to-ceiling dark wood "
+   "bookcases packed with books along the back wall, a heavy dark wood writing desk in the middle carrying a lit "
+   "green glass-shaded desk lamp, a brass pen tray, a white porcelain teacup and several photographs laid face-up, a "
+   "high-backed dark leather armchair behind it, a curtained window on the side wall, wood panelling and a dark rug. "
+   "The desk lamp and a floor lamp are both switched on and generous, so the room reads warm and clearly lit with "
+   "open, detailed shadows and no black areas. Use as the exact location and lighting reference; the room in it is "
+   "empty and the photographs in it are unreadable blanks."),
+ "hospital_pay": ("the in-patient payment counter of a Chinese city hospital in daylight — a row of pale wood-finished "
+   "service windows with half-height glass screens and round speaking holes, a pale quartz counter top carrying card "
+   "readers, a stamp pad and the back of a monitor, a pale-grey clerical area behind, a full run of white ceiling "
+   "fluorescent tubes switched on, pale-grey polished tile floor and off-white walls. Use as the exact location and "
+   "lighting reference; the counter in it is empty."),
+ "locker": ("the staff changing room of an office tower in daylight — two rows of pale-grey metal staff lockers "
+   "facing each other across a narrow aisle, locker doors with keyholes and blank nameplates, a curtained changing "
+   "bay at the far end of the aisle, two white fluorescent tubes switched on above the aisle, pale anti-slip tile "
+   "floor and a wooden bench along one wall carrying a blue plastic bucket and a mop. Use as the exact location and "
+   "lighting reference; the room in it is empty."),
+
+ # ---- 第 3 集起的新场景 ----
+ "lu_gate": ("the gate house front of the old 陆 family mansion in bright mid-morning — a grey-brick and grey-tile "
+   "gate tower standing square-on to the camera at the end of a depth axis, a pair of heavy dark timber doors, a "
+   "blank stone plaque above the lintel, three stone steps, one old leafy locust tree flanking each side, a flagstone "
+   "forecourt and a long grey-brick boundary wall running away. Clear bright morning light from the upper side, "
+   "everything evenly and openly lit with detail in every shadow. Use as the exact location and lighting reference; "
+   "the forecourt in it is empty."),
+ "lu_gatehouse": ("the gatehouse room just inside the main door of the old 陆 family mansion, bright mid-morning — a "
+   "small square room with dark wood panelling on both side walls, a dark heavy timber cabinet along one wall "
+   "carrying a white porcelain teapot, two cups and a lit brass table lamp, an old round wall clock, and the inner "
+   "door standing open onto a flagstone courtyard full of light. The ceiling light is switched on and generous, and "
+   "the doorway pours daylight in, so the little room reads bright with open, detailed shadows. Use as the exact "
+   "location and lighting reference; the room in it is empty."),
+ "lu_veranda": ("the open covered veranda of the old 陆 family mansion in the afternoon — a row of dark red timber "
+   "posts receding along a depth axis under a grey-tile roof, a flagstone courtyard and the opposite wing outside "
+   "the posts, a grey-brick inner wall hung with a run of framed old photographs in a row that recedes with the "
+   "veranda, a dark timber floor and a side door at the far end. Low afternoon sun rakes in from the right and lays "
+   "long soft bands of light down the veranda; everything stays open and readable with no black areas. Use as the "
+   "exact location and lighting reference; the room in it is empty and the photographs in it are unreadable blanks."),
+ "rental_room": ("a cramped old rented single room in the city at night — a narrow single bed against the left wall "
+   "under a washed-out checked quilt, a low old bedside cabinet at the head of the bed carrying a lit old table lamp "
+   "with a warm shade, a small old wooden table at the foot of the bed, one small curtained window at the FAR end of "
+   "the room, away from the door, with night outside it, yellowed walls with a few damp marks and a dark red old tile "
+   "floor. The round flush ceiling light is switched on and generously lit and the table lamp is switched on too, so "
+   "the little room reads warm and clearly lit with open, detailed shadows and no black areas. Use as the exact "
+   "location and lighting reference; the room in it is empty apart from the bed, the cabinet, the table and the lamp."),
+ "hospital_station": ("the inpatient-department nurses' station of the city No.1 hospital on an early bright morning — "
+   "a long pale counter running across the MID-ground of the depth axis, with an old desktop computer, several "
+   "stacks of case files, a pen and a thick bed-allocation ledger on it; behind the counter a wall of labelled "
+   "pigeon-hole medicine cabinets; bright ceiling lights on, and clean morning window light raking in from the "
+   "side and behind; pale-grey tile floor. Everything is clean, bright and open, with no dark corners. Use as the "
+   "exact location and lighting reference; the station in it is empty of people."),
+ "lu_storage": ("a cluttered old storage room in the rear courtyard of the 陆 family old house at night — two rows of "
+   "iron shelving reaching up to the ceiling on either side of one deep centre aisle, loaded with old trunks, "
+   "rolled-up carpets, dusty porcelain and old tools; a single fluorescent tube on the ceiling is switched on and "
+   "lights the shelves and the concrete floor clearly; the open doorway at the near end shows the lit courtyard "
+   "outside, so the night reads lit rather than black; bare concrete floor, swept, with dust only in the corners. "
+   "Use as the exact location and lighting reference; the room in it is empty."),
+ "rental_gate": ("the street doorway of an old low-rise residential block at night — two or three worn concrete "
+   "steps up to a half-open metal gate with the stairwell light glowing through the gap, a single old street lamp "
+   "directly overhead switched on and throwing a warm yellow pool over the doorstep, a bicycle leaning against the "
+   "wall beside the gate, a few old flyers pasted on the plastered wall, worn bare ground. It is night but "
+   "generously lit — street lamp, stairwell light and the lamps along the street are all on. Use as the exact "
+   "location and lighting reference; the doorway in it is empty of people."),
+}
+
+# ⚠️ 这段文字会被拼进**每一段**提示词，改动它 = 全剧所有段的 sha 变化 = 生成器把已跑完的段全部重跑。
+# 所以按集分档：ep001 保持**逐字节原样**（历史已生成，不许动），新角色只在 ep002 起的档里出现。
+_SPK_BASE = ("Speaker labels are stable for the whole series: (S1) 苏小满, (S2) 女贵宾, (S3) 钱经理, (S4) 小唐, "
+             "(S5) 阿芳, (S6) 周总监, (S7) 小罗, (S8) 陆蔓, (S9) 外婆, (S10) 张总, (S11) 医生, (S12) 前台, ")
+_SPK_TAIL = "Anyone not given a numbered line stays completely silent with a closed mouth."
+SPEAKERS_EP = {
+    "ep001": _SPK_BASE + "(S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航（只在门内画外，从不出现）. " + _SPK_TAIL,
+    "ep002": _SPK_BASE + ("(S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航, (S15) 陆崇, (S16) 心腹, "
+                          "(S17) 收费员. ") + _SPK_TAIL,
+    "ep003": _SPK_BASE + ("(S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航, (S15) 陆崇, (S16) 心腹, "
+                          "(S17) 收费员, (S18) 忠叔, (S19) 秦律师. ") + _SPK_TAIL,
+    "ep004": _SPK_BASE + ("(S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航, (S15) 陆崇, (S16) 心腹, "
+                          "(S17) 收费员, (S18) 忠叔, (S19) 秦律师, (S20) 护士长. ") + _SPK_TAIL,
+    "ep005": _SPK_BASE + ("(S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航, (S15) 陆崇, (S16) 心腹, "
+                          "(S17) 收费员, (S18) 忠叔, (S19) 秦律师, (S20) 护士长, "
+                          "(S21) 邻居（只在楼下画外喊话，从不出现）. ") + _SPK_TAIL,
+    # X003 终版剧本：目前只做到第1集，人物沿用旧编号
+    "xs001": _SPK_BASE + ("(S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航, (S15) 陆崇, (S16) 心腹, "
+                          "(S17) 收费员. ") + _SPK_TAIL,
+}
+SPEAKERS = SPEAKERS_EP["ep002"]
+
+# ---- 空间锚点：由渲染器强制、逐段自动前置，绝不依赖每段自己写（防"人和推车互换"）----
+ANCHOR_11 = (
+ "Fixed spatial set-up for the whole corridor scene, never change it: the gold cleaning cart is parked against "
+ "the RIGHT-hand wall with its head pointing away down the corridor towards the far red doors, and the cart itself "
+ "never moves. 苏小满 (S1) is always on the LEFT side of that cart — the corridor side — with the cart to her RIGHT, "
+ "half a step behind the handle, both hands on the handle unless she is kneeling to wipe. When she kneels she kneels "
+ "a half-step in front-left of the cart, the cart still to her RIGHT against the RIGHT wall; the cart never moves. "
+ "女贵宾 (S2) always stands in the middle-left of the corridor about two metres away, facing her. Daylight floods in "
+ "from the floor-to-ceiling windows on the LEFT. 苏小满 and the cart always stay in the RIGHT half of frame; the guest "
+ "always stays in the LEFT half of frame. Never mirror, swap or re-arrange this. Her grey cleaning cloth is always in "
+ "her RIGHT hand until she is made to switch it."
+)
+ANCHOR_12 = (
+ "Fixed spatial set-up for the whole office scene, never change it: the door is on the LEFT of frame, the window with "
+ "venetian blinds and the tall wooden cabinets are on the RIGHT. The dark wooden desk stands across the middle of the "
+ "room. 苏小满 (S1) ALWAYS stays on the NEAR side of the desk, between the desk and the door, back to the door, facing "
+ "the window side; she may turn on the spot but she never crosses to the far side and never moves to the middle of the "
+ "room. 钱经理 (S3) begins every beat on the FAR side of the desk, back to the window, facing the door, and he STAYS "
+ "there except for exactly one excursion: in the 「掏兜」 beat he steps round the end of the desk onto the near side and "
+ "stands one pace in front of her; he stays there through the 「心虚」「摆上桌」「还有」「黑卡」 beats; and at the end "
+ "of the 「拿来」 beat, the moment the card is in his hand, he turns and walks back round to his place on the far side "
+ "and stays there for the rest of the scene. Apart from those two scripted moves he is never on the near side and NEVER "
+ "in the middle of the room — until 苏小满 (S1) has left the room, after which he is free to leave the desk and stand "
+ "in front of it. 小唐 (S4) "
+ "starts against the wall just inside the LEFT door on "
+ "the lower-left of frame and may step one pace in from it. 周总监 (S6) enters from the LEFT, stops two paces inside "
+ "the door, then crosses to the desk and stands behind it. 小罗 (S7) enters from the LEFT and stops one step in front of "
+ "苏小满. The onlookers crowd the open doorway on the LEFT. The desktop is bare at the start of the scene; 苏小满 (S1) "
+ "herself lays the bunch of keys and the ballpoint pen on it in the middle of the scene, and only those two objects "
+ "then stay on it to the end; the folded paper form is in her hand or closed in her trouser pocket and is never left "
+ "lying on the desk; the black card joins the desktop only at the moment 钱经理 (S3) slaps it down. Never mirror, swap "
+ "or re-arrange any of this."
+)
+ANCHOR_13 = (
+ "Fixed spatial set-up for the whole hospital scene, never change it: at 市一院 the ward door is on the RIGHT of the "
+ "corridor, the long bench and the wall with the wooden handrail are on the LEFT, and the tall window with the blue "
+ "evening light is at the far end of the corridor. Inside the ward, 外婆 (S9) lies in the bed that is pushed against "
+ "the tall window, head towards the door, wearing an oxygen mask; the bed foot is nearest the door. Beat order is "
+ "fixed: 苏小满 (S1) is first in the CORRIDOR, standing at the RIGHT, facing the ward door, and when she makes her "
+ "phone call she crosses to the LEFT wall and leans on it beside the bench; only later does she go in through the ward "
+ "door on the RIGHT, step to the FOOT of the bed and then round to the side of it. The 医生 (S11) comes out through the "
+ "ward door on the RIGHT, and the nurses' station is at the far end of the corridor. Never mirror or re-arrange this."
+)
+ANCHOR_14 = (
+ "Fixed spatial set-up for this whole beat, never change it. First half — the property office, exactly as before: the "
+ "door on the LEFT of frame, the window and cabinets on the RIGHT, the desk across the middle, 苏小满 (S1) on the NEAR "
+ "side of the desk with her back to the LEFT door. 钱经理 (S3) starts this scene leaning in — and blocking — the LEFT "
+ "doorway, half in and half out of the corridor; because he is blocking her exit he stays on the near side of the desk "
+ "between her and the door until 张总 (S10) arrives, and after that he retreats to the far side of the desk for the "
+ "rest of the office beats. Her open, emptied locker is on the back wall; the cardboard box with her belongings sits "
+ "on the desk on her side. 张总 (S10) bursts in through the LEFT door and stops two paces inside it. Second half — she "
+ "takes the box and walks out through the LEFT door into the third-floor corridor, takes "
+ "the lift down, and arrives in the bright ground-floor lobby; in the lobby the door is on the LEFT of frame and the "
+ "reception counter is on the RIGHT; 小罗 (S7) and eight suited men come along the corridor toward her and stop in front "
+ "of her. Third beat — outside, on the paved forecourt in front of the tower in the late-afternoon light, a row of black "
+ "sedans stands along the kerb with the car she is to enter at the NEAR end of that row, and its rear door is held open "
+ "for her. Never mirror or re-arrange this."
+)
+ANCHOR_15 = (
+ "Fixed spatial set-up for the whole car scene, never change it: the camera looks from the front seats towards the back. "
+ "苏小满 (S1) sits in the RIGHT rear seat with the cardboard box upright on her knees; 陆蔓 (S8) sits in the LEFT rear "
+ "seat with one empty seat between them, and she has been in the car since it left the tower. City lights slide across "
+ "the windows. At the destination the camera is outside: "
+ "a tall vermilion lacquered gate stands at the far end of a narrow old alley, 苏小满 stands one step OUTSIDE the "
+ "threshold facing it, and 小罗 (S7) stands half a step behind her LEFT shoulder. Never mirror or re-arrange this."
+)
+ANCHORS = {"1-1": ANCHOR_11, "1-2": ANCHOR_12, "1-3": ANCHOR_13, "1-4": ANCHOR_14, "1-5": ANCHOR_15}
+
+# ---- 第 2 集的空间锚点（与 ep002/文字剧本.md 第零节一致）----
+ANCHOR_21 = (
+ "Fixed spatial set-up for the whole 陆家老宅 reception-hall scene, never change it: the long dark rosewood table "
+ "runs AWAY from the camera along the depth axis, its long edge facing the lens; the hall doors and the camera are at "
+ "the NEAR end, the sideboard and the ink-landscape painting close the FAR end. 陆蔓 (S8) sits at the FAR head of the "
+ "table, her back to the sideboard, facing the near end. 苏小满 (S1) stands at the NEAR head of the table, half a step "
+ "to its left, facing 陆蔓. 陆航 (S14) sits on the arm of the sofa to the RIGHT "
+ "of the table with one leg crossed, body turned to the table axis. Three or four 陆家旁支 stand or sit in a single row "
+ "running in DEPTH along the RIGHT-hand (east) wall — they are NEVER spread out left-to-right across the frame. The "
+ "cardboard box stays in 苏小满's (S1) arms until she sets it down on the floor at her own feet, slightly behind her "
+ "right; after that it is never picked up again. 陆蔓 (S8) ALWAYS stays in the FAR half of frame and 苏小满 (S1) "
+ "ALWAYS stays in the NEAR half; the moment they share the frame they are staged front-to-back or over-the-shoulder, "
+ "never side by side. Never mirror, swap or re-arrange any of this."
+)
+ANCHOR_22 = (
+ "Fixed spatial set-up, same room and same positions as the previous beat, never change it: the long rosewood table "
+ "still runs away from the camera along the depth axis with the doors and camera at the NEAR end. 陆蔓 (S8) still sits "
+ "at the FAR head, facing the near end; 苏小满 (S1) is now SEATED on the low chair at the NEAR head of the table, back "
+ "to the doors, facing 陆蔓 (S8); 陆航 (S14) still perches on the sofa arm to the RIGHT of the table. The table top is "
+ "the stage for everything: the leather folder and its sheaf of papers travel ALONG the depth axis from 陆蔓's end "
+ "toward 苏小满's end, the fountain pen and the ink-paste dish stay at 陆蔓's end until they are pushed across for the "
+ "signature, the blue-and-white tea cup sits at 陆蔓's right hand, and the document never leaves the table. 陆蔓 (S8) "
+ "ALWAYS stays in the FAR half of frame and 苏小满 (S1) ALWAYS stays in the NEAR half; every hand-over — pushing the "
+ "papers, turning them back, offering the pen, pressing the thumb — happens on the depth axis between them and is shot "
+ "over-the-shoulder or straight down onto the table top. Never side by side. Never mirror, swap or re-arrange this."
+)
+ANCHOR_23 = (
+ "Fixed spatial set-up for the whole hospital scene, never change it: the camera looks down the corridor. The "
+ "payment counter with its half-height glass screen and round speaking hole is set into the RIGHT-hand wall; the "
+ "cardiology ward door with its glazed observation panel is in the LEFT-hand wall; the long empty bench stands against "
+ "the same LEFT wall; the nurses' station and the bright end of the corridor are at the far end of the depth axis. The "
+ "收费员 (S17) works INSIDE the glass facing out into the corridor; 苏小满 (S1) stands OUTSIDE the glass facing the "
+ "window. Inside the ward, 外婆 (S9) lies in the bed pushed against the tall window with her head toward the door, "
+ "facing the doorway. 苏小满 (S1) moves between these two points ALONG the corridor depth — near end, then right, then "
+ "left, then back — and the counter and the ward door are NEVER laid out side by side. Never mirror or re-arrange this."
+)
+ANCHOR_24 = (
+ "Fixed spatial set-up for this beat, never change it. Part A — the ground-floor lobby of 景宸大厦: the glass entrance "
+ "doors are at the NEAR end where 苏小满 (S1) pushes in, the L-shaped reception counter is mid-ground on the RIGHT with "
+ "two receptionists behind it, people passing along the corridor stand aside in a single row running in DEPTH, and the "
+ "lifts are at the far end of the depth axis. Part B — the staff changing room: a narrow aisle runs away from the "
+ "camera with a row of pale-grey lockers down each side, the blue plastic bucket and mop stand on the bench just "
+ "behind 苏小满 (S1), and the door curtain at the NEAR end is the way IN. 苏小满 (S1) stands at her own locker on the "
+ "LEFT of the aisle facing the curtain; 阿芳 (S5) comes close in front-left of her, facing her; 钱经理 (S3) pushes "
+ "through the near-end curtain carrying 苏小满's own blue bucket in both hands and stops at the near end. 苏小满 (S1) "
+ "ALWAYS stays left of the aisle centre line, 钱经理 (S3) ALWAYS stays at the near end by the curtain; the three are "
+ "NEVER lined up side by side. Never mirror or re-arrange this."
+)
+ANCHOR_25 = (
+ "Fixed spatial set-up for the whole study scene, never change it: the camera looks into 陆崇's study from the doorway. "
+ "The bookcases close the far end of the depth axis, the writing desk stands across the middle of the room with the "
+ "photographs spread face-up in the centre of its top and the tea cup at the right hand of the chair behind it, a "
+ "floor lamp and an armchair stand at the side, and the study door is at the NEAR end behind the camera. 陆崇 (S15) "
+ "sits behind the desk at the FAR side facing the doorway; 心腹 (S16) stands on the NEAR side of the desk, half a step "
+ "to the right of its centre line, facing 陆崇 (S15) with his hands at his sides. 陆崇 (S15) ALWAYS stays in the FAR "
+ "half of frame and 心腹 (S16) ALWAYS in the NEAR half; the two are staged front-to-back across the desk with the "
+ "photographs between them, NEVER side by side. Never mirror or re-arrange this."
+)
+ANCHORS.update({"2-1": ANCHOR_21, "2-2": ANCHOR_22, "2-3": ANCHOR_23, "2-4": ANCHOR_24, "2-5": ANCHOR_25})
+
+# ---- 第 3 集的空间锚点（与 ep003/文字剧本.md 第零节一致）----
+ANCHOR_31 = (
+ "Fixed spatial set-up for the whole mansion-gate scene, never change it: the grey-brick gate tower stands "
+ "square-on to the camera at the far end of the depth axis, NEVER shifted to the side and never shot at 45 degrees. "
+ "One old locust tree flanks each side and forms two vertical frames that must not cross a face. The stone threshold "
+ "lies under the doorway, level with the boundary between the middle and lower thirds of frame. 苏小满 (S1) stands in "
+ "the mid-ground, a little LEFT of the centre axis, three-quarter back to camera, looking up at the gate. 小罗 (S7) "
+ "stands half a step behind her RIGHT shoulder and closer to camera, turned toward her profile, not toward the lens. "
+ "The gate stays in the FAR half of frame, 苏小满 stays mid-ground left of centre, 小罗 stays to her right and nearer; "
+ "the two men and women are NEVER lined up side by side — when they share the frame they overlap front-to-back, with "
+ "小罗 showing only a shoulder. Never mirror, swap or re-arrange this."
+)
+ANCHOR_32 = (
+ "Fixed spatial set-up for the gatehouse scene, never change it: the inner door with its brass ring handle is at the "
+ "far end, slightly RIGHT of centre, and that is where 忠叔 (S18) stands. 忠叔 (S18) always stays INSIDE the "
+ "gatehouse, in the FAR half of frame, turned side-on so half the doorway is left clear for her; his line of sight "
+ "runs FIRST onto 苏小满's (S1) face and THEN DOWN onto the red cord at her collar — a top-to-bottom look, never a "
+ "side-to-side sweep. 苏小满 (S1) comes in from the near end and stays in the NEAR half of frame, a little left of "
+ "centre, facing him with her collar turned toward his gaze. 小罗 (S7) stays behind 苏小满's (S1) shoulder, nearest "
+ "to camera, half his body still outside the door frame. 忠叔 (S18) is always far and 苏小满 (S1) always near, the "
+ "two facing each other THROUGH the doorway — never side by side; the close-up on his hand freezing on the door ring "
+ "is always built as depth-stacking with the ring and his hand in front and her collar behind. Never mirror, swap or "
+ "re-arrange this."
+)
+ANCHOR_33 = (
+ "Fixed spatial set-up for the whole 陆家老宅 reception-hall hearing, never change it: the long dark rosewood table "
+ "is the SAME table as in the previous episode and still runs AWAY from the camera along the depth axis, its long "
+ "edge facing the lens; the camera and the hall doors are at the NEAR end. People sit along BOTH long edges, each "
+ "edge forming its own row that recedes in DEPTH — they are NEVER spread out into a single left-to-right line. "
+ "秦律师 (S19) sits at the FAR head facing the near end, dead on the centre axis, with his hearing file and a pen in "
+ "front of him. 陆蔓 (S8) sits on the RIGHT-hand (east) long edge at the far end of that row, side-on to camera, "
+ "turned toward the table axis; 陆航 (S14) sits on the same side one place nearer to camera, leaning back with one "
+ "leg crossed. 陆家旁支 fill the rest of both rows, each side running back in depth. 陆崇 (S15) does NOT sit at the "
+ "table: he sits alone by the tall east-wall window in the FAR half and the RIGHT half of frame, facing in toward "
+ "the table axis, with the window light raking past him. 忠叔 (S18) stands at the NEAR-end left corner of the hall, "
+ "in the NEAR half of frame, guarding a tea tray — he is a foreground figure. 苏小满 (S1) stands at the NEAR head of "
+ "the table, half a step left of centre, facing the far head, both hands at her sides, and she is the ONLY person in "
+ "the room left standing. 秦律师 (S19) is always in the FAR half and 苏小满 (S1) always in the NEAR half, looking "
+ "at each other down the full length of the table; 陆蔓 (S8) and 陆航 (S14) stay on the RIGHT of the table staggered "
+ "in depth; 陆崇 (S15) stays by the window. Every hand-over, page-turn, pen-tap and tea-pour happens on the DEPTH "
+ "axis of the table and is shot over-the-shoulder or straight down onto the table top. Never place any two people "
+ "side by side. Never mirror or re-arrange this."
+)
+ANCHOR_34 = (
+ "Fixed spatial set-up for the whole veranda scene, never change it: the camera is at the NEAR end of a long "
+ "colonnaded veranda looking down its depth; the lower third of frame is always flagstone paving and the veranda "
+ "kerb. 陆蔓 (S8) walks furthest away, back to camera, mid-ground right of centre. 苏小满 (S1) follows half a step "
+ "behind and to 陆蔓's LEFT, facing 陆蔓's (S8) back, one stage nearer to camera and a little left of centre. 小罗 "
+ "(S7) is behind 苏小满, nearest to camera, his face travelling between the two women, stepping half a pace in "
+ "whenever he lowers his voice. The three are strung out in DEPTH in that order and NEVER walk side by side; the "
+ "handing over and snatching back of the photocopied list happens in the depth gap between 苏小满 (S1) and 小罗 "
+ "(S7) and is shot over-the-shoulder or as a close framing below chest height. IMPORTANT: 陆蔓 (S8) only walks "
+ "ahead of them for the FIRST half of the scene — once she has stormed off she is out of frame and must NOT be drawn "
+ "into the picture; for the rest of the scene only 苏小满 (S1) and 小罗 (S7) are present, still strung out in depth "
+ "with 小罗 nearest to camera. Never mirror or re-arrange this."
+)
+ANCHOR_35 = (
+ "Fixed spatial set-up for the whole photograph-wall scene, never change it: the run of framed photographs is on the "
+ "EAST wall, on the RIGHT of frame, receding along the depth of the veranda — never moved to the left wall and never "
+ "flattened into a straight-on frontal wall. The four photographs run from far to near in this order: foundation "
+ "stone, bridge opening, school donation, and lastly the old photograph of the riverside bridge of twenty-two years "
+ "ago, which is the one she stops at. 苏小满 (S1) faces the RIGHT wall, side-on to camera, and stops in front of the "
+ "fourth frame; her face sits in the upper two thirds of frame on the right, and the framed old photograph sits at "
+ "the top edge of the lower third. 陆崇 (S15) stays in the upper RIGHT corner of frame behind a first-floor window, "
+ "looking down from a higher LEVEL, and never comes down to the ground floor or shares a frame with her at eye "
+ "level. 小罗 (S7) stays at the far end of the depth axis, giving only half a body or a voice off-frame. The wall "
+ "holds the RIGHT of frame and the courtyard daylight comes from the LEFT; people always face right and turn their "
+ "backs to the left, and 陆崇 is always on the upper level while 苏小满 is always on the lower one. Never mirror or "
+ "re-arrange this."
+)
+ANCHOR_36 = (
+ "Fixed spatial set-up for the whole rented-room scene, never change it: the small old wooden table stands in the "
+ "MID-ground of the depth axis and the lit old table lamp's warm pool falls right across it — the lamp is the single "
+ "glowing heart of the shot, pooling light over one small patch of table top with the photograph lying inside it. 苏小满 (S1) is "
+ "always on the NEAR side of that table, three-quarter turned to camera and with her back to the room door, bent "
+ "forward over the lamp and the photograph; her face and shoulders sit in the upper two thirds of frame and the "
+ "photograph and table top occupy the lower third. The window is always at the FAR end, the direction she faces, "
+ "with night outside it. The window, the lamp and the person are NEVER lined up side by side. The old cloth bundle "
+ "is brought from the corner on the RIGHT of frame to the table top and opened out there, and once opened it is not "
+ "closed up again. Her gaze runs from near to far along one single vertical line — photograph, then lamp, then the "
+ "black outside the window — and the camera never pans sideways. Never mirror or re-arrange this."
+)
+ANCHORS.update({"3-1": ANCHOR_31, "3-2": ANCHOR_32, "3-3": ANCHOR_33,
+                "3-4": ANCHOR_34, "3-5": ANCHOR_35, "3-6": ANCHOR_36})
+
+# ---- 第 4 集的空间锚点（与 ep004/文字剧本.md 第零节 0.1–0.5 一致）----
+ANCHOR_41_NURSE = (
+ "Fixed spatial set-up for the whole nurses'-station scene, never change it: the long pale nurses' counter runs "
+ "across the MID-ground of the depth axis and is the one fixed surface of the scene, its top always forming the "
+ "bottom third of frame. 护士长 (S20) is ALWAYS behind the counter, on the FAR side of it, facing out towards the "
+ "near side, with the thick bed-allocation ledger in her hands; she always occupies the far half of frame on the "
+ "centre axis. 苏小满 (S1) is ALWAYS in front of the counter, on the NEAR side, a little left of centre, facing in "
+ "towards the counter and never behind it; she always occupies the near half of frame. The two of them face each "
+ "other across the depth of the counter and are NEVER placed side by side. Everything that happens with the ledger "
+ "— opening it, pressing it flat on the counter, closing it, and her hands coming to rest on the counter edge — "
+ "happens on that same depth axis, carried by over-shoulder framings and high angles down onto the counter top. "
+ "Bright early-morning light, the ceiling lights are on, faces front-lit and shadows low."
+)
+ANCHOR_41_CORR = (
+ "Fixed spatial set-up for the whole hospital-corridor scene, never change it: one long corridor runs away along the "
+ "depth axis, shot from the near end towards the far end, and its polished tile floor always forms the bottom third "
+ "of frame. 医生 (S11) is ALWAYS at the FAR end of the corridor, at its bright end, in profile and facing back down "
+ "the corridor towards the near end; he always occupies the far half of frame on the centre axis. 苏小满 (S1) is "
+ "ALWAYS at the NEAR end, a little left of centre, facing down the corridor towards the doctor; the row of empty "
+ "benches along the LEFT-hand wall stays EMPTY and she never sits down. The two of them face each other along the "
+ "length of the corridor and are NEVER placed side by side. Everything that happens with the scheduling clipboard — "
+ "him looking down at it, sighing, letting it drop to his side, turning and walking away — happens on that depth "
+ "axis. The corridor fluorescents are on and bright, faces front-lit and shadows low."
+)
+ANCHOR_42_OFFICE = (
+ "Fixed spatial set-up for the whole property-office scene, never change it: a long conference table runs along the "
+ "DEPTH axis with its long side towards the camera, and its top always forms the bottom third of frame. 钱经理 (S3) "
+ "is ALWAYS at the FAR end of that table, backed by the wall of filing cabinets, facing the near end; he always "
+ "occupies the far half of frame on the centre axis, and although he may come round to the near side of the table to "
+ "lean in, he always stays on the far side of 苏小满 along the depth. 苏小满 (S1) is ALWAYS at the NEAR end of the "
+ "table with her back to the door, facing 钱经理; she always occupies the near half of frame, a little left of "
+ "centre, with the work badge on her chest until he tears it off and slaps it down on the table. 小唐 (S4) and the "
+ "other colleagues are ALWAYS behind her and nearer to the camera, inside the door — that is what 'behind you' means "
+ "here — and are NEVER strung out in a row beside her. The door is at the NEAR end of frame. Everything done with "
+ "the badge, the stack of claim forms and the table top happens on that depth axis, carried by over-shoulder "
+ "framings and high angles down onto the table. Bright mid-morning daylight through the blinds, the ceiling lights "
+ "are on, faces front-lit and shadows low."
+)
+ANCHOR_43_STORE = (
+ "Fixed spatial set-up for the whole storage-room scene, never change it: two rows of iron shelving reach up to the "
+ "ceiling on either side of one deep centre aisle, and the far wall of shelves closes the depth axis; the concrete "
+ "floor and the bottom shelf board always form the bottom third of frame. 苏小满 (S1) is ALWAYS in front of the "
+ "shelving, in the middle-ground and a little left of centre, facing the shelves and turned three-quarter away from "
+ "the camera, the torch in her hand; the torch beam and the lit ceiling tube light the shelves together. 小罗 (S7) "
+ "is ALWAYS behind her, nearer to the camera and closer to the door, his face turned towards her back, and always "
+ "occupies the near half of frame as a foreground figure. The two of them are staggered along the depth and are "
+ "NEVER placed side by side. The welded tin box sits ALWAYS on the BOTTOM shelf, at the top edge of the bottom third "
+ "of frame, under a thick layer of dust. Everything that happens with the box — coming into the torch beam, the weld "
+ "spots being seen, the stamped characters being seen, being lifted and gently shaken, the small rolling sound "
+ "inside, being put back in its place — happens on that depth axis, carried by over-shoulder framings and high "
+ "angles down onto the bottom shelf. The ceiling tube is on and the open doorway shows the lit courtyard, so the "
+ "room reads lit and never black."
+)
+ANCHOR_44_STUDY = (
+ "Fixed spatial set-up for the whole study scene, never change it: the deep dark-wood desk stands across the middle "
+ "of the study with its top always forming the bottom third of frame, and the whole far wall behind it is a floor-to-"
+ "ceiling bookcase. 陆崇 (S15) is ALWAYS behind the desk, on the FAR side of it, facing the near end; he always "
+ "occupies the far half of frame on the centre axis and never crosses to the near side. 心腹 (S16) is ALWAYS in "
+ "front of the desk, on the NEAR side, standing with his hands at his sides, a little right of centre; he always "
+ "occupies the near half of frame. The two of them face each other across the desk and are NEVER placed side by "
+ "side, never swapped. Fixed on the desk: the file 陆崇 pushes across to him, and the woman's photo that has been "
+ "lying open there since the previous episodes. It is night but a LIT night — the green-shaded desk lamp on the desk "
+ "is switched on AND the study's ceiling light is switched on, so the whole room is clearly readable and every face "
+ "is front-lit. Everything done with the file, the photo and the desk top happens on that depth axis, carried by "
+ "over-shoulder framings and high angles down onto the desk."
+)
+ANCHORS.update({"4-1a": ANCHOR_41_NURSE, "4-1b": ANCHOR_41_CORR, "4-2": ANCHOR_42_OFFICE,
+                "4-3": ANCHOR_43_STORE, "4-4": ANCHOR_44_STUDY})
+
+# ---- 第 5 集的空间锚点（与 ep005/文字剧本.md 第零节 0.1–0.4 一致）----
+# 会长桌那场是"满屋子人"，最容易被人排成一横排 —— 这条锚点唯一的目的就是钉死"长案为轴、纵深错落"。
+ANCHOR_51_HALL = (
+ "Fixed spatial set-up for the whole drawing-room scene, never change it: there is exactly ONE axis — the long "
+ "table — and every person is staggered along the depth of it. Nobody is ever strung out in a row across the frame, "
+ "and the table top always forms the bottom third of frame. 陆崇 (S15) sits ALWAYS at the FAR end of the long table, "
+ "backed by the sideboard and the hanging landscape painting, facing the near end; he is the one presiding and "
+ "always occupies the far half of frame on the centre axis, with the file he brought in at his hand. 苏小满 (S1) "
+ "stands ALWAYS at the NEAR end of the same table, half a step left of the table head, standing on the bottom-third "
+ "line of frame, facing 陆崇 down the whole length of the table; she is the only person in the room who stands and "
+ "never sits. 陆蔓 (S8) sits ALWAYS along the EAST long side of the table, mid-position, in the right half of frame "
+ "at middle distance, turned side-on to the camera with a tea cup in her hand. 陆航 (S14) ALWAYS leans on the window "
+ "sill of the east floor-to-ceiling window, further back than 陆蔓 and high in the right half of frame, turning a "
+ "cup in his fingers; he never sits at the table. 秦律师 (S19) sits ALWAYS at the NEAR head of the long table, "
+ "three-quarter to the camera, the verification folder open in front of him and a pen in his hand; he must always "
+ "overlap 苏小满 in depth — she nearer, he half a step behind her right shoulder — and is NEVER lined up beside her. "
+ "The side-branch relatives and the stewards sit along the east and west flanks of the table, each staggered "
+ "further back along the depth, all turned towards the table axis. The long table is what separates the interrogator "
+ "from the interrogated. Everything done with the file, the table top, the tea cup and the cup in 陆航's fingers "
+ "happens on that depth axis, carried by over-shoulder framings and high angles down onto the table. Bright "
+ "mid-morning light comes in through the east window, the ceiling lights are on, faces front-lit and shadows low."
+)
+ANCHOR_52_GATE = (
+ "Fixed spatial set-up for the whole gate scene, never change it: the 陆 family gate tower with its grey brick and "
+ "grey tiled eaves always fills the FAR end of the depth axis, facing the camera straight on — never moved to the "
+ "side and never shot at 45 degrees. The stone steps lie across the middle of frame and the stone paving, a car "
+ "wheel and her shoe tips always form the bottom third of frame. The black saloon car is parked ALWAYS below the "
+ "steps in the middle-ground, its flank towards the camera and its window side facing the camera. 陆蔓 (S8) is "
+ "ALWAYS inside the car behind that window, in the middle-ground and right of centre, her face turned towards the "
+ "window side, and she does not turn her head to look at 苏小满. 苏小满 (S1) is ALWAYS outside the car window in "
+ "the near half of frame, a little left of centre, facing the window and slightly turned. The two of them face each "
+ "other through the single car window and are NEVER placed side by side. The window going down and going up are the "
+ "two key beats of the scene and both happen on that depth axis, carried by over-shoulder framings and the window "
+ "frame. Bright late-morning daylight, faces front-lit and shadows low."
+)
+ANCHOR_53_ROOM = (
+ "Fixed spatial set-up for the whole rented-room scene, never change it: the small old wooden table stands at the "
+ "foot of the bed in the middle-ground and slightly right of frame, and its top always forms the bottom third of "
+ "frame. 苏小满 (S1) is ALWAYS on the NEAR side of that table, sitting on the edge of the bed or on a stool with her "
+ "back to the room door and three-quarter turned to the camera; her face and shoulders occupy the upper two thirds "
+ "of frame. The round flush ceiling light at the centre of the room is switched ON and the old table lamp on the "
+ "bedside cabinet is switched ON as well — both practicals lit, nothing in the room left dark. The small curtained "
+ "window is always at the FAR end of the room with the lit night outside it. Fixed on the table top are the "
+ "photocopy of the agreement and her mobile phone, which starts in her hand and ends face-down on the table. The "
+ "bed, the table, the window and the person are NEVER lined up in a row across the frame. Everything she does with "
+ "the phone screen and the deleting of the line she typed happens on the depth axis of the table top, carried by "
+ "over-shoulder framings and high angles down onto the table."
+)
+ANCHOR_53_DOOR = (
+ "Fixed spatial set-up for the whole doorway scene, never change it: the old residential block's street doorway is "
+ "at the FAR end of the depth axis and a little left of centre — two or three worn concrete steps up to a half-open "
+ "metal gate with the stairwell light glowing through the gap, and one old street lamp directly overhead switched "
+ "on, throwing a warm yellow pool over the doorstep. The concrete steps and the ground always form the bottom third "
+ "of frame. 忠叔 (S18) is ALWAYS up on those steps under the lamp, above and beyond 苏小满, in the middle-ground and "
+ "right of centre, facing back towards the doorway. 苏小满 (S1) is ALWAYS at the foot of the steps, in the near half "
+ "of frame and a little left of centre, facing up at him and slightly turned; she is one depth step nearer the "
+ "camera than he is. The two of them face each other up and down the steps and are NEVER placed side by side. "
+ "Everything that happens with the old red cord at her collar, and with him turning and walking away down the "
+ "street, happens on that depth axis, carried by over-shoulder framings and high angles down onto the steps. It is "
+ "night but never dark — the street lamp, the stairwell light and the lamps along the street are all switched on."
+)
+ANCHORS.update({"5-1": ANCHOR_51_HALL, "5-2": ANCHOR_52_GATE,
+                "5-3a": ANCHOR_53_ROOM, "5-3b": ANCHOR_53_DOOR})
+
+# ---- 链式段必须显式重锚参考图，否则一段接一段会越接越暗 ----
+# 曝光重锚：链式段每段都要显式写一次，否则会一段比一段暗。
+# 用户 2026-10-03 反馈「偏黑 / 阴影过重 / 不柔和」后，三档都补上了「软光 + 低阴影密度 + 提黑位」，
+# 并且**显式禁止**比参考图更暗、更硬 —— 这是防止链式逐段变暗的关键一句。
+_SOFT_REMINDER = (
+ "Re-light this segment from scratch as soft, bright beauty lighting: one big wrapping soft source plus visible "
+ "front fill, faces evenly lit with LOW shadow density, no hard or heavy shadow on any skin, no black shadow under "
+ "the eyes, nose or chin, lifted blacks and open midtones. It must look tender and luminous, never hard, never "
+ "moody. "
+)
+EXPOSURE_ANCHOR = (
+ "Exposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous "
+ "skin, open shadows. " + _SOFT_REMINDER +
+ "Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the "
+ "character positions and props only, never in the lighting. Never return a clip darker or more contrasty than the "
+ "reference images."
+)
+EXPOSURE_ANCHOR_DUSK = (
+ "Exposure, white balance and colour must match the reference images exactly — dusk, but still bright and clean, "
+ "open shadows, luminous skin, the ceiling fluorescents clearly on. " + _SOFT_REMINDER +
+ "Do NOT inherit the tone, grain, contrast or "
+ "darkness of any previous clip; continuity is in the character positions and props only, never in the lighting. "
+ "Never return a clip darker or more contrasty than the reference images."
+)
+EXPOSURE_ANCHOR_NIGHT = (
+ "Exposure and colour must match the reference night images exactly — bright but night-balanced, lit only by real "
+ "practicals: the warm amber lights in the car roof lining and the glowing paper lantern at the gate, with the warm "
+ "shaft of light in the gap of the door. Every face stays clearly lit. " + _SOFT_REMINDER +
+ "Do NOT inherit the tone, grain, contrast or "
+ "darkness of any previous clip, and do NOT use any daylight source; continuity is in the character positions and "
+ "props only, never in the lighting. Never return a clip darker or more contrasty than the reference images."
+)
+
+# ---- 第 2 集：室内夜戏（陆宅会客厅 / 陆崇书房）----
+# 与 1-5 的"车灯 + 门楣灯笼"不同，这里的光源是**满屋点亮的台灯、壁灯与吊灯**。
+# 夜戏必须写成"亮着的夜"，否则 H3 会做成死黑（用户 2026-10-03 明令不得偏黑）。
+STYLE_NIGHT_ROOM = (
+    VERTICAL + POSE_LIMITS + SOFT_LIGHT +
+    "Premium modern urban short drama, shot on a large-format cinema "
+    "camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm "
+    "low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. It is night indoors, but "
+    "lit like a bright soft-spoken commercial: the room is lit by its own real practical sources, all of them "
+    "switched on and generous — the crystal chandelier, the table lamps and the wall sconces, or the green-shaded "
+    "desk lamp and the floor lamp — and each of them behaves as a big soft source wrapped in fill, so there is no "
+    "dark side on any face and no black shadow anywhere. The polished wood reflects the light cleanly. "
+    "Skin stays luminous and fully lit, blacks stay open, lifted and detailed, and every corner of the room stays "
+    "readable. Absolutely NOT underexposed, not dark, not murky, not crushed, not contrasty. "
+    "Beautiful photogenic cast with refined features and flawless skin, elegant wardrobe. Camera work stays high-end "
+    "cinematic: slow controlled dolly moves, gentle handheld, precise rack focus, natural 24fps motion blur."
+)
+EXPOSURE_ANCHOR_NIGHT_ROOM = (
+ "Exposure and colour must match the reference night images exactly — bright but night-balanced, lit only by the real "
+ "practicals that are visible in the room: the crystal chandelier and the table lamps and wall sconces in the hall, or "
+ "the lit green-shaded desk lamp and the floor lamp in the study. Every face stays clearly lit and every corner of "
+ "the room stays readable. " + _SOFT_REMINDER +
+ "Do NOT inherit the tone, grain, contrast or darkness of any previous clip, and do NOT use any daylight source; "
+ "continuity is in the character positions and props only, never in the lighting. Never return a clip darker or more "
+ "contrasty than the reference images."
+)
+
+# ---- 第 3 集：出租屋（3-6）的小夜灯档 ----
+# 为什么单独一档：上面 night_room 那段是给"陆宅会客厅/书房"写的，光源里点了水晶吊灯、壁灯、
+# 绿罩台灯。出租屋里没有这些——它只有"旧台灯 + 正中圆吸顶灯"两盏，照抄那段会把吊灯和绿罩台灯一起烧进画面。
+# （SCENE_LIGHT 本体统一定义在本文件下方的公共区，此处不再重复定义，避免两处口径打架。）
+STYLE_NIGHT_ROOM_SMALL = (
+    VERTICAL + POSE_LIMITS + SOFT_LIGHT +
+    "Premium modern urban short drama, shot on a large-format cinema "
+    "camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm "
+    "low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. It is night in a cramped "
+    "rented room, but lit like a bright soft-spoken commercial: the room has exactly two practicals and both are "
+    "switched on — the old table lamp with its warm shade and the round flush ceiling light above the middle of the "
+    "room — and together they behave as big soft sources with generous warm bounce filling the little space. Nothing "
+    "else in the room emits light: no chandelier, no wall sconce, no floor lamp and no green shaded lamp anywhere. "
+    "Every face stays fully and softly lit, blacks stay open, lifted and detailed, "
+    "and the yellowed walls stay readable instead of going black. Absolutely NOT underexposed, not dark, not murky, "
+    "not crushed, not contrasty. Beautiful photogenic cast with refined features and flawless skin. Camera work stays "
+    "high-end cinematic: slow controlled dolly moves, gentle handheld, precise rack focus, natural 24fps motion blur."
+)
+EXPOSURE_ANCHOR_NIGHT_ROOM_SMALL = (
+ "Exposure and colour must match the reference night images exactly — bright but night-balanced, lit only by the real "
+ "practicals visible in this rented room: the old table lamp with its warm shade and the round flush ceiling light, "
+ "both switched on, with the lamp's warm pool doing the work on the table top. Do not invent any other lamp or "
+ "fixture — this room has exactly these two lights. Every face stays clearly lit. " + _SOFT_REMINDER +
+ "Do NOT inherit the tone, grain, contrast or darkness of any previous clip, and do NOT use any daylight source; "
+ "continuity is in the character positions and props only, never in the lighting. Never return a clip darker or more "
+ "contrasty than the reference images."
+)
+
+# ---- 第 4/5 集：通用「夜·实用光全开」档 ----
+# 为什么再开一档：night 那段的光源写死成 ep001 车顶灯＋门口灯笼，night_room 那段写死成陆宅的水晶吊灯／壁灯／
+# 绿罩台灯。杂物间（4-3）只有一根必须亮着的日光灯管，楼门口（5-4）只有一盏路灯——照抄前两档都会把不存在的
+# 光源烧进画面，或者干脆把画面拍黑。这一档只讲一件事：**现场有的实用光源，全都开着。**
+STYLE_NIGHT_PRACTICAL = (
+    VERTICAL + POSE_LIMITS + SOFT_LIGHT +
+    "Premium modern urban short drama, shot on a large-format cinema "
+    "camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm "
+    "low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. It is night here, but "
+    "shot like a bright soft-spoken commercial: every practical light that exists in this location is switched on and "
+    "generous, so the space reads warm and clearly lit — walls, floor, props and faces all fully readable, with open, "
+    "detailed shadows and no black areas. Do not add any fixture that is not visible in the reference image, and do "
+    "not leave any light in the reference image switched off. Every face stays fully and softly lit, blacks stay "
+    "open, lifted and detailed. Absolutely NOT underexposed, not dark, not murky, not crushed, not contrasty. "
+    "Beautiful photogenic cast with refined features and flawless skin. Camera work stays high-end cinematic: slow "
+    "controlled dolly moves, gentle handheld, precise rack focus, natural 24fps motion blur."
+)
+EXPOSURE_ANCHOR_NIGHT_PRACTICAL = (
+ "Exposure and colour must match the reference night images exactly — bright but night-balanced, lit by the "
+ "practicals actually present in this location, all of them switched on and generous. Every face stays clearly lit "
+ "and every corner of the space stays readable. " + _SOFT_REMINDER +
+ "Do NOT inherit the tone, grain, contrast or darkness of any previous clip, and do NOT use any daylight source; "
+ "continuity is in the character positions and props only, never in the lighting. Never return a clip darker or more "
+ "contrasty than the reference images."
+)
+
+# 场景 → 光照档（第 2 集：2-1/2-2/2-5 室内夜戏，2-3/2-4 日戏；第 3 集：3-6 是出租屋夜戏）
+SCENE_LIGHT = {
+    "1-5": "night", "1-3": "dusk",
+    "2-1": "night_room", "2-2": "night_room", "2-5": "night_room",
+    "3-6": "night_room_small",
+    # 第 4 集：4-1 清晨日戏、4-2 上午日戏、4-3 杂物间夜、4-4 陆崇书房夜
+    "4-3": "night_practical", "4-4": "night_room",
+    # 第 5 集：5-1/5-2 上午日戏、5-3 出租屋夜（同 3-6）、5-4 楼门口路灯下夜
+    "5-3a": "night_room_small", "5-3b": "night_practical",
+}
+
+
+def light_of(seg, ep=None):
+    """场景 → 光照档：1-5 / 2-1 / 2-2 / 2-5 夜戏，1-3 傍晚，其余日戏。段里写了 light 字段则以它为准。"""
+    if seg.get("light"):
+        return seg["light"]
+    key = seg.get("scene", "")
+    if ep and ep.startswith("xs"):
+        key = X003_SCENE_ALIAS.get(key, key)
+    return SCENE_LIGHT.get(key, "day")
+
+
+# ══════════════════════════════════════════════════════════════════════
+# LEAN 精简档（2026-10-04 19:00）—— 段里写 "style_pack": "lean" 时生效
+#
+# 起因：用户反馈「本地理解能力不如 Seedance、总是很混乱，同样的提示词剧情表现不好」。
+# 实测：现行提示词 2071 词（H3 官方建议约 350 词，**超 5.9 倍**），
+#       命令词 36 次，真正承载剧情的 4 个 [Shot] 只有约 250 词（12%）。
+# H3 是 DiT + 文本编码器，1400 多词纯规则把条件向量推向「规则区」，
+# 离「剧情语义区」很远 → 读不懂镜头、人物乱动、指令互相打架。
+#
+# lean 档的原则：**只说「要什么」，不说「不要什么」**。
+# 删掉 POSE_LIMITS / NO_TEXT / CROWD_RULES / CAST LOCK / 完整曝光锚点
+# 这些「禁止型」内容 —— 它们是「人物复制」「越接越暗」等事故的补丁，
+# 但堆到 1400 词时 H3 已经读不进剧情了。宁可少约束，也要保住剧情可读性。
+# ══════════════════════════════════════════════════════════════════════
+LEAN_STYLE = (
+    "VERTICAL 9:16 portrait framing, one continuous take, no cuts. "
+    "Bright modern Chinese office at midday: broad soft daylight pouring through wide "
+    "venetian blinds, high-key lighting, luminous pale walls, light reflective floor, "
+    "every surface clearly readable, airy and open, gentle soft shadows that stay light "
+    "and keep their detail, clean luminous image, high-end commercial cinematography on a "
+    "large-format camera, shallow depth of field, refined natural faces, elegant wardrobe. "
+    "People stay standing, framed from the knees up, camera at a normal medium distance."
+)
+LEAN_EXPO = (
+    "Exposure: the window is a large bright key light and the whole room is filled with "
+    "soft bounced daylight, so the image sits high and open across the whole tonal range. "
+    "Skin tones are bright and even, with a clean luminous quality. Shadow areas sit in "
+    "the light mid-tones and keep visible texture and colour. The darkest corners of the "
+    "frame still read as pale grey with detail, the whites stay white, and the picture "
+    "carries an even, transparent, high-key brightness from edge to edge."
+)
+LEAN_ANCHOR_DEFAULT = (
+    "The layout of the room stays constant all take. "
+    "The people named in this beat are the only people in it and the count does not change."
+)
+
+
+def scenes_of(ep):
+    """X003 集用改名后的场景描述表；其余集返回原表（一个字节都不动）。"""
+    if ep.startswith("xs"):
+        return {k: _x003(v[0]) for k, v in SCENES.items()}
+    return SCENES
+
+
+def scene_desc(ep, key):
+    return scenes_of(ep)[key]
+
+
+def ordered_refs(seg):
+    """槽位顺序永远 = 人物在前、场景在后（<Picture n> 才能和槽位一一对上，避免悬空编号）"""
+    raw = seg["refs"]
+    chars = [r for r in raw if r in CHARS]
+    scens = [r for r in raw if r in SCENES]
+    for r in raw:
+        if r not in CHARS and r not in SCENES:
+            raise SystemExit("未知参考图逻辑名: %s" % r)
+    return chars + scens
+
+
+def render(ep, seg, idx):
+    refs = ordered_refs(seg)
+    chars = [r for r in refs if r in CHARS]
+    scens = [r for r in refs if r in SCENES]
+    if len(refs) > 6:
+        raise SystemExit("段 %s 参考图超过 6 张" % seg["id"])
+
+    # <Picture n> 与槽位一一对应
+    pic = {}
+    for i, r in enumerate(refs, 1):
+        pic[r] = i
+
+    sd = []
+    for i, r in enumerate(chars, 1):
+        name, desc = CHARS[r]
+        sd.append("<Subject %d> — %s: %s It is the person shown in <Picture %d>." % (i, name, desc, pic[r]))
+    for r in scens:
+        # 个别段落的参考图需要改写描述（例如 seg117 白天戏却要用夜间车厢图，
+        # 必须显式降级成「只做位置/道具参考、不做打光参考」，否则 H3 会把画面拉暗）
+        note = (seg.get("ref_notes") or {}).get(r)
+        sd.append("<Picture %d>: %s" % (pic[r], note if note else scene_desc(ep, r)))
+    if seg.get("extra_refs"):
+        sd.append(seg["extra_refs"])
+
+    ret = []
+    for i, r in enumerate(chars, 1):
+        ret.append("<Subject %d> (%s): %s" % (i, CHARS[r][0], seg["retention"].get(r, "fully_preserved")))
+    for r in scens:
+        ret.append("<Picture %d>: %s" % (pic[r], seg["retention"].get(r, "weak_reference")))
+
+    lv = light_of(seg, ep)
+    style = {"night": STYLE_NIGHT, "dusk": STYLE_DUSK, "night_room": STYLE_NIGHT_ROOM,
+             "night_room_small": STYLE_NIGHT_ROOM_SMALL,
+             "night_practical": STYLE_NIGHT_PRACTICAL}.get(lv, STYLE)
+    expo = {"night": EXPOSURE_ANCHOR_NIGHT, "dusk": EXPOSURE_ANCHOR_DUSK,
+            "night_room": EXPOSURE_ANCHOR_NIGHT_ROOM,
+            "night_room_small": EXPOSURE_ANCHOR_NIGHT_ROOM_SMALL,
+            "night_practical": EXPOSURE_ANCHOR_NIGHT_PRACTICAL}.get(lv, EXPOSURE_ANCHOR)
+
+    # X003 场次号与旧稿不同 → 查锚点前先做别名映射
+    akey = seg["scene"]
+    if ep.startswith("xs"):
+        akey = X003_SCENE_ALIAS.get(seg["scene"], seg["scene"])
+    # 段级 anchor 覆盖（2026-10-04 加）：某一段的空间约束与全场不同
+    # （例：xs01_t01 出现「人物复制」事故，必须把「门口聚人」的锚点删掉）。
+    # 写成 seg["anchor"] 就不用动全局 ANCHORS → 老集 sha 不变。
+    anchor_text = seg.get("anchor") or ANCHORS[akey]
+    # 段级 crowd 覆盖：seg["crowd"] 置 False 时不拼 CROWD_RULES。
+    # 原因：CROWD_RULES 是给「有背景人群」的场景写的，它明写「最多两张可辨识的背景脸」
+    # —— 在只有 2–3 人的室内戏里，这句话等于**暗示 H3 可以再加背景脸**，
+    # 实测 xs01_t01 就是这么长出第 4、第 5 个人的（2026-10-04）。
+    crowd_text = CROWD_RULES if seg.get("crowd", True) else NO_CROWD
+
+    # ══════════════════════════════════════════════════════════════════
+    # 段级 style_pack = "lean"：精简版提示词（2026-10-04 19:00 加）
+    # ──────────────────────────────────────────────────────────────────
+    # 起因（用户反馈）：「本地的理解能力没有 seedance 好，总是很混乱，
+    #   同样的提示词 Seedance 剧情就表现的很好」。
+    # 实测根因：现行提示词 **2071 词**（H3 官方建议约 350 词，**超 5.9 倍**），
+    #   命令词 never/always/not 出现 **36 次**，而真正承载剧情的 4 个 [Shot]
+    #   只有约 250 词（12%）—— 前面 1400 多词全是规则。
+    # H3 是 DiT + 文本编码器，超长规则文本把条件向量推向「规则区」，
+    # 离「剧情语义区」很远 → 表现为读不懂镜头、人物乱动、指令互相打架。
+    # 所以做 lean 档：**只保留画风/光/构图/空间/剧情，删掉全部禁止型规则**。
+    # 段级开关 → 老集 sha 一个字节都不变。
+    if seg.get("style_pack") == "lean":
+        anchor_text = seg.get("lean_anchor") or LEAN_ANCHOR_DEFAULT
+        desc = (LEAN_STYLE + "\n" + LEAN_EXPO + "\n"
+                + SPEAKERS_EP.get(ep, SPEAKERS) + "\n" + anchor_text + "\n"
+                + (seg.get("lean_shots") or seg["shots"]))
+    else:
+        desc = (style + "\n" + POSE_LIMITS + "\n" + NO_TEXT + "\n" + crowd_text + "\n" + SPEAKERS_EP.get(ep, SPEAKERS) + "\n" + anchor_text + "\n" + expo
+                + "\n" + seg["shots"])
+
+    body = []
+    body.append("subject_definitions:\n" + "\n".join(sd))
+    body.append("summary:\n[reference generation] " + seg["summary"])
+    body.append("retention_analysis:\n" + "\n".join(ret))
+    body.append("detailed_description:\n" + desc)
+    body.append("overall_soundscape: " + seg["soundscape"])
+    body.append("non_diegetic_music: " + seg.get("music", "N/A"))
+    return "\n\n".join(body) + "\n"
+
+
+def _pick_ref_dir():
+    """参考图目录：环境变量 MINIDRAMA_REF 选orig / soft（默认 soft = 老行为）。
+
+    2026-10-06：官方原版 H3（20 步 / turbo LoRA 8 步）自带足够采样步数把高光
+    roll-off 做平滑，不需要靠参考图压高光 → 用 orig。
+    turbo8 蒸馏模型跑 4 步时光影过渡没走完，只能靠软调参考图从输入端压 → soft。
+    目录不存在时自动回落 assets，保证任何情况下都不至于 404。
+    """
+    mode = os.environ.get("MINIDRAMA_REF", "soft").lower()
+    if mode == "orig":
+        return os.path.join(BASE, "assets")
+    soft = os.path.join(BASE, "assets_soft")
+    return soft if os.path.isdir(soft) else os.path.join(BASE, "assets")
+
+
+def asset_file(key):
+    """beats 里写的是逻辑名（suxiaoman / corridor_pano），落盘要转成 assets 里的真实文件名"""
+    if key in CHARS:
+        return "char_%s.png" % key
+    if key in SCENES:
+        return "sc_%s.png" % key
+    raise SystemExit("未知参考图逻辑名: %s" % key)
+
+
+def _write_atomic(path, text):
+    """生成器可能正在并发读 jobNN.json，必须原子落盘，绝不能让它读到半个文件。"""
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write(text)
+    os.replace(tmp, path)
+
+
+def _sha(*parts):
+    import hashlib
+    h = hashlib.sha1()
+    for p in parts:
+        h.update(json.dumps(p, ensure_ascii=False, sort_keys=True).encode("utf-8"))
+    return h.hexdigest()[:16]
+
+
+def main():
+    ep = sys.argv[1]
+    beats_dir = os.path.join(BASE, ep + "_beats")
+    segs_dir = os.path.join(BASE, ep + "_segs")
+    os.makedirs(segs_dir, exist_ok=True)
+
+    all_segs = []
+    for f in sorted(glob.glob(os.path.join(beats_dir, "*.json"))):
+        all_segs.extend(json.load(open(f, encoding="utf-8")))
+
+    manifest = []
+    for idx, seg in enumerate(all_segs, 1):
+        txt = render(ep, seg, idx)
+        n = "seg%02d" % idx
+        pf = os.path.join(segs_dir, n + "_prompt.txt")
+        _write_atomic(pf, txt)
+        job = {
+            "workflow": None,          # 由 autopilot 按段号填充
+            "prompt_file": pf,
+            "out_prefix": seg["id"],
+            # 参考图目录。**由环境变量 MINIDRAMA_REF 决定**（2026-10-06）：
+            #   unset / soft → assets_soft（软调版，为迁就「turbo 模型 4 步硬输出」调的）
+            #   orig         → assets（原始设定图）
+            # 官方原版模型（20步 / turbo LoRA 8步）自带足够的采样步数把高光 roll-off
+            # 做平滑，**不需要靠参考图压高光**，硬调过的软调图反而会二次压暗。
+            # 所以官方档必须用 orig。
+            "ref_dir": _pick_ref_dir(),
+            "refs": [asset_file(r) for r in ordered_refs(seg)],
+            "prev_video": None,
+        }
+        jf = os.path.join(segs_dir, "job%02d.json" % idx)
+        _write_atomic(jf, json.dumps(job, ensure_ascii=False, indent=1))
+        # 统计本段真实中文台词字数（自检用，防超预算）
+        import re as _re
+        cn = _re.findall(r"\[Chinese\]\s*([^\[\n]*)", seg["shots"])
+        nchar = sum(len(_re.findall(r"[\u4e00-\u9fff]", s)) for s in cn)
+        manifest.append({"n": idx, "id": seg["id"], "job": jf, "prompt": pf,
+                         "scene": seg.get("scene", ""), "title": seg.get("title", ""),
+                         "lines": len(cn), "chars": nchar, "over_budget": nchar > 30,
+                         "refs": len(seg["refs"]),
+                         "sha": _sha(txt, job["refs"])})
+        flag = "  ⚠️超预算" if nchar > 30 else ""
+        print("渲染 %s  %s  %s  台词%d字/%d句%s" % (n, seg["id"], seg.get("title", ""), nchar, len(cn), flag))
+
+    _write_atomic(os.path.join(segs_dir, "manifest.json"),
+                  json.dumps(manifest, ensure_ascii=False, indent=1))
+    print("共 %d 段" % len(all_segs))
+
+
+if __name__ == "__main__":
+    main()

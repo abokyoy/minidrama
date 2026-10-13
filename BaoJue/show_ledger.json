@@ -1,0 +1,400 @@
+{
+ "title": "X003 保洁",
+ "chain_size": 3,
+ "segments": {
+  "1": {
+   "chain": 1,
+   "pos": 1,
+   "kind": "fixed",
+   "prompt": "seg01_prompt.txt",
+   "words": 1095,
+   "reviewed": true,
+   "status": "done",
+   "out": "D:/output_h3off/off_xs01_t01_00019-audio.mp4",
+   "history": [
+    {
+     "t": "15:54:57",
+     "why": "用户否定：推拉摇移太频繁，看的人头晕，三片全重做",
+     "was": "D:/output_h3off\\off_xs01_t01_00011-audio.mp4"
+    },
+    {
+     "t": "16:23:08",
+     "why": "人物说话朝向不对，钱经理面向谁说话不明确",
+     "was": "D:\\output_h3off\\off_xs01_t01_00012-audio.mp4"
+    },
+    {
+     "t": "16:25:17",
+     "why": "朝向按剧本改写完成",
+     "was": "D:\\output_h3off\\off_xs01_t01_00012-audio.mp4"
+    },
+    {
+     "t": "16:45:56",
+     "why": "1秒处凭空多出一个男人",
+     "was": "D:\\output_h3off\\off_xs01_t01_00013-audio.mp4"
+    },
+    {
+     "t": "20:21:34",
+     "why": "调度器进程丢失、ComfyUI崩溃，片2从零重跑",
+     "was": "D:\\output_h3off\\off_xs01_t01_00014-audio.mp4"
+    },
+    {
+     "t": "08:52:56",
+     "why": "说话人钱经理被误写闭嘴+与唯一口型矛盾，已修"
+    },
+    {
+     "t": "09:23:02",
+     "why": "对话安错人+朝向错+场景错，按剧本场次1-2全修",
+     "was": "D:\\output_h3off\\off_xs01_t01_00015-audio.mp4"
+    },
+    {
+     "t": "10:05:28",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    },
+    {
+     "t": "10:43:02",
+     "why": "ComfyUI 死亡，上一轮任务丢失，重新排队"
+    },
+    {
+     "t": "11:08:37",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    },
+    {
+     "t": "13:37:05",
+     "why": "ComfyUI 死亡，上一轮任务丢失，重新排队"
+    },
+    {
+     "t": "15:48:25",
+     "why": "结算假running：13:52低清已落盘，转待确认"
+    },
+    {
+     "t": "10:43:22",
+     "why": "风格重置：从零开始，多刀硬切+固定机位"
+    },
+    {
+     "t": "12:33:34",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    }
+   ],
+   "size_mb": 2.12,
+   "pid": "80b3db28-23ee-419a-a65e-d0c47592cfba",
+   "wh": "1024x768",
+   "note": "16:46 提交的是景别未修版，本片必作废；等它落盘后用新版重跑",
+   "prompt_sha": "7717:42dad391aef7",
+   "prompt_lines": [
+    {
+     "who": "钱经理",
+     "line": "三楼包厢"
+    },
+    {
+     "who": "钱经理",
+     "line": "贵客丢了一只金耳钉"
+    },
+    {
+     "who": "钱经理",
+     "line": "三万八"
+    }
+   ],
+   "stage": "preview",
+   "draft_out": null,
+   "draft_wh": "576x448",
+   "final_out": null,
+   "run_epoch": null,
+   "approved_by_user": true
+  },
+  "2": {
+   "chain": 1,
+   "pos": 2,
+   "kind": "chain",
+   "prompt": "seg02_prompt.txt",
+   "words": 1256,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t02_00021-audio.mp4",
+   "history": [
+    "17:18 提交但ComfyUI未启动,任务从未执行,调度器进程丢失,回退pending",
+    "20:22:53 已提交 ComfyUI(prompt bfcafa54)，GPU 满载生成中",
+    {
+     "t": "21:11:25",
+     "why": "天花板黑碎片：双人片里残留第三人（小唐）描述+参考图，已全部清除"
+    },
+    {
+     "t": "09:23:02",
+     "why": "对话安错人+朝向错+场景错，按剧本场次1-2全修",
+     "was": "D:\\output_h3off\\off_xs01_t02_00017-audio.mp4"
+    },
+    {
+     "t": "11:07:24",
+     "why": "门口没有围观人群：镜头段人群只在段尾一笔带过+『the only person in frame』隐式数量指令压掉了人群。已在段首植入『doorway filled edge to edge with eight or more onlookers』并删掉 in frame",
+     "was": "D:\\output_h3off\\off_xs01_t02_00018-audio.mp4"
+    },
+    {
+     "t": "14:50:53",
+     "why": "用户铁律：默认低清，只有用户点升高清才跑高清"
+    }
+   ],
+   "size_mb": 1.81,
+   "pid": "a61834c9-0778-4bf5-9b35-37677abd90e2",
+   "wh": "1024x768",
+   "prompt_sha": "6458:29d680ff16c7",
+   "prompt_lines": [
+    {
+     "who": "钱经理",
+     "line": "收台的时候，就你一个人在"
+    },
+    {
+     "who": "苏小满",
+     "line": "不是我"
+    }
+   ],
+   "stage": "preview",
+   "draft_out": "D:\\output_h3off\\draft\\off_xs01_t02_00001-audio.mp4",
+   "draft_wh": "1024x768",
+   "draft_size_mb": 1.81
+  },
+  "3": {
+   "chain": 1,
+   "pos": 3,
+   "kind": "chain",
+   "prompt": "seg03_prompt.txt",
+   "words": 1347,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t03_00018-audio.mp4",
+   "history": [
+    {
+     "t": "15:54:57",
+     "why": "用户否定：推拉摇移太频繁，看的人头晕，三片全重做",
+     "was": "D:\\output_h3off\\off_xs01_t03_00012-audio.mp4"
+    },
+    {
+     "t": "22:18:27",
+     "why": "台词被苏小满抢说：提示词里「not on 小唐」否定句x2 + 「eyes locked on 苏小满」x2 把焦点推给她，已重写"
+    },
+    {
+     "t": "09:23:02",
+     "why": "对话安错人+朝向错+场景错，按剧本场次1-2全修",
+     "was": "D:\\output_h3off\\off_xs01_t03_00014-audio.mp4"
+    },
+    {
+     "t": "12:31:29",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    }
+   ],
+   "note": "旧 _chain.py 批任务在跑，调度器已接管登记",
+   "pid": "71c3d334-c3e7-439d-9a7d-d91069f188c0",
+   "size_mb": 1.8,
+   "wh": "1024x768",
+   "stage": "preview",
+   "draft_out": "D:\\output_h3off\\draft\\off_xs01_t03_00001.mp4",
+   "draft_wh": "0x0",
+   "draft_size_mb": 0.75,
+   "prompt_sha": "7660:d2b519c12885",
+   "prompt_lines": [],
+   "run_epoch": 1791700966.152,
+   "started_at": "14:42:46"
+  },
+  "4": {
+   "chain": 2,
+   "pos": 1,
+   "kind": "fixed",
+   "prompt": "seg04_prompt.txt",
+   "words": 1206,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t04_00008-audio.mp4",
+   "history": [
+    {
+     "t": "16:27",
+     "why": "调度器误把 15:59 旧片当新片，作废重跑",
+     "was": "off_xs01_t04_00004-audio.mp4"
+    },
+    {
+     "t": "08:52:56",
+     "why": "f013起苏小满消失：说话人被误写闭嘴（提示词自相矛盾），已修"
+    },
+    {
+     "t": "09:39:55",
+     "why": "本片09:08提交时用的是旧提示词(钱经理说「小唐。看清楚了，再说。」)，09:17才修好 → 必须用新版重跑",
+     "was": "D:\\output_h3off\\off_xs01_t04_00006-audio.mp4"
+    }
+   ],
+   "pid": "98158b74-544d-4c59-b720-8992a54e0d40",
+   "size_mb": 3.18,
+   "wh": "1024x768",
+   "stage": "final",
+   "prompt_sha": "7128:1caa5ce58d2a",
+   "prompt_lines": [
+    {
+     "who": "苏小满",
+     "line": "小唐"
+    },
+    {
+     "who": "小唐",
+     "line": "反正，我看见了"
+    }
+   ],
+   "run_epoch": 1791702180.3670013,
+   "started_at": "15:03:00"
+  },
+  "5": {
+   "chain": 2,
+   "pos": 2,
+   "kind": "chain",
+   "prompt": "seg05_prompt.txt",
+   "words": 1245,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t05_00006-audio.mp4",
+   "history": [
+    {
+     "t": "23:12",
+     "why": "关机时正在生成，未落盘。开机后回退pending"
+    },
+    {
+     "t": "08:53:21",
+     "why": "调度器被我误杀(taskkill python.exe)，回退pending"
+    },
+    {
+     "t": "09:39:55",
+     "why": "本片09:08提交时用的是旧提示词(钱经理说「小唐。看清楚了，再说。」)，09:17才修好 → 必须用新版重跑",
+     "was": "D:\\output_h3off\\off_xs01_t05_00003-audio.mp4"
+    },
+    {
+     "t": "16:03",
+     "why": "成片满屏白色乱涂线条(码率正常)→判废，等片6/7跑完后重掷"
+    },
+    {
+     "t": "16:51",
+     "why": "重掷成功：白色伪影消失，办公室与片1一致（抽帧人眼核验）"
+    }
+   ],
+   "size_mb": 2.95,
+   "wh": "1024x768",
+   "pid": "69e6521e-0260-4068-a189-c88f9ebc817f",
+   "stage": "final",
+   "prompt_sha": "6069:75ae7012d053",
+   "prompt_lines": [
+    {
+     "who": "钱经理",
+     "line": "掏兜"
+    },
+    {
+     "who": "钱经理",
+     "line": "自己掏，还是我喊保安"
+    }
+   ],
+   "run_epoch": 1791707565.705226
+  },
+  "6": {
+   "chain": 2,
+   "pos": 3,
+   "kind": "chain",
+   "prompt": "seg06_prompt.txt",
+   "words": 1194,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t06_00003-audio.mp4",
+   "history": [],
+   "pid": "9cb10a43-9c5b-41f3-9848-740168d02cd8",
+   "size_mb": 4.61,
+   "wh": "0x0",
+   "stage": "final",
+   "prompt_sha": "5716:633f660e345a",
+   "prompt_lines": [
+    {
+     "who": "苏小满",
+     "line": "你们不能搜我"
+    }
+   ],
+   "run_epoch": 1791705613.727463
+  },
+  "7": {
+   "chain": 3,
+   "pos": 1,
+   "kind": "fixed",
+   "prompt": "seg07_prompt.txt",
+   "words": 1187,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t07_00003-audio.mp4",
+   "history": [
+    {
+     "t": "08:52:56",
+     "why": "说话人钱经理被误写闭嘴+与唯一口型矛盾，已修"
+    },
+    {
+     "t": "13:32:39",
+     "why": "改完提示词重排",
+     "was": "D:\\output_h3off\\off_xs01_t07_00001.mp4"
+    },
+    {
+     "t": "14:50:51",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    },
+    {
+     "t": "15:04:52",
+     "why": "ComfyUI 死亡，上一轮任务丢失，重新排队"
+    },
+    {
+     "t": "15:28:16",
+     "why": "ComfyUI 死亡，上一轮任务丢失，重新排队"
+    }
+   ],
+   "pid": "eaba2f61-348d-4956-bcde-eaca03bc1bcc",
+   "size_mb": 2.78,
+   "wh": "0x0",
+   "stage": "preview",
+   "prompt_sha": "6693:b853c3856d0f",
+   "prompt_lines": [
+    {
+     "who": "钱经理",
+     "line": "那就是心虚"
+    }
+   ],
+   "draft_out": "D:\\output_h3off\\draft\\off_xs01_t07_00002-audio.mp4",
+   "draft_wh": "1024x768",
+   "draft_size_mb": 2.75
+  },
+  "8": {
+   "chain": 3,
+   "pos": 2,
+   "kind": "chain",
+   "prompt": "seg08_prompt.txt",
+   "words": 1163,
+   "reviewed": true,
+   "status": "done",
+   "out": "D://output_h3off//off_xs01_t08_00002-audio.mp4",
+   "history": [
+    {
+     "t": "13:32:39",
+     "why": "改完提示词重排",
+     "was": "D:\\output_h3off\\off_xs01_t08_00001.mp4"
+    },
+    {
+     "t": "14:50:52",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    },
+    {
+     "t": "16:45:07",
+     "why": "转预出片模式（preview25，约 1/3 时间）"
+    }
+   ],
+   "pid": "19d8eef0-b1d1-4b7b-83d8-6ab18a677656",
+   "size_mb": 3.92,
+   "wh": "0x0",
+   "stage": "preview",
+   "prompt_sha": "6855:c9aaf4a12560",
+   "prompt_lines": [
+    {
+     "who": "钱经理",
+     "line": "还有"
+    }
+   ],
+   "started_at": "16:36:50",
+   "run_epoch": 1791707565.7052276
+  }
+ },
+ "created": "2026-10-09 15:22:38",
+ "default_stage": "preview",
+ "updated": "2026-10-11 18:13:20"
+}

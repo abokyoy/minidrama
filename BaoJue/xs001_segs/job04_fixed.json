@@ -1,0 +1,13 @@
+{
+ "workflow": "E:\\ComfyUI\\ComfyUI_new\\user\\default\\workflows\\04_ref2v_4step_sla_ganloss_fixed.json",
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg04_prompt.txt",
+ "out_prefix": "off_xs01_t04",
+ "ref_dir": "E:\\ComfyUI\\ComfyUI_h3official\\input",
+ "refs": [
+  "r01_ref1__9caa7471.png",
+  "r02_ref2__bcad60c8.png",
+  "r03_ref3__016bdb32.png",
+  "r04_ref4__a039524b.png"
+ ],
+ "prev_video": null
+}

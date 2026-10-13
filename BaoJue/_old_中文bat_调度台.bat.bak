@@ -1,0 +1,27 @@
+@echo off
+chcp 65001 >nul
+cd /d "E:\LLM\try\minidrama\保洁"
+set PY=C:\Users\86134\.workbuddy\binaries\python\envs\default\Scripts\python.exe
+
+echo ============================================================
+echo  调度器指令台
+echo ============================================================
+echo.
+echo   看板（随时看 GPU 在干嘛）:   %PY% scheduler.py status
+echo.
+echo   启动调度（一直跑到没活干）:   %PY% scheduler.py run
+echo.
+echo   你说某片不行（整链重排）:     %PY% scheduler.py reject 5 你的理由
+echo   改完提示词后插队重跑:         %PY% scheduler.py resume 2
+echo.
+echo   reject 的自动行为：
+echo     · 正在跑的片和你说的片同链  -> 立刻放弃当前片，跳下一条链
+echo     · 不同链                    -> 不打断，等当前片跑完自然重排
+echo ============================================================
+echo.
+
+set /p CMD="输入指令（status / run / reject N / resume N，回车退出）: "
+if "%CMD%"=="" exit /b
+%PY% scheduler.py %CMD%
+echo.
+pause

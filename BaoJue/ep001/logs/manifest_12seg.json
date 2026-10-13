@@ -1,0 +1,110 @@
+[
+ {
+  "n": 1,
+  "id": "ep01_t01",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job01.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg01_prompt.txt",
+  "scene": "1-1",
+  "title": "高跟鞋踩进水渍",
+  "chars": 0
+ },
+ {
+  "n": 2,
+  "id": "ep01_t02",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job02.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg02_prompt.txt",
+  "scene": "1-1",
+  "title": "钱经理奔出来赔笑",
+  "chars": 0
+ },
+ {
+  "n": 3,
+  "id": "ep01_t03",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job03.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg03_prompt.txt",
+  "scene": "1-1",
+  "title": "两万八的裙子",
+  "chars": 0
+ },
+ {
+  "n": 4,
+  "id": "ep01_t04",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job04.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg04_prompt.txt",
+  "scene": "1-1",
+  "title": "跪下擦",
+  "chars": 0
+ },
+ {
+  "n": 5,
+  "id": "ep01_t05",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job05.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg05_prompt.txt",
+  "scene": "1-1",
+  "title": "蹲下去按干裙摆",
+  "chars": 0
+ },
+ {
+  "n": 6,
+  "id": "ep01_t06",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job06.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg06_prompt.txt",
+  "scene": "1-1",
+  "title": "赔，从工资里扣",
+  "chars": 0
+ },
+ {
+  "n": 7,
+  "id": "ep01_t07",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job07.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg07_prompt.txt",
+  "scene": "1-1",
+  "title": "全勤没了，奖金没了",
+  "chars": 0
+ },
+ {
+  "n": 8,
+  "id": "ep01_t08",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job08.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg08_prompt.txt",
+  "scene": "1-1",
+  "title": "车不是我推的",
+  "chars": 0
+ },
+ {
+  "n": 9,
+  "id": "ep01_t09",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job09.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg09_prompt.txt",
+  "scene": "1-1",
+  "title": "手机震了",
+  "chars": 0
+ },
+ {
+  "n": 10,
+  "id": "ep01_t10",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job10.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg10_prompt.txt",
+  "scene": "1-1",
+  "title": "缺钱就把活干好点",
+  "chars": 0
+ },
+ {
+  "n": 11,
+  "id": "ep01_t11",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job11.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg11_prompt.txt",
+  "scene": "1-1",
+  "title": "阿芳：忍忍吧",
+  "chars": 0
+ },
+ {
+  "n": 12,
+  "id": "ep01_t12",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\job12.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg12_prompt.txt",
+  "scene": "1-1",
+  "title": "拧出来的水是黑的",
+  "chars": 0
+ }
+]

@@ -1,0 +1,172 @@
+[
+ {
+  "id": "ep04_t01",
+  "scene": "4-1a",
+  "title": "清晨的护士站",
+  "refs": [
+   "hospital_station"
+  ],
+  "retention": {
+   "hospital_station": "weak_reference"
+  },
+  "summary": "Opening wide across the nurses' counter on a bright early morning: the pale counter runs across the MID-ground of the depth axis with an old desktop computer and several stacks of case files on it, the wall of medicine drawers closes the far side, ceiling lights on and clear morning window light raking in from the side and behind. Nobody is in the frame yet.",
+  "shots": "Entry state, re-anchored to the reference images: the nurses' station of the city No.1 hospital on a bright early morning, seen from outside the counter looking in; the pale counter runs across the MID-ground, the wall of small medicine drawers closes the far side, the pale tile floor along the bottom third; the station is empty of people.\n[Shot 1] Wide along the depth axis from outside the counter: the pale counter runs across the middle of frame with an old desktop computer, three neat stacks of case files, a pen and a thick bed-allocation ledger lying on it; behind it the wall of small built-in medicine drawers; the ceiling lights are on and clear morning window light comes in from the left and behind, so the whole station is bright, open and clean with every corner readable; the bottom third of frame is the counter edge and the pale tile floor.\n[Shot 2] At 00:06.000, Slightly lower and closer to the counter, the light along the counter top even and generous, the case-file stacks square to the lens, the drawer wall behind still fully lit and in focus — a held establishing beat with nobody in it yet.",
+  "soundscape": "The building's morning air, the faint hum of the ceiling lights, a trolley wheel rattling somewhere down the corridor, and a pager buzzing twice far off.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t02",
+  "scene": "4-1a",
+  "title": "翻本子的手",
+  "refs": [
+   "hushizhang",
+   "hospital_station"
+  ],
+  "retention": {
+   "hushizhang": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "Medium from inside the counter: the head nurse stands on the far side of it, head down, turning back the pages of the thick bed-allocation ledger with both hands, her brow knotted and her mouth pulled tight with the difficulty of what she is reading.",
+  "shots": "Entry state, re-anchored to the reference images: the same nurses' station; 护士长 (S20) now stands behind the counter on the FAR side, facing out towards the near side, a thick bed-allocation ledger open in both hands at chest height; her pale uniform, white nursing shoes and the ballpoint pen clipped in her chest pocket are visible; the counter edge still cuts the bottom third.\n[Shot 1] Medium from inside the counter looking out over it: 护士长 (S20), a woman in her early fifties with slightly rounded shoulders and thin half-rimmed spectacles, stands on the far side facing the near side, head down, turning back the pages of the thick ledger; her brow is knotted and her mouth pulled tight; the ceiling light falls evenly on her face and the pale counter.\n[Shot 2] At 00:05.200, High angle down onto the open ledger: her finger holds one page flat while the other hand runs down a column of bed numbers, and the tip of her pen comes to rest and stays there, not touching the paper.",
+  "soundscape": "Pages turning in a thick ledger, the ballpoint pen tapping once against the paper, her plain apron and the faint squeak of her white shoes shifting on the tile.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t03",
+  "scene": "4-1a",
+  "title": "今天要挪一挪",
+  "refs": [
+   "hushizhang",
+   "suxiaoman",
+   "hospital_station"
+  ],
+  "retention": {
+   "hushizhang": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "The head nurse presses the page flat, looks up towards the near side and speaks, taking two tries to get the first clause out; 苏小满 (S1) is on the near side of the counter with her back to the door.",
+  "shots": "Entry state, re-anchored to the reference images: 护士长 (S20) still behind the counter with one hand pressed flat on the open ledger; 苏小满 (S1) has just arrived on the NEAR side of the counter, a little left of centre, facing in towards it, a plain thin coat thrown over her navy work shirt, her low ponytail between her shoulder blades; her hands hang at her sides.\n[Shot 1] Medium inside the counter: 护士长 (S20) presses the open page flat under her palm and lifts her eyes towards the near side; her lips move twice before the words come, and she says, in a low apologetic standard Mandarin: [Chinese] 老太太的床位……今天要挪一挪。\n[Shot 2] At 00:06.000, Reverse over her shoulder towards the near side: 苏小满 (S1) stands facing the counter, and on hearing it her body stops for a beat, her right hand rising to hover just above the counter edge without touching it.",
+  "soundscape": "Her low apologetic voice cutting across the corridor air, a trolley rattling further away, the ceiling lights humming, and the girl's coat shifting as she stops moving.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t04",
+  "scene": "4-1a",
+  "title": "挪去哪",
+  "refs": [
+   "suxiaoman",
+   "hushizhang",
+   "hospital_station"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "hushizhang": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "苏小满 (S1) asks where the bed is going to, her hand still hovering over the counter edge, her voice low and flat.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) on the NEAR side of the counter, right hand hovering above the counter edge; 护士长 (S20) behind the counter with her palm still on the ledger.\n[Shot 1] Medium three-quarter on 苏小满 (S1) from the near side of the counter, 护士长 (S20) blurred in the foreground: she keeps her hand where it is and asks, without raising her voice, [Chinese] 挪去哪？\n[Shot 2] At 00:04.000, Closer on her face as she waits for the answer: her jaw is set, her eyes stay level on the woman behind the counter, and the hand at the counter edge does not move.",
+  "soundscape": "Her low steady slightly hoarse voice, the faint hum of the ceiling lights, a page settling in the ledger.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t05",
+  "scene": "4-1a",
+  "title": "上面打了招呼",
+  "refs": [
+   "hushizhang",
+   "suxiaoman",
+   "hospital_station"
+  ],
+  "retention": {
+   "hushizhang": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "The head nurse presses the ledger down, drops her voice and looks away towards the computer on the counter as she explains that the bed is going home for two weeks because someone upstairs has asked for it.",
+  "shots": "Entry state, re-anchored to the reference images: 护士长 (S20) behind the counter, her palm flat on the ledger; 苏小满 (S1) on the near side of the counter, hand now resting on the counter edge, facing in.\n[Shot 1] Medium inside the counter: 护士长 (S20) presses the ledger down harder, drops her voice and lets her eyes slide away towards the old computer on the counter as she says, [Chinese] 先回家等两周。上面打了招呼，说有人要用床。\n[Shot 2] At 00:07.000, Closer on her face: the words cost her something; her brows pull together, she glances once to her left along the counter and back down, and the hand on the ledger presses a little harder than it needs to.",
+  "soundscape": "Her lowered voice close to the counter, the ledger's cover sliding on the laminate, a distant lift chime somewhere in the building.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t06",
+  "scene": "4-1a",
+  "title": "哪个上面",
+  "refs": [
+   "suxiaoman",
+   "hushizhang",
+   "hospital_station"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "hushizhang": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "苏小满 (S1) steps half a pace forward, plants one hand on the counter edge and asks which upstairs she means, looking straight at the head nurse.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) on the near side of the counter, one hand resting on the counter edge; 护士长 (S20) behind the counter, her eyes still turned away towards the computer.\n[Shot 1] Over-shoulder from behind 护士长 (S20) towards the near side: 苏小满 (S1) steps half a pace forward, lays one hand flat on the counter edge, and asks with her eyes level on the woman across the counter: [Chinese] 上面？哪个上面？\n[Shot 2] At 00:05.000, Tighter on 苏小满 (S1): the hand on the counter edge takes her weight, her chin comes up a little, and she does not blink; across the counter the head nurse's eyes come back to meet hers and then drop away again.",
+  "soundscape": "Her hand sliding onto the laminate counter edge, the low hum of the lights, the girl's steady breathing close to the counter.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t07",
+  "scene": "4-1a",
+  "title": "你别为难我",
+  "refs": [
+   "hushizhang",
+   "suxiaoman",
+   "hospital_station"
+  ],
+  "retention": {
+   "hushizhang": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "The head nurse meets those eyes for half a second, closes the ledger, tucks the pen back into her pocket and shakes her head lightly as she refuses to answer.",
+  "shots": "Entry state, re-anchored to the reference images: 护士长 (S20) behind the counter, 苏小满 (S1) on the near side with her hand on the counter edge, facing in.\n[Shot 1] Medium inside the counter: 护士长 (S20) takes those eyes for half a second, then brings the ledger shut, slides the pen back into her chest pocket and shakes her head once, lightly, as she says, [Chinese] 小苏，你别为难我。\n[Shot 2] At 00:04.600, Closer on her as she finishes: her eyes have gone down to the counter top, the shut ledger under her palm, her shoulders drawing in a fraction; the ceiling light still falls evenly across her pale uniform with the shadow under her chin soft and open.",
+  "soundscape": "The ledger's covers meeting with a soft knock, her plain voice thinning out, the corridor air and a distant trolley.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t08",
+  "scene": "4-1a",
+  "title": "手收回身侧",
+  "refs": [
+   "suxiaoman",
+   "hushizhang",
+   "hospital_station"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "hushizhang": "fully_preserved",
+   "hospital_station": "weak_reference"
+  },
+  "summary": "Reverse on 苏小满 (S1): her hand comes off the counter edge and back to her side, she does not press the question, and her gaze moves off the nurse's face onto the old computer sitting on the counter.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) on the near side of the counter, her hand just leaving the counter edge; 护士长 (S20) behind the counter with the shut ledger under her palm.\n[Shot 1] Reverse medium on 苏小满 (S1) from inside the counter, 护士长 (S20) in the foreground: her hand comes slowly off the counter edge and back down to her side; she does not press the question again, and her gaze moves off the woman's face and settles instead on the old desktop computer sitting on the counter.\n[Shot 2] At 00:05.400, Closer on her eyes and jaw: nothing rises in her face; she stands very straight, the plain thin coat hanging still, and the only movement is her lower jaw setting once.",
+  "soundscape": "The quiet of her coat settling, a page left flat in the shut ledger, the corridor's morning air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t09",
+  "scene": "4-1a",
+  "title": "转身去走廊",
+  "refs": [
+   "suxiaoman",
+   "hushizhang",
+   "hospital_station",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "hushizhang": "fully_preserved",
+   "hospital_station": "weak_reference",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "The head nurse opens another register and lowers her head; 苏小满 (S1) turns away from the counter and walks off down the corridor with her back to the lens.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) on the near side of the counter, having just taken her hand down; 护士长 (S20) behind the counter with the shut ledger.\n[Shot 1] Medium from inside the counter: 护士长 (S20) opens a different register and lowers her head back over it; in the near half of frame 苏小满 (S1) turns away from the counter, her back to the lens, and starts walking out towards the corridor.\n[Shot 2] At 00:05.200, The camera holds on the counter as she leaves frame: the shut ledger, the stacks of case files, the old computer and the drawer wall behind all stay evenly lit, and the pale tile floor is empty where she was standing.",
+  "soundscape": "Her steps walking away down the corridor, a register opening, the ceiling lights humming, her coat fading out of the room's air.",
+  "music": "N/A",
+  "ref_notes": {
+   "hospital_corridor": "Use this image ONLY for the corridor she walks into at the end of the beat — the nurses' station in the previous reference stays the location and lighting reference for the whole segment. Do not re-light the station from the corridor image."
+  }
+ }
+]

@@ -1,0 +1,9 @@
+
+   Id ProcessName        RAM_GB
+   -- -----------        ------
+51732 python              12.00
+32292 WorkBuddy            0.79
+ 4552 Memory Compression   0.46
+ 2152 dwm                  0.32
+15784 WorkBuddy            0.30
+

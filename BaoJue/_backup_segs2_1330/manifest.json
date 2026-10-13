@@ -1,0 +1,67 @@
+[
+ {
+  "n": 1,
+  "id": "xs01_t01",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\job01.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg01_prompt.txt",
+  "scene": "1-1",
+  "title": "撞门拍桌",
+  "lines": 1,
+  "chars": 16,
+  "over_budget": false,
+  "refs": 4,
+  "sha": "bea2082287afbccd"
+ },
+ {
+  "n": 2,
+  "id": "xs01_t02",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\job02.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg02_prompt.txt",
+  "scene": "1-1",
+  "title": "点名",
+  "lines": 2,
+  "chars": 14,
+  "over_budget": false,
+  "refs": 3,
+  "sha": "7066f7cfb1300beb"
+ },
+ {
+  "n": 3,
+  "id": "xs01_t03",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\job03.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg03_prompt.txt",
+  "scene": "1-1",
+  "title": "小唐作证",
+  "lines": 1,
+  "chars": 18,
+  "over_budget": false,
+  "refs": 3,
+  "sha": "a7f16de9a9f70088"
+ },
+ {
+  "n": 4,
+  "id": "xs01_t04",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\job04.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg04_prompt.txt",
+  "scene": "1-1",
+  "title": "看清楚了再说",
+  "lines": 2,
+  "chars": 16,
+  "over_budget": false,
+  "refs": 3,
+  "sha": "c98a55be7ab7921b"
+ },
+ {
+  "n": 5,
+  "id": "xs01_t05",
+  "job": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\job05.json",
+  "prompt": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg05_prompt.txt",
+  "scene": "1-1",
+  "title": "掏兜",
+  "lines": 1,
+  "chars": 4,
+  "over_budget": false,
+  "refs": 2,
+  "sha": "a13d26e0dae84d71"
+ }
+]

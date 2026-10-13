@@ -1,0 +1,298 @@
+{
+ "133": {
+  "class_type": "PrimitiveFloat",
+  "inputs": {
+   "value": 10
+  }
+ },
+ "127": {
+  "class_type": "UNETLoader",
+  "inputs": {
+   "unet_name": "minimax_h3_fused_refdelta_r1024_turbo8_mystic07_int8_convrot.safetensors",
+   "weight_dtype": "default"
+  }
+ },
+ "119": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "minimax_h3_video_vae_int8_convrot.safetensors"
+  }
+ },
+ "128": {
+  "class_type": "CLIPLoader",
+  "inputs": {
+   "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+   "type": "minimax",
+   "device": "default"
+  }
+ },
+ "132": {
+  "class_type": "ComfyMathExpression",
+  "inputs": {
+   "expression": "max(5, round(a * 24)) + (5 - (max(5, round(a * 24)) % 17)) % 17",
+   "values.a": [
+    "133",
+    0
+   ]
+  }
+ },
+ "900": {
+  "class_type": "H3SLAAttention",
+  "inputs": {
+   "sparsity_ratio": 0.9,
+   "block_size": "64",
+   "min_seq_len": 8192,
+   "dense_last_steps": 0,
+   "protect_audio": true,
+   "enabled": true,
+   "dense_steps": "0",
+   "dense_backend": "comfy_kitchen",
+   "disable_fp16_accum": true,
+   "stabilize_motion": false,
+   "reference_protection": "Off",
+   "tail_correction": false,
+   "use_int8_qk": true,
+   "engine": "triton",
+   "model": [
+    "127",
+    0
+   ]
+  }
+ },
+ "142": {
+  "class_type": "MiniMaxH3SigmaShift",
+  "inputs": {
+   "shift_video": 12,
+   "shift_audio": 3,
+   "model": [
+    "900",
+    0
+   ]
+  }
+ },
+ "126": {
+  "class_type": "BasicGuider",
+  "inputs": {
+   "model": [
+    "142",
+    0
+   ],
+   "conditioning": [
+    "903",
+    0
+   ]
+  }
+ },
+ "124": {
+  "class_type": "BasicScheduler",
+  "inputs": {
+   "scheduler": "simple",
+   "steps": 6,
+   "denoise": 1,
+   "model": [
+    "142",
+    0
+   ]
+  }
+ },
+ "129": {
+  "class_type": "RandomNoise",
+  "inputs": {
+   "noise_seed": 42
+  }
+ },
+ "125": {
+  "class_type": "SamplerCustomAdvanced",
+  "inputs": {
+   "noise": [
+    "129",
+    0
+   ],
+   "guider": [
+    "126",
+    0
+   ],
+   "sampler": [
+    "135",
+    0
+   ],
+   "sigmas": [
+    "124",
+    0
+   ],
+   "latent_image": [
+    "903",
+    1
+   ]
+  }
+ },
+ "135": {
+  "class_type": "KSamplerSelect",
+  "inputs": {
+   "sampler_name": "res_multistep"
+  }
+ },
+ "902": {
+  "class_type": "VHS_VideoCombine",
+  "inputs": {
+   "frame_rate": 24,
+   "loop_count": 0,
+   "filename_prefix": "MT3_6step",
+   "format": "video/h264-mp4",
+   "pix_fmt": "yuv420p",
+   "crf": 19,
+   "save_metadata": true,
+   "trim_to_audio": false,
+   "pingpong": false,
+   "save_output": true,
+   "images": [
+    "122",
+    0
+   ],
+   "audio": [
+    "121",
+    0
+   ]
+  }
+ },
+ "121": {
+  "class_type": "VAEDecodeAudio",
+  "inputs": {
+   "samples": [
+    "125",
+    0
+   ],
+   "vae": [
+    "120",
+    0
+   ]
+  }
+ },
+ "122": {
+  "class_type": "VAEDecode",
+  "inputs": {
+   "samples": [
+    "125",
+    0
+   ],
+   "vae": [
+    "119",
+    0
+   ]
+  }
+ },
+ "120": {
+  "class_type": "VAELoader",
+  "inputs": {
+   "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+  }
+ },
+ "1": {
+  "class_type": "PrimitiveStringMultiline",
+  "inputs": {
+   "value": "subject_definitions:\n<Subject 1> — 苏小满 (S1): a 25-year-old female cleaner. Preserve her exact face, small lean build, centre-parted black hair in a low practical ponytail, plain dark-navy housekeeping shirt with rolled sleeves, a worn grey-blue apron over navy trousers, black cloth shoes and a small keyring at her waist. Her voice is low, steady and slightly hoarse, standard Mandarin. It is the person shown in <Picture 1>.\n<Subject 2> — 钱经理 (S3): a 45-year-old male property manager. Slightly overweight, slicked-back oily hair, round face, an ingratiating smile that flips into a scowl, white shirt with a dark grey waistcoat, dark trousers and a staff badge. His voice is loud, nasal and bullying, standard Mandarin. It is the person shown in <Picture 2>.\n<Picture 3>: a close framing of the office desktop — keys, a folded form, a black mobile phone and a white enamel mug on dark wood. Use for the desk surface and prop reference only.\n<Picture 4>: the same property office in medium shot, the desk and cabinets centred. Location reference only.\n\nsummary:\n[reference generation] Silent beat: she takes her own things back off the desk one item at a time — the card, the keys, the pen — and leaves the paper form for last.\n\nretention_analysis:\n<Subject 1> (苏小满 (S1)): fully_preserved\n<Subject 2> (钱经理 (S3)): fully_preserved\n<Picture 3>: fully_preserved\n<Picture 4>: partially_preserved\n\ndetailed_description:\nVERTICAL 9:16 PORTRAIT FRAME — the picture is much taller than it is wide, composed for a phone screen: stage the action in DEPTH, front-to-back, and never spread people out left-to-right; keep faces and bodies in the upper two thirds of the frame, and let one strong foreground element run along the bottom edge (desk corner, tiled floor, doorframe, car seat) to give depth. Two people talk in an over-the-shoulder or one-behind-the-other arrangement, never side by side. LIGHTING IS SOFT, BRIGHT AND FLATTERING — this instruction overrides any instinct to light the scene moodily. Use one very large wrapping soft source (a big diffused window or a 4x4 softbox) placed close to the subject, with soft fill coming in from the front, so every face is evenly lit, fully open and easy to read. Keep SHADOW DENSITY LOW: shadows stay pale, open, gentle and full of detail — never black, never deep, never heavy, never hard-edged. There is no hard shadow on any face: no dark band under the eyes, no black shadow under the nose or the chin, no harsh nose or jaw shadow, no strong contrast across the cheek. Hair and dark clothing must still show visible texture and sheen instead of crushing to a black mass. Expose one stop brighter than a natural reading, with lifted blacks and open milky midtones, like a bright soft-lit beauty commercial. The result must feel tender, airy and luminous — soft light everywhere, no gloom, no muddy darker corners. Premium modern urban short drama, shot on a large-format cinema camera with warm anamorphic character, shallow depth of field and soft oval bokeh, fine 35mm film grain, a warm low-contrast film grade with lifted blacks, open midtones and soft highlight roll-off. The image must read BRIGHT, luminous, soft, clean and expensive — glowing diffused window light wrapped in soft front fill, spotless surfaces, elegant production design. Absolutely NOT dark, not contrasty, not murky, not moody. Beautiful photogenic cast with refined features and flawless skin, elegant wardrobe and hair. Camera work stays high-end cinematic: slow controlled dolly moves, gentle handheld, precise rack focus, natural 24fps motion blur.\nABSOLUTELY NO SUBTITLES, NO CAPTIONS, NO LOWER-THIRDS, NO TITLE CARDS, NO WATERMARKS AND NO BURNED-IN TEXT of any kind anywhere in the frame — the delivered clip must be clean picture with no typography over it, so that subtitles can be added later in post. Any spoken line is AUDIO ONLY and must never appear written on screen. The only text that may exist is lettering physically printed on a real object inside the scene (for example the gilt character stamped into the face of the black card, or signage already present in the location). \nSpeaker labels are stable for the whole series: (S1) 苏小满, (S2) 女贵宾, (S3) 钱经理, (S4) 小唐, (S5) 阿芳, (S6) 周总监, (S7) 小罗, (S8) 陆蔓, (S9) 外婆, (S10) 张总, (S11) 医生, (S12) 前台, (S13) 陆家接线人（只在电话里，从不出现）, (S14) 陆航（只在门内画外，从不出现）. Anyone not given a numbered line stays completely silent with a closed mouth.\nFixed spatial set-up for the whole office scene, never change it: the door is on the LEFT of frame, the window with venetian blinds and the tall wooden cabinets are on the RIGHT. The dark wooden desk stands across the middle of the room. 苏小满 (S1) ALWAYS stays on the NEAR side of the desk, between the desk and the door, back to the door, facing the window side; she may turn on the spot but she never crosses to the far side and never moves to the middle of the room. 钱经理 (S3) begins every beat on the FAR side of the desk, back to the window, facing the door, and he STAYS there except for exactly one excursion: in the 「掏兜」 beat he steps round the end of the desk onto the near side and stands one pace in front of her; he stays there through the 「心虚」「摆上桌」「还有」「黑卡」 beats; and at the end of the 「拿来」 beat, the moment the card is in his hand, he turns and walks back round to his place on the far side and stays there for the rest of the scene. Apart from those two scripted moves he is never on the near side and NEVER in the middle of the room — until 苏小满 (S1) has left the room, after which he is free to leave the desk and stand in front of it. 小唐 (S4) starts against the wall just inside the LEFT door on the lower-left of frame and may step one pace in from it. 周总监 (S6) enters from the LEFT, stops two paces inside the door, then crosses to the desk and stands behind it. 小罗 (S7) enters from the LEFT and stops one step in front of 苏小满. The onlookers crowd the open doorway on the LEFT. The desktop is bare at the start of the scene; 苏小满 (S1) herself lays the bunch of keys and the ballpoint pen on it in the middle of the scene, and only those two objects then stay on it to the end; the folded paper form is in her hand or closed in her trouser pocket and is never left lying on the desk; the black card joins the desktop only at the moment 钱经理 (S3) slaps it down. Never mirror, swap or re-arrange any of this.\nExposure, white balance and colour must match the reference images exactly — bright, clean, warm daylight, luminous skin, open shadows. Re-light this segment from scratch as soft, bright beauty lighting: one big wrapping soft source plus visible front fill, faces evenly lit with LOW shadow density, no hard or heavy shadow on any skin, no black shadow under the eyes, nose or chin, lifted blacks and open midtones. It must look tender and luminous, never hard, never moody. Do NOT inherit the tone, grain, contrast or darkness of any previous clip; continuity is in the character positions and props only, never in the lighting. Never return a clip darker or more contrasty than the reference images.\nEntry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door; the black card lies on the dark desktop and the keys and the pen lie beside it; 钱经理 (S3) and 周总监 (S6) watch from the far side.\n[Shot 1] Close on the desk: her hand comes into frame and picks the black card up, and it goes into her trouser pocket.\n[Shot 2] At 00:02.800, then the bunch of keys, gathered in one sweep of the palm, and the ballpoint pen laid carefully across them; both go into the other pocket.\n[Shot 3] At 00:05.600, she takes the folded paper form out of the trouser pocket where it has been since she snatched it back, and holds it flat in her palm for a beat without unfolding it.\n[Shot 4] At 00:07.800, she folds it once more with careful fingers and puts it away again, deeper this time, then stands. Nobody speaks in this whole beat, and nobody in the room moves.\n\noverall_soundscape: Small metallic clinks, card on cloth, paper folded crisply twice, the ceiling lights, twenty people not making any sound.\n\nnon_diegetic_music: A soft low piano phrase, patient and private.\n"
+  }
+ },
+ "115": {
+  "class_type": "ResolutionSelector",
+  "inputs": {
+   "aspect_ratio": "9:16 (Portrait Widescreen)",
+   "megapixels": 0.75,
+   "multiple": 32
+  }
+ },
+ "903": {
+  "class_type": "MiniMaxH3ReferenceToVideo",
+  "inputs": {
+   "ref_image_size": "match",
+   "clip": [
+    "128",
+    0
+   ],
+   "vae": [
+    "119",
+    0
+   ],
+   "audio_vae": [
+    "120",
+    0
+   ],
+   "ref_images.ref_image_0": [
+    "901",
+    0
+   ],
+   "ref_images.ref_image_1": [
+    "904",
+    0
+   ],
+   "ref_images.ref_image_2": [
+    "905",
+    0
+   ],
+   "ref_images.ref_image_3": [
+    "906",
+    0
+   ],
+   "ref_images.ref_image_4": [
+    "907",
+    0
+   ],
+   "ref_images.ref_image_5": [
+    "908",
+    0
+   ],
+   "prompt": [
+    "1",
+    0
+   ],
+   "width": [
+    "115",
+    0
+   ],
+   "height": [
+    "115",
+    1
+   ],
+   "length": [
+    "132",
+    1
+   ]
+  }
+ },
+ "901": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "char_suxiaoman.png"
+  }
+ },
+ "904": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "char_qianjingli.png"
+  }
+ },
+ "905": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "sc_office_close.png"
+  }
+ },
+ "906": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "sc_office_mid.png"
+  }
+ },
+ "907": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "workbuddy_placeholder_ref.png"
+  }
+ },
+ "908": {
+  "class_type": "LoadImage",
+  "inputs": {
+   "image": "workbuddy_placeholder_ref.png"
+  }
+ }
+}

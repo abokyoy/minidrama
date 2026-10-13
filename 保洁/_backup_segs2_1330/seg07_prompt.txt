@@ -1,0 +1,41 @@
+subject_definitions:
+<Subject 1> — 苏小满: the woman in <Picture 1>. She has the same almond eyes, straight nose, small mouth and faint mole on her left cheek, with centre-parted black hair worn to her shoulders and loose. She wears a plain pale shirt under a grey work apron with plain straps and no pockets showing any print. It is the person shown in <Picture 1>.
+<Subject 2> — 钱经理: the man in <Picture 2>. He has the same broad round face, heavy-lidded narrow eyes, thick hair, broad nose and heavy jaw. He wears a pale shirt buttoned to the collar under a dark waistcoat. It is the person shown in <Picture 2>.
+<Subject 3> — 小唐: the woman in <Picture 3>. She has the same round young face, straight brows and shoulder-length black hair tied back. She wears a pale shirt under a grey work apron with plain straps. It is the person shown in <Picture 3>.
+
+<Picture 4>: the office layout reference for 万山大厦 — this same single room is the set for the whole clip. Light-oak storage cabinets along the back-left wall with plain brown cardboard boxes stacked on top; a low wooden credenza under the back window with a printer, files and two potted green plants; an L-shaped wooden office desk with a black monitor, keyboard and document tray in the middle of the room, a black swivel chair pushed in; a grey fabric sofa with wooden armrests and a low wooden coffee table under the long window on the right; an open doorway with a grey metal frame on the left. Pale grey polished tile floor, white acoustic ceiling with recessed light panels.
+
+summary:
+[reference generation] In a small private office a manager accuses a cleaner of stealing a customer's earring and forces her to empty her pockets, while a colleague watches from the back wall and then speaks up. Each picture supplies one face only.
+
+retention_analysis:
+<Subject 1> — 苏小满: fully_preserved - her almond eyes, straight nose, small mouth, faint mole on her left cheek and centre-parted black hair are retained in every shot.
+<Subject 2> — 钱经理: fully_preserved - his broad round face, heavy-lidded narrow eyes, thick hair, broad nose and heavy jaw are retained in every shot.
+<Subject 3> — 小唐: fully_preserved - her round young face, straight brows and shoulder-length black hair tied back are retained in every shot.
+<Picture 4>: fully_preserved - light-oak cabinets, L-shaped desk, grey sofa on the right, doorway on the left
+
+detailed_description:
+HORIZONTAL 4:3 landscape framing, high-key commercial cinematography, soft broad daylight, luminous pale walls, refined natural faces. Keep the film texture, natural lighting, every face, every costume and the realistic motion consistent throughout. People stay standing, framed from the knees up.
+Exposure: a large window is the key light and soft bounced daylight fills the room; skin tones are bright and even, shadows sit in the light mid-tones, the whites stay white, and the picture carries an even high-key brightness from edge to edge. Every shirt is buttoned to the closed collar, so each chest shows one unbroken run of plain fabric with small plain buttons; apron bibs are plain.
+Speaker labels for this shot only: (S1) 苏小满, (S3) 钱经理, (S4) 小唐. Anyone not named here stays silent with a closed mouth.
+The whole clip takes place in the one office shown in <Picture 4>, and the three of them hold these same standing places from the first frame to the last: 钱经理 (S3) behind the L-shaped desk in the middle of the room, three-quarters to the camera; 苏小满 (S1) at the near left corner of that desk in right profile facing right towards him, both feet flat on the tile; 小唐 (S4) on the right side of the room beside the grey sofa in left profile, facing left towards the desk.
+
+[Shot 1] Static Shot, medium-wide three-shot: 钱经理 (S3) behind the L-shaped desk in front of the light-oak cabinets with the unfolded paper spread on the wood before him; 苏小满 (S1) at the near left corner of the desk in right profile facing right; 小唐 (S4) beside the grey sofa at the right of frame in left profile with her arms crossed over her middle.
+
+[Shot 2] At 00:01.250, Camera: Push In with small amplitude at fast speed, pushing in on 钱经理 (S3)'s face as the corners of his mouth pull up and his eyes stay locked on 苏小满 (S1); a band of blind-light runs across his cheekbone. His mouth opens and he speaks in a quiet nasal Mandarin: [Chinese] 那就是心虚。
+
+[Shot 3] At 00:02.500, Camera: Truck Left with medium amplitude at fast speed, sliding sideways toward the back wall to a closer single on 小唐 (S4); her arms stay crossed tight over her middle, her shoulders lift, and her eyes flick from 钱经理 (S3) to 苏小满 (S1) and then away to the floor tiles.
+
+[Shot 4] At 00:03.750, Camera: Static Shot, holding a medium two-shot of 小唐 (S4) beside the grey sofa at the right of frame and 苏小满 (S1) at the near left corner of the desk in right profile: 小唐 (S4) unfolds her arms and shifts her weight off the sofa arm, her forearms dropping to her sides, and she looks across the room at 苏小满 (S1) directly while 苏小满 (S1) does not move. The camera is locked off and does not move, follow, pan, or track in this beat.
+
+[Shot 5] At 00:05.000, Camera: Truck Right with medium amplitude at fast speed, sliding sideways toward the back wall and settling on 钱经理 (S3) behind the L-shaped desk in a medium shot from the chest up; his eyes stay on 小唐 (S4) at the right of frame and the muscles along his jaw set. The camera travels in a straight line and stays level, and the desk edge and every cabinet in the background hold a fixed position through this beat.
+
+[Shot 6] At 00:06.500, Camera: Pull Out with large amplitude at slow speed, pulling out to reveal the whole office: 钱经理 (S3) still behind the L-shaped desk with the paper before him, 苏小满 (S1) still at the near left corner of the desk in right profile, 小唐 (S4) now one pace forward from the grey sofa and clear of it. All three hold their positions.
+
+From [Shot 3] through [Shot 6] the only mouth movement in frame is 钱经理 (S3) swallowing; every line of dialogue has already finished, and the office falls into room tone.
+
+No slow-motion, no soft dissolves, no fades, no unnecessary transitions; use hard cuts only and no on-screen text, letters, logos, subtitles, or watermarks.
+
+overall_soundscape: A clock ticking on the wall and the low hum of the ceiling lights throughout; a short inhale from 钱经理 at 1.1s before he speaks; the faint rustle of a cotton sleeve as 小唐 unfolds her arms at 3.8s; one soft step on the floor at 5.6s as she moves forward; room tone.
+
+non_diegetic_music: A low sustained string drone begins at 0s, a muted cello note enters at 1.25s when he speaks, and the track thins to a single held note from 5.0s.

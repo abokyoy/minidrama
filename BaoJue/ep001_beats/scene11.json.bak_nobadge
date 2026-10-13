@@ -1,0 +1,237 @@
+[
+ {
+  "id": "ep01_t01",
+  "scene": "1-1",
+  "title": "高跟鞋踩进水渍",
+  "refs": [
+   "suxiaoman",
+   "nvguibin",
+   "corridor_pano",
+   "corridor_close"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved",
+   "corridor_close": "weak_reference"
+  },
+  "summary": "Opening of the episode. In a bright luxury hotel corridor, a pale high heel slams into a puddle, the splash soils a cream silk dress, the elegant guest shrieks, and the young cleaner freezes behind her parked cleaning cart.",
+  "shots": "Entry state, taken from the reference images: the cart is parked against the RIGHT-hand wall, 苏小满 (S1) is on its left side with both hands on the handle, the guest (S2) stands in the middle-left of the corridor.\n[Shot 1] Extreme close-up, very low angle, slow motion: a pale pointed high heel stabs down into a clear puddle on mirror-polished marble; water erupts toward the lens and the reflection of the red doors shatters into rings.\n[Shot 2] At 00:03.200, tight shot: the cream silk skirt hem sweeps through frame and droplets dot the fabric, darkening it. 女贵宾 (S2), in the left half of frame, recoils half a step, lifts her chin, spreads one hand over the skirt and shrieks in Mandarin with a high ringing voice: [Chinese] 我的裙子！\n[Shot 3] At 00:05.600, medium shot: 苏小满 (S1) is in the right half of frame, frozen on the left side of her parked cart, both hands clamped on the handle, knuckles whitening, eyes widening, lips parting. She stays silent with her mouth closed after that. Warm morning light rakes across her from the left window wall.\n[Shot 4] At 00:08.200, slow push-in on her face as she swallows and drops her eyes; the corridor runs away behind her, bright and spotless, two blurred figures far in the background turning to look.",
+  "soundscape": "Quiet luxury corridor acoustics: a crisp heel clack on marble, a clean water splash, a faint echo off the high ceiling, faint ballroom chatter behind the red doors.",
+  "music": "A restrained low piano and muted string motif, cinematic and tense but bright, never ominous."
+ },
+ {
+  "id": "ep01_t02",
+  "scene": "1-1",
+  "title": "钱经理奔出来赔笑",
+  "refs": [
+   "suxiaoman",
+   "nvguibin",
+   "qianjingli",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "The heavy property manager bursts out of the ballroom doors and folds himself into a bow in front of the guest.",
+  "shots": "Entry state, re-anchored to the reference images: the cart is still parked against the RIGHT wall with 苏小满 (S1) on its left side behind the handle, and the guest (S2) is still in the middle-left of the corridor facing her.\n[Shot 1] Wide along the corridor: the deep-red ballroom doors at the far end swing open and 钱经理 (S3), a heavy man in a dark waistcoat with a staff badge swinging on his chest, hurries out at a half-run, already folding into a bow before he has stopped.\n[Shot 2] At 00:03.000, medium two-shot: 钱经理 (S3) brakes to a stop at the guest's rear-right shoulder, both palms up at chest height, back bent to ninety degrees, a broad smile on his face, eyes flicking from her face down to the puddle and back.\n[Shot 3] At 00:06.400, close on 钱经理's (S3) face as he keeps bowing and speaks in a loud nasal Mandarin, soft and greasy: [Chinese] 贵宾您别动。别动。\n[Shot 4] At 00:08.800, a slow lateral dolly reveals 苏小满 (S1) far down the corridor in the right of frame, still rigid on the left side of her cart, small against the marble, mouth closed and silent. Nobody else speaks.",
+  "soundscape": "The ballroom doors thudding open, quick heavy footsteps on marble, cutlery and chatter from the banquet hall behind, a faint air-conditioning hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t03",
+  "scene": "1-1",
+  "title": "两万八的裙子",
+  "refs": [
+   "nvguibin",
+   "qianjingli",
+   "suxiaoman",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "The guest stabs a finger at the cleaner and names the price of the ruined dress in front of the whole corridor.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) is bent low at the guest's rear-right shoulder; the guest (S2) stands in the middle-left of the corridor; 苏小满 (S1) is on the left side of her cart, which is still against the RIGHT wall, in the right of frame.\n[Shot 1] Medium shot, slightly low: 女贵宾 (S2) stands with her chin up and her shoulders squared in the left half of frame, then lifts her right hand and points a manicured finger straight past the manager's shoulder, down the corridor to the right of frame, towards the cleaner.\n[Shot 2] At 00:02.400, close on 女贵宾's (S2) face as she spits the accusation in clipped ringing Mandarin, one staccato phrase at a time, her fingertip trembling with anger: [Chinese] 她！她的车蹭的！这条裙子两万八！她赔得起吗！\n[Shot 3] At 00:06.800, reverse over her shoulder: 苏小满 (S1) is small in the right of frame on the left side of her cart; 钱经理 (S3) is beside her in frame with his smile frozen. Neither of them speaks.\n[Shot 4] At 00:08.600, quick tilt up and along the corridor to the onlookers, guests and staff all turning to stare.",
+  "soundscape": "Her voice cracking off the hard marble, a sharply indrawn breath from the onlookers, the chandelier's faint hum, a dropped fork somewhere behind the doors.",
+  "music": "A single low pizzicato note, held."
+ },
+ {
+  "id": "ep01_t04",
+  "scene": "1-1",
+  "title": "跪下擦",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "corridor_mid",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_mid": "partially_preserved",
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "The manager whips round and barks at the cleaner in front of everyone; she crushes her cloth until her knuckles go white.",
+  "shots": "Entry state, re-anchored to the reference images: the cart is still parked against the RIGHT wall with 苏小满 (S1) on its left side, half a step behind the handle, the grey cloth in her right hand. 钱经理 (S3) stands in the middle of the corridor with his back to the camera.\n[Shot 1] Medium shot from behind the manager: he pivots sharply on one heel toward the right of frame, one arm flung out, his ingratiating smile torn off into a snarl, the flesh of his neck tight.\n[Shot 2] At 00:02.400, close on 钱经理's (S3) mouth as he barks in loud nasal Mandarin: [Chinese] 苏小满！跪下擦！\n[Shot 3] At 00:05.200, wide down the corridor: every head turns. A waiter stops mid-stride, two uniformed colleagues lean out from the wall, all shadows stretched long on the marble. Nobody speaks.\n[Shot 4] At 00:07.800, extreme close-up of 苏小满's (S1) right hand crushing the grey cloth, tendons standing up, knuckles going white; she does not let go and says nothing.",
+  "soundscape": "His shout bouncing off the marble, then a sudden hush, cutlery and chatter dying away, one chair scraping behind the doors.",
+  "music": "A low cello swell that stops abruptly on the shout."
+ },
+ {
+  "id": "ep01_t05",
+  "scene": "1-1",
+  "title": "蹲下去按干裙摆",
+  "refs": [
+   "suxiaoman",
+   "nvguibin",
+   "corridor_close",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_close": "partially_preserved",
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "The guest steps in and holds the wet hem out; the cleaner kneels down in front-left of her cart and blots the silk dry one small press at a time.",
+  "shots": "Entry state, re-anchored to the reference images: the cart is still parked against the RIGHT wall; 苏小满 (S1) is on its left side with the cloth in her right hand, in the right of frame; the guest (S2) is in the left half of frame facing her.\n[Shot 1] Medium shot: 女贵宾 (S2) takes one deliberate half-step forward and holds the wet cream hem out at arm's length, still looking away down the corridor, bringing the hem within reach of the cleaner while keeping her own face turned aside.\n[Shot 2] At 00:02.400, low angle at floor level: 苏小满 (S1) lowers herself onto one knee a half-step in front-left of the cart, the cart still to her RIGHT against the RIGHT wall, and presses the dry corner of the cloth against the silk hem in small careful strokes; each press spreads the wet mark a little wider.\n[Shot 3] At 00:03.200, the camera cranes up to 女贵宾 (S2) in the left of frame looking down at the kneeling figure, arms folded, chin high, cream heels planted, and 女贵宾 (S2) speaks in a cool drawling Mandarin, her eyes turned away as if the floor were beneath her notice: [Chinese] 擦了也没用。这裙子，我今天是穿不出去了。 Then the camera drifts down into an extreme close-up of the cloth pressing into the silk as the wet mark spreads. Neither of them says anything else.",
+  "soundscape": "The soft wet whisper of cloth on silk, a knee settling on marble, distant banquet music, the hush of a watching crowd.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t06",
+  "scene": "1-1",
+  "title": "赔，从工资里扣",
+  "refs": [
+   "qianjingli",
+   "nvguibin",
+   "suxiaoman",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "The manager fixes the punishment on the spot; the guest waves the whole business away as beneath her and walks off, and his smile drains away.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) is kneeling a half-step in front-left of her cart, the cart still to her RIGHT against the RIGHT wall; the guest (S2) is in the left half of frame; the manager (S3) stands at her rear-right.\n[Shot 1] Medium shot: 钱经理 (S3) jabs a thumb down toward the kneeling cleaner without even looking at her and says in flat brisk Mandarin: [Chinese] 赔。从她工资里扣。\n[Shot 2] At 00:03.600, cut to 女贵宾 (S2). She exhales through her nose, flicks a glance down at the cleaner, and says with a small contemptuous laugh: [Chinese] 跟这种人计较，掉价。\n[Shot 3] At 00:06.400, she turns on her heel and walks away from the camera down the corridor, skirt swinging, heels cracking on the marble, her reflection trailing her in the polish.\n[Shot 4] At 00:08.400, hold on 钱经理 (S3) in the right of frame watching her go; the show smile drains off his face into a flat hard stare. He says nothing. The cart stays exactly where it is.",
+  "soundscape": "Her heels retreating down the marble, a sniff, the crowd's held breath releasing, the manager's slow exhale.",
+  "music": "A single muted piano note as she turns away."
+ },
+ {
+  "id": "ep01_t07",
+  "scene": "1-1",
+  "title": "全勤没了，奖金没了",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "He ticks off the punishments loudly enough for the whole corridor to hear, while behind him the cleaner slowly gets to her feet.",
+  "shots": "Entry state, re-anchored to the reference images: the guest has left. 苏小满 (S1) is still kneeling a half-step in front-left of her cart, the cart still to her RIGHT against the RIGHT wall; 钱经理 (S3) now stands in the middle of the corridor facing the right of frame.\n[Shot 1] Medium shot: 钱经理 (S3) turns to the crowd, chest out, ticking the items off on his fingers one by one, loud enough for everyone.\n[Shot 2] At 00:03.000, closer on 钱经理's (S3) face as he delivers each phrase flatly in Mandarin, letting them land as separate blows: [Chinese] 全勤，没了。奖金，没了。记大过。\n[Shot 3] At 00:06.600, cut behind him: 苏小满 (S1) rises slowly to her full height in the right of frame, the wet cloth still in her RIGHT hand, and looks straight at his face. She says nothing.\n[Shot 4] At 00:08.600, slow push-in past his shoulder onto her steady, unreadable face.",
+  "soundscape": "His voice carrying the length of the corridor, the rustle of the watching crowd, a distant lift bell, her cloth dripping once onto the marble.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t08",
+  "scene": "1-1",
+  "title": "车不是我推的",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "She speaks up for the first time, evenly, in front of everyone. He answers by stepping into her space and saying nothing yet.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) has just stood up on the left side of her cart, the cart still to her RIGHT against the RIGHT wall, the grey cloth in her RIGHT hand, in the right half of frame; 钱经理 (S3) faces her in the left half of frame.\n[Shot 1] Medium two-shot: 苏小满 (S1) faces him squarely, small and straight, the wet cloth hanging from her right hand, and speaks quietly and evenly in low steady Mandarin: [Chinese] 钱经理。车不是我推的，是她自己踩上去的。\n[Shot 2] At 00:05.400, wide down the corridor behind them: faces turn, someone nudges someone else, the onlookers lean in.\n[Shot 3] At 00:07.200, close on 钱经理's (S3) face as his face tightens; he steps in half a pace toward her, jaw working, and glares at her, lips pressed shut.\n[Shot 4] At 00:09.200, hold on her eyes; they do not drop and she stays silent, waiting for his answer.",
+  "soundscape": "Her voice very clear in the hush, a ripple of whispering through the crowd, the scuff of his shoe on marble as he steps in, heels shifting.",
+  "music": "A quiet sustained string note held under the whole beat."
+ },
+ {
+  "id": "ep01_t09",
+  "scene": "1-1",
+  "title": "给我闭嘴",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "corridor_mid",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_mid": "partially_preserved",
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "He hisses at her to shut up, and at that moment the phone in her trouser pocket buzzes.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) stands half a pace in front of 苏小满 (S1); she is on the left side of her cart, which is still parked against the RIGHT wall, the cloth in her RIGHT hand.\n[Shot 1] Close two-shot: 钱经理 (S3) leans in toward her until he is almost chest to chest, lowers his voice and hisses through his teeth in low harsh Mandarin: [Chinese] 三楼今天有贵客。你现在，给我闭嘴。 She holds his gaze and says nothing.\n[Shot 2] At 00:05.600, wide down the corridor: the onlookers are all watching; nobody speaks; the marble floor reflects the whole row of them.\n[Shot 3] At 00:07.400, close on the pocket of 苏小满's (S1) navy work trousers: the fabric buzzes once against her thigh and shows the square outline of a phone; her free hand drifts half an inch toward it and stops.\n[Shot 4] At 00:09.200, close on her face as her eyes flick down toward the pocket; she keeps her mouth shut.",
+  "soundscape": "His low hiss close to the lens, a long hush, then a single muffled buzz of a phone against fabric.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t10",
+  "scene": "1-1",
+  "title": "余额不足",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "corridor_mid",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_mid": "partially_preserved",
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "Before she can hide the phone he snatches it and reads the hospital message out loud to the corridor.",
+  "shots": "Entry state, re-anchored to the reference images: the phone is still in 苏小满's (S1) trouser pocket; she stands on the left side of her cart, which is still against the RIGHT wall, the grey cloth in her RIGHT hand; 钱经理 (S3) stands half a pace in front of her.\n[Shot 1] Medium shot: 苏小满 (S1) pulls out an old phone with its screen already lit, and before she can close her fingers round it 钱经理's (S3) hand cuts across, takes it and lifts it high above his head. Her fingers snap shut on nothing.\n[Shot 2] At 00:03.400, over his shoulder, close on the lit screen showing a hospital message.\n[Shot 3] At 00:05.000, close on 钱经理 (S3) as he squints, tips his chin up and reads it aloud in a slow drawn-out mocking Mandarin, each phrase landing separately: [Chinese] 市一院……住院费用……余额不足……\n[Shot 4] At 00:08.400, he flicks the phone back into her chest; she catches it against her apron with both hands and holds it in, the screen still glowing. She says nothing and the corridor stays silent.",
+  "soundscape": "The sharp snap of plastic being grabbed, his voice reading the message out over the hush, the crowd very quiet, one nervous shuffle of feet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t11",
+  "scene": "1-1",
+  "title": "缺钱就把活干好点",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "The manager twists the knife about her poverty, then strolls off; someone in the corridor sniggers.",
+  "shots": "Entry state, re-anchored to the reference images: the phone is now in 苏小满's (S1) hands pressed against her apron; she stands on the left side of her cart, the cart still against the RIGHT wall, in the right half of frame; 钱经理 (S3) stands in front of her.\n[Shot 1] Medium shot: 钱经理 (S3) looks her up and down slowly, both hands tucked into his waistcoat pockets, savouring it.\n[Shot 2] At 00:02.800, close on 钱经理's (S3) smug face as he speaks in a light jeering Mandarin: [Chinese] 缺钱啊？缺钱，就把活干好点。\n[Shot 3] At 00:05.800, he turns and strolls away from the camera down the corridor, jacket swinging; she stays small in the right of frame beside her cart.\n[Shot 4] At 00:07.600, quick pan across the watching group: two staff behind a trolley trade a smirk and cover their mouths. Nobody helps her and nobody speaks.",
+  "soundscape": "His jeering voice, his unhurried footsteps receding, a smothered giggle from the onlookers, marble echoes.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t12",
+  "scene": "1-1",
+  "title": "阿芳：忍忍吧",
+  "refs": [
+   "suxiaoman",
+   "afang",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_pano": "fully_preserved"
+  },
+  "summary": "A senior colleague sidles up and murmurs the only advice the building has to offer: endure it.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands on the left side of her cart, the cart still against the RIGHT wall, the phone and the cloth in her hands. A colleague walks in from the wall behind her.\n[Shot 1] Medium shot: 阿芳 (S5), a round-faced woman in a deep-blue uniform with a cap, comes up along the wall behind the cart and stops at her LEFT shoulder, eyes flicking toward the far doors.\n[Shot 2] At 00:02.400, over-the-shoulder on 苏小满 (S1): 阿芳 (S5) leans in close and murmurs in a warm hushed Mandarin: [Chinese] 忍忍吧。他手里，捏着考勤呢。\n[Shot 3] At 00:05.200, close on 苏小满 (S1): she tucks the phone into her trouser pocket, presses it down with one finger, nods once and answers in a flat quiet Mandarin: [Chinese] 嗯。\n[Shot 4] At 00:07.400, two-shot as 阿芳 (S5) pats her arm once and walks back to her own trolley out of frame, leaving her alone beside the cart. Nobody else speaks.",
+  "soundscape": "Two low voices close to the lens, a trolley wheel squeaking somewhere, the corridor settling back into its hum.",
+  "music": "A soft warm solo piano phrase, brief and sympathetic."
+ },
+ {
+  "id": "ep01_t13",
+  "scene": "1-1",
+  "title": "拧出来的水是黑的",
+  "refs": [
+   "suxiaoman",
+   "corridor_close",
+   "corridor_pano"
+  ],
+  "retention": {
+   "corridor_close": "fully_preserved",
+   "corridor_pano": "partially_preserved"
+  },
+  "summary": "The scene closes on the single image that defines the episode: she goes back to work, and the water wrung from her cloth runs black.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) is alone beside her cart, the cart still against the RIGHT wall; she kneels down on the left side of it, keeping the cart on her RIGHT and the blue bucket in front of her.\n[Shot 1] Medium shot from behind: she kneels back down over the stain just in front-left of her cart and goes on working, shoulders square, movements practised and unhurried.\n[Shot 2] At 00:03.200, the camera tilts down to follow her hands as she twists the grey cloth into a rope over the blue bucket.\n[Shot 3] At 00:05.400, extreme close-up on the bucket: dirty black water streams out of the cloth and coils into the clean water, the two colours refusing to mix.\n[Shot 4] At 00:08.000, the camera drifts up from the bucket and holds on her lowered face, the corridor bright and spotless all around her. She never speaks in this beat.",
+  "soundscape": "Water dripping and wringing, cloth against marble, the air-conditioning hum, the corridor now almost empty, the air-conditioning hum.",
+  "music": "The episode's main theme enters quietly on low strings and holds."
+ }
+]

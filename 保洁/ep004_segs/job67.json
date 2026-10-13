@@ -1,0 +1,10 @@
+{
+ "workflow": null,
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\ep004_segs\\seg67_prompt.txt",
+ "out_prefix": "ep04_t67",
+ "ref_dir": "E:\\LLM\\try\\minidrama\\保洁\\assets_soft",
+ "refs": [
+  "sc_lu_storage.png"
+ ],
+ "prev_video": null
+}

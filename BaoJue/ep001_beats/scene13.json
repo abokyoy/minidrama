@@ -1,0 +1,165 @@
+[
+ {
+  "id": "ep01_t82",
+  "scene": "1-3",
+  "title": "先交二十万",
+  "refs": [
+   "yisheng",
+   "suxiaoman",
+   "hospital_ward",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved",
+   "hospital_corridor": "partially_preserved"
+  },
+  "summary": "New location, early evening: the hospital cardiac ward. A tired doctor hands her a bill and tells her, without softening it, how much time her grandmother has and how much the operation costs.",
+  "shots": "New location, taken from the reference images: the cardiac ward of 市一院 at dusk — pale green walls, a long corridor with the ward door on the RIGHT of frame, a bench against the LEFT wall, generous ceiling fluorescents switched on, blue evening light from the tall window at the far end of the corridor, and warm tungsten spill from the ward doorway. 苏小满 (S1) stands in the corridor just clear of the ward door on the RIGHT, facing it, and 医生 (S11) is already stepping out through it toward her with a printed form in his hand.\n[Shot 1] Medium: 医生 (S11), a tired man of about forty in a white coat with a stethoscope round his neck, comes out through the ward door on the RIGHT and holds a printed form out toward 苏小满 (S1), who is standing in the corridor facing him; she takes it with both hands.\n[Shot 2] At 00:01.600, close on 医生 (S11) as he gives her the facts in a flat clinical Mandarin, with no cushioning in it at all: [Chinese] 老太太的心衰，拖不过这个冬天。手术，先交二十万。\n[Shot 3] At 00:08.600, extreme close-up on the form in her hands: the printed characters for the diagnosis, and the figure for the deposit.\n[Shot 4] At 00:09.400, hold on 苏小满's (S1) face as she reads it, absolutely still. Neither of them speaks again in this beat.",
+  "soundscape": "Corridor acoustics with a distant trolley and monitor beeps, the rustle of a printed form, a door on a spring hinge, low indistinct voices from the ward.",
+  "music": "A single low piano note under the figure."
+ },
+ {
+  "id": "ep01_t83",
+  "scene": "1-3",
+  "title": "钱，我想办法",
+  "refs": [
+   "suxiaoman",
+   "yisheng",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_corridor": "fully_preserved",
+   "hospital_ward": "partially_preserved"
+  },
+  "summary": "She asks for the operation to be scheduled anyway, and the doctor tells her how long she has been saying that.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands in the corridor facing the ward door on the RIGHT, the printed form in her hands; 医生 (S11) stands in front of her with his hands in his coat pockets.\n[Shot 1] Close: 苏小满 (S1) folds the form once, looks up and speaks in a low even Mandarin, entirely without pleading, as if discussing a work schedule: [Chinese] 医生，排期先排上。钱，我想办法。\n[Shot 2] At 00:05.800, closer on 医生 (S11): he looks at her for a beat before answering, and there is no cruelty in it, only exhaustion, when he says it flatly in Mandarin: [Chinese] 这句话，你说了三个月了。\n[Shot 3] At 00:09.400, wide down the corridor: the two of them standing under the fluorescent tubes, the bench empty on the LEFT wall, a nurse passing far away at the far end.\n[Shot 4] At 00:09.800, hold on 苏小满 (S1) with the folded form in her fist. She says nothing.",
+  "soundscape": "Two low voices under fluorescent tubes, a trolley wheel squeaking in the distance, a monitor beeping behind the ward door, a lift chime far off.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t84",
+  "scene": "1-3",
+  "title": "表舅，是我",
+  "refs": [
+   "suxiaoman",
+   "hospital_corridor",
+   "hospital_bench"
+  ],
+  "retention": {
+   "hospital_corridor": "fully_preserved",
+   "hospital_bench": "partially_preserved"
+  },
+  "summary": "She leans against the corridor wall and makes the call she has clearly made before, keeping her voice down so the ward cannot hear.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands in the corridor facing the ward door on the RIGHT with the folded form closed in her fist; 医生 (S11) is still beside her and is already turning back toward the ward door; the bench and the wall are on the LEFT.\n[Shot 1] Medium: 医生 (S11) goes back in through the ward door on the RIGHT and it settles shut behind him; 苏小满 (S1) crosses to the LEFT wall, pushes the folded form down into her trouser pocket on the way, lets her back settle against the wall just beside the bench, takes out her phone and dials with her thumb, holding the screen up close.\n[Shot 2] At 00:02.000, closer on her face in profile: she drops her chin and pitches her voice down so it will not carry through the ward door, speaking in a low rapid Mandarin with the phone pressed tight to her ear: [Chinese] 表舅，是我，小满。外婆要手术，能不能先借我两万……\n[Shot 3] At 00:08.800, her face changes very slightly — she starts to answer something, and stops, because the other end is still talking.\n[Shot 4] At 00:09.600, hold on her, still leaning on the wall, listening to something she already knew. Nobody else speaks.",
+  "soundscape": "A low shielded phone voice, the corridor's fluorescent hum, a distant monitor, the tiny tinny sound of the other party's voice leaking from the earpiece.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t85",
+  "scene": "1-3",
+  "title": "余额四位数",
+  "refs": [
+   "suxiaoman",
+   "hospital_bench",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_bench": "fully_preserved",
+   "hospital_corridor": "partially_preserved"
+  },
+  "summary": "Wordless beat: the call is cut off, a second one is rejected, she checks her balance, and her fingers find the black card in her pocket and put it back.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) leans against the LEFT wall of the corridor beside the bench, phone to her ear; the ward door is on the RIGHT of frame.\n[Shot 1] Extreme close-up on the phone screen: call ended, the timer frozen. She lowers it.\n[Shot 2] At 00:02.600, she dials again with her thumb and holds the phone up; two rings sound, then the screen flips to call rejected. She lowers the phone and looks at it for a moment.\n[Shot 3] At 00:05.600, extreme close-up: the banking page on the screen, and the balance showing four digits.\n[Shot 4] At 00:07.400, close on her hand as it goes into her trouser pocket and her fingertips find the black card; they rest on its face for a beat, and then she pushes it back down and takes her hand out empty. She looks up at the ceiling. Nobody speaks in this whole beat.",
+  "soundscape": "Phone key blips, two rings cut off short, the corridor's fluorescent hum, a wheelchair squeaking past somewhere far away, her own slow exhale.",
+  "music": "A sparse low piano figure, repeated."
+ },
+ {
+  "id": "ep01_t86",
+  "scene": "1-3",
+  "title": "埋进膝盖",
+  "refs": [
+   "suxiaoman",
+   "hospital_bench",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_bench": "fully_preserved",
+   "hospital_corridor": "partially_preserved",
+   "hospital_ward": "partially_preserved"
+  },
+  "summary": "Wordless beat: the one piece of privacy she takes in the whole episode, five seconds long, and then she stands up again.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stands against the LEFT wall of the corridor beside the bench; the ward door is on the RIGHT of frame.\n[Shot 1] Medium: she slides down the wall and sits on the end of the bench, elbows on her knees.\n[Shot 2] At 00:02.600, close on her: she puts her face down into her folded arms and stays like that, breathing, the back of her neck exposed and her shoulders very still.\n[Shot 3] At 00:06.400, she lifts her head, blinks twice, pushes her hair back behind her ear with both hands and looks straight ahead down the corridor.\n[Shot 4] At 00:08.400, she stands up, straightens her navy trousers and her apron, squares her shoulders and walks toward the ward door on the RIGHT. Nobody speaks in this beat.",
+  "soundscape": "Fabric on a bench, her own breathing close to the mic, the corridor's fluorescent hum, a monitor beeping behind the ward door.",
+  "music": "A low warm string swell that rises and stops as she stands."
+ },
+ {
+  "id": "ep01_t87",
+  "scene": "1-3",
+  "title": "不值二十万",
+  "refs": [
+   "waipo",
+   "suxiaoman",
+   "hospital_ward"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved",
+   "hospital_corridor": "partially_preserved"
+  },
+  "summary": "Inside the ward, the old woman in the oxygen mask waves her off, and says out loud what she thinks her own life is worth.",
+  "shots": "Entry state, re-anchored to the reference image: the ward of 市一院; 外婆 (S9) lies in the bed by the tall window, her head toward the door on the RIGHT; 苏小满 (S1) is in the ward doorway and steps in to the foot of the bed.\n[Shot 1] Medium: 外婆 (S9), small and waxy under the oxygen mask, lifts one thin hand a few centimetres off the quilt and waves it weakly at 苏小满 (S1), telling her to stop.\n[Shot 2] At 00:02.000, closer on the old woman: she speaks between shallow breaths, in a faint airy Mandarin, the mask misting with each phrase: [Chinese] 小满。别为难自己。外婆这把老骨头，不值二十万。\n[Shot 3] At 00:08.400, reverse onto 苏小满 (S1) standing at the foot of the bed; she does not answer yet; her hands are still around the folded form in her pocket.\n[Shot 4] At 00:09.600, hold on the two of them: the bright window behind the bed, the mask misting in the light. Nobody else speaks.",
+  "soundscape": "Oxygen hissing through the mask, a faint breathy voice, a monitor beeping slowly, the corridor sounds far away behind the door.",
+  "music": "A soft solo piano phrase, warm and very sad."
+ },
+ {
+  "id": "ep01_t88",
+  "scene": "1-3",
+  "title": "值不值，我说了算",
+  "refs": [
+   "suxiaoman",
+   "waipo",
+   "hospital_ward"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved"
+  },
+  "summary": "She answers with a smile and a joke and tucks the quilt in, and a red cord slips out of her collar, and the old woman's eyes stop moving.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the foot of the bed in the ward; 外婆 (S9) lies with her head toward the door, an oxygen mask on her face; the window behind the bed is bright with dusk.\n[Shot 1] Medium: 苏小满 (S1) comes round to the side of the bed, and a small real smile appears as she answers in a light, warm Mandarin: [Chinese] 值不值，我说了算。\n[Shot 2] At 00:04.600, she bends and tucks the corner of the quilt in under the old woman's shoulder with both hands, careful and practised.\n[Shot 3] At 00:06.800, as she bends, a thin red cord slips out from the collar of her housekeeping shirt and hangs there, with a small dark knot at the end of it.\n[Shot 4] At 00:08.400, extreme close-up on 外婆's (S9) eyes: they had been half closed, and now they open properly and fix on the cord, and her pupils stop moving entirely. Nobody speaks again in this beat.",
+  "soundscape": "A light warm voice, the quilt rustling, the oxygen mask hissing, the monitor beeping, and under it only the ceiling lights and the window.",
+  "music": "A single high held note, uneasy, under the close-up."
+ },
+ {
+  "id": "ep01_t89",
+  "scene": "1-3",
+  "title": "你妈当年",
+  "refs": [
+   "waipo",
+   "suxiaoman",
+   "hospital_ward"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved"
+  },
+  "summary": "The old woman starts a sentence about her daughter and stops it; the granddaughter catches it and will not let go of it.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) is bent over the side of the bed; 外婆 (S9) lies propped on the pillow with the oxygen mask on and the red cord still hanging from 苏小满's (S1) collar between them.\n[Shot 1] Close on 外婆 (S9): she speaks slowly, looking at the cord rather than at her granddaughter, and then cuts herself off, in a faint airy Mandarin: [Chinese] 你妈当年……唉。不说了。\n[Shot 2] At 00:05.600, she closes her eyes and turns her head a fraction away on the pillow.\n[Shot 3] At 00:06.600, reverse onto 苏小满 (S1): she straightens up at once, the quilt still in one hand, and asks it low and fast, the first time all evening her voice has any edge in it: [Chinese] 我妈当年，怎么了？\n[Shot 4] At 00:09.400, tight two-shot with the oxygen mask misting between them. The old woman does not open her eyes.",
+  "soundscape": "A faint slow voice, the room holding its breath, then a low urgent question, the oxygen hissing, the monitor beeping steadily.",
+  "music": "A low suspenseful string note entering under the question."
+ },
+ {
+  "id": "ep01_t90",
+  "scene": "1-3",
+  "title": "回去，别迟到",
+  "refs": [
+   "waipo",
+   "suxiaoman",
+   "hospital_ward",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_ward": "fully_preserved",
+   "hospital_corridor": "partially_preserved"
+  },
+  "summary": "The old woman shuts the door on the subject and sends her back to work; the camera leaves her standing in the bright corridor.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands at the side of the bed in the ward; 外婆 (S9) lies with her eyes closed and her head turned a little away; the window behind the bed is the brightest thing in the room.\n[Shot 1] Close on 外婆 (S9) with her eyes still shut: she speaks slowly in the same faint airy Mandarin, the mask fogging with every word: [Chinese] 回去。上班，别迟到。\n[Shot 2] At 00:04.600, 苏小满 (S1) waits one beat longer than she should, looking for more; nothing comes.\n[Shot 3] At 00:06.400, she lets go of the quilt, tucks the red cord back inside her collar with two fingers, and walks to the door.\n[Shot 4] At 00:09.000, the camera holds on the ward doorway and then drifts back into the bright corridor as she comes out; the door swings gently behind her, and this scene and this episode's hospital act end here. Nobody speaks in this beat.",
+  "soundscape": "A faint slow voice, the oxygen mask hissing, a door on a spring hinge, then the corridor's fluorescent hum swallowing everything.",
+  "music": "The main theme returns on low strings and holds over the corridor."
+ }
+]

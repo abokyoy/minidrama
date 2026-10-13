@@ -1,0 +1,205 @@
+[
+ {
+  "id": "ep04_t10",
+  "scene": "4-1b",
+  "title": "走廊的尽头",
+  "refs": [
+   "hospital_corridor"
+  ],
+  "retention": {
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "Opening wide down the long inpatient corridor on a bright early morning: it runs away along the depth axis to a bright far end, ward doors with glass observation panels along one wall, a row of empty benches against the other, the fluorescents on and the polished tile floor along the bottom third.",
+  "shots": "Entry state, re-anchored to the reference images: the inpatient-department corridor of the city No.1 hospital, bright early morning, the fluorescents on; the camera at the NEAR end looking down the length of the corridor; nobody in the frame.\n[Shot 1] Wide down the length of the corridor: it runs away along the depth axis towards a bright far end; ward doors with glass observation panels line one wall, a row of empty benches stands against the other, the ceiling fluorescents are all on and the whole corridor is bright and evenly lit; the polished tile floor fills the bottom third, empty.\n[Shot 2] At 00:06.000, The same corridor held a moment longer, the far end still bright, the empty benches still empty, no shadow pooling anywhere along the floor or the skirting line.",
+  "soundscape": "The long even hum of the ceiling fluorescents, a nurse's rubber-soled footsteps crossing a far junction, a lift chime somewhere above.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t11",
+  "scene": "4-1b",
+  "title": "走廊尽头的人",
+  "refs": [
+   "suxiaoman",
+   "yisheng",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "yisheng": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "苏小满 (S1) walks away from the lens down the corridor a little left of centre, unhurried, and a man in a white coat is already standing at the bright far end, waiting for her.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) has entered the corridor from the near end and is walking away from the lens along the depth axis, a little left of centre, the plain thin coat over her navy work shirt, hands at her sides; 医生 (S11) stands at the FAR end of the corridor in a white coat.\n[Shot 1] Medium down the corridor, camera behind 苏小满 (S1) as she walks away from the lens along the depth axis, a little left of centre, unhurried; at the bright far end 医生 (S11) stands waiting in a white coat with an ID badge on his chest, small in the frame; the tile floor runs between them.\n[Shot 2] At 00:05.400, Closer behind her shoulder as she nears him: her low ponytail sways with the walk, the plain thin coat's hem moving, and the man at the far end turns his head a little towards her approach.",
+  "soundscape": "Her flat shoes on the polished tile, her coat hem brushing, the corridor fluorescents, a distant trolley wheel.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t12",
+  "scene": "4-1b",
+  "title": "他插着一只手",
+  "refs": [
+   "suxiaoman",
+   "yisheng",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "yisheng": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "医生 (S11) stands in profile at the far end, one hand in his coat pocket, facing back down the corridor; 苏小满 (S1) comes to a stop in the near half in front of him, and the two of them are staggered along the corridor's depth with him further from the camera and her nearer, never side by side.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) stopped at the near end of the corridor facing the far end; 医生 (S11) at the far end in profile, one hand in his white coat pocket, facing the near end.\n[Shot 1] Medium from the NEAR end of the corridor with 苏小满 (S1) in the near half of frame and 医生 (S11) in the far half: he stands in profile at the corridor's far end, one hand pushed into his white coat pocket, facing back down the corridor towards her; she has come to a stop in the near half facing him, the whole length of floor open and readable between them, both of them lit evenly by the fluorescents above.\n[Shot 2] At 00:05.600, Reverse down the corridor: he keeps the profile and the pocketed hand, his head angled towards her while his eyes stay off down the corridor; she stands still, weight even, her hands at her sides, the floor between them clearly readable.",
+  "soundscape": "Fluorescent hum, a paper rustle from the pocketed hand, her steady unhurried breathing.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t13",
+  "scene": "4-1b",
+  "title": "被人打了招呼",
+  "refs": [
+   "yisheng",
+   "suxiaoman",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "yisheng": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "医生 (S11) turns his head towards her, drops his voice and tells her that her own schedule has been interfered with by somebody, the hand in his pocket shifting as he speaks.",
+  "shots": "Entry state, re-anchored to the reference images: 医生 (S11) at the far end in profile with his hand in his pocket; 苏小满 (S1) stopped at the near end facing him.\n[Shot 1] Medium close on 医生 (S11), the corridor bright behind him: he turns his head towards her, drops his voice and says, [Chinese] 小苏，你的排期，被人打了招呼。\n[Shot 2] At 00:05.000, Tighter on his face as he keeps his eyes off down the corridor: the hand inside the pocket moves once, his white coat collar shifting, and the fluorescents keep every plane of his face open and readable.",
+  "soundscape": "His lowered voice in the corridor's echo, the hum of the fluorescents, a far-off lift chime.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t14",
+  "scene": "4-1b",
+  "title": "谁的手这么长",
+  "refs": [
+   "yisheng",
+   "suxiaoman",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "yisheng": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "The doctor glances down both ends of the corridor to make sure nobody is near, then finishes the sentence telling her she knows well enough whose hand is that long.",
+  "shots": "Entry state, re-anchored to the reference images: 医生 (S11) at the far end of the corridor, 苏小满 (S1) at the near end facing him.\n[Shot 1] Medium on 医生 (S11): his eyes sweep once down the corridor towards the near end and once back towards the far end, checking the length of it, and then he says quietly, [Chinese] 谁的手这么长，你自己心里有数。\n[Shot 2] At 00:05.200, Closer as he finishes: the checking look settles back onto her face, his hand still inside the pocket, his shoulders slightly rounded; the corridor behind him stays bright and fully open with no dark stretch.",
+  "soundscape": "The corridor's long echo, a rubber-soled footstep turning a far corner, his low voice.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t15",
+  "scene": "4-1b",
+  "title": "安静了几秒",
+  "refs": [
+   "suxiaoman",
+   "yisheng",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "yisheng": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "Reverse on 苏小满 (S1): she stays quiet for several seconds, nothing moving in her face but one swallow, standing still with her hands at her sides.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the corridor facing the doctor, hands at her sides, having just heard his warning.\n[Shot 1] Reverse medium on 苏小满 (S1): she goes quiet for several seconds, nothing rising in her face; the only movement is one swallow at her throat; she stands very straight with her hands at her sides, facing him down the corridor, evenly lit and open.\n[Shot 2] At 00:05.600, Closer on her eyes: they stay level on him, the corridor fluorescents reflected as small highlights, and her jaw does not tighten; the plain thin collar at her throat lies flat against the work shirt inside it.",
+  "soundscape": "Corridor air, a distant monitor beep, four full seconds of her not speaking, the fluorescents.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t16",
+  "scene": "4-1b",
+  "title": "没招谁没惹谁",
+  "refs": [
+   "suxiaoman",
+   "yisheng",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "yisheng": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "苏小满 (S1) lifts her eyes to him and says, quietly and with every word landing, that her grandmother's illness has harmed nobody and asked nobody for anything.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) in the NEAR half of the corridor facing down its length, 医生 (S11) still at the FAR end facing her, further from the camera; she has just answered him and he has not moved.\n[Shot 1] Reverse on 苏小满 (S1) from the FAR end of the corridor, with 医生 (S11)'s white-coated shoulder small and out of focus at the edge of frame: she lifts her eyes to him and says, her voice not raised, every word landing, [Chinese] 医生，我外婆的病，没招谁没惹谁。\n[Shot 2] At 00:05.400, Closer on her as the line ends: her chin stays level, her eyes do not leave him, and her hands remain down at her sides; the corridor's bright even light keeps her whole face open.",
+  "soundscape": "Her low steady slightly hoarse voice down the corridor, the fluorescent hum, a monitor beeping far off.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t17",
+  "scene": "4-1b",
+  "title": "拇指停在一行上",
+  "refs": [
+   "yisheng",
+   "suxiaoman",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "yisheng": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "Close on the doctor's hand: he is holding a scheduling clipboard with a printed roster on it, and his thumb comes to rest on one particular line and stays there.",
+  "shots": "Entry state, re-anchored to the reference images: 医生 (S11) at the far end of the corridor with a scheduling clipboard in his hand; 苏小满 (S1) at the near end facing him.\n[Shot 1] Close on the doctor's hand holding a scheduling clipboard: a printed roster of names and dates runs down the page in neat rows, and his thumb comes to rest on one particular line and stays there, pressing the paper slightly; the top two thirds are his hand and the page, the bottom third the corridor's polished tile out of focus.\n[Shot 2] At 00:05.000, Tighter still on the thumb and the paper: the skin at the side of the thumb goes pale under the pressure, the page does not move, and the corridor light rakes across the clipboard's edge.",
+  "soundscape": "The board's stiff paper flexing faintly, his thumb's skin against it, the corridor hum behind.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t18",
+  "scene": "4-1b",
+  "title": "我尽力拖",
+  "refs": [
+   "yisheng",
+   "suxiaoman",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "yisheng": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "The doctor sighs, lets his shoulder drop, takes his hand out of his pocket and for the first time looks straight at her as he tells her he will hold it as long as he can.",
+  "shots": "Entry state, re-anchored to the reference images: 医生 (S11) at the far end of the corridor with the clipboard; 苏小满 (S1) at the near end facing him.\n[Shot 1] Medium close on 医生 (S11): he sighs, one shoulder dropping, and brings the hand out of his pocket; for the first time his eyes come round to face her straight as he says, [Chinese] 我尽力拖。你快点想办法。\n[Shot 2] At 00:05.400, Closer on his face as he finishes: the sigh leaves his cheeks, the clipboard hangs at his side now, and the corridor's even light keeps the lines around his eyes soft and readable rather than hollow.",
+  "soundscape": "His sighing breath, the clipboard's edge tapping his thigh, the corridor's long fluorescent hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t19",
+  "scene": "4-1b",
+  "title": "他走远了",
+  "refs": [
+   "suxiaoman",
+   "yisheng",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "yisheng": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "The doctor turns and walks away down the corridor towards its bright far end, his white coat growing smaller; 苏小满 (S1) stays where she is, facing after him.",
+  "shots": "Entry state, re-anchored to the reference images: 医生 (S11) at the far end of the corridor, 苏小满 (S1) at the near end facing him.\n[Shot 1] Medium down the corridor: 医生 (S11) turns and walks away from her along the depth axis towards the bright far end, his white coat shrinking with the distance; 苏小满 (S1) stays exactly where she is in the near half of frame, facing after him, hands still at her sides.\n[Shot 2] At 00:05.600, The camera holds on her from behind and slightly to the side: she does not follow him with her feet, only with her eyes; the far end of the corridor stays bright and open around his receding figure and the empty benches stay empty.",
+  "soundscape": "His white coat's footsteps receding down the corridor, a far lift chime, her standing breathing.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t20",
+  "scene": "4-1b",
+  "title": "她站在原地",
+  "refs": [
+   "suxiaoman",
+   "hospital_corridor"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "hospital_corridor": "weak_reference"
+  },
+  "summary": "Close on 苏小满 (S1) alone in the near end of the corridor, watching the direction he went, shoulders still, saying nothing; the tile floor and her shoe tips along the bottom third.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) alone at the near end of the corridor, facing the direction the doctor walked, hands at her sides.\n[Shot 1] Medium close on 苏小满 (S1) alone: she watches the direction the doctor went, her shoulders not moving and her mouth shut; the corridor stretches away from her to the bright far end; the bottom third of frame is the polished tile and the tips of her black cloth shoes.\n[Shot 2] At 00:06.200, Closer on her face, three-quarter: her eyes stay on the far end, her jaw is set but her eyes are dry, and the corridor's even light holds every plane of her face with soft open shadows under the eyes and chin.",
+  "soundscape": "The corridor fluorescents, her own breathing, his footsteps thinning out towards the far end.",
+  "music": "A single low string note, held and then released."
+ }
+]

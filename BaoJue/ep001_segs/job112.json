@@ -1,0 +1,12 @@
+{
+ "workflow": null,
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg112_prompt.txt",
+ "out_prefix": "ep01_t112",
+ "ref_dir": "E:\\LLM\\try\\minidrama\\保洁\\assets_soft",
+ "refs": [
+  "char_suxiaoman.png",
+  "char_xiaoluo.png",
+  "sc_lobby_1f.png"
+ ],
+ "prev_video": null
+}

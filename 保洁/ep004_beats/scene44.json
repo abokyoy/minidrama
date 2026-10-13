@@ -1,0 +1,383 @@
+[
+ {
+  "id": "ep04_t84",
+  "scene": "4-4",
+  "title": "书桌两侧",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "Opening medium from the study door: a deep dark-wood desk stands across the middle of the room, a green-shaded desk lamp lit on it and an old photograph lying open beside a document; 陆崇 (S15) sits behind the desk and 心腹 (S16) stands in front of it.",
+  "shots": "Entry state, re-anchored to the reference images: the study of the 陆 family old house, later the same night; the green-shaded desk lamp on the desk is switched on and the study's ceiling light is on as well; 陆崇 (S15) sits behind the desk on the FAR side, facing the near end; 心腹 (S16) stands in front of the desk on the NEAR side, hands at his sides, facing him; an old photograph and a document lie on the desk.\n[Shot 1] Medium from the study door looking in: a deep dark-wood desk stands across the middle of the room with the desk top filling the bottom third; the green-shaded desk lamp on it is switched on, an old photograph lies open on the wood and a document rests beside it; 陆崇 (S15) sits behind the desk on the far side facing the near end in a dark ink-blue stand-collar Chinese jacket; 心腹 (S16) stands in front of the desk on the near side with his hands at his sides, facing him; the study's ceiling light is on too, so the whole room and both faces are clearly readable.\n[Shot 2] At 00:05.600, The camera settles on the two of them across the desk's depth: he sits square and still with the lamp's warm light falling on half his face, the man before him stands straight and still, and the bookcase wall behind is fully lit rather than lost.",
+  "soundscape": "The desk lamp's faint electrical hum, the study's stillness, a clock ticking on the far wall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t85",
+  "scene": "4-4",
+  "title": "桌上那张照片",
+  "refs": [
+   "lu_study"
+  ],
+  "retention": {
+   "lu_study": "weak_reference"
+  },
+  "summary": "Close on the desk: the old photograph shows 苏小满 (S1) bent over sweeping with an old red cord hanging at her collar, and a document lies open next to it under the green lamp's light.",
+  "shots": "Entry state, re-anchored to the reference images: the desk top of the study, the green-shaded lamp lit, the old photograph and a document lying on it.\n[Shot 1] Close on the desk top: an old photograph lies on the wood showing 苏小满 (S1) bent over sweeping with an old red cord hanging at her collar, and a document lies open beside it; the green shaded lamp throws a warm pool of light across both while the study's ceiling light fills in the rest, so the whole print and the paper are evenly readable, the shading across them soft and open.\n[Shot 2] At 00:05.400, Closer still on the photograph and the document side by side on the wood: the print's surface and the document's printed rows are both legible under the two sources at once, and the desk's grain runs clean between them.",
+  "soundscape": "The desk lamp's hum, the clock on the far wall ticking, the study's still air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t86",
+  "scene": "4-4",
+  "title": "整面书柜",
+  "refs": [
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "The camera carries past 陆崇 (S15)'s shoulder across the whole bookcase wall behind him: dark wood, rows of old spines, the ceiling light resting evenly on them.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk in the study, with the bookcase wall directly behind him.\n[Shot 1] Medium past 陆崇 (S15)'s shoulder: the whole bookcase wall behind him fills the frame — dark wood, rows and rows of old book spines, the study's ceiling light resting evenly across them so the whole wall is readable rather than lost behind him.\n[Shot 2] At 00:05.200, The camera continues across the wall and stops on the shelves opposite: the spines stand in even rows under the ceiling light, and the desk lamp's warm edge reaches only the lowest shelf, leaving the upper wall clean and open.",
+  "soundscape": "The clock ticking, the desk lamp's hum, the study's still air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t87",
+  "scene": "4-4",
+  "title": "把材料推过去",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "陆崇 (S15) pushes a document across the desk towards 心腹 (S16); the paper slides over the wood and comes to rest by his hand.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk, the document in his hand; 心腹 (S16) standing in front of the desk with his hands at his sides.\n[Shot 1] Close on the desk: 陆崇 (S15)'s hand takes a document and pushes it across the wood towards 心腹 (S16) standing in front of the desk; the paper slides over the grain and comes to rest by the man's hand; the green-shaded lamp lights the slide and the study's ceiling light keeps the whole desk top evenly readable.\n[Shot 2] At 00:05.000, Closer on the document arriving at his hand: the paper stops flat by his fingers, the sender's hand withdrawing from the far side, and both men's hands are lit evenly from two directions across the desk.",
+  "soundscape": "Paper sliding over the desk, the lamp's hum, the clock ticking.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t88",
+  "scene": "4-4",
+  "title": "心腹接住材料",
+  "refs": [
+   "xinfu",
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "xinfu": "fully_preserved",
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "心腹 (S16) takes the document and lets it hang at his side; 陆崇 (S15)'s hand comes back and settles on the desk.",
+  "shots": "Entry state, re-anchored to the reference images: 心腹 (S16) standing in front of the desk with the document arriving at his hand; 陆崇 (S15) seated behind the desk.\n[Shot 1] Medium: 心腹 (S16) takes the document at the near side of the desk and lets it hang at his side; behind the desk 陆崇 (S15)'s hand comes back and settles flat on the wood; the lamp's warm pool lies between them and the ceiling light keeps the whole room open.\n[Shot 2] At 00:05.000, Closer on the two of them across the desk's depth: the man before the desk holds the document straight down at his side and looks at the desktop rather than at his master, who sits square and still behind it.",
+  "soundscape": "Paper settling against fabric, the lamp's hum, the clock's tick, the study's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t89",
+  "scene": "4-4",
+  "title": "还拖着",
+  "refs": [
+   "xinfu",
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "xinfu": "fully_preserved",
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "心腹 (S16) reports it flatly, one clause at a time, his eyes on the desktop rather than on the man behind it — the hospital end is still being held, as instructed.",
+  "shots": "Entry state, re-anchored to the reference images: 心腹 (S16) standing in front of the desk with the document hanging at his side; 陆崇 (S15) seated behind the desk, hands on the wood.\n[Shot 1] Medium close on 心腹 (S16) standing in front of the desk: he reports it flatly, one clause at a time, his eyes on the desktop rather than on the man behind it, and says, [Chinese] 医院那边，按您的意思，还拖着。\n[Shot 2] At 00:04.400, Closer on him as the line ends: the document hangs straight and still at his side, his face is evenly lit from the front by the ceiling fixture, and the desk lamp's warm edge falls along one side of his jaw.",
+  "soundscape": "His even voice in the study, the lamp's hum, the clock ticking on the far wall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t90",
+  "scene": "4-4",
+  "title": "又回了老宅",
+  "refs": [
+   "xinfu",
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "xinfu": "fully_preserved",
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "心腹 (S16) adds the second line and stops there, saying nothing more, the document held square in his hand.",
+  "shots": "Entry state, re-anchored to the reference images: 心腹 (S16) standing in front of the desk with the document; 陆崇 (S15) seated behind the desk, watching.\n[Shot 1] Medium close on 心腹 (S16): he puts the second line out and stops there, saying nothing more, the document held square in his hand, [Chinese] 她今天去了，又回了老宅。\n[Shot 2] At 00:04.000, The same framing held after the line: his mouth closes and stays closed, his eyes stay down on the desktop, and the study around him stays open and evenly lit with the ceiling light and the desk lamp both on.",
+  "soundscape": "His short voice, the document's paper settling, the clock ticking, the lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t91",
+  "scene": "4-4",
+  "title": "她碰什么了",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "陆崇 (S15) says it with his eyes down, almost expressionless, only the centre of his brow moving very slightly; he does not look at the man in front of him, he looks at the photograph on the desk as he asks what she touched.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk with his eyes lowered to the desk top; 心腹 (S16) standing in front of the desk.\n[Shot 1] Medium close on 陆崇 (S15): he says it with his eyes down, almost expressionless, only the centre of his brow moving very slightly; he does not look at the man in front of him, he looks at the photograph lying on the desk as he asks, [Chinese] 她碰什么了。\n[Shot 2] At 00:03.400, Closer on his face: the green lamp's warm light falls on half of it while the ceiling fixture fills the other half, so the whole face stays open and readable and the small movement at his brow is the only thing that moves.",
+  "soundscape": "His low quiet voice, the desk lamp's hum, the clock ticking.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t92",
+  "scene": "4-4",
+  "title": "焊死的铁盒子",
+  "refs": [
+   "xinfu",
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "xinfu": "fully_preserved",
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "心腹 (S16) dips his head slightly and reports it one item at a time: the storage room, and the welded tin box, which she picked up and shook.",
+  "shots": "Entry state, re-anchored to the reference images: 心腹 (S16) standing in front of the desk with the document; 陆崇 (S15) seated behind the desk.\n[Shot 1] Medium close on 心腹 (S16): he dips his head slightly and reports it one item at a time, his eyes still down, [Chinese] 杂物间。那个焊死的铁盒子，她抱起来摇了摇。\n[Shot 2] At 00:05.600, The same framing held as the line closes: his head comes back up a fraction, the document stays at his side, and the study stays bright and open around him with both the ceiling light and the green-shaded lamp on.",
+  "soundscape": "His low voice, the clock ticking, the lamp's hum, the study's still air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t93",
+  "scene": "4-4",
+  "title": "脸色沉下去",
+  "refs": [
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): his colour sinks slowly, layer by layer, and the line of his jaw tightens a little.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk, hands on the wood, the photograph in front of him.\n[Shot 1] Close on 陆崇 (S15): his colour sinks slowly, layer by layer, and the line of his jaw tightens a fraction; the green-shaded lamp's warm light still falls on half his face and the ceiling fixture still fills the rest, so the change is fully visible without his face going heavy or underlit.\n[Shot 2] At 00:05.200, The same close held: his jaw stays set, his eyes stay down on the photograph, and the desk lamp's pool and the ceiling light hold the whole study open around him.",
+  "soundscape": "The lamp's hum, the clock ticking, his slow even breathing.",
+  "music": "A low string entry, held underneath."
+ },
+ {
+  "id": "ep04_t94",
+  "scene": "4-4",
+  "title": "手指停住",
+  "refs": [
+   "lu_study"
+  ],
+  "retention": {
+   "lu_study": "weak_reference"
+  },
+  "summary": "Close on his hand on the desk: the fingers had been tapping the wood without rhythm, and now they stop — the pads pressed to the surface, neither lifted nor falling again.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15)'s hand resting on the desk beside the photograph, the green-shaded lamp on.\n[Shot 1] Close on 陆崇 (S15)'s hand on the desk: the fingers had been tapping the wood without any rhythm, and now they stop — the pads pressed down onto the surface, neither lifted nor falling again; the green-shaded lamp's warm light lies along the knuckles and the ceiling fixture fills the rest, so the whole hand and the desk grain around it are clearly readable.\n[Shot 2] At 00:05.000, The same close held: the hand does not move at all, the tendons standing still under the skin, and the lamp's pool of light stays steady on the wood.",
+  "soundscape": "The lamp's hum, the clock ticking, his still breathing.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t95",
+  "scene": "4-4",
+  "title": "埋了二十二年",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "After a long pause 陆崇 (S15) speaks, his voice pressed very low: twenty-two years, buried for twenty-two years.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk, his hand stopped on the wood; 心腹 (S16) standing in front of the desk.\n[Shot 1] Medium close on 陆崇 (S15): after a long pause he speaks, his voice pressed very low, [Chinese] 二十二年了。埋了二十二年。\n[Shot 2] At 00:04.200, Closer on his face as the number goes out a second time: his eyes have not moved from the desk, the lamp's warm light holds half his face and the ceiling light holds the rest, and the man standing in front of the desk does not move either.",
+  "soundscape": "His low pressed voice, the clock ticking, the lamp's hum, the study's still air.",
+  "music": "A low string entry, sustained and low."
+ },
+ {
+  "id": "ep04_t96",
+  "scene": "4-4",
+  "title": "她非要挖",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "陆崇 (S15) lifts his eyes off the photograph and moves them to the far edge of the desk, as if looking at something a long way off, and says she insists on digging it up.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk, his gaze moving from the photograph towards the far edge of the desk; 心腹 (S16) standing in front of it.\n[Shot 1] Medium close on 陆崇 (S15): he lifts his eyes off the photograph and moves them to the far edge of the desk, as if looking at something a long way off, and says, [Chinese] 她非要挖。\n[Shot 2] At 00:03.200, Closer on his face as the line ends: his gaze stays on that far point, the green-shaded lamp's warm light steady on one side of him and the ceiling fixture steady on the other, his whole face open and still.",
+  "soundscape": "His low voice, the clock ticking, the lamp's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t97",
+  "scene": "4-4",
+  "title": "最冷的一个眼神",
+  "refs": [
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "Push in on 陆崇 (S15)'s eyes: his pupils are very still and the light in them does not move at all — the coldest look in the whole series.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk, his gaze fixed on the far edge of the desk; the study lit by both the ceiling fixture and the green-shaded lamp.\n[Shot 1] Push in on 陆崇 (S15)'s eyes: his pupils are very still and the light in them does not move at all; the green-shaded lamp gives a small warm catchlight and the ceiling fixture gives a second softer one, so the whole eye area stays open and readable; this is the coldest look in the series.\n[Shot 2] At 00:05.400, The same close held: nothing in his eyes shifts, no lid drops, and the study around him stays bright, open and even with both lights on.",
+  "soundscape": "The lamp's hum, the clock ticking, his even slow breathing.",
+  "music": "A low string note, held without resolution."
+ },
+ {
+  "id": "ep04_t98",
+  "scene": "4-4",
+  "title": "别怪我不客气",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "陆崇 (S15)'s voice drops lower still, almost forced out between his teeth, and the centre of his brow moves once more as he finishes.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk, gaze still fixed ahead; 心腹 (S16) standing in front of the desk.\n[Shot 1] Medium close on 陆崇 (S15): his voice drops lower still, almost forced out between his teeth, and the centre of his brow moves once more as he says, [Chinese] 那就别怪我不客气。\n[Shot 2] At 00:04.400, Closer on his face as the line closes: his mouth stays shut after it, his gaze does not move, and both the desk lamp and the ceiling fixture keep the whole front of his face evenly lit and readable.",
+  "soundscape": "His low forced voice, the clock ticking, the lamp's hum, the study's still air.",
+  "music": "A single muted drum, felt rather than loud."
+ },
+ {
+  "id": "ep04_t99",
+  "scene": "4-4",
+  "title": "心腹退半步",
+  "refs": [
+   "xinfu",
+   "luchong",
+   "lu_study"
+  ],
+  "retention": {
+   "xinfu": "fully_preserved",
+   "luchong": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "心腹 (S16) takes half a step back from the desk with his hands still down and the document unmoved; nothing crosses his face.",
+  "shots": "Entry state, re-anchored to the reference images: 心腹 (S16) standing half a pace back from in front of the desk, the document hanging at his side; 陆崇 (S15) seated behind the desk.\n[Shot 1] Medium: 心腹 (S16) takes half a step back from in front of the desk with his hands still down and the document unmoved at his side; nothing crosses his face; behind the desk 陆崇 (S15) sits unmoved, and the study stays bright and open with the ceiling light and the green-shaded lamp both on.\n[Shot 2] At 00:05.000, Closer on the man as he settles: his shoulders come down a fraction, the document hangs straight and still, and the desk lamp's warm pool lies between the two of them.",
+  "soundscape": "One step back on the floor, the lamp's hum, the clock ticking, the study's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t100",
+  "scene": "4-4",
+  "title": "靠向椅背",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "陆崇 (S15) leans back into his chair and sits there without moving; 心腹 (S16) steps forward, lays the document flat on the desk in front of him and withdraws his hand, leaving it there.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated behind the desk leaning back into his chair; 心腹 (S16) standing half a pace back from the desk with the document in his hand.\n[Shot 1] Medium close on 陆崇 (S15): he leans back into his chair and sits there without moving; the green-shaded lamp's warm light and the ceiling fixture together keep his whole face and the chair's dark wood back clearly readable; 心腹 (S16) stands half a pace back in the near half of frame with the document still in his hand.\n[Shot 2] At 00:05.400, The same framing held: 心腹 (S16) steps forward one pace, lays the document flat on the desk in front of 陆崇 (S15) so it lies square on the wood, and takes his hand away; 陆崇 (S15) stays back in the chair with his hands on the desk, and the whole study remains evenly lit and readable.",
+  "soundscape": "The chair creaking once, the lamp's hum, the clock ticking.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t101",
+  "scene": "4-4",
+  "title": "材料与照片都在原处",
+  "refs": [
+   "lu_study"
+  ],
+  "retention": {
+   "lu_study": "weak_reference"
+  },
+  "summary": "Close on the desk: the document and the old photograph are both where they were, the green-shaded lamp's light falling across the paper.",
+  "shots": "Entry state, re-anchored to the reference images: the desk top with the document and the old photograph lying on it, the green-shaded lamp lit.\n[Shot 1] Close on the desk top: the document and the old photograph are both exactly where they were, the green-shaded lamp's light falling across the paper and the photograph's print; the ceiling fixture adds a second even source so both are fully readable and neither lies in shadow; the the wood grain runs clean around them.\n[Shot 2] At 00:05.200, Closer still on the two of them lying side by side on the wood: the photograph's surface and the document's printed rows are both legible, and the lamp's warm pool holds steady across both.",
+  "soundscape": "The lamp's hum, the clock ticking, the study's still air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t102",
+  "scene": "4-4",
+  "title": "两人定格",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "Medium: 陆崇 (S15) sits back behind the desk and 心腹 (S16) stands in front of it; the ceiling light and the desk lamp are both on and the whole study is clearly readable.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated back behind the desk; 心腹 (S16) standing in front of it; both the study's ceiling light and the green-shaded desk lamp are on.\n[Shot 1] Medium across the desk's depth axis: 陆崇 (S15) sits back behind the desk in the far half of frame and 心腹 (S16) stands in front of it in the near half; the study's ceiling light and the green-shaded desk lamp are both switched on and the whole room — the bookcase wall, the desk, the floor — is clearly and evenly readable, with no corner of the room left dark.\n[Shot 2] At 00:06.000, The same framing held a moment longer: neither man moves, the lamp's warm pool lies across the desk between them, and the room stays open and bright to the edges of frame.",
+  "soundscape": "The lamp's hum, the clock ticking on the far wall, the study's still air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t103",
+  "scene": "4-4",
+  "title": "一处也没有压暗",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "Close on the green-shaded desk lamp: its glow falls across the edges of the document and the photograph on the desk, with the ceiling light layering down from above; nothing in the room is left dark.",
+  "shots": "Entry state, re-anchored to the reference images: the green-shaded desk lamp lit on the desk beside the document and the old photograph, the study's ceiling light on above it.\n[Shot 1] Close on the green-shaded desk lamp: its glow falls across the edges of the document and the old photograph lying on the desk, and the study's ceiling light layers down from above it; the wall behind, the bookcase edge and the desk surface are all lit at once, so nothing in this room is left with every surface still readable.\n[Shot 2] At 00:05.600, The same close held: the lamp's warm pool stays steady on the paper, the ceiling light keeps the whole upper frame open, and the room reads as a fully lit night rather than one lamp standing in an otherwise empty frame.",
+  "soundscape": "The lamp's hum, the clock ticking, the study's still air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t104",
+  "scene": "4-4",
+  "title": "本集收尾",
+  "refs": [
+   "luchong",
+   "xinfu",
+   "lu_study"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "xinfu": "fully_preserved",
+   "lu_study": "weak_reference"
+  },
+  "summary": "Medium: 陆崇 (S15) sits still in his chair behind the desk and 心腹 (S16) stands with his hands down in front of it; the study's ceiling light and the desk lamp are both on.",
+  "shots": "Entry state, re-anchored to the reference images: 陆崇 (S15) seated back and still behind the desk; 心腹 (S16) standing with his hands down in front of it; the study's ceiling light and the green-shaded desk lamp both on.\n[Shot 1] Medium closing on the study: 陆崇 (S15) sits still in his chair behind the desk and 心腹 (S16) stands with his hands down in front of it; the study's ceiling light and the green-shaded desk lamp are both switched on, the bookcase wall and the whole desk are readable, and neither man moves; the frame holds on the two of them across the desk's depth with the lamp between them.\n[Shot 2] At 00:06.000, The closing hold: the two of them stay exactly as they are in a fully lit room, the clock ticking on the far wall, and the last of the lamp's warm pool lies across the document and the photograph on the desk.",
+  "soundscape": "The lamp's hum, the clock ticking steadily, the study's still air.",
+  "music": "A single muted drum, then a low string held under the tail."
+ }
+]

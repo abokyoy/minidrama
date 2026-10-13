@@ -1,0 +1,5 @@
+46240 :: C:\Users\86134\.workbuddy\binaries\python\versions\3.13.12\python.exe -u web_server.py
+35656 :: C:\Users\86134\.workbuddy\binaries\python\envs\default\Scripts\python.exe -u scheduler.py run
+14292 :: C:\Users\86134\.workbuddy\binaries\python\envs\default\Scripts\python.exe -u scheduler.py run
+52284 :: E:\ComfyUI\ComfyUI-master\ComfyUI-master\venv\Scripts\python.exe main.py --lowvram --enable-triton-backend --port 8189 --output-directory D:\output_h3off --temp-directory D:\ComfyUI_out\h3official\temp --user-directory E:\ComfyUI\ComfyUI_h3official\user
+46344 :: "C:\Users\86134\AppData\Local\Programs\Python\Python310\python.exe" main.py --lowvram --enable-triton-backend --port 8189 --output-directory D:\output_h3off --temp-directory D:\ComfyUI_out\h3official\temp --user-directory E:\ComfyUI\ComfyUI_h3official\user

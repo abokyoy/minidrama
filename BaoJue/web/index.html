@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>短剧调度看板 · X003 保洁</title>
+<style>
+:root{
+  --bg:#111315; --panel:#191c1f; --panel2:#1f2327; --line:#2b3035;
+  --tx:#e8e6e3; --tx2:#a8a29a; --tx3:#6f6a63;
+  --run:#378ADD; --done:#1D9E75; --pend:#888780; --rej:#E24B4A; --hold:#EF9F27;
+  --ok:#1D9E75;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font:14px/1.6 -apple-system,"Segoe UI","Microsoft YaHei",sans-serif;padding:20px 24px 60px}
+a{color:var(--run);text-decoration:none}
+h1{font-size:16px;font-weight:500;letter-spacing:.5px}
+h2{font-size:13px;font-weight:500;color:var(--tx2);margin:0 0 10px}
+
+header{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+.sub{color:var(--tx3);font-size:12px}
+.live{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:12px;color:var(--tx2)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--pend)}
+.dot.on{background:var(--run);animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin-bottom:20px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat .k{font-size:11px;color:var(--tx3);margin-bottom:4px}
+.stat .v{font-size:20px;font-weight:500;font-variant-numeric:tabular-nums}
+.stat .v small{font-size:12px;color:var(--tx3);font-weight:400}
+.stat.warn .v{color:var(--hold)}
+.stat.bad .v{color:var(--rej)}
+.bar{height:4px;background:#000;border-radius:2px;overflow:hidden;margin-top:8px}
+.bar>i{display:block;height:100%;background:var(--run);transition:width .6s}
+
+.chains{display:flex;flex-direction:column;gap:14px;margin-bottom:24px}
+.chain{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.chain-h{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.chain-h .n{font-size:13px;font-weight:500}
+.tag{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);color:var(--tx2);border:1px solid var(--line)}
+.tag.cur{background:rgba(55,138,221,.16);color:#7fb4f0;border-color:rgba(55,138,221,.4)}
+.segs{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.seg{border:1px solid var(--line);background:var(--panel2);border-radius:10px;padding:10px 12px;position:relative;transition:border-color .2s}
+.seg.done{border-left:3px solid var(--done)}
+.seg.running{border-left:3px solid var(--run);background:#1b2028}
+.seg.pending{border-left:3px solid var(--pend)}
+.seg.rejected{border-left:3px solid var(--rej)}
+.seg.hold{border-left:3px solid var(--hold)}
+.seg-h{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.seg-h .no{font-size:15px;font-weight:500;font-variant-numeric:tabular-nums}
+.seg-h .st{margin-left:auto;font-size:11px;color:var(--tx2)}
+.seg .meta{font-size:11px;color:var(--tx3);display:flex;gap:8px;flex-wrap:wrap}
+.seg .flags{display:flex;gap:5px;margin-top:6px;flex-wrap:wrap}
+.flag{font-size:10px;padding:1px 6px;border-radius:4px;background:#000;color:var(--tx2)}
+.flag.ok{color:#4fc39a}
+.flag.warn{color:#e0a34a}
+.spin{width:9px;height:9px;border:2px solid rgba(255,255,255,.2);border-top-color:var(--run);border-radius:50%;display:inline-block;animation:sp .8s linear infinite;vertical-align:-1px}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+.cols{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:16px}
+@media(max-width:1000px){.cols{grid-template-columns:1fr}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+video{width:100%;background:#000;border-radius:8px;display:block;aspect-ratio:4/3}
+.empty{aspect-ratio:4/3;border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--tx3);font-size:13px;text-align:center;padding:16px}
+.vh{display:flex;align-items:baseline;gap:8px;margin:12px 0 4px}
+.vh .fn{font-size:12px;color:var(--tx2);word-break:break-all}
+.vh .sz{margin-left:auto;font-size:11px;color:var(--tx3);white-space:nowrap}
+.vwarn{background:rgba(239,159,39,.13);border:1px solid rgba(239,159,39,.4);color:#e8b464;
+  font-size:12px;padding:7px 11px;border-radius:8px;margin-bottom:9px}
+.picker{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.pk{font-size:12px;padding:5px 11px;border-radius:7px;background:var(--panel2);border:1px solid var(--line);color:var(--tx2);cursor:pointer}
+.pk:hover{border-color:#3a4148;color:var(--tx)}
+.pk.on{background:#1b2836;border-color:var(--run);color:#7fb4f0}
+.pk:disabled{opacity:.32;cursor:default}
+
+.acts{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+button{font:inherit;font-size:13px;padding:8px 15px;border-radius:8px;border:1px solid var(--line);background:var(--panel2);color:var(--tx);cursor:pointer;transition:.15s}
+button:hover:not(:disabled){border-color:#4a5158}
+button:disabled{opacity:.35;cursor:default}
+button.danger{color:#f0938f;border-color:rgba(226,75,74,.45)}
+button.danger:hover:not(:disabled){background:rgba(226,75,74,.14)}
+button.ok{color:#4fc39a;border-color:rgba(29,158,117,.45)}
+button.go{color:#7fb4f0;border-color:rgba(55,138,221,.5)}
+textarea{width:100%;min-height:56px;background:#0d0f11;border:1px solid var(--line);border-radius:8px;color:var(--tx);padding:9px 11px;font:13px/1.5 inherit;resize:vertical}
+textarea:focus{outline:none;border-color:var(--run)}
+label.f{display:block;font-size:12px;color:var(--tx2);margin:14px 0 6px}
+#log{font:12px/1.6 ui-monospace,Consolas,monospace;color:var(--tx2);background:#0d0f11;border:1px solid var(--line);border-radius:8px;padding:10px 12px;max-height:190px;overflow:auto;white-space:pre-wrap}
+.hint{font-size:12px;color:var(--tx3);margin-top:10px;line-height:1.7}
+.hint b{color:var(--tx2);font-weight:500}
+
+/* ══ 2026-10-10 线性任务时间线 ══ */
+.tl{font-size:13px}
+.tlrow{display:flex;gap:10px;align-items:flex-start;padding:9px 10px;border-left:3px solid var(--line);
+  margin:0 0 6px;border-radius:0 8px 8px 0;background:var(--panel2);cursor:pointer}
+.tlrow:hover{background:rgba(120,160,220,.08)}
+.tlrow.running{border-left-color:#e8a13c;background:rgba(232,161,60,.07)}
+.tlrow.done{border-left-color:#4caf7d}
+.tlrow.pending{border-left-color:#5b89b8;opacity:.82}
+.tlrow.hold{border-left-color:#c9a23f}
+.tlrow.rejected{border-left-color:#c75454;opacity:.75}
+.tlrow.sel{outline:1px solid var(--run)}
+.tl-time{font:12px ui-monospace,Consolas,monospace;color:var(--tx3);min-width:118px;white-space:nowrap;padding-top:2px}
+.tl-main{flex:1;min-width:0}
+.tl-h{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.tl-h .no{font-weight:500}
+.tl-what{font-size:12px;color:var(--tx2);margin-top:3px}
+.tl-cost{font-size:11px;color:var(--tx3);margin-top:2px}
+.tl-acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.tl-acts button{font-size:11px;padding:2px 9px}
+.tl-refs{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.tl-refs img{height:64px;border-radius:6px;border:1px solid var(--line);cursor:zoom-in}
+.tl-refs video{height:64px;border-radius:6px;border:1px solid var(--line)}
+.tl-refcap{font-size:11px;color:var(--tx3);text-align:center;max-width:96px}
+.tl-todo{font-size:11px;color:#8a9aa8;font-style:italic}
+
+/* ══ 用户 2026-10-10 新增：视频预览下方的 脚本 / 提示词 tab ══ */
+.tabs{display:flex;gap:6px;margin:14px 0 0;border-bottom:1px solid var(--line);padding-bottom:0}
+.tb{font-size:12px;padding:7px 14px;border:1px solid transparent;border-bottom:none;
+    background:none;color:var(--tx2);cursor:pointer;border-radius:8px 8px 0 0;position:relative;top:1px}
+.tb:hover{color:var(--tx)}
+.tb.on{background:var(--panel2);border-color:var(--line);border-bottom-color:var(--panel2);color:var(--tx)}
+.tb .n{font-size:10px;opacity:.6;margin-left:5px}
+.tabpane{display:none;background:var(--panel2);border:1px solid var(--line);
+    border-top:none;border-radius:0 0 10px 10px;padding:12px 14px;max-height:460px;overflow:auto}
+.tabpane.on{display:block}
+.slab{font-size:11px;color:var(--tx3);letter-spacing:.5px;margin:10px 0 5px;
+     display:flex;align-items:center;gap:8px}
+.slab::after{content:'';flex:1;height:1px;background:var(--line)}
+.slab:first-child{margin-top:0}
+.sline{font:12.5px/1.85 ui-monospace,Consolas,"Microsoft YaHei",monospace;
+      white-space:pre-wrap;word-break:break-word;color:var(--tx2)}
+.sline .ln{color:var(--tx3);margin-right:8px}
+.sline .cast{color:#7fb4f0;font-weight:600}
+.sline .cue{color:var(--run)}
+.sline b{color:var(--tx);font-weight:600}
+.anchorbox{background:#0d0f11;border:1px solid var(--line);border-left:3px solid var(--run);
+     border-radius:0 7px 7px 0;padding:9px 12px;font-size:12px;line-height:1.8;color:var(--tx2);
+     margin-bottom:4px;white-space:pre-wrap}
+.usedrow{display:flex;gap:8px;align-items:baseline;padding:4px 0;font-size:12.5px;
+     border-bottom:1px dashed #23282d}
+.usedrow .w{flex:none;width:52px;font-weight:600;color:#7fb4f0}
+.usedrow .l{color:var(--tx)}
+.tabempty{color:var(--tx3);font-size:12px;padding:10px 0}
+
+/* ══ 预出片 → 终版（用户 2026-10-10 要求）══ */
+.srcbar{display:flex;gap:6px;align-items:center;margin:10px 0 8px;flex-wrap:wrap}
+.srcb{font-size:12px;padding:5px 12px;border-radius:7px;background:var(--panel2);
+      border:1px solid var(--line);color:var(--tx2);cursor:pointer}
+.srcb:hover{border-color:#3a4148;color:var(--tx)}
+.srcb.on{background:#1b2836;border-color:var(--run);color:#7fb4f0}
+.srcb.draft.on{background:#2a2418;border-color:var(--hold);color:#e8b464}
+.srcb .lb{font-size:10px;opacity:.75;margin-left:5px}
+.draftnote{background:rgba(239,159,39,.12);border:1px solid rgba(239,159,39,.38);
+     color:#e8b464;font-size:12px;line-height:1.75;border-radius:8px;padding:9px 12px;margin:2px 0 10px}
+.draftnote b{color:#f5cf8f}
+.pfrow{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;
+      padding:11px 12px;background:var(--panel2);border:1px solid var(--line);border-radius:10px}
+.pfrow .lab{font-size:12px;color:var(--tx2);width:100%;margin-bottom:2px}
+button.pf{font-size:12px;padding:7px 13px}
+button.pf.hi{border-color:rgba(239,159,39,.5);color:#e8b464}
+button.pf.hi:hover{background:rgba(239,159,39,.12)}
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="title">短剧调度看板</h1>
+  <span class="sub" id="hdSub">载入中…</span>
+  <span class="live"><i class="dot" id="dot"></i><span id="liveTx">连接中</span></span>
+</header>
+
+<div class="stats" id="stats"></div>
+<div class="chains" id="chains"></div>
+
+<!-- ⛔ 2026-10-10 用户要求：线性任务列表
+     「展示任务列表 显示线性的任务列表 几点几分 完成了什么 费时多久 点击直接预览
+      目前在跑什么 接下来的任务是什么 用户可以手动调整待完成的任务队列
+      暂停当前任务 每个任务点击 都可以看到提示词是什么 参考图 或者参考视频是啥
+      已经生成的参考视频点击可以预览 没生成的提示待生成」 -->
+<div class="card" id="tlCard">
+  <h2>任务时间线（线性）</h2>
+  <div id="timeline"></div>
+</div>
+
+<div class="cols">
+  <div class="card">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
+      <h2 style="margin:0">成片预览</h2>
+      <button id="bPause" style="margin-left:auto;font-size:12px;padding:4px 11px">暂停刷新</button>
+    </div>
+    <div class="picker" id="picker"></div>
+    <!-- ⛔ 2026-10-10 用户要求：先低分辨率预出片验一遍，对了再升高清。
+         预览片和终版片落在不同目录，这里给用户自由切换看。 -->
+    <div class="srcbar" id="srcbar"></div>
+    <div id="stage"></div>
+    <div class="vh"><span class="fn" id="vname">—</span><span class="sz" id="vsz"></span></div>
+
+    <div class="pfrow">
+      <span class="lab">预出片 / 终版　—　先出低分辨率快的（约 1/3 时间）验人数、朝向、台词对不对；对了再点「升高清」出终版</span>
+      <button class="pf hi" id="bPf">① 转预出片重跑（低清快）</button>
+      <button class="pf hi" id="bUp">② 升高清 · 出终版并存档</button>
+    </div>
+
+    <!-- ⛔ 用户 2026-10-10 要求：「你在网页上也在片 预览 下方新增tab
+         把这个片的 脚本、H3提示词 都显示」
+         ⛔ 这块**不在** <video> 所在节点里，重建它不会打断播放。 -->
+    <div class="tabs" id="tabs">
+      <button class="tb on" data-p="script">本片剧本<span class="n" id="tbNS"></span></button>
+      <button class="tb" data-p="prompt">H3 提示词全文<span class="n" id="tbNP"></span></button>
+      <button class="tb" data-p="lines">台词对照</button>
+      <button class="tb" data-p="ops">操作记录</button>
+    </div>
+    <div class="tabpane on" id="pScript"></div>
+    <div class="tabpane" id="pPrompt"><div class="sline" id="promptText">载入中…</div></div>
+    <div class="tabpane" id="pLines"></div>
+    <div class="tabpane" id="pOps"><div class="sline" style="color:var(--tx3)">换片后自动载入该片操作流水（SQLite）</div></div>
+    <label class="f">这片的问题（写给调度器，会整条链重排）</label>
+    <textarea id="why" placeholder="例：说话的人错了 / 两个人小唐 / 隔着百叶窗 / 位置关系不对"></textarea>
+    <div class="acts">
+      <button class="danger" id="bRej">否定这片 · 整链重排</button>
+      <button class="ok" id="bOk">这片我认可</button>
+      <button class="go" id="bResume">插队重跑本链</button>
+      <button class="go" id="bRerun">重跑低清（默认档）</button>
+    </div>
+    <p class="hint">
+      <b>否定</b>：如果你说的这片<b>正在生成</b>，调度器会立刻放弃它、跳到下一条链的第一片，
+      然后回来改提示词，改完点<b>插队重跑</b>。如果你说的是<b>另一条链</b>，它<b>不打断</b>当前片，
+      等这条跑完自然重排 —— 显卡一秒不停。
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>调度日志</h2>
+    <div id="log">等待指令…</div>
+    <label class="f">点任一节点 → 选中该片（左边可看片、否定、认可）</label>
+    <div id="promptBox"></div>
+  </div>
+
+  <div class="card">
+    <h2>操作记录（SQLite）</h2>
+    <div id="opsFeed" style="font-size:12px;color:var(--tx2);max-height:180px;overflow:auto">
+      <span style="color:var(--tx3)">载入中…</span>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+let S = null, sel = null, timer = null, paused = false;
+let lastVsrc = null, lastSel = null;   // ⛔ 记住视频 src，没变就绝不碰 <video>
+
+// ⛔⛔⛔ tab 的内容缓存：**只在换片时重新拉**，不在每次 3 秒刷新里拉。
+//   否则自动刷新会把用户正在读的剧本/提示词抽走（和抽走视频一样）。
+const tabCache = {};                    // { seg: {script, prompt} }
+let curTab = 'script';
+
+// ⛔ 预览/终版切换：记住每片上次在看哪个源
+let srcMode = {};                       // { seg: 'final' | 'draft' }
+
+const ST = {
+  done:     {t:'已完成', c:'#1D9E75'},
+  running:  {t:'生成中', c:'#378ADD'},
+  pending:  {t:'排队中', c:'#888780'},
+  rejected: {t:'已否定', c:'#E24B4A'},
+  hold:     {t:'待重排', c:'#EF9F27'}
+};
+
+function fmtBytes(n){
+  if(!n && n!==0) return '—';
+  return n>=1024 ? (n/1024).toFixed(1)+' GB' : n+' MB';
+}
+
+async function load(){
+  try{
+    const r = await fetch('/api/state',{cache:'no-store'});
+    S = await r.json();
+    render();
+    $('#dot').className = 'dot on';
+    $('#liveTx').textContent = paused ? '已暂停刷新' : ('实时 · ' + S.updated);
+    // ⛔⛔⛔ 用户正在看视频 → 立刻停止一切自动刷新。
+    //   之前每 3 秒重载一次，<video> 被重建，播放器永远从头开始，一秒都看不了。
+    if(paused){ clearInterval(timer); timer = null; }
+  }catch(e){
+    $('#dot').className = 'dot';
+    $('#liveTx').textContent = '服务断了';
+  }
+}
+
+function render(){
+  if(!S) return;
+  $('#title').textContent = '短剧调度看板 · ' + (S.title||'');
+  const s = S.summary, g = S.gpu, q = S.queue;
+  paintTimeline();   // ⛔ 线性任务时间线（2026-10-10 用户要求）
+  // ⛔ SQLite 操作流水：每次刷新同步（轻量，60条封顶）
+  if(S.ops){
+    const feed = $('#opsFeed');
+    if(feed){
+      feed.innerHTML = S.ops.length
+        ? S.ops.map(o=>`<div style="padding:2px 0;border-bottom:1px dashed var(--line)">
+            <b style="color:var(--tx)">${o.sid?('片'+o.sid):'全局'}</b>
+            <span style="color:var(--tx3)">${esc(o.t||'')}</span>
+            ${esc(o.verb)} ${esc(o.detail||'')}</div>`).join('')
+        : '<span style="color:var(--tx3)">暂无记录</span>';
+    }
+  }
+  $('#hdSub').textContent = `每 ${S.chain_size} 片一条链 · 共 ${s.total} 片 · GPU ${q.alive?(g.util!=null?g.util+'%':'?'):'未启动'}`;
+
+  $('#stats').innerHTML = [
+    ['已完成', s.done + ' / ' + s.total, ''],
+    ['正在生成', s.running!=null ? '片 '+s.running + (s.running_stage==='preview' ? '（低清）' : '（高清）') : '空闲',
+      s.running==null && s.total>s.done ? 'warn' : ''],
+    ['下一片', s.next!=null ? '片 '+s.next : '—', ''],
+    ['显卡', g.util!=null ? g.util+'%' : '—', s.gpu_busy?'':'warn'],
+    ['显存', g.mem_used!=null ? fmtBytes(g.mem_used) : '—', ''],
+    // ⛔ 内存降速警告（>90% 红色，用户 2026-10-10 10:58 要求）
+    ['内存', (S.sysmem&&S.sysmem.load!=null) ? S.sysmem.load+'%' : '—',
+      (S.sysmem&&S.sysmem.load!=null) ? (S.sysmem.load>=90?'bad':(S.sysmem.load>=80?'warn':'')) : ''],
+    // ⛔ 预出片待确认 —— 用户最需要看到的：哪些片已经出了低清预览等他点头
+    ['预出片待确认', s.draft_waiting ? s.draft_waiting + ' 片' : '无',
+      s.draft_waiting ? 'warn' : ''],
+  ].map(([k,v,c])=>`<div class="stat ${c}"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('')
+  + `<div class="stat" style="grid-column:span 2"><div class="k">总进度</div>
+     <div class="v">${Math.round(s.done/s.total*100)}%</div>
+     <div class="bar"><i style="width:${s.done/s.total*100}%"></i></div></div>`;
+
+  // 链与片
+  const byChain = {};
+  S.segments.forEach(x => (byChain[x.chain] = byChain[x.chain]||[]).push(x));
+  $('#chains').innerHTML = Object.keys(byChain).sort().map(c=>{
+    const arr = byChain[c], cur = arr.find(x=>x.status==='running');
+    return `<div class="chain">
+      <div class="chain-h">
+        <span class="n">链 ${c}</span>
+        <span class="tag${cur?' cur':''}">${cur?'正在生成':'未开始'}</span>
+        <span class="tag">${arr.filter(x=>x.status==='done').length}/${arr.length} 完成</span>
+      </div>
+      <div class="segs">${arr.map(node).join('')}</div>
+    </div>`;
+  }).join('');
+
+  // 预览选择条
+  // ⛔⛔⛔ 2026-10-09 20:35 用户在网页上看到「没有正在生成的」，
+  //   但 GPU 明明 100% 在跑 —— 因为**默认只选中「已有成片」的片**。
+  //正在生成的那片还没落盘 → 选不中它 → 页面上一片生成中的都没有。
+  //   → ① 有片正在生成时，默认选中它；② 没有成片也允许点开（看生成中状态）。
+  const withV = S.segments.filter(x=>x.video);
+  const runSeg = S.segments.find(x=>x.status==='running');
+  if(!sel || !S.segments.some(x=>x.seg===sel)){
+    sel = runSeg ? runSeg.seg : (withV.length?withV[withV.length-1].seg:null);
+  }
+  $('#picker').innerHTML = S.segments.map(x=>{
+    const live = x.status==='running';
+    const dot = live ? ' <b style="color:#378ADD">●</b>' : '';
+    return `<button class="pk${x.seg===sel?' on':''}" data-s="${x.seg}">片${x.seg}${dot}</button>`;
+  }).join('');
+  [...document.querySelectorAll('.pk')].forEach(b=>b.onclick=()=>{sel=+b.dataset.s;render();});
+
+  // ⛔⛔⛔ 播放器：**同一支片就绝对不碰 <video> 元素**。
+  //   碰了它 = 进度归零、声音断、正在播的帧被抽走 —— 用户根本没法定住看片。
+  //   只有「换了片」或「这支片出了新成片」才重建。
+  const cur = S.segments.find(x=>x.seg===sel);
+
+  // ── 预览/终版源选择 ─────────────────────────────────────────
+  // ⛔ 默认优先给用户看**存在的那个源**；两个都有时默认看终版（终版才是成品）。
+  const hasF = !!(cur && cur.video);
+  const hasD = !!(cur && cur.draft);
+  let mode = srcMode[sel];
+  if(!mode || (mode==='final' && !hasF) || (mode==='draft' && !hasD)){
+    mode = hasF ? 'final' : (hasD ? 'draft' : null);
+    if(mode) srcMode[sel] = mode;
+  }
+  $('#srcbar').innerHTML = (hasF||hasD) ? (
+      (hasF ? `<button class="srcb${mode==='final'?' on':''}" data-m="final">终版${cur.video?'<span class="lb">'+cur.video.wh+'</span>':''}</button>` : '') +
+      (hasD ? `<button class="srcb draft${mode==='draft'?' on':''}" data-m="draft">预出片<span class="lb">${cur.draft.has_audio?'':'无配音'}</span></button>` : '')
+    ) : '';
+
+  const pick = mode==='draft' ? cur.draft : cur.video;
+  const vsrc = pick
+    ? '/video/' + (mode==='draft' ? 'draft/' : '') + pick.name + '?v=' + pick.ts
+    : null;
+  // ⛔⛔⛔ 2026-10-09 20:37 修正一个反向 bug：
+  //   「生成中」时 vsrc 一直是 null → 不进 if → 面板永远停在第一次的文字，
+  //   用户看不到时间在走，以为卡住了。
+  //   → 分两种刷新：视频区**src 相同就绝不碰**（保住播放进度）；
+  //     生成中面板是纯文字，**每次都更新**（不碰 video，无副作用）。
+  const runPanel = cur && !vsrc && cur.status==='running';
+  if(runPanel){
+    $('#stage').innerHTML = runPanelHTML(cur);
+    lastVsrc = null;
+}else if(vsrc !== lastVsrc){
+    if(vsrc){
+      const warn = cur.video && cur.video.stale && mode==='final'
+        ? `<div class="vwarn">⚠ 这是上一轮跑剩的旧片（${cur.video.mtime}），本片尚未重跑</div>` : '';
+      // ⛔ 预出片等确认时才提示，避免用户以为这就是成品
+      const dn = mode==='draft' && cur.status==='hold'
+        ? `<div class="draftnote"><b>这是预出片（低分辨率，约 1/3 时间）。</b><br>
+           先看：画面里有几个人？钱经理朝谁说话？台词是不是那人说的？有没有黑块、有没有切镜？
+           —— 全对就点上面「② 升高清 · 出终版并存档」；<br>
+           有错就点「① 转预出片重跑」改完再跑。这张低清片会一直留在 draft/ 里。</div>` : '';
+      $('#stage').innerHTML = warn + dn +
+        `<video id="vd" src="${vsrc}#t=0.1" controls preload="auto" playsinline></video>`;
+    }else{
+      $('#stage').innerHTML = `<div class="empty">${cur?('片'+cur.seg+' 还没有成片<br><span style="font-size:12px">'+ST[cur.status].t+'</span>'):'没有可预览的成片'}</div>`;
+    }
+    lastVsrc = vsrc;
+  }
+  if(pick){
+    $('#vname').textContent = (mode==='draft'?'[预出片] ':'') + pick.name;
+    $('#vsz').textContent = `${pick.size_mb}MB · ${pick.mtime}${pick.has_audio?' · 含配音':' · 无配音'}`;
+  }else{ $('#vname').textContent='—'; $('#vsz').textContent=''; }
+
+  // 预出片 / 终版 两个按钮的可用性
+  $('#bPf').disabled = !cur;
+  $('#bUp').disabled = !cur || !hasD;
+  $('#bUp').textContent = hasD ? `② 升高清 · 出终版并存档（预览 ${cur.draft.mtime}）`
+                                : '② 升高清 · 出终版并存档（先要有预出片）';
+  $('#bPf').textContent = (cur && cur.stage==='preview')
+    ? `① 本片已在预出片模式（${cur.profile}）· 点此重跑` : '① 转预出片重跑（低清快）';
+
+  // 按钮可用性
+  $('#bRej').disabled = !cur;
+  $('#bOk').disabled = !cur || cur.status==='done' && cur.approved;
+  $('#bResume').disabled = !cur;
+  $('#bRerun').disabled = !cur;
+  $('#bRej').textContent = cur ? `否定片${cur.seg} · 整条链${cur.chain}重排` : '否定这片';
+  $('#bResume').textContent = cur ? `插队重跑 链${cur.chain}（片${cur.chain*3-2}-${cur.chain*3}）` : '插队重跑';
+  $('#bRerun').textContent = cur ? `重跑低清 片${cur.seg}` : '重跑低清（默认档）';
+
+  // ⛔ tab 内容**只在换片时**拉一次，之后走缓存。
+  //   绝不放在 3 秒刷新里重拉 —— 那会把用户正在读的剧本抽走，
+  //   和抽走正在播的视频是同一个错。
+  if(sel !== lastSel){
+    lastSel = sel;
+    loadTab(sel);
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+// tab：剧本 / H3 提示词 / 台词对照
+// ══════════════════════════════════════════════════════════
+function esc(s){
+  return String(s==null?'':s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function scriptHTML(d){
+  if(!d) return '<div class="tabempty">载入中…</div>';
+  if(d.error) return '<div class="tabempty">'+esc(d.error)+'</div>';
+  let h = '';
+  h += '<div class="slab">空间轴线（剧本 0.2 · 全剧不得违背）</div>';
+  h += '<div class="anchorbox">'+esc(d.anchor)+'</div>';
+  if(d.used && d.used.length){
+    h += '<div class="slab">本片实际送进模型的台词（共 '+d.used.length+' 句）</div>';
+    h += d.used.map(u =>
+      '<div class="usedrow"><span class="w">'+esc(u.who)+'</span>'
+      + '<span class="l">「'+esc(u.line)+'」</span></div>').join('');
+  }else{
+    h += '<div class="slab">本片台词</div>';
+    h += '<div class="tabempty">零台词片 —— 三个人全程闭嘴，不给模型任何'
+       + '「谁要开口」的暗示（否则台词会被画面中心那个人抢走）</div>';
+  }
+  h += '<div class="slab">剧本原文 ·《' + esc(d.title) + '》 · '+esc(d.source)+'</div>';
+  h += '<div class="sline">' + esc(d.body) + '</div>';
+  return h;
+}
+
+function linesHTML(d){
+  if(!d) return '<div class="tabempty">载入中…</div>';
+  if(d.error) return '<div class="tabempty">'+esc(d.error)+'</div>';
+  let h = '<div class="slab">左边=剧本里这人说什么　右边=送进模型的提示词里是谁在说</div>';
+  if(!(d.used && d.used.length))
+    return h + '<div class="tabempty">本片零台词</div>';
+  // 从剧本原文里抓出「某人：台词」逐条列出
+  const rows = (d.body||'').split('\n').filter(l=>/^\d+\|\s*\*\*/.test(l));
+  h += '<div class="sline">' + rows.map(l=>{
+    const m = l.match(/^\d+\|\s*\*\*([^*]+)\*\*[（(]?([^：:）)]*)[）)]?[：:]\s*(.+)$/);
+    if(m) return '<div><span class="ln">'+l.split('|')[0].trim()+'</span>'
+      + '<span class="cast">'+esc(m[1])+'</span>（'+esc(m[2])+'）：'
+      + '<span class="cue">'+esc(m[3])+'</span></div>';
+    return '<div><span class="ln">'+l.split('|')[0].trim()+'</span>'
+      + esc(l.split('|').slice(1).join('|'))+'</div>';
+  }).join('') + '</div>';
+  return h;
+}
+
+async function loadTab(sid){
+  if(!sid){ return; }
+  if(!tabCache[sid]){
+    tabCache[sid] = {};
+    try{
+      const r = await fetch('/api/script/'+sid,{cache:'no-store'});
+      tabCache[sid].script = await r.json();
+    }catch(e){ tabCache[sid].script = {error:'取剧本失败'}; }
+    try{
+      const r = await fetch('/api/prompt/'+sid,{cache:'no-store'});
+      const j = await r.json();
+      tabCache[sid].prompt = j.text || '';
+    }catch(e){ tabCache[sid].prompt = '取提示词失败'; }
+  }
+  paintTab(sid);
+}
+
+function paintTab(sid){
+  const c = tabCache[sid];
+  if(!c) return;
+  const s = c.script || {};
+  $('#pScript').innerHTML = scriptHTML(s);
+  $('#pPrompt').innerHTML = '<div class="sline">'
+    + (c.prompt ? esc(c.prompt) : '载入中…') + '</div>';
+  $('#pLines').innerHTML = linesHTML(s);
+  const n = (s.used||[]).length;
+  $('#tbNS').textContent = sid ? ('片'+sid) : '';
+  $('#tbNP').textContent = sid ? (c.prompt ? Math.round(c.prompt.length/1000)+'k 字符' : '') : '';
+  // ⛔ SQLite 操作流水：换片才拉，不吃 3 秒刷新
+  if(sid){
+    fetch('/api/ops?seg='+sid,{cache:'no-store'}).then(r=>r.json()).then(d=>{
+      const ops=(d&&d.ops)||[];
+      $('#pOps').innerHTML = ops.length
+        ? '<table style="width:100%;font-size:12px;border-collapse:collapse">'
+          +'<tr style="color:var(--tx3);text-align:left"><th style="padding:4px 6px">时间</th><th>动作</th><th>说明</th></tr>'
+          + ops.map(o=>'<tr><td style="padding:4px 6px;white-space:nowrap">'+esc(o.t)+'</td>'
+            +'<td style="padding:4px 6px;color:var(--tx)">'+esc(o.verb)+'</td>'
+            +'<td style="padding:4px 6px;color:var(--tx2)">'+esc(o.detail||'')+'</td></tr>').join('')
+          +'</table>'
+        : '<div class="sline" style="color:var(--tx3)">该片暂无操作记录</div>';
+    }).catch(()=>{});
+  }
+}
+
+function switchTab(p){
+  curTab = p;
+  document.querySelectorAll('.tb').forEach(b =>
+    b.classList.toggle('on', b.dataset.p===p));
+  ['script','prompt','lines','ops'].forEach(k =>
+    $('#p'+k.charAt(0).toUpperCase()+k.slice(1)).classList.toggle('on', k===p));
+}
+
+document.querySelectorAll('.tb').forEach(b =>
+  b.onclick = ()=>switchTab(b.dataset.p));
+
+function runPanelHTML(cur){
+  const busy = S.queue && S.queue.gpu_busy;
+  const q = S.queue || {};
+  // ⛔ 高清/低清必须一眼看出（用户 2026-10-10 10:39 要求）
+  const isLow = cur.stage === 'preview';
+  // ⛔ 已运行多久：优先 run_epoch（秒级时间戳，手动跑的片也有），退回 started_at
+  let elapsed = '';
+  let t0ms = null;
+  if(cur.run_epoch){ t0ms = Number(cur.run_epoch) * 1000; }
+  else if(cur.started_at){
+    const p = cur.started_at.split(':').map(Number);
+    if(p.length===3){
+      const now = new Date();
+      t0ms = new Date(now.getFullYear(),now.getMonth(),now.getDate(),p[0],p[1],p[2]).getTime();
+    }
+  }
+  if(t0ms){
+    let s = Math.max(0, Math.floor((Date.now() - t0ms)/1000));
+    const mm = Math.floor(s/60), ss = s%60;
+    elapsed = `<br>已运行 <b style="color:#378ADD">${mm} 分 ${ss} 秒</b>`;
+  }
+  return `<div class="empty" style="padding:38px 20px">
+   <div style="font-size:30px;margin-bottom:14px">🎬</div>
+   <div style="font-size:19px;font-weight:600;margin-bottom:10px;color:${isLow?'#d38b00':'#378ADD'}">
+     片${cur.seg} 正在生成中（${isLow?'低清预出片 · 约 4–6 分钟':'高清终版 · 约 13–15 分钟'}）
+   </div>
+   <div style="font-size:13px;line-height:1.9;color:#8a9aa8">
+     <b style="color:${isLow?'#d38b00':'#378ADD'}">${isLow?'▣ 低清（576×448，先验台词/人数/站位）':'▣ 高清（1024×768，终版画质）'}</b><br>
+     链${cur.chain} · 第${cur.pos}片 · ${cur.kind==='chain'?'接上一段尾帧':'从参考图起'} ·
+     提示词 ${cur.words} 词<br>
+     ${cur.started_at?'开跑时间 '+cur.started_at+'（'+(isLow?'低清':'高清')+'档）':''}
+     ${elapsed}<br>
+     出片后这一页会自动出现播放条${isLow?'；对了点「② 升高清 · 出终版并存档」':''}
+   </div>
+   <div style="margin-top:16px;font-size:12px;color:#5a6a78">
+     ${busy?'GPU 正在满载计算':'⚠ GPU 当前空闲，请检查调度器'}
+     ${q.alive?('｜ComfyUI 运行中 '+q.running+' 个 / 排队 '+q.pending+' 个'):''}
+   </div>
+   ${memWarnHTML()}
+ </div>`;
+}
+
+// ⛔ 内存不足降速警告（用户 2026-10-10 10:58 要求：跑低清/高清时探测到内存不够开始降速要在网页提示）
+// 实测：内存 >90% → 走页文件（硬盘假装内存）→ 采样 68s/步 掉到 180s/步 = 慢 2.5 倍。
+function memWarnHTML(){
+  const sm = S.sysmem || {};
+  if(sm.load==null) return '';
+  if(sm.load >= 90){
+    return `<div style="margin-top:12px;padding:10px 14px;background:#fde8e8;border:1px solid #e8a0a0;border-radius:8px;font-size:13px;color:#b03030;line-height:1.8;text-align:left">
+      <b>⚠ 内存不足，生成正在降速！</b><br>
+      系统内存已用 <b>${sm.load}%</b>（仅剩 ${sm.avail_gb}GB）。内存不够时系统拿硬盘顶替，速度掉约 <b>2.5 倍</b>——
+      低清档省的显卡时间也会被吃掉。<br>
+      <b>建议</b>：关掉豆包/浏览器等多余窗口（别关本页和 ComfyUI 黑窗口），下一片会自动清场回收内存。
+    </div>`;
+  }
+  if(sm.load >= 80){
+    return `<div style="margin-top:12px;padding:8px 14px;background:#fdf3e0;border:1px solid #e8c88a;border-radius:8px;font-size:12px;color:#9a6b10;text-align:left">
+      内存偏高（${sm.load}%，剩 ${sm.avail_gb}GB）——再涨就开始降速了，可关掉不用的窗口。
+    </div>`;
+  }
+  return `<div style="margin-top:12px;font-size:12px;color:#8a9aa8">内存 ${sm.load}%（剩 ${sm.avail_gb}GB）· 正常</div>`;
+}
+
+/* ══ 线性任务时间线（2026-10-10 用户要求）══
+   几点几分 / 完成了什么 / 费时多久 / 点击预览 / 在跑什么 / 接下来是什么
+   待完成任务可手动调整（暂停、插队、重跑低清），点开看提示词+参考图+参考视频 */
+const tlSkip = {};   // 暂存用户暂停的片 {seg:true}（会写进台账 hold）
+let tlDetail = {};   // 展开的片 {seg:true}
+
+function tlPickTime(x){
+  // 完成时刻：video/draft 的 mtime；在跑：started_at；没跑：—
+  const t = (x.video && x.video.ts) || (x.draft && x.draft.ts);
+  if(t) return new Date(t*1000).toTimeString().slice(0,5);
+  if(x.started_at) return x.started_at.slice(0,5);
+  return '--:--';
+}
+
+function tlCost(x){
+  // 费时：run_epoch → 落盘 ts
+  const end = (x.video && x.video.ts) || (x.draft && x.draft.ts);
+  if(x.run_epoch && end && end > x.run_epoch){
+    const m = Math.round((end - x.run_epoch)/60);
+    return m>=1 ? `耗时约 ${m} 分钟` : '耗时<1分钟';
+  }
+  if(x.status==='running' && x.run_epoch){
+    return `已跑 ${Math.max(1,Math.round((Date.now()/1000-x.run_epoch)/60))} 分钟`;
+  }
+  return '';
+}
+
+function tlWhat(x){
+  if(x.status==='running') return x.stage==='preview'?'正在跑低清预出片（GPU）':'正在跑高清终版（GPU）';
+  if(x.status==='done') return x.video?`已出终版 ${x.video.size_mb}MB`:'已认可';
+  if(x.status==='hold') return '低清预出片已出，等你确认';
+  if(x.status==='rejected') return '被否定，等待重排';
+  return '排队等跑（低清）';
+}
+
+function paintTimeline(){
+  const el = $('#timeline'); if(!el || !S.segments) return;
+  const segs = S.segments;
+  const runIdx = segs.findIndex(x=>x.status==='running');
+  const nextIdx = segs.findIndex(x=>x.status==='pending');
+  let h = '<div class="tl">';
+  segs.forEach((x,i)=>{
+    const on = tlDetail[x.seg];
+    h += `<div class="tlrow ${x.status}${sel===x.seg?' sel':''}" data-s="${x.seg}">`
+      + `<div class="tl-time">${tlPickTime(x)}</div>`
+      + `<div class="tl-main">`
+      + `<div class="tl-h"><span class="no">片 ${x.seg}</span>`
+      + `<span>${tlWhat(x)}</span>`
+      + (i===runIdx?'<span style="color:#e8a13c;font-size:11px">◀ 正在进行</span>':'')
+      + (i===nextIdx?'<span style="color:#5b89b8;font-size:11px">◀ 下一个</span>':'')
+      + `</div>`
+      + `<div class="tl-what">链${x.chain}·第${x.pos}片 · ${x.kind==='fixed'?'从参考图起画面':'续接片'+(x.seg-1)} · ${x.words||'?'}词提示词</div>`
+      + `<div class="tl-cost">${tlCost(x)||'&nbsp;'}</div>`;
+    // 展开的详情：提示词台词 + 参考图 + 参考视频
+    if(on){
+      const lines = (x.prompt_lines||[]).map(l=>`${l.who}「${l.line}」`).join('　');
+      h += `<div style="margin-top:7px;font-size:12px;color:var(--tx2);background:#0d0f11;border-radius:6px;padding:7px 9px">`
+        + (lines?`台词：${esc(lines)}<br>`:'（本片无台词）')
+        + `<a href="#" onclick="event.preventDefault();showPrompt(${x.seg})" style="color:#7fb4f0">查看 H3 提示词全文 →</a></div>`;
+      h += `<div class="tl-refs">`
+        + (S.refs||[]).map(r=>`<div><img src="/ref/${r.name.split('__')[1]===undefined?r.src.split('/').pop():r.name}" `
+          + `onerror="this.onerror=null;this.src='/ref/${r.src.split('/').pop()}'">`
+          + `<div class="tl-refcap">${esc(r.who)}</div></div>`).join('');
+      // chain 片的参考视频 = 上一段的成片
+      if(x.prev_video){
+        h += `<div><video src="/video/${x.prev_video.name}" controls preload="none"></video>`
+          + `<div class="tl-refcap">参考视频：片${x.seg-1}尾帧<br>${x.prev_video.size_mb}MB ${x.prev_video.mtime}</div></div>`;
+      } else if(x.kind==='chain'){
+        h += `<div class="tl-todo">参考视频：片${x.seg-1}还没生成（到它跑完自动接上）</div>`;
+      }
+      if(!x.video && !x.draft){
+        h += `<div class="tl-todo" style="width:100%">⛔ 本片还没有任何成片 —— 待生成</div>`;
+      }
+      h += `</div>`;
+    }
+    // 操作按钮（待完成/在跑的片给调整入口）
+    h += `<div class="tl-acts">`
+      + `<button onclick="event.stopPropagation();tlToggle(${x.seg})">${on?'收起':'详情'}</button>`;
+    if(x.status==='running')
+      h += `<button class="danger" onclick="event.stopPropagation();tlPause(${x.seg})">暂停本片</button>`;
+    if(x.status==='pending')
+      h += `<button onclick="event.stopPropagation();tlTop(${x.seg})">提到最前</button>`
+        +  `<button onclick="event.stopPropagation();tlBottom(${x.seg})">挪到最后</button>`;
+    if(x.status==='hold' || (x.draft && !x.video))
+      h += `<button class="go" onclick="event.stopPropagation();tlUp(${x.seg})">升高清</button>`
+        +  `<button class="danger" onclick="event.stopPropagation();tlRe(${x.seg})">重跑低清</button>`;
+    h += `</div></div></div>`;
+  });
+  h += '</div>';
+  el.innerHTML = h;
+  // 点击整行 → 选中该片（联动左侧预览器）
+  el.querySelectorAll('.tlrow').forEach(r=>{
+    r.onclick = ()=>{ sel = +r.dataset.s; render(); };
+  });
+}
+function tlToggle(s){ tlDetail[s]=!tlDetail[s]; render(); }
+async function tlPause(s){
+  const d = await post('/api/rerun',{seg:s, why:'网页时间线：暂停本片（转回队列重排）'});
+  log(`[片${s} 暂停] ${d.out||''}`); load();
+}
+async function tlTop(s){
+  const c = S.segments.find(x=>x.seg===s).chain;
+  const d = await post('/api/resume',{chain:c, why:`网页时间线：把片${s}所在链${c}提到最前`});
+  log(`[链${c} 插到最前] ${d.out||''}`); load();
+}
+async function tlBottom(s){
+  log('提示：队列按链号顺序跑；把后面的链先跑完，这片自然排到最后。已展开队列详情。');
+  tlDetail[s]=true; render();
+}
+async function tlUp(s){
+  const d = await post('/api/promote',{seg:s});
+  log(`[片${s} 升高清] ${d.out||''}`); load();
+}
+async function tlRe(s){
+  const d = await post('/api/rerun',{seg:s, why:'网页时间线：重跑低清'});
+  log(`[片${s} 重跑低清] ${d.out||''}`); load();
+}
+function showPrompt(s){
+  sel = s; render();
+  switchTab('prompt');
+  document.getElementById('stage').scrollIntoView({behavior:'smooth'});
+}
+
+function node(x){
+  const st = ST[x.status]||{t:x.status,c:'#888'};
+  const f = [];
+  f.push(`<span class="flag">${x.kind==='fixed'?'重新起画面':'续接上一段'}</span>`);
+  // ⛔ 阶段标记：一眼看出这片是只有低清预览、还是已有终版
+  if(x.draft && !x.video)
+    f.push(`<span class="flag warn">仅预出片</span>`);
+  else if(x.draft && x.video)
+    f.push(`<span class="flag ok">预览+终版</span>`);
+  // ⛔ 正在跑的片必须标低清/高清（用户 2026-10-10 10:16 要求）
+  if(x.status==='running'){
+    if(x.stage==='preview') f.push(`<span class="flag warn">GPU正在跑：低清预出片</span>`);
+    else f.push(`<span class="flag ok">GPU正在跑：高清终版</span>`);
+  }
+  else if(x.stage==='preview' && x.status==='hold')
+    f.push(`<span class="flag warn">预出片待确认</span>`);
+  if(x.approved) f.push(`<span class="flag ok">你已认可</span>`);
+  if(x.video && x.video.stale) f.push(`<span class="flag warn">旧片 ${x.video.mtime}</span>`);
+  else if(x.video) f.push(`<span class="flag">${x.video.size_mb}MB</span>`);
+  if(x.status==='done' && !x.video) f.push(`<span class="flag warn">成片丢失</span>`);
+  if(x.history && x.history.length) f.push(`<span class="flag warn">重排${x.history.length}次</span>`);
+  return `<div class="seg ${x.status}" data-s="${x.seg}" style="cursor:pointer">
+    <div class="seg-h"><span class="no">片 ${x.seg}</span>
+      <span class="st" style="color:${st.c}">${x.status==='running'?'<i class="spin"></i> ':''}${st.t}</span></div>
+    <div class="meta"><span>链${x.chain}·第${x.pos}片</span><span>${x.words||'?'}词</span></div>
+    <div class="flags">${f.join('')}</div>
+  </div>`;
+}
+
+function log(s){
+  const el = $('#log');
+  el.textContent = s + '\n' + el.textContent.split('\n').slice(0,40).join('\n');
+}
+
+async function post(p, body){
+  const r = await fetch(p,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  return r.json();
+}
+
+$('#bPause').onclick = ()=>{
+  paused = !paused;
+  $('#bPause').textContent = paused ? '继续刷新' : '暂停刷新';
+  $('#bPause').className = paused ? 'go' : '';
+  if(paused){
+    if(timer){ clearInterval(timer); timer = null; }
+    $('#liveTx').textContent = '已暂停刷新';
+    log('刷新已暂停 —— 可以安心看片。点「继续刷新」恢复。');
+  }else{
+    load();
+    timer = setInterval(load, 3000);
+    log('刷新已恢复（每 3 秒）。');
+  }
+};
+
+$('#bRej').onclick = async ()=>{
+  if(!sel) return;
+  const why = $('#why').value.trim() || '网页否定';
+  const d = await post('/api/reject',{seg:sel, why});
+  log(`[否定片${sel}] ${d.out||''}`);
+  $('#why').value='';
+  // ⛔ 指令后**立刻**拉一次状态，不用干等下一个 3 秒 tick。
+  //   但**不动播放器** —— render() 里 src 没变就不碰 <video>。
+  load();
+};
+$('#bResume').onclick = async ()=>{
+  if(!sel) return;
+  const c = S.segments.find(x=>x.seg===sel).chain;
+  const d = await post('/api/resume',{chain:c, why:'网页插队重排'});
+  log(`[插队链${c}] ${d.out||''}`);
+  load();
+};
+$('#bOk').onclick = async ()=>{
+  if(!sel) return;
+  const d = await post('/api/approve',{seg:sel});
+  log(`[认可片${sel}] ${d.out||''}`);
+  load();
+};
+
+$('#bPf').onclick = async ()=>{
+  if(!sel) return;
+  const d = await post('/api/preflight',{seg:sel});
+  log(`[片${sel} 转预出片] ${d.out||''}`);
+  load();
+};
+// ⛔ 2026-10-10 用户铁律：重跑=低清。一键「否定+转低清重排」。
+$('#bRerun').onclick = async ()=>{
+  if(!sel) return;
+  const why = $('#why').value.trim() || '网页点「重跑低清」';
+  const d = await post('/api/rerun',{seg:sel, why});
+  log(`[片${sel} 重跑低清] ${d.out||''}`);
+  $('#why').value='';
+  load();
+};
+$('#bUp').onclick = async ()=>{
+  if(!sel) return;
+  const d = await post('/api/promote',{seg:sel});
+  log(`[片${sel} 升高清] ${d.out||''}`);
+  load();
+};
+
+// 预览/终版源切换
+document.addEventListener('click', e=>{
+  const b = e.target.closest('.srcb');
+  if(b){ srcMode[sel] = b.dataset.m; lastVsrc = null; render(); }
+});
+
+document.addEventListener('click', e=>{
+  const n = e.target.closest('.seg');
+  if(n){ sel = +n.dataset.s; render(); }
+});
+
+// ⛔⛔⛔ 只要用户碰了播放器（播放/拖进度条/全屏），自动暂停刷新。
+//   否则 3 秒一次的重载会把他正在看的那一帧抽走 —— 根本没法看片。
+//   这条比「暂停按钮」重要：人一定会先点播放，不会先找按钮。
+document.addEventListener('play',  e=>{ if(e.target.id==='vd') autoPause(); }, true);
+document.addEventListener('seeking', e=>{ if(e.target.id==='vd') autoPause(); }, true);
+document.addEventListener('pointerdown', e=>{
+  const v = e.target.closest && e.target.closest('video');
+  if(v && v.id==='vd') autoPause();
+}, true);
+
+function autoPause(){
+  if(paused) return;
+  paused = true;
+  if(timer){ clearInterval(timer); timer = null; }
+  const b = $('#bPause');
+  if(b){ b.textContent='继续刷新'; b.className='go'; }
+  $('#liveTx').textContent = '看片中 · 刷新已停';
+  log('检测到你在看片 → 刷新已自动暂停，不会再打断你。');
+}
+
+load();
+timer = setInterval(load, 3000);
+</script>
+</body>
+</html>

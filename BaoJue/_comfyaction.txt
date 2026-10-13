@@ -1,0 +1,1 @@
+cmd.exe ||| /c ""E:\ComfyUI\ComfyUI-master\ComfyUI-master\venv\Scripts\python.exe" "E:\ComfyUI\ComfyUI-master\ComfyUI-master\main.py" --lowvram --enable-triton-backend --output-directory "D:\output" --temp-directory "D:\ComfyUI_out\ComfyUI-master\temp" > "E:\LLM\try\minidrama\保洁\logs\comfyui_task.log" 2>&1" ||| 

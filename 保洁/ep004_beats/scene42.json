@@ -1,0 +1,668 @@
+[
+ {
+  "id": "ep04_t21",
+  "scene": "4-2",
+  "title": "长条会议桌",
+  "refs": [
+   "office_pano"
+  ],
+  "retention": {
+   "office_pano": "weak_reference"
+  },
+  "summary": "Opening wide from inside the office door: a long conference table runs away along the depth axis with its long side to the camera, a stack of claim forms and a telephone on it, filing cabinets along the far wall and a venetian blind letting bright mid-morning light in; nobody in the frame.",
+  "shots": "Entry state, re-anchored to the reference images: the property office of 景宸大厦 on a bright mid-morning, seen from inside the door looking in; the long conference table runs away along the depth axis with its long side to the camera, a stack of claim forms and a telephone lying on it; filing cabinets along the far wall, a venetian blind at the side with the ceiling lights on; the office is empty of people.\n[Shot 1] Wide from inside the door down the length of the room: the long conference table runs away along the depth axis with its long side to the camera, a neat stack of claim forms and a telephone sitting on it; filing cabinets line the far wall and a venetian blind lets bright mid-morning light in across the floor, the ceiling lights on, the whole room open and clean; the table top and the floor tiles fill the bottom third.\n[Shot 2] At 00:06.000, The same office held a moment longer, the blind's light lying in clean bands across the table and the floor, the stack of forms square to the lens, the room empty and evenly lit from edge to edge.",
+  "soundscape": "The building's daytime air, the telephone sitting untouched on the table, paper settling, a lift somewhere far off.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t22",
+  "scene": "4-2",
+  "title": "她推门进来",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) comes through the door and stops at the near end of the long table with her back to the door, facing the far end where 钱经理 (S3) is waiting; a work badge is clipped to her chest.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) has just come through the door at the NEAR end of the office; 钱经理 (S3) stands at the FAR end of the long table with his hands empty, facing the near end.\n[Shot 1] Medium from the door: 苏小满 (S1) steps in and stops at the NEAR end of the long table, her back to the door and her face to the far end; navy work shirt, grey-blue apron, low ponytail, and a work badge clipped to her chest; her hands hang at her sides.\n[Shot 2] At 00:04.800, Reverse towards the far end: 钱经理 (S3) in a white shirt and dark grey waistcoat stands behind the long table backed by the filing cabinets, facing her, both hands still empty, waiting; the morning light from the blind falls across the table between them.",
+  "soundscape": "The door swinging shut behind her, her flat shoes on the tile, the office's daytime quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t23",
+  "scene": "4-2",
+  "title": "他迎上两步",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) comes round the far end of the table towards her and tears the work badge off her chest in one movement; her shoulder twists aside and she has no time to stop him.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table with the badge on her chest; 钱经理 (S3) moving towards her from the far end, both hands rising.\n[Shot 1] Medium along the table's depth axis: 钱经理 (S3) comes round the far end of the table towards the near end and in one movement tears the work badge off 苏小满 (S1)'s chest; her shoulder is twisted aside by the pull and her hand starts up too late to stop it.\n[Shot 2] At 00:05.200, Tighter on the two of them: the badge is clear of her chest and in his hand, her uniform front slightly rumpled where it was clipped, and both of them are lit evenly from the ceiling lights with the blind's bands on the table behind.",
+  "soundscape": "The badge's clip snapping off the cloth, his quick footsteps on the tile, her coat and apron shifting.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t24",
+  "scene": "4-2",
+  "title": "啪地拍在桌上",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on the table: he swings back and slaps the badge face-up onto the table top, where it rocks once and settles; her hands stay empty at her sides.",
+  "shots": "Entry state, re-anchored to the reference images: the badge in 钱经理 (S3)'s hand above the long table; 苏小满 (S1) at the near end with her hands empty at her sides.\n[Shot 1] Close on the long table: the work badge comes down flat onto the table top face-up and rocks once before settling, its clip bouncing; the top two thirds are his hand withdrawing and the badge, the bottom third the table's wooden edge and the floor beyond.\n[Shot 2] At 00:04.600, Low angle along the table top: the badge lies still face-up under the ceiling light, the stack of claim forms a short distance behind it, and at the near edge of frame the girl's hands hang open and do not reach for it.",
+  "soundscape": "The badge slapping the table and its clip ringing, his palm coming down on the wood, the room's daytime quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t25",
+  "scene": "4-2",
+  "title": "你不用来了",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) keeps one hand beside the badge he has just slapped down, lifts his chin towards her and says, loudly, that from today she is not to come in again.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) still at the NEAR side of the long table where he came round to her, one hand flat on the wood beside the work badge he has just slapped down; 苏小满 (S1) at the NEAR end facing him, hands at her sides, the badge face-up on the wood between them.\n[Shot 1] Medium on 钱经理 (S3) at the near side: one hand stays flat on the table beside the badge he has just slapped down, his chin lifts towards the near end and he calls out, loud and open, [Chinese] 苏小满。从今天起，你不用来了。\n[Shot 2] At 00:05.400, Closer on him as the line lands: his mouth stays open a fraction afterwards, his eyes fixed down the table at her, and the morning light from the blind lies in bands across his white shirt and the badge lying beside his hand.",
+  "soundscape": "His voice carrying across the room, the badge's clip still ringing faintly, the blind's light on the wall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t26",
+  "scene": "4-2",
+  "title": "为什么",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Reverse on 苏小满 (S1): she looks down at the badge on the table, then lifts her eyes back to him and gives him three words, quiet and completely level.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table facing him, her hands at her sides; the badge lies on the table between them.\n[Shot 1] Reverse medium on 苏小满 (S1) from the far end of the table: she looks down at the badge lying on the table top, then lifts her eyes back up to him and says, not raising her voice at all, [Chinese] 为什么。\n[Shot 2] At 00:03.600, Closer on her face: the look she gives him is level and unhurried, her jaw set, her hands still down; the ceiling light keeps her whole face open, with soft even shading under the eyes and the chin.",
+  "soundscape": "Her low steady slightly hoarse voice, the room's quiet, a paper edge rustling on the table.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t27",
+  "scene": "4-2",
+  "title": "大厦不敢留",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) gives a cold laugh and spreads one hand flat on the table as he tells her someone upstairs has passed word down and the building dares not keep her on.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the far end of the long table; 苏小满 (S1) at the near end facing him; the badge between them on the table.\n[Shot 1] Medium on 钱经理 (S3): he gives a cold laugh and spreads one hand flat on the table top as he says, [Chinese] 上面递了话。你这号人，大厦不敢留。\n[Shot 2] At 00:06.000, Closer on him as he finishes: the spread hand stays on the wood, his eyes narrow down the table, and the morning bands from the blind lie across his forearm; the room stays bright and evenly lit around him.",
+  "soundscape": "His short cold laugh, his palm sliding on the table, the building's daytime air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t28",
+  "scene": "4-2",
+  "title": "你想擦哪层擦哪层",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1)'s jaw sets for a moment but she does not get angry, and she takes it back steadily, reminding him that only days ago he told her she could clean whichever floor she liked.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table facing 钱经理 (S3) at the far end.\n[Shot 1] Reverse medium on 苏小满 (S1): her jaw sets for a moment but she does not raise her voice or lose her footing, and she says steadily, [Chinese] 前几天，你还说我想擦哪层擦哪层。\n[Shot 2] At 00:05.400, Closer as the line ends: she holds his eye across the whole length of the table, her shoulders square, the apron's waist tie still; across the table he has gone a fraction still, the badge untouched beside his hand.",
+  "soundscape": "Her steady low voice, the room's quiet, the blind's light shifting a little as clouds pass outside.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t29",
+  "scene": "4-2",
+  "title": "前几天是前几天",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) comes round the near side of the long table, leans half a pace in towards her and drops his voice as he says that before is before, and that he has heard things.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) moving from the far end of the long table round to its near side, leaning towards 苏小满 (S1); she stays at the near end facing him.\n[Shot 1] Medium along the table's depth axis: 钱经理 (S3) comes round from the far end of the long table to its near side, leans half a pace in towards 苏小满 (S1) and drops his voice as he says, [Chinese] 前几天是前几天。我可听说了。\n[Shot 2] At 00:05.600, Tighter on the two of them, him nearer the lens and her just behind: he keeps his weight forward, she does not step back, and the ceiling light and the blind's bands keep both their faces open and readable at this short range.",
+  "soundscape": "His lowered voice close to her, his shoes scraping a half step on the tile, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t30",
+  "scene": "4-2",
+  "title": "雇来演戏的",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) squeezes his eyes to two slits and goes on, low in the throat, that she is somebody's hired actress, hired to play a part.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) leaning in at the near side of the long table; 苏小满 (S1) just behind him in the near half of frame.\n[Shot 1] Close on 钱经理 (S3) leaning in: his eyes squeeze down to two slits and he goes on in a low pressed voice, [Chinese] 你就是人家花钱雇的。雇来演戏的。\n[Shot 2] At 00:05.600, Over his shoulder towards 苏小满 (S1): she has not stepped back and has not moved her head; her face is fully lit and completely level, and she is looking straight at him while he occupies the near foreground.",
+  "soundscape": "His pressed low voice, the room's air, a distant lift stopping somewhere in the building.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t31",
+  "scene": "4-2",
+  "title": "眼神沉了一下",
+  "refs": [
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on 苏小满 (S1)'s eyes: her gaze sinks a little, her lashes do not tremble and her mouth does not move, only her pupils draw up very slightly.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table, facing 钱经理 (S3) who is just off the near foreground.\n[Shot 1] Close on 苏小满 (S1)'s eyes: her gaze sinks a little, her lashes do not tremble, the corners of her mouth do not move, and only her pupils draw up very slightly; the ceiling light puts a soft even wash across her brow and cheekbone, the shading under them soft and open.\n[Shot 2] At 00:05.000, The same close held a beat longer, her eyes steady in the middle distance; around her the office stays bright and even, the blind's light bands soft on the wall behind her.",
+  "soundscape": "Her steady breathing, the room's quiet, a faint paper rustle off to the side.",
+  "music": "A single low string note, sustained under the hold."
+ },
+ {
+  "id": "ep04_t32",
+  "scene": "4-2",
+  "title": "真凤凰",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) clicks his tongue, shakes his head and fans a hand in front of his nose as he sneers about a real phoenix landing in their building's pool.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the near side of the long table; 苏小满 (S1) behind him in the near half of frame.\n[Shot 1] Medium on 钱经理 (S3): he clicks his tongue, shakes his head and fans one hand in front of his nose as he says, [Chinese] 我说呢。真凤凰，能落我们大厦的池子？\n[Shot 2] At 00:05.800, Closer as the sneer finishes: his fanning hand drops to the table edge, his head tilted, and the light from the blind and the ceiling fixtures keeps the whole front of his face readable and soft rather than harsh.",
+  "soundscape": "His tongue clicking, the fan of his hand, the office's daytime air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t33",
+  "scene": "4-2",
+  "title": "身后的几声低笑",
+  "refs": [
+   "suxiaoman",
+   "xiaotang",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "xiaotang": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "The camera turns past 苏小满 (S1)'s shoulder to the colleagues crowded a step behind her and nearer the door; several low laughs come from the nearest of them.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table with her back to the door; behind her and nearer the lens a few colleagues stand staggered in depth; 钱经理 (S3) at the near side of the table.\n[Shot 1] Medium turning past 苏小满 (S1)'s shoulder towards the door end: a few of her colleagues stand staggered in depth behind her and nearer the lens, several of them laughing low; 小唐 (S4) is among them, in a cleaning uniform, shoulders hunched, one hand over her mouth.\n[Shot 2] At 00:05.200, The camera settles on the group: the laughter is coming from the nearest of them, faces split between light and turn, and in the near foreground 苏小满 (S1)'s shoulder and the back of her head stay steady and still.",
+  "soundscape": "Several low laughs close to the lens, a shoulder shaking, the office's quiet underneath them.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t34",
+  "scene": "4-2",
+  "title": "小唐笑得最响",
+  "refs": [
+   "xiaotang",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "xiaotang": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on 小唐 (S4) laughing hardest with her hand over her mouth, her shoulders shaking, her eyes sliding off towards the others.",
+  "shots": "Entry state, re-anchored to the reference images: 小唐 (S4) standing behind 苏小满 (S1) and nearer the door, in a cleaning uniform, shoulders hunched, one hand over her mouth.\n[Shot 1] Close on 小唐 (S4): a small woman in a cleaning uniform with her shoulders hunched, laughing hardest of anyone with one hand clamped over her mouth, her shoulders shaking, her eyes sliding sideways towards the others in the group; the ceiling light is even on her whole face.\n[Shot 2] At 00:05.000, The same close held as her laugh peaks and starts to break: her eyes flick once towards 苏小满 (S1) just off frame and back to the others, and her hand stays over her mouth.",
+  "soundscape": "Her muffled laughing, the group behind her catching it, the office's air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t35",
+  "scene": "4-2",
+  "title": "目光扫过那叠单",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "The camera comes back to 苏小满 (S1): her gaze does not go to the badge on the table but sweeps across the stack of claim forms lying on it.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table; the badge and the stack of claim forms on the table between her and 钱经理 (S3).\n[Shot 1] Medium on 苏小满 (S1) at the near end of the table: her gaze does not settle on the badge lying face-up on the table but sweeps across the stack of claim forms beside it, and she does not reach for either.\n[Shot 2] At 00:05.000, Closer on her eyes tracking along the stack: her head turns very slightly with the movement, her hands stay down at her sides, and the ceiling light keeps her face open as her eyes come to rest.",
+  "soundscape": "Her low breathing, a page lifting slightly in the air from the blind, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t36",
+  "scene": "4-2",
+  "title": "三万六",
+  "refs": [
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "The camera presses down onto the stack of claim forms: the top sheet's printed columns are clear, its top line naming a third-floor carpet replacement at thirty-six thousand.",
+  "shots": "Entry state, re-anchored to the reference images: the stack of claim forms on the long table, with 苏小满 (S1)'s hand just out of frame at the near edge.\n[Shot 1] High angle pressing down onto the stack of claim forms: the top sheet's printed columns run across the page in neat rows and its top line names a third-floor carpet replacement at thirty-six thousand; the top two thirds of frame are the paper and the table's wooden edge, the bottom third the table surface out of focus.\n[Shot 2] At 00:05.400, Tighter on the same sheet, the paper's fibre and the printed ruling sharp, the ceiling light laying a clean even wash across it with no shadow gathering in the folds.",
+  "soundscape": "Paper settling on the table, her fingers lightly grazing the sheet's edge, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t37",
+  "scene": "4-2",
+  "title": "上个月换三楼地毯",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) straightens up, takes the thread and tells 钱经理 (S3) that the third-floor carpet was replaced last month, her eyes coming up from the form to his face.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table; the stack of claim forms in front of her; 钱经理 (S3) at the far end.\n[Shot 1] Medium on 苏小满 (S1): she straightens up from the table and takes the thread, her eyes coming up from the claim form to 钱经理 (S3)'s face across the length of the table as she says, [Chinese] 钱经理，上个月换三楼地毯。\n[Shot 2] At 00:04.800, Closer on her as she holds his eye across the table: her voice is level and slower than before, her hands rest on the table edge now, and the office stays bright around the two of them.",
+  "soundscape": "Her steady low voice, the room's quiet, a distant lift chime.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t38",
+  "scene": "4-2",
+  "title": "只有两卷样品",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Over 钱经理 (S3)'s shoulder: 苏小满 (S1) sets one hand lightly on the table edge, not touching the badge, and lays the count out one clause at a time.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) in the near foreground; 苏小满 (S1) behind him at the near end of the long table with one hand on the table edge.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground and 苏小满 (S1) behind him: she sets one hand lightly on the table's edge, well away from the badge, looks straight at him and says, [Chinese] 运上楼的，只有两卷样品。那天我值夜班，数过。\n[Shot 2] At 00:06.400, Closer on her over his shoulder as the line finishes: her hand stays flat on the wood, her eyes never leave him, and the ceiling light holds her face even and open while his shoulder occupies the near edge of frame.",
+  "soundscape": "Her hand sliding onto the table edge, her low voice, the office's daytime quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t39",
+  "scene": "4-2",
+  "title": "你胡说什么",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3)'s face changes, the hand he had on the table edge pulls back, he glances at the people behind her and only then pushes the words back at her.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the near side of the long table, 苏小满 (S1) at the near end facing him; the colleagues behind her and nearer the door.\n[Shot 1] Medium on 钱经理 (S3): his face changes, the hand that was on the table edge pulls back, he glances once over 苏小满 (S1)'s shoulder at the colleagues behind her, and only then pushes the words back, [Chinese] 你胡说什么。\n[Shot 2] At 00:05.000, Closer on him: the pulled-back hand grips the table edge again, his eyes come forward to her face, and the light from the blind and the ceiling fixtures keeps his whole front readable with soft open shadows.",
+  "soundscape": "His chair scraping a half step, his voice pitched higher, the room's quiet behind him.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t40",
+  "scene": "4-2",
+  "title": "差着六位",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) does not take the bait; she points one finger beside the serial-number column on the form and slows her delivery as she tells him the sample numbers and the batch numbers differ by six digits.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table with one finger beside the form's serial column; 钱经理 (S3) in the near foreground.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground: 苏小满 (S1) does not take the bait; she sets one fingertip down beside the serial-number column on the claim form and slows her delivery as she says, [Chinese] 样品编号，和报销单上的批次，差着六位。\n[Shot 2] At 00:06.000, Closer on her hand and the page: her fingertip stays planted beside the printed column, the paper's ruling running away under her finger, and her face above it stays level and unhurried.",
+  "soundscape": "Her fingertip on the paper, her low steady voice, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t41",
+  "scene": "4-2",
+  "title": "单子在废纸桶里",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) adds the last of it, her voice low and every word landing, still looking at the form: the rest of the goods came in through a back door, and the paperwork was in the waste paper bin, three times.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table, fingertip still by the form's serial column; 钱经理 (S3) in the near foreground with his back partly to the lens.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground and 苏小满 (S1) behind him: she adds the last of it, her voice low and every word landing, her eyes still on the claim form rather than on him, [Chinese] 剩下的货从哪个后门进的，单子在废纸桶里，我收过三回。\n[Shot 2] At 00:07.000, Closer on her as the line ends: her fingertip is still beside the printed column, her shoulders square, and the ceiling light keeps her face and the paper evenly lit together.",
+  "soundscape": "Her low voice, a page edge lifting slightly, the room's quiet settling after the line.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t42",
+  "scene": "4-2",
+  "title": "他额头冒汗",
+  "refs": [
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on 钱经理 (S3): a thin sweat breaks across his forehead; he lifts a hand to wipe it, then seems to think better of it and lets the hand fall.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the near side of the long table, facing 苏小满 (S1) who is off the near frame.\n[Shot 1] Close on 钱经理 (S3): a thin sheen of sweat breaks across his forehead and temple; he lifts one hand to wipe it, then seems to think better of it and lets the hand fall away again; the ceiling light picks the sheen out on his skin without darkening the rest of his face.\n[Shot 2] At 00:05.400, The same close held: the sweat stays on his forehead, his dropped hand grips the table edge just out of frame, and his eyes come up towards the near end where she is standing.",
+  "soundscape": "His breathing slightly faster, his hand leaving the table edge, the office's air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t43",
+  "scene": "4-2",
+  "title": "你想干什么",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) brings his voice down to where only she can hear it, leans in towards her and asks, with his eyes on her, what she thinks she is doing.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the near side of the long table leaning towards 苏小满 (S1) at the near end.\n[Shot 1] Medium close on 钱经理 (S3) leaning in: he brings his voice right down to where only she can hear it and asks, his eyes locked on her, [Chinese] 你想干什么？\n[Shot 2] At 00:03.800, Closer on his face as the question hangs: his mouth stays slightly open, the sweat still on his forehead, and the two of them are lit evenly from the front with the office bright around them.",
+  "soundscape": "His dropped voice, his breath close to her, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t44",
+  "scene": "4-2",
+  "title": "我就问一句",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) does not step back; she answers in a completely level tone, as if discussing the most ordinary thing in the world.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table facing 钱经理 (S3) at the near side.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground: 苏小满 (S1) does not step back and answers in a completely level tone, as if discussing the most ordinary thing in the world, [Chinese] 我不想干什么。我就问一句。\n[Shot 2] At 00:04.600, Closer on her over his shoulder: her face is calm and her eyes stay on him, her hands down at her sides, and the ceiling light holds her evenly with no shadow gathering under her cheekbones.",
+  "soundscape": "Her level low voice, the room's quiet, his breath held.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t45",
+  "scene": "4-2",
+  "title": "谁让你去打的招呼",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) says the next one very slowly, each word a step forward, her gaze dropping straight onto 钱经理 (S3)'s face as she asks who it was that told him to pull strings about her grandmother's bed.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table; 钱经理 (S3) in the near foreground.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground: 苏小满 (S1) puts the next one out very slowly, each word a step forward, her gaze dropping straight onto his face as she says, [Chinese] 我外婆那张床位，是谁让你去打的招呼。\n[Shot 2] At 00:06.000, Closer on her as the question closes: her chin is level, her eyes do not move off him, and the office behind her stays bright and even, the blind's light soft on the far wall.",
+  "soundscape": "Her slow low voice, the room's air holding after it, his uneven breath.",
+  "music": "A low string entry, settling low and holding."
+ },
+ {
+  "id": "ep04_t46",
+  "scene": "4-2",
+  "title": "那不是我的主意",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) goes rigid; his mouth moves once before the words arrive, and the fingers he has on the table edge curl in.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the near side of the long table, 苏小满 (S1) at the near end facing him.\n[Shot 1] Medium close on 钱经理 (S3): he goes rigid, his mouth moves once and does not immediately produce anything, the fingers he has on the table edge curl in, and then he says, [Chinese] ……那不是我的主意。\n[Shot 2] At 00:04.000, Closer on his face: the sweat is still there, his eyes come up to hers and then slide off, and the front of his face stays evenly lit so that the hesitation is fully visible.",
+  "soundscape": "His stalled voice, the room's quiet, a faint paper rustle.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t47",
+  "scene": "4-2",
+  "title": "我知道不是你的主意",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) nods once, with no weight of accusation in it at all.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table facing 钱经理 (S3) in the near foreground.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground: 苏小满 (S1) gives one small nod, with no weight of accusation in it at all, and says, [Chinese] 我知道不是你的主意。\n[Shot 2] At 00:03.400, Closer on her as she lifts her chin again: the nod leaves her face calm, her hands stay down, and the ceiling light keeps her features soft and open.",
+  "soundscape": "Her level low voice, the room's quiet, his breath.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t48",
+  "scene": "4-2",
+  "title": "你替我带句话",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) draws the words in a notch and her voice drops lower but stays solid, telling him to pass on a message about what will happen if her grandmother loses that bed.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table; 钱经理 (S3) in the near foreground with his back partly to the lens.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground: 苏小满 (S1) draws the words in a notch and her voice drops lower but stays solid as she says, [Chinese] 你替我带句话。我外婆要因为谁没了床位，出个三长两短。\n[Shot 2] At 00:07.200, Closer on her as the line closes: her eyes stay on him, her jaw set, the whole office behind her bright and readable, and nothing in her face rises above the line of what she is saying.",
+  "soundscape": "Her low steady voice, the room's air, a distant lift starting.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t49",
+  "scene": "4-2",
+  "title": "一页一页翻出来",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "苏小满 (S1) delivers the last of it very steadily, her chin pushing forward a fraction — the first time in the scene she names what she intends to do.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table facing 钱经理 (S3) in the near foreground.\n[Shot 1] Over-shoulder with 钱经理 (S3) in the near foreground: 苏小满 (S1) delivers the last of it very steadily, her chin pushing forward a fraction, the first time she has named what she means to do, [Chinese] 我这辈子啥都不干，就干一件事。把你们这笔账，一页一页，翻出来。\n[Shot 2] At 00:07.600, Closer on her as the line ends: her chin stays forward, her eyes do not move, and the office stays bright and even around her with the blind's bands soft on the wall.",
+  "soundscape": "Her low unhurried voice, the room's quiet holding it, a page settling on the table.",
+  "music": "A low string entry, sustained and unresolved."
+ },
+ {
+  "id": "ep04_t50",
+  "scene": "4-2",
+  "title": "工牌回兜里",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on her hand and the table: she moves her hand off the edge onto the badge, picks it up, puts it into her own pocket and presses the pocket flat, all while telling him her pay runs to the end of the month and she has an attendance record every day.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1)'s hand moving from the table edge onto the badge; 钱经理 (S3) out of frame at the far side of the table.\n[Shot 1] Close on 苏小满 (S1)'s hand and the table top: her hand comes off the edge onto the badge lying face-up, picks it up and goes down into her own apron pocket, then presses the pocket flat; the top two thirds are her hand, the badge and the table's wooden edge, the bottom third the table and floor beyond; she says as she does it, [Chinese] 工资结到月底。我每天有出勤记录。\n[Shot 2] At 00:05.600, The same close after the pocket is pressed flat: the badge is gone from the table, a clean ring of unshadowed wood is left where it lay, and her hand comes away and drops to her side at the near edge of frame.",
+  "soundscape": "The badge's clip brushing the apron, her low voice, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t51",
+  "scene": "4-2",
+  "title": "她转身出门",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Medium: 苏小满 (S1) finishes, turns away from 钱经理 (S3) with her back to him and walks towards the door at the near end, not once looking back at the stack of claim forms.",
+  "shots": "Entry state, re-anchored to the reference images: 苏小满 (S1) at the near end of the long table, having just put the badge in her pocket; 钱经理 (S3) at the near side of the table.\n[Shot 1] Medium from the table's far side: 苏小满 (S1) finishes what she is saying, turns away from 钱经理 (S3) so that her back is to him and walks towards the door at the near end; she does not look back at the stack of claim forms even once.\n[Shot 2] At 00:05.200, Closer from behind as she reaches the door: her hand goes to the handle, her shoulders stay square and unhurried, and the office behind her stays bright, with the badge's clean ring still visible on the table.",
+  "soundscape": "Her flat shoes walking away, the room's quiet, his breath behind her.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t52",
+  "scene": "4-2",
+  "title": "门在身后关上",
+  "refs": [
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on the door: she goes out through it and it closes behind her, cutting off the last strip of corridor daylight; the room is left with 钱经理 (S3) alone beside the table.",
+  "shots": "Entry state, re-anchored to the reference images: the door at the NEAR end of the office, closing behind 苏小满 (S1); 钱经理 (S3) in the room.\n[Shot 1] Close on the door at the near end of the office: it swings closed behind 苏小满 (S1) and the handle settles; the last strip of corridor daylight narrows to a line and is gone, leaving the office lit only by its own ceiling lights and the blind; the bottom third is the door's lower panel and the floor in front of it.\n[Shot 2] At 00:05.000, The closed door held for a beat: the handle stills, the room beyond it stays bright and even, and the door's flat panel takes a soft vertical band of light down its middle.",
+  "soundscape": "The door's latch clicking home, her footsteps receding on the other side, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t53",
+  "scene": "4-2",
+  "title": "他盯着门",
+  "refs": [
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on 钱经理 (S3): he stares at the closed door for two seconds, his throat works once, and the smile will not stay on his face.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) alone in the office beside the long table, facing the closed door at the near end.\n[Shot 1] Close on 钱经理 (S3) alone: he stares at the closed door at the near end of the room for two seconds, his throat works once, and the smile he had will not stay where it was; the ceiling light is even on the whole front of his face so the change is fully readable.\n[Shot 2] At 00:05.400, The same close held: his eyes stay on the door, the sweat on his forehead has not dried, and behind him the bright office and the badge's clean ring on the table stay in soft focus.",
+  "soundscape": "The room's quiet, his uneven breath, a pipe ticking somewhere in the wall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t54",
+  "scene": "4-2",
+  "title": "喂，是我",
+  "refs": [
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "钱经理 (S3) snatches the telephone off the long table, turns his back on the door and speaks into it in a low voice, his eyes flicking towards the door as he talks.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) alone in the office at the near side of the long table, reaching for the telephone; the door closed at the near end behind him.\n[Shot 1] Medium close on 钱经理 (S3): he snatches the telephone off the long table, turns his back on the closed door and speaks into the receiver in a low voice, his eyes flicking towards the door as he talks, [Chinese] 喂，是我。那个苏小满，今天来闹了一场。地毯那笔账，她知道。\n[Shot 2] At 00:07.000, Closer on him as he finishes the line: the receiver is held hard to his ear, his eyes have gone back to the table, and the office stays bright and even around him with the blind's light lying across the wood.",
+  "soundscape": "The receiver picked up, his lowered voice down the line, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t55",
+  "scene": "4-2",
+  "title": "牌位空了一圈",
+  "refs": [
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Close on the table top: the stack of claim forms is still where it was, and where the badge lay there is now only a clean ring of unshadowed wood.",
+  "shots": "Entry state, re-anchored to the reference images: the long table top with the stack of claim forms on it and the badge gone; 钱经理 (S3) off frame holding the telephone.\n[Shot 1] Close on the long table top: the stack of claim forms lies where it has lain all along, the top sheet's printed columns undisturbed, and where the badge sat there is now only a clean ring of unshadowed wood; the top two thirds are paper and wood, the bottom third the table edge and floor out of focus.\n[Shot 2] At 00:05.400, The same close held a moment longer: the blind's light shifts one band across the papers, the empty ring stays clean, and nothing else on the table has been touched.",
+  "soundscape": "Paper settling, his lowered voice off frame down the telephone, the room's air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep04_t56",
+  "scene": "4-2",
+  "title": "目光落回那叠单",
+  "refs": [
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "qianjingli": "fully_preserved",
+   "office_pano": "weak_reference"
+  },
+  "summary": "Medium: 钱经理 (S3) stands with the receiver to his ear and his eyes drop back to the stack of claim forms on the table; the blind lays the mid-morning light across the desk in bands.",
+  "shots": "Entry state, re-anchored to the reference images: 钱经理 (S3) at the near side of the long table holding the receiver to his ear, the stack of claim forms in front of him.\n[Shot 1] Medium on 钱经理 (S3): he stands with the receiver to his ear and his eyes drop back down to the stack of claim forms on the table in front of him; the venetian blind lays the mid-morning light across the desk in clean bands and the ceiling lights keep his face and waistcoat fully readable.\n[Shot 2] At 00:06.000, Closer on his lowered eyes and the papers: the sweat has dried on his forehead, his jaw is set, and the room behind him stays open and bright with the closed door at the near end.",
+  "soundscape": "His voice off frame down the line, the blind's light on the paper, the room's quiet.",
+  "music": "A low string note, unsettled and holding."
+ }
+]

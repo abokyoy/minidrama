@@ -1,0 +1,282 @@
+[
+ {
+  "id": "ep01_t29",
+  "scene": "1-2",
+  "title": "他说，帮我办件事",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "She keeps telling it plainly, in a room where every sentence makes it worse for her.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the NEAR side of the desk with her back to the door, facing 钱经理 (S3), who stands on the FAR side of the desk, back to the window; the crowd still fills the LEFT doorway behind her.\n[Shot 1] Medium: 苏小满 (S1) goes on without pause, still with no gesture beyond one small open palm, speaking in low even Mandarin as if reading out a fact: [Chinese] 他说，请我帮他办件事。办完，给我一笔钱。\n[Shot 2] At 00:07.000, close on 钱经理 (S3) listening with his head tilted, the card held loosely at his side, mouth pursed.\n[Shot 3] At 00:08.800, the doorway crowd on the LEFT; two of them exchange a flat, disbelieving look, and 小唐 (S4) presses her lips together.\n[Shot 4] At 00:09.600, hold on 苏小满's (S1) calm face. Nobody else speaks.",
+  "soundscape": "Her low steady voice in a very quiet room, one suppressed laugh somewhere in the doorway, the ceiling lights, the clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t30",
+  "scene": "1-2",
+  "title": "他走的时候把卡留下",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "She explains why the card is in her pocket at all, still perfectly level; the crowd starts to enjoy it.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 钱经理 (S3) on the FAR side of the desk holding the card low; the crowd at the LEFT doorway.\n[Shot 1] Medium: 苏小满 (S1) keeps her eyes level with 钱经理 (S3) and finishes the thought in the same flat, unhurried Mandarin, one hand still at her side: [Chinese] 我没答应。他走的时候，把这张卡留下。\n[Shot 2] At 00:06.600, close on 钱经理 (S3); he lets out a short breath through his nose that is not quite a laugh.\n[Shot 3] At 00:08.200, the watching faces in the LEFT doorway: one woman covers her mouth, a man folds his arms and shakes his head slowly.\n[Shot 4] At 00:09.400, wide of the room. She is alone on her side of the desk and does not look at any of them. She says nothing more in this beat.",
+  "soundscape": "Her even voice, a soft collective snort from the doorway, the room's hard flat acoustics, the clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t31",
+  "scene": "1-2",
+  "title": "今天出门急",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_close",
+   "office_mid"
+  ],
+  "retention": {
+   "office_close": "partially_preserved",
+   "office_mid": "partially_preserved"
+  },
+  "summary": "The longest single speech of the scene, delivered fast and flat; she explains how a card she never wanted came out of the house with her.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door, facing 钱经理 (S3) on the FAR side of the desk; the keys and the pen still on the desk, the folded paper form closed in her trouser pocket.\n[Shot 1] Close: 苏小满 (S1) speaks quickly but with no hurry in her face, in a low fluent Mandarin that runs the clauses together, her gaze steady on 钱经理 (S3): [Chinese] 本来搁在屋里的。今天出门急，东西一把揣兜里，带出来了。\n[Shot 2] At 00:06.000, insert: the desk surface — the keys and the pen in a row on the bare wood; the black card is still in his hand.\n[Shot 3] At 00:08.600, reverse onto 钱经理 (S3) and the crowd behind him; nobody is convinced, and the room has started to smile.\n[Shot 4] At 00:09.800, hold on her face. Nobody else speaks.",
+  "soundscape": "One fast low voice in a still room, paper shifting, a soft ripple of sniggering from the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t32",
+  "scene": "1-2",
+  "title": "我们这栋楼，就姓陆",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "He turns her story into the punchline of the day, slapping the card down and naming the building's owner out loud.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk with the card in his hand; 苏小满 (S1) on the near side of the desk facing him; the crowd at the LEFT doorway behind her.\n[Shot 1] Medium: 钱经理 (S3) holds the card up between two fingers and turns half away from her, addressing the room, speaking in a light mocking Mandarin: [Chinese] 姓陆的，找保洁办事？\n[Shot 2] At 00:06.000, he brings his arm down hard and slaps the card flat on the desk; closer on his face as he adds, with real contempt in it: [Chinese] 我们这栋楼，就姓陆。\n[Shot 3] At 00:09.000, wide: the card lying flat on the dark desk, the whole room looking at it, 苏小满 (S1) standing over it without moving.\n[Shot 4] At 00:09.600, hold. Nobody else speaks.",
+  "soundscape": "A mocking voice, the sharp crack of the card on wood, a scatter of laughter at the door, the fluorescent whine.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t33",
+  "scene": "1-2",
+  "title": "你怎么不编",
+  "refs": [
+   "qianjingli",
+   "xiaotang",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "office_pano": "fully_preserved"
+  },
+  "summary": "He escalates the mockery with a cruel joke, the room laughs out loud, and the pale witness pipes up from the wall.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands at the FAR side of the desk where the card lies flat; 苏小满 (S1) on the near side of the desk; 小唐 (S4) by the LEFT door; the crowd packed into the doorway.\n[Shot 1] Medium: 钱经理 (S3) spreads both hands in an exaggerated shrug toward the doorway crowd and delivers the punchline in a broad jeering Mandarin: [Chinese] 你怎么不编，说董事长请你吃饭。\n[Shot 2] At 00:06.200, wide on the doorway: the crowd laughs openly now, shoulders shaking, one man slapping the doorframe.\n[Shot 3] At 00:06.600, closer on 小唐 (S4) at the edge of the group, half-turned away, saying it under her breath in a thin quick Mandarin: [Chinese] 她编的。肯定是编的。\n[Shot 4] At 00:09.400, hold on 苏小满 (S1), still standing exactly as she was, saying nothing, eyes on the manager.",
+  "soundscape": "A broad jeering voice, real laughter breaking out in the doorway, someone slapping wood, then the noise thinning out again.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t34",
+  "scene": "1-2",
+  "title": "你从哪偷的",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_close",
+   "office_mid"
+  ],
+  "retention": {
+   "office_close": "fully_preserved",
+   "office_mid": "partially_preserved"
+  },
+  "summary": "He stops joking and puts the accusation on the table in plain words.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands at the FAR side of the desk with the card flat on it in front of him; 苏小满 (S1) on the near side of the desk; the crowd at the LEFT doorway.\n[Shot 1] Close: 钱经理 (S3) picks the card up off the desk again and turns its face toward her, speaking in a cold flat Mandarin with no smile left in it: [Chinese] 这东西，不是你的。\n[Shot 2] At 00:04.200, tighter on his face as he adds the next line, quieter and harder: [Chinese] 你从哪偷的。\n[Shot 3] At 00:06.500, reverse onto 苏小满 (S1): the card held up in the foreground of frame, her face behind it, absolutely still, eyes not dropping.\n[Shot 4] At 00:08.800, hold on her. She does not answer yet and nobody else speaks.",
+  "soundscape": "Two cold short phrases, the card tapping against his fingers, the doorway holding its breath, the ceiling lights.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t35",
+  "scene": "1-2",
+  "title": "我没偷",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "Two words from her, then the burden of proof dropped onto her shoulders in front of the whole building.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 钱经理 (S3) on the FAR side of the desk holding the card up; the crowd at the LEFT doorway.\n[Shot 1] Close: 苏小满 (S1) says it without heat, without pleading, in her ordinary low Mandarin: [Chinese] 我没偷。\n[Shot 2] At 00:03.600, close on 钱经理 (S3); he gives a small unimpressed nod and lays the trap out slowly, measured, phrase by phrase: [Chinese] 没偷。那你证明。证明它，是别人给你的。\n[Shot 3] At 00:09.400, wide of the whole room: 钱经理 (S3) lays the card flat down on the desk between the two of them, everyone waiting, the whole room rigid.\n[Shot 4] At 00:09.800, hold on 苏小满's (S1) face. Nobody else speaks.",
+  "soundscape": "A quiet denial, then a slow measured voice, then a room holding its breath, the wall clock and the lights.",
+  "music": "A single low piano note as the burden lands."
+ },
+ {
+  "id": "ep01_t36",
+  "scene": "1-2",
+  "title": "留了话",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "She hesitates, then lets slip that the man left a number — and the manager jumps on it.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk, facing 钱经理 (S3) with the card on the desk between them; the crowd at the LEFT doorway.\n[Shot 1] Close: 苏小满 (S1) has to make herself say it; she looks down at the desk for a beat, then up again, and starts low, with a real pause before the words: [Chinese] ……他走的时候，留了话。\n[Shot 2] At 00:05.200, she goes on, level again: [Chinese] 说有事，随时打那个电话。\n[Shot 3] At 00:08.600, close on 钱经理's (S3) face as his eyes actually light up; he straightens and takes half a pace closer, and says it fast and eager in a bright nasal Mandarin: [Chinese] 好啊。\n[Shot 4] At 00:09.400, hold on the two of them across the desk, him suddenly leaning in, her absolutely still.",
+  "soundscape": "A low hesitant voice, a held beat, then a bright eager exclamation, the crowd stirring at the door.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t37",
+  "scene": "1-2",
+  "title": "当着大伙打",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_mid",
+   "office_close"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_close": "fully_preserved"
+  },
+  "summary": "He slaps the card back down on the desk and turns her own words into an order, in front of everyone.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands at the FAR side of the desk, leaned half a pace in over it, facing 苏小满 (S1) across it; the card lies on the desk between them; the crowd at the LEFT doorway.\n[Shot 1] Medium: 钱经理 (S3) picks up the card and slaps it back down onto the desk with his fingers spread over it, then slides it an inch toward her.\n[Shot 2] At 00:04.000, closer on his face as he speaks in a brisk, almost cheerful Mandarin, enjoying himself: [Chinese] 那你现在，当着大伙，打。\n[Shot 3] At 00:07.800, reverse onto 苏小满 (S1), the black card small in the foreground of frame, her hands still at her sides.\n[Shot 4] At 00:09.000, slight push in on her. She does not reach for the card yet, and nobody else speaks.",
+  "soundscape": "The crack of the card on wood, a brisk bullying voice, a murmur of approval from the doorway crowd, the clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t38",
+  "scene": "1-2",
+  "title": "三个回合",
+  "refs": [
+   "suxiaoman",
+   "qianjingli",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "Three fast exchanges across the desk; the argument starts to turn in her favour and he raises his voice to hold the room.",
+  "shots": "Entry state, re-anchored to the reference image: the black card lies on the desk between 苏小满 (S1) on the near side and 钱经理 (S3) on the far side; the crowd is packed into the LEFT doorway behind her.\n[Shot 1] Close two-shot over the desk: 苏小满 (S1) answers quietly and immediately in low steady Mandarin: [Chinese] 我为什么要打。\n[Shot 2] At 00:03.200, tighter on 钱经理 (S3) as he fires back, short and hard: [Chinese] 不打，就是你偷的。\n[Shot 3] At 00:06.000, on 苏小满 (S1) again; she does not blink and her voice stays level: [Chinese] 凭什么，不打就是我偷的。\n[Shot 4] At 00:09.600, hold on his face: jaw working, nothing to say, the room noticeably quieter than it was. Nobody else speaks.",
+  "soundscape": "Three voices trading in a room that has dropped very low, the card shifting on the desk, shoes shuffling at the door, one chair creaking.",
+  "music": "A tight low string pulse under the exchange."
+ },
+ {
+  "id": "ep01_t39",
+  "scene": "1-2",
+  "title": "报警就报警",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "office_mid",
+   "office_pano"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved",
+   "office_pano": "fully_preserved"
+  },
+  "summary": "He goes for the threat; she takes it head-on in four words, and the room does not know where to look.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) at the far side of the desk, 苏小满 (S1) at the near side with her back to the door, the card on the desk between them; the crowd at the LEFT doorway.\n[Shot 1] Medium: 钱经理 (S3) gives up on words and slams his palm down on the desk; then, closer, he leans over it toward her and speaks in a hard rising Mandarin, one short phrase at a time: [Chinese] 你打不打。不打，我报警。\n[Shot 2] At 00:06.600, reverse single on 苏小满 (S1): she looks straight back at him and answers in a low flat Mandarin, no challenge in her voice, only fact: [Chinese] 报警就报警。\n[Shot 3] At 00:09.200, wide: the whole room frozen, the doorway crowd's faces suddenly blank.\n[Shot 4] At 00:09.800, hold on her. Nobody else speaks.",
+  "soundscape": "The slam of a palm on wood, a rising threatening voice, then four quiet words and the whole room going still.",
+  "music": "A single low struck note that rings on after the line."
+ },
+ {
+  "id": "ep01_t40",
+  "scene": "1-2",
+  "title": "噎住",
+  "refs": [
+   "qianjingli",
+   "suxiaoman",
+   "xiaotang",
+   "office_pano"
+  ],
+  "retention": {
+   "office_pano": "fully_preserved"
+  },
+  "summary": "Silent beat: nobody expected her to take the dare, and the manager runs out of anything to say.",
+  "shots": "Entry state, re-anchored to the reference image: 苏小满 (S1) stands on the near side of the desk with her back to the door; 钱经理 (S3) on the far side, half-leaning over the desk where he slammed it; 小唐 (S4) and the crowd at the LEFT doorway.\n[Shot 1] Wide, held long: complete stillness. The card on the desk, the two of them facing each other over it, the crowd crammed into the doorway not moving at all.\n[Shot 2] At 00:03.400, close on 钱经理's (S3) face: his mouth opens, closes, opens again; a bead of sweat at his temple; he straightens up off the desk.\n[Shot 3] At 00:06.400, pan across the doorway: 小唐 (S4) with her lips parted, the receptionist's eyes wide, two clerks looking at the floor.\n[Shot 4] At 00:08.600, back to 苏小满 (S1), holding still in the middle of it. Nobody speaks at all in this beat.",
+  "soundscape": "A room holding its breath, the fluorescent panels, the clock, one person at the door swallowing, a chair leg creaking somewhere.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t41",
+  "scene": "1-2",
+  "title": "周总监登场",
+  "refs": [
+   "zhouzongjian",
+   "qianjingli",
+   "suxiaoman",
+   "office_pano"
+  ],
+  "retention": {
+   "office_pano": "fully_preserved"
+  },
+  "summary": "The office door opens again and the greying director walks in, and the whole room rearranges itself around him.",
+  "shots": "Entry state, re-anchored to the reference image: the room is still frozen with 苏小满 (S1) on the near side of the desk and 钱经理 (S3) on the far side; the crowd fills the LEFT doorway.\n[Shot 1] Wide: the doorway crowd separates and presses back against the wall to either side, opening a clear path down the LEFT of frame.\n[Shot 2] At 00:02.400, medium: 周总监 (S6), a grey-haired man of about fifty-five in a deep-grey tailored suit with polished black shoes, walks in with an even, unhurried stride and stops two paces inside the door; he looks around the room once.\n[Shot 3] At 00:03.600, closer on 周总监 (S6) as he speaks in a low, slow, completely level Mandarin, letting the pause do the work: [Chinese] 小钱。干什么呢。\n[Shot 4] At 00:06.000, 周总监 (S6) adds the second line with a small tip of his head: [Chinese] 吵得，一层楼都听得见。 Hold on 钱经理 (S3), who has gone stiff. 苏小满 (S1) stays silent with her mouth closed.",
+  "soundscape": "Soft polished shoes on tile, a ripple of the crowd shuffling apart, then a low level voice in the sudden quiet.",
+  "music": "A low horn note entering under his footsteps."
+ },
+ {
+  "id": "ep01_t42",
+  "scene": "1-2",
+  "title": "抓着个内贼",
+  "refs": [
+   "qianjingli",
+   "zhouzongjian",
+   "suxiaoman",
+   "office_mid"
+  ],
+  "retention": {
+   "office_mid": "partially_preserved"
+  },
+  "summary": "The manager hurries over to report his catch, all smiles, and starts waving the card as evidence.",
+  "shots": "Entry state, re-anchored to the reference image: 周总监 (S6) stands two paces inside the LEFT door; 钱经理 (S3) is on the far side of the desk; 苏小满 (S1) on the near side; the crowd is pressed flat against the walls of the doorway.\n[Shot 1] Medium: 钱经理 (S3) does not leave the far side of the desk — he stays planted behind it, one hand flat on the wood while the other picks the black card up off the desktop, then turns his shoulders toward the door, ducks his head at 周总监 (S6) in an ingratiating bow and waves him in; 周总监 (S6) begins walking in toward the desk.\n[Shot 2] At 00:02.000, close on 钱经理 (S3) as he tells it fast and pleased, in a loud nasal Mandarin: [Chinese] 总监。抓着个内贼。\n[Shot 3] At 00:05.400, 钱经理 (S3) holds the black card up over the desk toward 周总监 (S6) and taps it twice with a finger: [Chinese] 偷东西，偷到万山的卡上了。\n[Shot 4] At 00:09.400, reverse onto 周总监 (S6): he does not take the card, does not smile, and looks past the manager at the woman standing quietly at the desk. Nobody else speaks.",
+  "soundscape": "Quick shuffling steps, an eager greasy voice close to the lens, the card tapping, a hush from the doorway.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep01_t43",
+  "scene": "1-2",
+  "title": "你叫苏小满",
+  "refs": [
+   "zhouzongjian",
+   "suxiaoman",
+   "qianjingli",
+   "office_pano"
+  ],
+  "retention": {
+   "office_pano": "fully_preserved"
+  },
+  "summary": "He ignores the report entirely, walks to the desk, reads the card and then asks her two quiet questions.",
+  "shots": "Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the FAR side of the desk holding the card up; 苏小满 (S1) is on the near side of the desk with her back to the door; 周总监 (S6) is just reaching the desk; the crowd is flat against the doorway walls.\n[Shot 1] Medium: 周总监 (S6) crosses to the desk without answering the manager, taking the card out of 钱经理's (S3) hand over the desktop as he goes; 钱经理 (S3) stays where he is on the FAR side of the desk and does not follow.\n[Shot 2] At 00:02.400, close on 周总监 (S6) at the desk: he turns the card over in his hand, reads the back of it, and both eyebrows lift a fraction; his face gives nothing else away.\n[Shot 3] At 00:05.000, he sets the card back down on the desk and looks up at 苏小满 (S1); he asks in that same low unhurried Mandarin: [Chinese] 你叫苏小满。\n[Shot 4] At 00:07.600, 周总监 (S6), still looking at 苏小满 (S1): [Chinese] 入职多久了。 Hold on 苏小满 (S1), who answers nothing yet. 钱经理 (S3) is left standing behind him, unregarded and silent.",
+  "soundscape": "Slow deliberate footsteps, card turning in fingers, a low level voice asking, the room holding still, the clock.",
+  "music": "A quiet sustained low string note."
+ }
+]

@@ -1,0 +1,23 @@
+========================================================================
+seg03  refs=['xiaotang', 'qianjingli', 'suxiaoman', 'office_mid']
+[shots 原文]
+Entry state, re-anchored to the reference image: 钱经理 (S3) stands on the far side of the desk facing the door; 苏小满 (S1) on the near side with her back to the door; 小唐 (S4) is still flattened against the wall just inside the LEFT door, lower-left of frame.
+[Shot 1] Medium: 钱经理 (S3) turns his shoulder toward the door and jerks his chin at 小唐 (S4), summoning her forward without a word.
+[Shot 2] At 00:02.000, closer on 小唐 (S4): she peels off the wall, folds her hands together, keeps her eyes on the floor tiles and lets them flick once toward 苏小满 (S1), then away; she speaks in a small thin nervous Mandarin, fast and slightly breathy: [Chinese] 钱经理。中午，我看见她往兜里塞东西。没看清。
+[Shot 3] At 00:08.400, reverse onto 苏小满 (S1) across the desk: her shoulders stay level, only her eyes travel to the girl by the door.
+[Shot 4] At 00:09.400, close on 钱经理 (S3) taking that in, the corner of his mouth pulling up. Nobody else speaks.
+========================================================================
+seg04  refs=['suxiaoman', 'xiaotang', 'office_mid', 'office_back']
+[shots 原文]
+Entry state, re-anchored to the reference image: 苏小满 (S1) on the near side of the desk with her back to the door; 小唐 (S4) has taken one step in from the wall, lower-left of frame; 钱经理 (S3) on the far side of the desk.
+[Shot 1] Medium: 苏小满 (S1) turns her head and shoulders toward the door, fixing 小唐 (S4) with an even, unhurried look, and says it quietly in low steady Mandarin, without raising her voice at all: [Chinese] 小唐。看清楚了，再说。
+[Shot 2] At 00:05.600, close on 小唐 (S4): she shrinks her neck down into her collar, plants one hand on the doorframe behind her, looks anywhere but at the cleaner, and answers in a thin defensive Mandarin: [Chinese] 反正，我看见了。
+[Shot 3] At 00:08.600, wide: the two women staged one behind the other along the room's depth axis — 小唐 (S4) nearer the door, 苏小满 (S1) nearer the desk — with 钱经理 (S3) motionless behind the desk, back to the window, watching them like a spectator, arms folded.
+[Shot 4] At 00:09.600, hold. Nobody moves and nobody speaks.
+========================================================================
+seg05  refs=['qianjingli', 'suxiaoman', 'office_mid', 'office_pano']
+[shots 原文]
+Entry state, re-anchored to the reference image: 钱经理 (S3) is stepping round the end of the desk onto the NEAR side and closing to one pace in front of 苏小满 (S1); 苏小满 (S1) is on the near side of the desk with her back to the door; 小唐 (S4) is by the door at the lower-left.
+[Shot 1] Medium: 钱经理 (S3) walks two paces around the corner of the desk toward her, stops at the distance of an outstretched arm, taps his own hip pocket twice with two fingers and speaks in a hard flat Mandarin, not loud, not shouting: [Chinese] 掏兜。自己掏，还是我喊保安。
+[Shot 2] At 00:07.200, reverse single on 苏小满 (S1), framed on her alone, one person in this shot, nobody behind her and nobody at the door: she takes one small half-step back, and her right hand closes slowly over the fabric of her own trouser pocket; she speaks quietly and clearly in low steady Mandarin: [Chinese] 你们不能搜我。
+[Shot 3] At 00:09.400, close on the pocket under her fingers, the fabric pulled slightly taut, framed on her alone, no one else enters this frame. She is silent after that.

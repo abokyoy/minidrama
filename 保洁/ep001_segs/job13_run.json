@@ -1,0 +1,12 @@
+{
+ "workflow": "E:\\ComfyUI\\ComfyUI_new\\user\\default\\workflows\\04_ref2v_4step_sla_ganloss_fixed.json",
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\ep001_segs\\seg13_prompt.txt",
+ "out_prefix": "ep01_t13",
+ "ref_dir": "E:\\LLM\\try\\minidrama\\保洁\\assets",
+ "refs": [
+  "char_suxiaoman.png",
+  "sc_corridor_close.png",
+  "sc_corridor_pano.png"
+ ],
+ "prev_video": null
+}

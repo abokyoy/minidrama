@@ -1,0 +1,39 @@
+subject_definitions:
+<Subject 1> — 钱经理: a 45-year-old male property manager. Slightly overweight, slicked-back oily hair, round face, an ingratiating smile that flips into a scowl, white shirt buttoned to the closed collar under a dark grey buttoned waistcoat, dark grey trousers, black leather shoes. Loud, nasal, bullying voice, standard Mandarin. Person in <Picture 1>.
+<Subject 2> — 苏小满: a 25-year-old female cleaner. Preserve her exact face, small lean build, centre-parted black hair in a low practical ponytail, dark-navy button-up work shirt buttoned to the closed collar with small plain buttons, a worn grey apron over dark navy trousers, black cloth shoes. Low, steady, slightly hoarse voice, standard Mandarin. Person in <Picture 2>.
+<Subject 3> — 小唐: a 22-year-old female cleaning-team colleague. Thin, pale, narrow shoulders, shifty sidelong eyes, low ponytail, light-grey shirt, trousers and apron, black cloth shoes. Small, thin, nervous voice. Person in <Picture 3>.
+
+<Picture 4>: the office layout reference for 景宸大厦 — this same single room is the set for the whole clip. Light-oak storage cabinets along the back-left wall with plain brown cardboard boxes stacked on top; a low wooden credenza under the back window with a printer, files and two potted green plants; an L-shaped wooden office desk with a black monitor, keyboard and document tray in the middle of the room, a black swivel chair pushed in; a grey fabric sofa with wooden armrests and a low wooden coffee table under the long window on the right; an open doorway with a grey metal frame on the left, a group of silent office onlookers packed in that doorway facing the desk. Pale grey tile floor, white ceiling with light panels.
+
+summary:
+[reference generation] The cleaner refuses the search and steps back; the manager stays silent and rigid; the colleague watches.
+
+retention_analysis:
+<Subject 1> — 钱经理: fully_preserved - oily slicked-back hair, round face, grey waistcoat
+<Subject 2> — 苏小满: fully_preserved - centre-parted low ponytail, navy shirt, grey apron
+<Subject 3> — 小唐: fully_preserved - low ponytail, light-grey shirt and apron
+<Picture 4>: fully_preserved - light-oak cabinets, L-shaped desk, grey sofa on the right, doorway on the left
+
+detailed_description:
+Live-action cinematic office drama, bright high-key commercial cinematography, soft broad daylight, luminous pale walls — keep the clean bright grade, natural lighting, every face, costume and realistic motion consistent throughout all six shots.
+Exposure: the long right-hand window is the key light with soft bounced daylight filling the room; skin tones bright and even, the whites stay white, an even high-key brightness edge to edge. Every shirt and waistcoat buttons right up to the closed collar, each chest one unbroken run of plain fabric; apron bibs plain.
+Speaker labels for this clip only: (S1) 钱经理, (S2) 苏小满, (S3) 小唐. Anyone not named here stays silent, mouth closed.
+The whole clip takes place in the one office shown in <Picture 4>. Standing places never change between shots, and all six shots are taken from the same doorway side, so 钱经理 (S1) is always behind the desk on the far side and 苏小满 (S2) always at the near left corner on this side; 小唐 (S3) always stays beside the grey sofa at frame right, the doorway crowd stays packed in the open doorway at frame left. Only the lens zoom changes between shots, never the camera side, never where the people stand.
+
+[Shot 1] At 00:00.000, hard cut to a wide establishing shot of the office from the doorway side: the L-shaped desk with 钱经理 (S1) behind it on the far side, 苏小满 (S2) at its near left corner on this side, 小唐 (S3) beside the grey sofa at frame right, the doorway crowd at frame left. Camera: Static Shot, locked off.
+
+[Shot 2] At 00:01.250, hard cut to a medium three-shot from the same doorway side, closer on the desk, same places: 钱经理 (S1) behind the desk keeps his lips pressed shut, chin pushed forward, eyes fixed on her; 苏小满 (S2) at the near left corner stays still. Camera: Static Shot, locked off.
+
+[Shot 3] At 00:02.500, hard cut to a medium three-shot from the same doorway side, tighter on 苏小满 (S2) at the near left corner: she takes one small step backwards away from the desk and stops, chin lifting, brows drawing together. 苏小满 (S2) speaks with her mouth moving clearly as she answers: [Chinese] 你们不能搜我。 钱经理 (S1) behind the desk stays silent. Camera: Static Shot, locked off.
+
+[Shot 4] At 00:03.750, hard cut to a medium three-shot from the same doorway side, tightest on the desk corner: 苏小满 (S2) at the near left corner holds her ground after the step back, lips shut; 钱经理 (S1) behind the desk does not move. Camera: Static Shot, locked off.
+
+[Shot 5] At 00:05.000, hard cut to a medium three-shot from the same doorway side, wider: 小唐 (S3) beside the grey sofa lowers her eyes and presses her fingers on the armrest; 钱经理 (S1) behind the desk straightens; 苏小满 (S2) at the near left corner keeps her feet planted. Camera: Static Shot, locked off.
+
+[Shot 6] At 00:06.500, hard cut back to the same wide shot matching shot 1, everyone exactly where they started: 钱经理 (S1) behind the desk, 苏小满 (S2) at its near left corner, 小唐 (S3) beside the grey sofa, the doorway crowd watching without moving, every mouth closed. Camera: Static Shot, locked off, holding to the end.
+
+No slow-motion, no soft dissolves, no fades; use hard cuts only between the six shots, every shot a locked-off camera with no pan, no zoom, no handheld shake, no additional bystanders beyond the doorway crowd, no distorted limbs, no on-screen text or watermarks.
+
+overall_soundscape: A clock ticking and ceiling-light hum throughout; a soft shoe scrape on the tile at 2.6s; a held breath at 4.0s; room tone at 7.0s.
+
+non_diegetic_music: A low string drone at 0s, a muted cello note at 1.25s, one held note from 5.0s.

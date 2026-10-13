@@ -1,0 +1,23 @@
+{
+ "workflow": "E:\\ComfyUI\\ComfyUI_new\\user\\default\\workflows\\04_ref2v_seg2_chain.json",
+ "prompt_file": "E:\\LLM\\try\\minidrama\\保洁\\xs001_segs\\seg06_prompt.txt",
+ "prompt_sha": "5716:633f660e345a",
+ "prompt_mtime": 1791595130.6600342,
+ "prompt_lines": [
+  {
+   "who": "苏小满",
+   "line": "你们不能搜我"
+  }
+ ],
+ "quality": "hd_turbo8",
+ "stage": "final",
+ "out_prefix": "off_xs01_t06",
+ "refs": [
+  "r01_ref1__9caa7471.png",
+  "r02_ref2__bcad60c8.png",
+  "r03_ref3__016bdb32.png",
+  "r04_ref4__a039524b.png"
+ ],
+ "ref_dir": "E:\\ComfyUI\\ComfyUI_h3official\\input",
+ "prev_video": "D:\\output_h3off\\off_xs01_t05_00004-audio.mp4"
+}

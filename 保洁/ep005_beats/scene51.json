@@ -1,0 +1,927 @@
+[
+ {
+  "id": "ep05_t01",
+  "scene": "5-1",
+  "title": "满堂已就位",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Wide: the reception hall of the 陆 family old mansion in the morning, already full — the long table and the polished floor along the bottom third, one row of people down each long side, and 苏小满 the only one standing.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; every seat taken, nobody speaking, the long table and the polished floor filling the bottom third\n[Shot 1] Wide from inside the doors looking in: the long table runs away through the middle of the hall, two rows of seated people along its long sides, nearer shoulders overlapping the row behind all the way to the far head; the bottom third is the matte red table top and the polished floor; morning light comes in at a slant through the east floor-to-ceiling window and the ceiling lights are on, so the whole hall reads bright and open; one person in the near half is standing and everybody else is seated.\n[Shot 2] At 00:04.500, The hall holds: heads turn a little towards the near head of the table, then settle; the standing figure at the near head does not move, and the file folder is still at the far head's right hand.",
+  "soundscape": "Low voices running along both sides of the table, a cup set down on wood, the ceiling light's faint electrical hum, morning birdsong from the east window.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t02",
+  "scene": "5-1",
+  "title": "陆崇坐定",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium: 陆崇 (S15) sits at the far head of the long table, back straight, facing the near end, the kraft-paper file folder open at his right hand.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) squared in his chair at the far head, the kraft folder open at his right hand\n[Shot 1] Medium on 陆崇 (S15) at the far head of the long table, the sideboard and the hanging landscape painting behind him: dark navy stand-collar jacket, back perfectly straight, face turned down the table towards the near end; at his right hand a kraft-paper file folder with its mouth open and the edges of several pages showing; morning light from the east window falls across him from the side and the ceiling lights fill his face evenly.\n[Shot 2] At 00:05.000, He shifts his weight a fraction, squares his shoulders to the table, and keeps both hands near the folder without lifting it.",
+  "soundscape": "The room's low murmur, a chair leg easing on the floor, the folder's paper edge ruffling faintly.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t03",
+  "scene": "5-1",
+  "title": "东侧：陆蔓与陆航",
+  "refs": [
+   "luman",
+   "luhang",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "luhang": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium: along the east long side of the table mid-position 陆蔓 (S8) sits with a tea cup; further right and further back at the east window sill 陆航 (S14) leans on the wall turning a cup between his fingers.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) holding a tea cup at the east long side; 陆航 (S14) at the east window sill behind her\n[Shot 1] Medium along the east long side of the table: 陆蔓 (S8) sits mid-position in a deep-green qipao with a dark-red shawl, a porcelain tea cup in her hand, turned side-on to the camera; further right and a clear depth step behind her, 陆航 (S14) in a pale beige knit sweater with the cuffs pushed to his forearms leans against the window sill, turning a cup in his fingertips; the two of them are staggered along the depth and never side by side; the bottom third is the table edge and the floor.\n[Shot 2] At 00:05.500, 陆航 (S14)'s fingers keep circling the cup rim; 陆蔓 (S8) holds her cup level and does not drink.",
+  "soundscape": "A cup against porcelain, the window's daylight breathing on the glass, low voices from the far head.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t04",
+  "scene": "5-1",
+  "title": "近端：秦律师与站着的苏小满",
+  "refs": [
+   "suxiaoman",
+   "qinlvshi",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "qinlvshi": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 秦律师 (S19) sits three-quarter to camera with the verification folder open and a black pen in hand, and half a step nearer the camera and half a step left, 苏小满 (S1) stands facing the far head with both hands down at her sides.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 秦律师 (S19) seated at the near head; 苏小满 (S1) standing half a step left of the head, nearer the camera than him\n[Shot 1] Over-the-shoulder at the near head of the table: 秦律师 (S19) sits in a dark suit with thin-rimmed glasses, three-quarter to the camera, the verification folder open in front of him and a black pen in his right hand; half a step nearer the camera and half a step to his left, 苏小满 (S1) stands in a plain light jacket over dark blue work clothes with a low ponytail, both hands hanging at her sides, facing the far head of the table; she overlaps him in depth and the two of them are never lined up beside each other.\n[Shot 2] At 00:05.000, 苏小满 (S1) keeps her shoulders level and her hands still; 秦律师 (S19) glances down at his open folder and back up along the table.",
+  "soundscape": "Paper settling on the table, a pen cap clicked once, the room's low murmur continuing behind.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t05",
+  "scene": "5-1",
+  "title": "把材料推到长案中央",
+  "refs": [
+   "luchong",
+   "lu_hall_desk"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall_desk": "weak_reference"
+  },
+  "summary": "High-angle close on the table top: 陆崇 (S15)'s hand presses the kraft folder and slides it forward until it stops at the centre of the long table, then withdraws; the folder, several pages and one photocopy of an agreement with a pale red thumbprint at its lower right lie in a row, and the printing on the paper is not legible.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; on the table top, one kraft folder, several loose pages and one photocopy, face down at first\n[Shot 1] High-angle close on the table top: 陆崇 (S15)'s hand presses flat on the kraft folder and slides it away from him along the wood until it stops at the centre of the long table, then lifts off and comes back to his own side; the folder's mouth is open with the edges of several pages showing, and lying on top of them is one photocopy of an agreement whose corner is furry and whose lower right corner carries a pale red thumbprint; the printing on the paper is too small to read; the upper two thirds is his hand and the wood, the bottom third is the table edge.\n[Shot 2] At 00:06.000, 陆崇 (S15) speaks from off the top of frame, his hand now withdrawn: [Chinese] 都看看。这是我让人查的。\n[Shot 3] At 00:09.000, The hand is gone; the file lies dead centre and nobody's hand comes near it.",
+  "soundscape": "Paper sliding over polished wood and stopping, a single quiet breath, chairs shifting at the far head.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t06",
+  "scene": "5-1",
+  "title": "陆崇把话摊给满屋",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium: 陆崇 (S15) squares his body at the far head and addresses the near end in a flat tone, like reading out a list he wrote long ago; he does not look at 苏小满.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) squared at the far head, hands back by the folder he has just pushed away\n[Shot 1] Medium on 陆崇 (S15) at the far head: he squares his body to face the near end of the table and opens his mouth in an even, level tone, the way a man reads out a list he wrote days ago; his eyes stay on the middle distance of the table and do not go to 苏小满 (S1) at the near head; the ceiling light and the east window both fill his face evenly and the skin reads clear.\n[Shot 2] At 00:05.000, He finishes a line, keeps his chin level, and waits half a beat before the next one.",
+  "soundscape": "His voice carrying the length of the table, the room's murmur dropping away under it.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t07",
+  "scene": "5-1",
+  "title": "料停在中央，无人伸手",
+  "refs": [
+   "lu_hall_desk"
+  ],
+  "retention": {
+   "lu_hall_desk": "weak_reference"
+  },
+  "summary": "Medium on the file: the kraft folder and its pages sit at the centre of the long table while the eyes of the relatives and stewards on both flanks drop onto it together, and not one hand reaches out.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the file now at the centre of the long table, everyone still seated\n[Shot 1] Medium along the table axis onto the centre of the long table: the kraft folder, the pages and the agreement photocopy lie exactly where they were pushed, and from both flanks the heads of the side-branch relatives and the stewards come down to that same spot at the same moment; no hand comes towards it from either side; the bottom third is the table top and the folder's mouth.\n[Shot 2] At 00:05.500, The heads stay bent towards it; the file does not move and is not opened.",
+  "soundscape": "Twenty people breathing, a chair creaking once, nothing touching paper.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t08",
+  "scene": "5-1",
+  "title": "一句一句往下砸",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): he lays the words out one at a time, not fast, tail of each line held down; his chin lifts slightly, his eyes sweep the table and come back up to the near end.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head, speaking, gaze moving from the table up to the near end\n[Shot 1] Close on 陆崇 (S15) at the far head: he lays the words out one at a time, not fast, holding the tail of each line down; his chin lifts a fraction, his eyes go along the table surface and then come back up to the near end; the ceiling light lands on his face with generous front fill and the lines around his mouth stay readable rather than hollow.\n[Shot 2] At 00:02.238, 陆崇 (S15) speaks, [Chinese] 外包保洁。大学念了两年，退学。外婆重病，欠着医院二十万。\n[Shot 3] At 00:09.500, He keeps his eyes on the near end after the last number, waiting.",
+  "soundscape": "His voice level and unhurried down the table, the room behind it falling to a low attentive hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t09",
+  "scene": "5-1",
+  "title": "反打：苏小满听着",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Reverse on 苏小满 (S1): standing half a step left of the table head with her face to the far end, she listens with no movement in her face; her hands hang at her sides and her right fingers press together once and release; she does not look at the file.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) standing at the near head, facing the far end, hands down at her sides\n[Shot 1] Reverse at the near head: 苏小满 (S1) stands half a step left of the table head facing the far end and listens, and there is no rise or fall on her face while the words come across; both hands hang at her sides and her right fingers press together once and then let go; her eyes stay on the far head and never drop to the file in the middle of the table; the east window light falls across her front.\n[Shot 2] At 00:05.000, She blinks once, slowly, and keeps her feet exactly where they are.",
+  "soundscape": "陆崇 (S15)'s voice arriving from off her front, the room's held breath, a distant cup.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t10",
+  "scene": "5-1",
+  "title": "两侧交换了一个眼神",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium on both flanks: along the two long sides of the table a relative and a steward exchange one look and do not say anything; the table top and the floor press the bottom edge of frame.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the seated rows on both flanks, all still\n[Shot 1] Medium down the two long sides of the table: a side-branch relative on the east flank and a steward on the west flank turn their eyes towards each other for a moment and back to the centre, and neither makes a sound; everyone stays seated and staggered along the depth; the bottom third is the table top and the polished floor.\n[Shot 2] At 00:04.500, The glance ends; both faces settle back to the far head.",
+  "soundscape": "Cloth shifting, one swallowed cough from the west flank, the room's low hush.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t11",
+  "scene": "5-1",
+  "title": "目扫东侧",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): as the sum is named his eyes travel slowly along the east long side of the table; the question is asked to the whole room and lands on one person.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head, eyes moving along the east side\n[Shot 1] Close on 陆崇 (S15) at the far head: as he names the sum his eyes move slowly sideways along the east long side of the table, taking in the people seated there; the question is put to the whole room and its landing point is one person; the front fill on his face stays generous and even.\n[Shot 2] At 00:02.550, 陆崇 (S15) speaks, [Chinese] 半个月前，有人给她打了二十万。谁打的，各位心里有数。\n[Shot 3] At 00:09.500, His eyes stop on the east side and stay there.",
+  "soundscape": "His voice level, a chair easing on the far side, the room listening hard.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t12",
+  "scene": "5-1",
+  "title": "陆蔓端茶一送",
+  "refs": [
+   "luman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on the east long side: 陆蔓 (S8)'s hand holding the tea cup stalls for a fraction, her lashes lift for half a second, and she sends the cup to her lips and takes one mouthful, her face tidied clean.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) at the east long side with the tea cup in her hand\n[Shot 1] Close on the east long side: the hand of 陆蔓 (S8) holding the porcelain cup stops for a fraction of a second, her lashes lift for half a second, and then she brings the cup to her lips and takes one measured mouthful and puts it back level; her face is tidied clean by the time the cup is down; she stays side-on to the camera in the right half of frame.\n[Shot 2] At 00:05.000, The cup settles back on the table and her hands fold around it again.",
+  "soundscape": "Porcelique against porcelain, one swallow, cloth settling.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t13",
+  "scene": "5-1",
+  "title": "按过手印四个字",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): he says the last line very slowly, letting the four words about the thumbprint out one at a time, and his eyes settle on the agreement at the centre of the table.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head, eyes coming down to the centre of the table\n[Shot 1] Close on 陆崇 (S15) at the far head: he says the last line very slowly and lets the four words about the thumbprint out one at a time; at the end of it his eyes come down to the agreement photocopy lying at the centre of the long table; the ceiling light and the window keep his face evenly filled.\n[Shot 2] At 00:02.238, 陆崇 (S15) speaks, [Chinese] 还有一样。她跟二房签过字，按过手印。白纸黑字，一张协议。\n[Shot 3] At 00:09.500, His gaze stays down on the paper at the centre of the table.",
+  "soundscape": "His voice slowing, a single leaf of paper settling, the room's held breath.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t14",
+  "scene": "5-1",
+  "title": "纸与手印",
+  "refs": [
+   "lu_hall_desk"
+  ],
+  "retention": {
+   "lu_hall_desk": "weak_reference"
+  },
+  "summary": "High-angle close: the agreement photocopy lies on top of the file at the centre of the table, its corner furry and a pale red thumbprint at the lower right, the pages beneath showing a row of edges; only the shape of the paper and the print are given, the printing is not legible.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the file at the centre of the long table, the agreement photocopy on top of it\n[Shot 1] High-angle close onto the centre of the long table: the agreement photocopy lies on the very top of the file, its corner furry and its lower right corner carrying one pale red thumbprint, and the pages beneath it show a row of paper edges; the shot gives the shape of the paper and the print only, the printing on it is too small to read; the bottom third is the table edge and the wood grain.\n[Shot 2] At 00:05.000, The paper does not move; the print stays where it is.",
+  "soundscape": "Paper on wood, the room's breath held, a distant chair.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t15",
+  "scene": "5-1",
+  "title": "满堂目光扎向中央",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium on the full room: every head turns to the centre of the long table at once; 陆蔓 (S8)'s cup hand stops and 陆航 (S14)'s fingers on the cup slow by half a beat.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the whole room seated, all heads coming round to the centre of the table\n[Shot 1] Medium across the full room: every head at both long sides turns towards the centre of the long table in the same instant; on the east side 陆蔓 (S8)'s hand stops with the cup held level, and at the east window 陆航 (S14)'s fingers slow on the cup rim; nobody reaches out; the bottom third is the table top and the floor.\n[Shot 2] At 00:04.500, The heads hold on the file; the room does not breathe out.",
+  "soundscape": "A dozen people inhaling together, cloth moving, the ceiling light's hum.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t16",
+  "scene": "5-1",
+  "title": "陆蔓先发制人",
+  "refs": [
+   "luman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on the east long side: 陆蔓 (S8) sets her cup down, sits straighter, lifts her chin and looks across to the far head out of the corner of her eye; the line comes out first.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) at the east long side, cup coming down onto the table\n[Shot 1] Close on the east long side: 陆蔓 (S8) puts the tea cup down on the table, sits straighter in her chair, lifts her chin and turns her eyes across to the far head of the table out of the corner of them; the shot is tight on her upper body in the right half of frame with the room's brightness on her face.\n[Shot 2] At 00:04.500, 陆蔓 (S8) speaks, [Chinese] 陆崇，你说话就说话。看着我干什么。\n[Shot 3] At 00:08.000, She holds the look across the table, chin still up.",
+  "soundscape": "Porcelique set down hard on wood, her voice pitched to carry, the room quieting further.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t17",
+  "scene": "5-1",
+  "title": "拢披肩，目扫两侧",
+  "refs": [
+   "luman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆蔓 (S8): her tone is a taut politeness with the tail of each line lifting; she tidies the edge of her dark-red shawl as she speaks and then looks along both sides of the room, checking who has followed her gaze.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) at the east long side, hands at the shawl edge\n[Shot 1] Close on 陆蔓 (S8): her tone is a taut, courteous one with the tail of every line lifting; as she speaks she tidies the edge of her dark-red shawl with one hand, then turns her eyes along both sides of the room to check who has followed her gaze over there; the front fill keeps her face clear and even.\n[Shot 2] At 00:05.000, Her eyes finish their sweep of both flanks and come back to the far head.",
+  "soundscape": "Fabric being smoothed, the low murmur restarting along the west flank.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t18",
+  "scene": "5-1",
+  "title": "陆崇盯着苏小满",
+  "refs": [
+   "luchong",
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): he does not acknowledge 陆蔓 (S8) at all — his head does not turn, his eyes go straight down the table to 苏小满 (S1) standing at the near head, his tone flat without rise or fall.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head looking straight down the table; 苏小满 (S1) standing at the near head\n[Shot 1] Close on 陆崇 (S15) at the far head: he does not take 陆蔓 (S8) at the east side at all — his head does not turn a fraction — and his eyes go straight down the length of the table to 苏小满 (S1) standing at the near head, and his tone comes out flat with no rise and no fall; the far head and the near head line up on the table's own depth axis.\n[Shot 2] At 00:04.500, 陆崇 (S15) speaks, [Chinese] 一个缺钱的保洁，忽然肯来认一门阔亲。\n[Shot 3] At 00:08.500, He keeps his eyes on her and does not blink through the end of the line.",
+  "soundscape": "His flat voice filling the hall, the room's air changing, a cup untouched.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t19",
+  "scene": "5-1",
+  "title": "迎着这条视线",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Reverse at the near head: 苏小满 (S1) looks straight back down the table, chin neither lifted nor dropped, her stance not giving an inch; the room's eyes are on her and she looks at nobody but the man at the far head.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) standing at the near head, feet planted, facing the far head\n[Shot 1] Reverse at the near head of the table: 苏小满 (S1) takes the look straight back, her chin neither lifted nor dropped and her stance giving nothing; the whole room's attention is on her and she returns it to nobody except the man at the far head; the east window light comes across her front and her face is evenly filled.\n[Shot 2] At 00:05.000, Her hands stay at her sides and her feet do not move on the floor tiles.",
+  "soundscape": "The room pressing close around her, a chair easing, her breathing steady.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t20",
+  "scene": "5-1",
+  "title": "把台子交给满堂",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): he leans half a fraction back into his chair as if handing the floor to the room, and he leaves half a beat of air on the question about who arranged it.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head leaning half a fraction back in his chair\n[Shot 1] Close on 陆崇 (S15) at the far head: he leans half a fraction back into his chair as if handing the floor over to the whole room, and he leaves half a beat of air on the question; the light on him stays even and his face stays readable.\n[Shot 2] At 00:04.000, 陆崇 (S15) speaks, [Chinese] 各位想想，这戏，是谁排的。\n[Shot 3] At 00:07.500, He stays leaned back and lets the length of the question sit there unanswered.",
+  "soundscape": "The question falling into the room, the length of it stretching, fabric shifting.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t21",
+  "scene": "5-1",
+  "title": "无人接话",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium down both sides of the table: the room goes quiet along both long sides, one of the relatives drops his head and nobody answers him.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; both flanks seated, the file still at the centre of the table\n[Shot 1] Medium down both long sides of the table: the room settles into quiet along both flanks, a relative on the east side drops his head towards the table and nobody picks the question up; the file stays at the centre of the table where it was pushed; the bottom third is the table top and the polished floor.\n[Shot 2] At 00:05.000, Heads stay down or forward; no one answers.",
+  "soundscape": "A room not answering, a slow exhale from the far head, a clock somewhere in the hall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t22",
+  "scene": "5-1",
+  "title": "秦律师按住全场",
+  "refs": [
+   "qinlvshi",
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "qinlvshi": "fully_preserved",
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 秦律师 (S19) raises a hand, presses it down flat on the table to push the room's noise down, and speaks level, going by his items; 苏小满 (S1)'s standing back is a step nearer the camera than he is, the two of them overlapping in depth.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 秦律师 (S19) at the near head raising a hand over the table; 苏小满 (S1) standing a step nearer the camera than him\n[Shot 1] Over-the-shoulder at the near head: 秦律师 (S19) raises his hand, palm down, and presses it flat on the table in front of him to push the room's noise down, and he speaks in a level tone, going by his items; he sits three-quarter to the camera with the verification folder open in front of him; a step nearer the camera his back and shoulders belong to 苏小满 (S1) standing there, so the two of them overlap in depth and are never lined up beside each other.\n[Shot 2] At 00:05.000, 秦律师 (S19) speaks, [Chinese] 协议归协议。这一场，只认证据。\n[Shot 3] At 00:08.500, His hand settles on the table and stays there, keeping the room down.",
+  "soundscape": "His palm landing on wood, the room's noise falling away under his voice.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t23",
+  "scene": "5-1",
+  "title": "镜片上的一道天光",
+  "refs": [
+   "qinlvshi",
+   "lu_hall"
+  ],
+  "retention": {
+   "qinlvshi": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 秦律师 (S19): a line of window light crosses his glasses as he says the words about the evidence, and his gaze runs the length of the table to the far head.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 秦律师 (S19) seated at the near head, glasses catching the window\n[Shot 1] Close on 秦律师 (S19) at the near head: a line of the east window's light crosses his thin-rimmed glasses as he says the words about the evidence, and his gaze runs the length of the long table to the far head; the light on his face is even and generous, the room behind him open and bright.\n[Shot 2] At 00:05.000, He finishes the line and his eyes stay on the far head.",
+  "soundscape": "His voice settling the room, the window line sliding off the glass, a pen on paper.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t24",
+  "scene": "5-1",
+  "title": "反打：眉心动一下",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Reverse on 陆崇 (S15): the line presses him half a beat — his brow moves very slightly and then he does not change; he does not argue, he only puts his eyes back on 苏小满 (S1) at the near head.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head, eyes returning to the near head\n[Shot 1] Reverse on 陆崇 (S15) at the far head: the line presses him for half a beat — the centre of his brow moves very slightly and then he is still; he makes no argument, he only moves his eyes back to 苏小满 (S1) standing at the near head; the light stays even on his face and reads clean.\n[Shot 2] At 00:05.000, His eyes settle on the near head and stay there; he says nothing.",
+  "soundscape": "The room's quiet, a distant clock, his breath measured.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t25",
+  "scene": "5-1",
+  "title": "满厅目光收拢到一个人",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Wide: the room's attention draws in at once onto the one person standing at the near head — the east side looking, the west side looking, 陆航 (S14) at the window sill looking, 陆崇 (S15) at the far head looking hardest; the long table lines them all up in depth with her alone nearest and lowest.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the whole room's attention converging on the standing figure at the near head\n[Shot 1] Wide from the near end of the hall: the room's attention draws in at once onto the one person standing at the near head of the long table — the east side is looking, the west side is looking, 陆航 (S14) at the east window sill has his cup raised and is looking, and 陆崇 (S15) at the far head is looking hardest; the long table lines all of them up along its depth with her alone nearest the camera and lowest in frame; the bottom third is the table top and the polished floor.\n[Shot 2] At 00:05.500, Every face stays turned to her; she does not move under it.",
+  "soundscape": "A room's attention as a kind of quiet, a long held breath, the window.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t26",
+  "scene": "5-1",
+  "title": "她站着，没动",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Low close at the bottom third: 苏小满 (S1)'s two hands hang at her sides, the fingertips not curled, her shoe tips planted on the floor tiles; she is standing and she has not moved.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, framed low so her hands and shoes fill the bottom third\n[Shot 1] Low close framing the bottom third of her body: the two hands of 苏小满 (S1) hang at her sides with the fingertips not curled, and her flat cloth shoes are planted on the polished floor tiles; the frame holds her there standing and not moving while the room's eyes stay on her; the light on her is even and her hands are clearly readable.\n[Shot 2] At 00:05.000, Her fingers stay loose and her feet do not shift.",
+  "soundscape": "The room's quiet pressing close, cloth, a distant breath.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t27",
+  "scene": "5-1",
+  "title": "有人花钱请来的演员",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 陆崇 (S15): he says it very lightly, almost as a statement of fact, then lifts a cup from beside him and sips as if the matter were closed.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head with a cup at his hand\n[Shot 1] Close on 陆崇 (S15) at the far head: he says the line very lightly, almost as a statement of fact, and then he lifts a small cup from beside the folder and takes a sip, as if the matter were already closed; the ceiling light and the window keep his face evenly filled while he drinks.\n[Shot 2] At 00:03.488, 陆崇 (S15) speaks, [Chinese] 说白了。她从头到尾，就是有人花钱请来的演员。\n[Shot 3] At 00:08.500, The cup comes down and he settles back half a fraction into his chair.",
+  "soundscape": "A cup against porcelain, his light tone falling flat, the room listening.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t28",
+  "scene": "5-1",
+  "title": "特写：她的眼",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on 苏小满 (S1)'s eyes: the lashes do not tremble and the gaze does not move away — she is not untouched, she simply never intended to argue here; the hall's light sits in her pupils and they are very calm.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, framed tight on her eyes\n[Shot 1] Close on the eyes of 苏小满 (S1): the lashes do not tremble and the gaze does not slide away — she is not a woman who has not been spoken to, she simply never intended to argue the point in this room; the hall's light sits as a small bright shape in her pupils and they are very calm; the skin around her eyes is evenly lit and reads clearly.\n[Shot 2] At 00:05.000, She holds the look for a long beat without blinking.",
+  "soundscape": "The room's quiet, her steady breathing, a cup set down far away.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t29",
+  "scene": "5-1",
+  "title": "陆蔓选择看戏",
+  "refs": [
+   "luman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on the east long side: 陆蔓 (S8) picks her cup up again, leans back into the chair, and watches the file at the centre of the table through half-lowered lids — she has chosen not to take it up, and to watch.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) at the east long side leaning back with her cup\n[Shot 1] Close on the east long side: 陆蔓 (S8) lifts her tea cup again, lets her weight go back into the chair, and looks at the file lying at the centre of the long table through half-lowered lids — she has chosen not to answer and has chosen to watch; the shot holds her side-on in the right half of frame with the room's brightness on her.\n[Shot 2] At 00:05.000, The cup rests against her chest; her eyes stay on the file.",
+  "soundscape": "Porcelique against her palm, a long held quiet, the room's breath.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t30",
+  "scene": "5-1",
+  "title": "杯沿与唇",
+  "refs": [
+   "luman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Tight close: the cup rim touches 陆蔓 (S8)'s lower lip and she does not drink, it only rests there; a thin layer of steam rises into the ceiling light, and her eyes look past the rim at 苏小满 (S1) standing at the near head.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) at the east long side, cup at her lips\n[Shot 1] Tight close: the rim of the cup touches the lower lip of 陆蔓 (S8) and she does not drink, it only rests there; a thin layer of steam rises off the tea into the ceiling light; above the rim her eyes look across the room at 苏小满 (S1) standing at the near head; the light on her face is soft and even and the steam reads clearly against it.\n[Shot 2] At 00:05.000, The cup stays at her lips; her eyes stay on the standing woman.",
+  "soundscape": "Steam rising quietly, the room holding its breath around her, the window frame ticking.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t31",
+  "scene": "5-1",
+  "title": "说完了吗",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 苏小满 (S1) lifts her chin half a fraction, sends her gaze over the whole length of the table to the far head, and asks three words without raising her voice; her hands stay at her sides.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) standing at the near head, chin lifted half a fraction\n[Shot 1] Over-the-shoulder at the near head: 苏小满 (S1) lifts her chin half a fraction, sends her gaze over the whole length of the long table to the far head, and asks three words without raising her voice; both hands still hang at her sides, she does not lean on the table and does not fold her arms, and her stance is steady; the frame carries her in the near half with the table running away from her.\n[Shot 2] At 00:04.000, 苏小满 (S1) speaks, [Chinese] 说完了吗。\n[Shot 3] At 00:06.500, She holds her chin where it is and waits.",
+  "soundscape": "Three words going the length of the table, the room going quieter than it was.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t32",
+  "scene": "5-1",
+  "title": "视线挪到她脸上",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium on the full room: the room pauses half a beat — people on both the east and the west side move their eyes off the file and onto her face at the same time; 陆崇 (S15) at the far head does not answer, only looks at her.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the whole room seated, eyes coming off the file and onto 苏小满 (S1) at the near head\n[Shot 1] Medium across the full room: the room pauses for half a beat — the people on the east side and the people on the west side move their eyes off the file at the centre of the table and onto 苏小满 (S1)'s face at the same time; 陆崇 (S15) at the far head does not answer and only looks at her; the bottom third is the table top and the floor.\n[Shot 2] At 00:05.000, Her face holds every one of their eyes and nothing crosses it.",
+  "soundscape": "A room's gaze landing, a long held quiet, a cup not being drunk.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t33",
+  "scene": "5-1",
+  "title": "我是保洁",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close at the near head: 苏小满 (S1) says it word by word, not fast; her chin stays level on the words about being a cleaner and her gaze runs half a circle along both sides of the table as she says what she wiped.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) standing at the near head, gaze beginning to sweep both flanks\n[Shot 1] Close at the near head: 苏小满 (S1) says it word by word and not fast; her chin stays level on the words about being a cleaner, and as she says what she wiped her gaze runs half a circle along both sides of the long table, taking in everybody in the room; the light on her face is even and her mouth is clearly readable.\n[Shot 2] At 00:02.238, 苏小满 (S1) speaks, [Chinese] 我是保洁。这半个月，在座各位面前的桌子，都是我擦的。\n[Shot 3] At 00:09.500, Her gaze finishes the half circle and comes back to the far head.",
+  "soundscape": "Her level voice filling the near half, the room listening without a sound.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t34",
+  "scene": "5-1",
+  "title": "特写：手与围裙",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Tight close on her hands: the grey-blue apron ties rise and fall once with her breathing and there is an old callus on the fingertips — these two hands are the evidence of the wiping.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1)'s hands hanging at her sides above the grey-blue apron\n[Shot 1] Tight close on 苏小满 (S1)'s hands: the ties of her grey-blue apron rise and fall once with her breathing and there is an old callus on her fingertips, and these two hands hanging at her sides are the evidence of everything she has just said about wiping tables; the light is soft and even on the skin and the callus reads clearly.\n[Shot 2] At 00:05.000, The hands stay still at her sides; only the apron ties move with her breathing.",
+  "soundscape": "Her breathing, cloth settling, the room's held air.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t35",
+  "scene": "5-1",
+  "title": "二十二年与半个月",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 苏小满 (S1) says it flatly, like something everybody already knows; the two numbers, twenty-two years and half a month, are bitten down hard.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) standing at the near head, speaking flatly\n[Shot 1] Over-the-shoulder at the near head: 苏小满 (S1) says it flatly, like a thing everybody in the room already knows, and the two numbers in it are bitten down hard; she keeps her hands at her sides and her feet where they are; the table runs away from her to the far head along the frame's depth.\n[Shot 2] At 00:02.550, 苏小满 (S1) speaks, [Chinese] 老爷子找人找了二十二年。你们找了半个月，找到我。\n[Shot 3] At 00:09.000, She lets the last number sit there and does not add anything.",
+  "soundscape": "Her flat voice, the number hanging in the room, a long held quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t36",
+  "scene": "5-1",
+  "title": "反打：端杯的手停在半空",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Reverse on 陆崇 (S15): the hand holding his cup stops in mid-air, the small movement at the centre of his brow appears a second time, and for the first time he does not answer at once.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) at the far head with his cup stopped in mid-air\n[Shot 1] Reverse on 陆崇 (S15) at the far head: the hand holding his cup stops in mid-air, the very small movement at the centre of his brow appears a second time, and he looks at the person standing at the near end without answering at once; the light on his face is even and generous and the pause is the only thing that has changed.\n[Shot 2] At 00:05.000, He stays with the cup held up and does not put it down.",
+  "soundscape": "A room waiting, his cup not touching wood, a clock in the hall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t37",
+  "scene": "5-1",
+  "title": "现在说我假。行",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close at the near head: 苏小满 (S1) says the word with almost no expression and only sets her shoulder line a fraction flatter — the word is not submission, it is picking the words up.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, shoulders settling a fraction flatter\n[Shot 1] Close at the near head: 苏小满 (S1) says the word with almost no expression on her face and only sets her shoulder line a fraction flatter as it comes out — the word is not giving in, it is picking up what was said and holding it; the light on her is soft and even.\n[Shot 2] At 00:04.000, 苏小满 (S1) speaks, [Chinese] 现在说我假。行。\n[Shot 3] At 00:06.500, Her shoulders stay the new fraction flatter and her hands stay at her sides.",
+  "soundscape": "One word dropping into the room, the room holding around it, cloth.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t38",
+  "scene": "5-1",
+  "title": "找一个真的出来",
+  "refs": [
+   "suxiaoman",
+   "luman",
+   "luhang",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "luman": "fully_preserved",
+   "luhang": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 苏小满 (S1) lands the last word firmly, moves her gaze off 陆崇 (S15) and lets it cross 陆蔓 (S8) at the east long side and 陆航 (S14) at the window sill — she is asking the whole room for an answer.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, gaze moving from the far head across the east side to the window sill\n[Shot 1] Over-the-shoulder at the near head: 苏小满 (S1) lands the last word firmly, takes her gaze off 陆崇 (S15) and lets it cross 陆蔓 (S8) at the east long side and on to 陆航 (S14) at the east window sill — she is asking the whole room for an answer, not one man; the table's depth axis carries her look from the far head to the right of frame.\n[Shot 2] At 00:04.500, 苏小满 (S1) speaks, [Chinese] 你们给我找一个真的出来。\n[Shot 3] At 00:08.000, Her eyes come to rest on 陆航 (S14) at the window sill and hold.",
+  "soundscape": "Her steady voice, a room with nothing to say, a cup untouched.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t39",
+  "scene": "5-1",
+  "title": "搁回桌面的杯盏",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Wide: nobody in the room takes it up; face after face along both long sides of the table drops a little; 陆崇 (S15) at the far head sets his cup back down on the wood with a small sound.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the whole room silent, 苏小满 (S1) standing at the near head\n[Shot 1] Wide across the hall: nobody in the room takes it up, and face after face along both long sides of the table drops a little; at the far head 陆崇 (S15) puts his cup back down on the wood with a small clear sound; 苏小满 (S1) is still the only one standing at the near head; the bottom third is the table top and the floor pressing the frame.\n[Shot 2] At 00:05.000, The sound of the cup dies out and nobody fills it.",
+  "soundscape": "A cup going down on wood, a room not answering, a long held quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t40",
+  "scene": "5-1",
+  "title": "陆航从鼻子里笑出来",
+  "refs": [
+   "luhang",
+   "lu_hall"
+  ],
+  "retention": {
+   "luhang": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close at the window sill: 陆航 (S14) laughs out of his nose — very short, the tail of it hooking upward; he has not moved off the sill and his fingers are still turning the cup, as if watching a show worth its ticket.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆航 (S14) leaning on the east window sill with his cup\n[Shot 1] Close at the east window sill: 陆航 (S14) laughs out of his nose — very short, the tail of it hooking upward; he has not moved off the sill and his fingers are still turning the cup in front of him, as if watching a show that has earned its ticket; the window's daylight falls on him from the side and his face is filled evenly.\n[Shot 2] At 00:04.500, The laugh ends and his fingers keep going round the cup rim.",
+  "soundscape": "A short laugh through the nose, the cup turning, a room not reacting.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t41",
+  "scene": "5-1",
+  "title": "陆蔓的眼刀",
+  "refs": [
+   "luman",
+   "lu_hall"
+  ],
+  "retention": {
+   "luman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close on the east long side: 陆蔓 (S8)'s look flies across at him without a sound — her brow presses down and her chin lifts, saying take that back now in the plainest way.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆蔓 (S8) at the east long side turning her eyes to 陆航 (S14) at the window sill\n[Shot 1] Close on the east long side: the look of 陆蔓 (S8) flies across at him without a sound — her brow presses down and her chin lifts a little, which says take that back now in the plainest way available; she stays side-on to the camera with the room's brightness on her face.\n[Shot 2] At 00:04.000, She holds it for a beat, then turns her face back to the far head.",
+  "soundscape": "Silk shifting, the room's held air, a faint cup sound.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t42",
+  "scene": "5-1",
+  "title": "陆航把笑收了",
+  "refs": [
+   "luhang",
+   "lu_hall"
+  ],
+  "retention": {
+   "luhang": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close at the window sill: 陆航 (S14) takes the laugh back at once and lifts his cup to his mouth to cover half his face, while his shoulders stay loose — he really does find it funny.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆航 (S14) at the east window sill, cup lifted to his mouth\n[Shot 1] Close at the east window sill: 陆航 (S14) takes the laugh back at once and lifts his cup to his mouth to cover half his face, while his shoulders stay loose — he really does find it funny; the window's daylight is on him and his eyes over the rim are still amused.\n[Shot 2] At 00:04.500, The cup stays at his mouth and his shoulders stay down.",
+  "soundscape": "A cup lifted, a shoulder settling, the room's quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t43",
+  "scene": "5-1",
+  "title": "一只手拍在长案上",
+  "refs": [
+   "luchong",
+   "lu_hall_desk"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall_desk": "weak_reference"
+  },
+  "summary": "High-angle close: 陆崇 (S15)'s hand comes down flat on the long table with a slap — the cups jump and the file at the centre shifts in its own tray without anyone opening it; the upper two thirds is the hand pressed on the wood.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) at the FAR head of it backed by the sideboard and the hanging landscape painting; 苏小满 (S1) standing at the NEAR head half a step left, the only person on her feet; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15)'s hand coming down on the table; the file at the centre of it\n[Shot 1] High-angle close on the long table: the hand of 陆崇 (S15) comes down flat on the wood with a slap — the cups on the table jump and the file at the centre of it shifts inside its own open folder without anybody opening it; the upper two thirds is that hand pressed onto the wood and the bottom third is the table edge; the light on the wood is even and the print at the folder's mouth is still where it was.\n[Shot 2] At 00:04.500, 陆崇 (S15) speaks from above frame, [Chinese] 滚出去。这座宅子，从今天起没你的位置。\n[Shot 3] At 00:08.500, The cups stop rocking; the file lies where the jolt left it, still closed.",
+  "soundscape": "A slap on wood, cups jumping and settling, chairs jolting back.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t44",
+  "scene": "5-1",
+  "title": "从主位上站起来",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium at the far head: 陆崇 (S15) rises from the presiding chair, his dark navy stand-collar jacket held straight in the window light, facing the near end, and one sentence presses the whole room down; standing, he holds up the whole depth of the long table by himself.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) rising from the far head into a standing position, still on the centre axis\n[Shot 1] Medium at the far head: 陆崇 (S15) rises from the presiding chair, his dark navy stand-collar jacket held straight in the window light, and he faces down the table at the near end; one sentence presses the whole room down; standing at the far end he holds up the entire depth of the long table by himself and the sideboard and the landscape painting frame him; the ceiling light and the window keep his face and his standing figure evenly filled.\n[Shot 2] At 00:05.000, He stands square on the centre axis, hands at his sides, and holds the room.",
+  "soundscape": "The chair easing back, his voice carrying, a room pressing down.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t45",
+  "scene": "5-1",
+  "title": "满堂一震",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium on the full room: the hall jolts — people on the east and west sides pull themselves back half an inch; 陆蔓 (S8) looks down at the table and 陆航 (S14) at the window sill does not move.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the whole room jolting back, 陆崇 (S15) standing at the far head\n[Shot 1] Medium across the hall: the room jolts — the people on the east side and the people on the west side draw themselves back half an inch in their chairs; 陆蔓 (S8) at the east long side looks down at the table in front of her and 陆航 (S14) at the window sill stops moving altogether; 陆崇 (S15) stands at the far head; the bottom third is the table top and the floor.\n[Shot 2] At 00:04.500, The room holds the new position; nobody speaks.",
+  "soundscape": "Chairs drawing back, a room's held breath, the window.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t46",
+  "scene": "5-1",
+  "title": "环视一圈",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium at the near head: 苏小满 (S1) turns her head slowly all the way round — from the east long side to the west, to the window sill, and finally back to 陆崇 (S15) standing at the far head; she says it word by word, not loud, nothing slurred.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, head turning from the east side round to the far head\n[Shot 1] Medium at the near head: 苏小满 (S1) turns her head slowly all the way round — from the east long side to the west side, on to the window sill, and finally back to 陆崇 (S15) standing at the far head; she says it word by word, her voice not high and nothing slurred; the light on her stays even as she turns and the table's depth axis carries her gaze the whole way.\n[Shot 2] At 00:04.113, 苏小满 (S1) speaks, [Chinese] 我在陆家擦了半个月的桌子，擦得干净。\n[Shot 3] At 00:09.000, Her head comes to rest facing the far head.",
+  "soundscape": "Her steady voice, the room listening, a long held quiet.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t47",
+  "scene": "5-1",
+  "title": "把擦得干净当底气",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close at the near head: 苏小满 (S1)'s gaze finally settles on 陆崇 (S15) and her chin sends half a fraction forward; her two hands do not make a single unnecessary move.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, chin half a fraction forward, eyes on the far head\n[Shot 1] Close at the near head: the gaze of 苏小满 (S1) finally settles on 陆崇 (S15) standing at the far head and her chin sends half a fraction forward; her two hands hang at her sides without a single unnecessary move, and she is treating the wiping she has done as her own ground to stand on; the light on her face is soft and even and her eyes do not move away.\n[Shot 2] At 00:05.000, She holds the gaze and keeps her hands still.",
+  "soundscape": "Her breathing, the room's quiet, a distant clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t48",
+  "scene": "5-1",
+  "title": "各自掂量",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 苏小满 (S1) says it flat, the tail neither rising nor falling; the four words about weighing it for themselves are put down lightly and weigh more than the line before; she does not look at 陆崇 (S15) and her gaze runs along both sides of the room.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, gaze running along both flanks and not on the far head\n[Shot 1] Over-the-shoulder at the near head: 苏小满 (S1) says it flat with the tail of the line neither rising nor falling; the four words about weighing it for themselves go down lightly and weigh more than the line before them; she does not look at 陆崇 (S15) and her gaze runs along both sides of the room instead; the light on her is even and her stance does not move.\n[Shot 2] At 00:03.800, 苏小满 (S1) speaks, [Chinese] 今天你们说的这些话，干不干净，各自掂量。\n[Shot 3] At 00:09.000, Her gaze finishes both flanks and comes to rest level in front of her.",
+  "soundscape": "Her flat voice, the room not answering, a cup on wood.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t49",
+  "scene": "5-1",
+  "title": "我还会来",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Close at the near head: 苏小满 (S1) bites down hard on the word about the rules — the line answers 秦律师 (S19)'s words about the evidence; as she says it her stance stays planted and her feet do not move an inch.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, feet planted, speaking level\n[Shot 1] Close at the near head: 苏小满 (S1) bites down hard on the word about the rules — the line is the answer to what 秦律师 (S19) said about evidence only; as she says it her stance stays planted and her feet do not move an inch on the floor; the light on her face is even and her mouth is clearly readable.\n[Shot 2] At 00:03.800, 苏小满 (S1) speaks, [Chinese] 核实的门，是你们自己家的规矩。我还会来。\n[Shot 3] At 00:08.500, She finishes and stays exactly where she is standing.",
+  "soundscape": "Her level voice, the room's held air, a clock in the hall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t50",
+  "scene": "5-1",
+  "title": "秦律师记下这一句",
+  "refs": [
+   "qinlvshi",
+   "lu_hall"
+  ],
+  "retention": {
+   "qinlvshi": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Reverse at the near head: 秦律师 (S19), three-quarter to the camera, looks up at her once — he says nothing, he only taps his pen once on the verification folder, as if putting the sentence on record.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 秦律师 (S19) seated at the near head with his pen over the open folder\n[Shot 1] Reverse at the near head: 秦律师 (S19), three-quarter to the camera, lifts his eyes to her once — he says nothing, he only taps the pen once on the open verification folder in front of him, as if putting the sentence on record; the light on him is even and the folder's pages lie open and unmarked.\n[Shot 2] At 00:04.500, The pen lifts again and his eyes stay up for a moment.",
+  "soundscape": "A single pen tap on paper, the room's quiet, a clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t51",
+  "scene": "5-1",
+  "title": "给老爷子一个交代",
+  "refs": [
+   "suxiaoman",
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Over-the-shoulder at the near head: 苏小满 (S1) says the last line slowest of all; on the words about giving the old master an answer she lifts her gaze past the far head and lands it on the landscape painting behind 陆崇 (S15) — as if looking at the man inside the painting.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) at the near head, gaze lifting past the far head to the painting on the wall\n[Shot 1] Over-the-shoulder at the near head: 苏小满 (S1) says the last line slowest of all; on the words about giving the old master an answer she lifts her gaze past the far head where 陆崇 (S15) is standing and lands it on the landscape painting hung on the wall behind him — as if she were looking at the man inside the painting; the light on her face stays even as her eyes rise.\n[Shot 2] At 00:04.113, 苏小满 (S1) speaks, [Chinese] 不是来求你们。是来给老爷子一个交代。\n[Shot 3] At 00:09.000, Her eyes stay up on the painting; she does not lower them.",
+  "soundscape": "Her slowest line, the room not moving, a clock in the hall.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t52",
+  "scene": "5-1",
+  "title": "接不住",
+  "refs": [
+   "luchong",
+   "lu_hall"
+  ],
+  "retention": {
+   "luchong": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Reverse on 陆崇 (S15): he stands without moving and the centre of his brow shifts very slightly; the line lands and he does not answer it, because he cannot.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 陆崇 (S15) standing at the far head, silent\n[Shot 1] Reverse on 陆崇 (S15) at the far head: he stands without moving and the centre of his brow shifts very slightly; the line has landed and he does not take it up, because he cannot; the light on his standing figure stays even and generous and the landscape painting hangs behind his shoulder.\n[Shot 2] At 00:05.000, He stays standing and says nothing at all.",
+  "soundscape": "A room's quiet, his breath, a distant clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t53",
+  "scene": "5-1",
+  "title": "转身朝门走",
+  "refs": [
+   "suxiaoman",
+   "lu_hall"
+  ],
+  "retention": {
+   "suxiaoman": "fully_preserved",
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Medium from the near head towards the door: 苏小满 (S1) turns round, her back to the long table and to everyone in the room, and walks towards the main doors at the near end; she walks steadily and does not look at anybody; the bottom third is her cloth shoes on the floor.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) turning away from the table at the near head and walking to the doors behind her\n[Shot 1] Medium from the near head of the table towards the doors: 苏小满 (S1) turns round so that her back is to the long table and to everyone in the room, and she walks towards the main doors at the near end; she walks steadily and does not look back at anybody; the bottom third is her flat cloth shoes on the polished floor and the long table recedes behind her.\n[Shot 2] At 00:05.500, She crosses the floor in a straight line, arms down, pace even.",
+  "soundscape": "Flat cloth shoes on a polished floor, a long held quiet, a chair.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t54",
+  "scene": "5-1",
+  "title": "满堂目送",
+  "refs": [
+   "lu_hall"
+  ],
+  "retention": {
+   "lu_hall": "weak_reference"
+  },
+  "summary": "Wide: the camera stays put and the room watches her go — the people along both long sides turn their heads after her back and not one of them speaks; 陆崇 (S15) stands at the far head and 陆航 (S14) leans on the wall, and the hall is quiet enough to hear her footsteps.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; 苏小满 (S1) walking away towards the doors with the whole room turned after her\n[Shot 1] Wide from inside the doors: the camera does not move and the room watches her go — the people along both long sides of the table turn their heads after her back and not one of them speaks; at the far head 陆崇 (S15) stands, at the east window sill 陆航 (S14) leans on the wall, and the hall is quiet enough to hear her footsteps on the floor; the bottom third is the table top and the polished floor.\n[Shot 2] At 00:05.500, Her back reaches the doors; the room keeps looking after it.",
+  "soundscape": "Footsteps on a polished floor, a room saying nothing, a clock.",
+  "music": "N/A"
+ },
+ {
+  "id": "ep05_t55",
+  "scene": "5-1",
+  "title": "原封未动",
+  "refs": [
+   "lu_hall_desk"
+  ],
+  "retention": {
+   "lu_hall_desk": "weak_reference"
+  },
+  "summary": "High-angle close: the camera comes back to the centre of the long table — the kraft folder, the pages and the agreement photocopy with the thumbprint are still exactly where they were pushed, untouched; from being pushed to the centre to this room breaking up, nobody has opened them once.",
+  "shots": "Entry state, re-anchored to the reference images: the long dark rosewood table running away from the camera through the middle of the bright hall; 陆崇 (S15) ON HIS FEET at the FAR head of it, standing in front of the sideboard and the hanging landscape painting where he has risen and where he stays on his feet to the end of the scene; 苏小满 (S1) standing at the NEAR head half a step left, the only person standing in the near half; 陆蔓 (S8) seated along the east long side mid-position with a tea cup; 陆航 (S14) leaning on the east window sill further back and higher, turning a cup; 秦律师 (S19) seated at the near head three-quarter to camera, half a step behind 苏小满's right shoulder; side-branch relatives and stewards staggered back along both flanks; the ceiling lights and the east window both on, the room bright and even; the file still at the centre of the long table, the room breaking up around it\n[Shot 1] High-angle close coming back to the centre of the long table: the kraft folder, the several pages and the agreement photocopy with its pale red thumbprint are still exactly where they were pushed and have not been touched; from the moment they were pushed to the centre to this room breaking up, nobody has opened them once; the ceiling light falls steadily on the paper and the printing on it is still too small to read; the bottom third is the table edge.\n[Shot 2] At 00:06.000, The file lies in the clearing hall, the print untouched, the pages shut together.",
+  "soundscape": "A hall emptying, distant footsteps, the ceiling light's hum.",
+  "music": "N/A"
+ }
+]
